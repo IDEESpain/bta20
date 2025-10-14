@@ -1,0 +1,40 @@
+<!-- En BTA.py, dentro de la función catalogHTMLCreation, se está
+ generando una página con una tabla genérica HTML por cada objeto contenido
+ en el listado de clases de entidad. Este HTML estructura las tablas
+ genéricas de esas tablas (pero con filas vacías). Sin embargo, las filas se configuran en
+ fila_objeto.html. Los errores de fila-columna se solucionan entre los dos archivos-->
+
+                <h2> <!-- {{ nombreTabla }} --> </h2>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <!-- <th scope="col">ID</th> -->
+                            <th scope="col">Código</th>
+                            <th scope="col">Nombre corto</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Geometría</th>
+                            <th scope="col">Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- {{ tablaBTA }} -->
+                        <!-- Ejemplo uso <tr> -->
+                        <!-- <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                        </tr> -->
+                    </tbody>
+                </table>

@@ -1,0 +1,118 @@
+<!-- Es la estructura general del contenido que aparece en cada página individual de clase de entidad -->
+
+<h1 class="h1Pag"><!-- {{ contenidoNombre }} --></h1>
+
+<div class="accordion" id="accordionPanelsStayOpenExample">
+    <!-- Descripción -->
+    <div class="accordion-item">
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+                <table class="table table-hover">
+                    <thead></thead>
+                    <tbody>
+                        <!-- {{ contenidoDescripcion }} -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Atributos -->
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse2" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                Atributos
+            </button>
+        </h2>
+        <div id="panelsStayOpen-collapse2" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th style="width: 10%">Atributo</th>
+                            <th style="width: 10%">Tipo de valor</th>
+                            <th style="width: 80%">Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- {{ contenidoAtributos }} -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Atributos Extendidos -->
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingExtendedAttributes">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExtendedAttributes" aria-expanded="true" aria-controls="collapseExtendedAttributes">
+                Atributos Extendidos
+            </button>
+        </h2>
+        <div id="collapseExtendedAttributes" class="accordion-collapse collapse show" aria-labelledby="headingExtendedAttributes">
+            <div class="accordion-body">
+                <table class="table table-hover table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Atributo</th>
+                            <th>Atributo base</th>
+                            <th>Código del valor base</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- {{ contenidoAtributosExtendidos }} -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div> <!-- cierre correcto de Atributos Extendidos -->
+
+    <!-- Atributos Comunes -->
+<div class="accordion-item">
+    <h2 class="accordion-header" id="headingCommonAttributes">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCommonAttributes" aria-expanded="true" aria-controls="collapseCommonAttributes">
+            Atributos Comunes
+        </button>
+    </h2>
+    <div id="collapseCommonAttributes" class="accordion-collapse collapse show" aria-labelledby="headingCommonAttributes">
+        <div class="accordion-body">
+            <table class="table table-hover table-bordered">
+                <thead class="table-primary">
+                    <tr>
+                        <th style="width: 20%">Atributo</th>
+                        <th style="width: 20%">Tipo de valor</th>
+                        <th style="width: 60%">Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- {{ contenidoAtributosComunes }} -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Atributos Comunes Extendidos -->
+<div class="accordion-item">
+    <h2 class="accordion-header" id="headingCommonExtendedAttributes">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCommonExtendedAttributes" aria-expanded="true" aria-controls="collapseCommonExtendedAttributes">
+            Atributos Comunes Extendidos
+        </button>
+    </h2>
+    <div id="collapseCommonExtendedAttributes" class="accordion-collapse collapse show" aria-labelledby="headingCommonExtendedAttributes">
+        <div class="accordion-body">
+            <table class="table table-hover table-bordered">
+                <thead class="table-secondary">
+                    <tr>
+                        <th>Atributo</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- {{ contenidoAtributosComunesExtendidos }} -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

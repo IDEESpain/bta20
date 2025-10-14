@@ -1,0 +1,898 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="../bootstrap-5.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- BTA CSS -->
+  <link href="../css/bta.css" rel="stylesheet">
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="../bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- jquery-->
+  <script src="../jquery-3.7.1/jquery-3.7.1.min.js"></script>
+
+  <!-- BTA JS-->
+  <script src="../JS/bta.js"></script>
+
+  <!-- SCRIPT MODIFICACION COMPORTAMIENTO BUSCADOR -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const input = document.getElementById('myInput');
+
+      // Submenús con collapse y sus items
+      const submenus = [...document.querySelectorAll('li.dropdown-submenu')].map(li => {
+        const collapseEl = li.querySelector('.collapse');
+        const collapse = bootstrap.Collapse.getOrCreateInstance(collapseEl, { toggle: false });
+        const items = [...collapseEl.querySelectorAll('a.dropdown-item:not([data-bs-toggle="collapse"])')];
+        return { li, collapseEl, collapse, items };
+      });
+
+      // Normalizar texto: sin acentos, minúsculas
+      const normalize = s => s.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase();
+
+      // Resetear menú: muestra todo y quita <mark>
+      const resetMenu = () => {
+        submenus.forEach(({ li, items, collapse }) => {
+          li.style.display = '';
+          items.forEach(a => {
+            a.parentElement.style.display = '';
+            a.innerHTML = a.textContent; // restaurar texto limpio
+          });
+          collapse.hide();
+        });
+      };
+
+      // Resaltar coincidencia
+      const highlight = (text, term) => {
+        if (!term) return text;
+        const regex = new RegExp(`(${term})`, 'gi');
+        return text.replace(regex, '<mark>$1</mark>');
+      };
+
+      input.addEventListener('input', () => {
+        const term = normalize(input.value.trim());
+
+        if (!term) {
+          resetMenu();
+          return;
+        }
+
+        submenus.forEach(({ li, items, collapse }) => {
+          let matches = 0;
+
+          items.forEach(a => {
+            const originalText = a.textContent;
+            const textNorm = normalize(originalText);
+            const hit = textNorm.includes(term);
+
+            if (hit) {
+              a.parentElement.style.display = '';
+              a.innerHTML = highlight(originalText, input.value.trim()); // resalta solo lo buscado
+              matches++;
+            } else {
+              a.parentElement.style.display = 'none';
+              a.innerHTML = originalText; // limpiar posibles restos de <mark>
+            }
+          });
+
+          if (matches > 0) {
+            li.style.display = '';
+            collapse.show();   // abrir grupo con coincidencias
+          } else {
+            li.style.display = 'none';
+            collapse.hide();   // ocultar grupos sin resultados
+          }
+        });
+      });
+    });
+  </script>
+
+
+  <title>BTA</title>
+</head>
+
+<body id="bodyID">
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../">
+          <h1 id="TitleCatalog" style="margin-left: 1rem;">Catálogo BTA 2.0</h1>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          </ul>
+          <ul class="navbar-nav me-3 mb-2 mb-lg-0">
+            <li class="nav-item dropdown dropstart">
+              <a class="nav-link dropdown-toggle" href="../" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+   style="color: white !important;">
+  Objeto Geográfico
+</a>
+              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+                <input class="form-control" id="myInput" type="text" placeholder="Buscar..." name = "btaTabla">
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item dropdown-toggle" href="../" data-bs-toggle="collapse" data-bs-target="#tema01" aria-expanded="false" aria-controls="tema01">
+                                                    Transportes
+                                                </a>
+                                                <div class="collapse ps-3" id="tema01">
+                                                    <ul class="list-unstyled">
+                                <li><a class="dropdown-item" href="../objetos_geograficos/0101a.html" data-valores="">Catálogo de carreteras 0101a</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0104a.html" data-valores="">Viales de carretera compuestos 0104a</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0107l.html" data-valores="">Carretera 0107l</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0107s.html" data-valores="">Carretera 0107s</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0110l.html" data-valores="">Vía urbana 0110l</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0113l.html" data-valores="">Otras vías 0113l</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0113s.html" data-valores="">Otras vías 0113s</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0116p.html" data-valores="">Punto kilométrico de carretera 0116p</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0119p.html" data-valores="">Punto de recarga o repostaje 0119p</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0122p.html" data-valores="">Servicio de carretera 0122p</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0122z.html" data-valores="">Servicio de carretera 0122z</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0125l.html" data-valores="">Vía ferrea 0125l</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0128p.html" data-valores="">Punto kilométrico de ferrocarril 0128p</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0131p.html" data-valores="">Estación ferrocarril 0131p</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0131z.html" data-valores="">Estación ferrocarril 0131z</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0134l.html" data-valores="">Transporte por cable 0134l</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0137p.html" data-valores="">Puerto 0137p</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0137z.html" data-valores="">Puerto 0137z</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0140p.html" data-valores="">Aeródromo 0140p</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0140z.html" data-valores="">Aeródromo 0140z</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0143s.html" data-valores="">Pista aeródromo 0143s</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item dropdown-toggle" href="../" data-bs-toggle="collapse" data-bs-target="#tema02" aria-expanded="false" aria-controls="tema02">
+                                                    Hidrografía
+                                                </a>
+                                                <div class="collapse ps-3" id="tema02">
+                                                    <ul class="list-unstyled">
+                                <li><a class="dropdown-item" href="../objetos_geograficos/0201l.html" data-valores="">Curso natural 0201l</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0201s.html" data-valores="">Curso natural 0201s</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0204l.html" data-valores="">Curso artificial 0204l</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0204s.html" data-valores="">Curso artificial 0204s</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0207s.html" data-valores="">Lámina de agua 0207s</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0210s.html" data-valores="">Embalse 0210s</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0213p.html" data-valores="">Punto hidrográfico 0213p</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0216p.html" data-valores="">Mar 0216p</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0216s.html" data-valores="">Mar 0216s</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0219s.html" data-valores="">Isla 0219s</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0222l.html" data-valores="">Costa 0222l</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item dropdown-toggle" href="../" data-bs-toggle="collapse" data-bs-target="#tema03" aria-expanded="false" aria-controls="tema03">
+                                                    Orografía y lugares geográficos
+                                                </a>
+                                                <div class="collapse ps-3" id="tema03">
+                                                    <ul class="list-unstyled">
+                                <li><a class="dropdown-item" href="../objetos_geograficos/0301l.html" data-valores="">Curva de nivel 0301l</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0304l.html" data-valores="">Curva batimétrica 0304l</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0307l.html" data-valores="">Cambio de pendiente 0307l</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0307s.html" data-valores="">Cambio de pendiente 0307s</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0310p.html" data-valores="">Punto de cota 0310p</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0313l.html" data-valores="">Lugar geográfico 0313l</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0313p.html" data-valores="">Lugar geográfico 0313p</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0313s.html" data-valores="">Lugar geográfico 0313s</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item dropdown-toggle" href="../" data-bs-toggle="collapse" data-bs-target="#tema04" aria-expanded="false" aria-controls="tema04">
+                                                    Edificios y construcciones
+                                                </a>
+                                                <div class="collapse ps-3" id="tema04">
+                                                    <ul class="list-unstyled">
+                                <li><a class="dropdown-item" href="../objetos_geograficos/0401p.html" data-valores="">Edificación 0401p</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0401s.html" data-valores="">Edificación 0401s</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0404s.html" data-valores="">Construcción de almacenaje 0404s</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0407l.html" data-valores="">Otras construcciones 0407l</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0407p.html" data-valores="">Otras construcciones 0407p</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0407s.html" data-valores="">Otras construcciones 0407s</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0410l.html" data-valores="">Tendido eléctrico 0410l</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0413l.html" data-valores="">Presa 0413l</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0413s.html" data-valores="">Presa 0413s</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item dropdown-toggle" href="../" data-bs-toggle="collapse" data-bs-target="#tema05" aria-expanded="false" aria-controls="tema05">
+                                                    Servicios e instalaciones
+                                                </a>
+                                                <div class="collapse ps-3" id="tema05">
+                                                    <ul class="list-unstyled">
+                                <li><a class="dropdown-item" href="../objetos_geograficos/0501p.html" data-valores="">Explotación de materiales 0501p</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0501z.html" data-valores="">Explotación de materiales 0501z</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0504p.html" data-valores="">Energia 0504p</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0504z.html" data-valores="">Energia 0504z</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0507p.html" data-valores="">Industria, servicio y comercio 0507p</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0507z.html" data-valores="">Industria, servicio y comercio 0507z</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0510p.html" data-valores="">Administración equipamiento social 0510p</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0510z.html" data-valores="">Administración equipamiento social 0510z</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0513p.html" data-valores="">Cultura y ocio 0513p</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0513z.html" data-valores="">Cultura y ocio 0513z</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item dropdown-toggle" href="../" data-bs-toggle="collapse" data-bs-target="#tema06" aria-expanded="false" aria-controls="tema06">
+                                                    Puntos de referencia
+                                                </a>
+                                                <div class="collapse ps-3" id="tema06">
+                                                    <ul class="list-unstyled">
+                                <li><a class="dropdown-item" href="../objetos_geograficos/0601p.html" data-valores="">Red Geodésica Nacional de Estaciones de Referencia GNSS (ERGNSS) 0601p</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0604p.html" data-valores="">Vértice geodésico 0604p</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0607p.html" data-valores="">Punto geodesico red NAP 0607p</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0610p.html" data-valores="">Punto geodésico Red de Mareógrafos 0610p</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item dropdown-toggle" href="../" data-bs-toggle="collapse" data-bs-target="#tema07" aria-expanded="false" aria-controls="tema07">
+                                                    Cubierta terrestre
+                                                </a>
+                                                <div class="collapse ps-3" id="tema07">
+                                                    <ul class="list-unstyled">
+                                <li><a class="dropdown-item" href="../objetos_geograficos/0701s.html" data-valores="">Cubierta terrestre 0701s</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item dropdown-toggle" href="../" data-bs-toggle="collapse" data-bs-target="#tema08" aria-expanded="false" aria-controls="tema08">
+                                                    Unidades territoriales
+                                                </a>
+                                                <div class="collapse ps-3" id="tema08">
+                                                    <ul class="list-unstyled">
+                                <li><a class="dropdown-item" href="../objetos_geograficos/0801p.html" data-valores="">Entidades de Población 0801p</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0801s.html" data-valores="">Entidades de Población 0801s</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0804s.html" data-valores="">Unidades Administrativas 0804s</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    
+                                            <li class="dropdown-submenu">
+                                                <a class="dropdown-item dropdown-toggle" href="../" data-bs-toggle="collapse" data-bs-target="#tema09" aria-expanded="false" aria-controls="tema09">
+                                                    Lugares protegidos
+                                                </a>
+                                                <div class="collapse ps-3" id="tema09">
+                                                    <ul class="list-unstyled">
+                                <li><a class="dropdown-item" href="../objetos_geograficos/0901s.html" data-valores="">Espacios Naturales Protegidos 0901s</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0904l.html" data-valores="">Vía pecuaria 0904l</a></li>
+<li><a class="dropdown-item" href="../objetos_geograficos/0904s.html" data-valores="">Vía pecuaria 0904s</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    
+
+                <!-- Ejemplo uso <li> -->
+                <!--
+                  <li><a class="dropdown-item" href="../">HTML</a></li>
+                -->
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="sectioID">
+    <!-- Es la estructura general del contenido que aparece en cada página individual de clase de entidad -->
+
+<h1 class="h1Pag">Explotación de materiales</h1>
+
+<div class="accordion" id="accordionPanelsStayOpenExample">
+    <!-- Descripción -->
+    <div class="accordion-item">
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+                <table class="table table-hover">
+                    <thead></thead>
+                    <tbody>
+                        <!-- Es la tabla con los metadatos descriptivos del objeto geográfico: código, nombre, geometría, descripción, PDF, etc.
+El mapeo está en el siguiente bloque:
+HTMLDescripcion = HTMLDescripcion.format(
+                ID=row[0],
+                cod=row[1],
+                nom_corto=row[2],
+                nombre=row[3],
+                geom=row[4],
+                descr=row[6],
+                urlPdf="https://www.w3schools.com"
+            ) -->
+
+
+
+<!--<tr>
+    <th scope="row">ID</th>
+    <td>10</td>
+</tr>-->
+<table class="table table-bordered tabla-ajustada">
+  <tr>
+    <th style="width: 5%;">Código</th>
+    <td style="width: 30%;">0501p</td>
+    <th style="width: 10%;">Nombre corto</th>
+    <td style="width: 35%;">explotacion_materiales</td>
+    <th style="width: 10%;">Geometría</th>
+    <td style="width: 10%;">punto</td>
+  </tr>
+</table>
+
+<table class="table table-bordered tabla-ajustada">
+  <tr>
+    <th style="width: 10%;">Descripción</th>
+    <td style="width: 70%;">Lugar destinado a la extracción y aprovechamiento de algún tipo de mineral o recurso.</td>
+    <td style="width: 20%;" colspan="3">
+      <a href="../fichas/ficha_0501p.pdf" target="_blank">Normas de captura</a>
+    </td>
+  </tr>
+</table>
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Atributos -->
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse2" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                Atributos
+            </button>
+        </h2>
+        <div id="panelsStayOpen-collapse2" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th style="width: 10%">Atributo</th>
+                            <th style="width: 10%">Tipo de valor</th>
+                            <th style="width: 80%">Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>tipo (tipo_0501)</td>
+    <td>lista_val</td>
+    <td class="romper-palabras">Tipo de servicio o instalación para extracción de materiales.<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
+(los de cada clase de entidad), en la ficha de cada clase.
+Ese acordeón aparece dentro de la columna "Descripción", junto con el texto {definicion}.
+
+
+El mapeo se hace en este bloque:
+htmlDominioValores = """ """
+                    for value in dominioValores:
+                        htmlDominioValores += """
+                            <...>
+                        """.format(
+                            ID=value[0],
+                            codigo=value[1],
+                            Orden=value[2],
+                            Valor=value[3],
+                            Valordelvalor=value[4],
+                            definicion=value[8]
+                        )                        )-->
+
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+       <!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-CRA">
+    <!--  <th scope="row">890</th>
+    <td>tipo_0501</td>
+    <td>1</td> -->
+    <td>CRA</td>
+    <td>Cantera</td>
+    <td>Sitio de donde se saca piedra, greda u otra sustancia análoga para obras varias.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-MIN">
+    <!--  <th scope="row">891</th>
+    <td>tipo_0501</td>
+    <td>2</td> -->
+    <td>MIN</td>
+    <td>Mina</td>
+    <td>Excavación que se hace para extraer un mineral.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-GVR">
+    <!--  <th scope="row">892</th>
+    <td>tipo_0501</td>
+    <td>4</td> -->
+    <td>GVR</td>
+    <td>Gravera</td>
+    <td>Yacimiento de grava.</td>
+</tr>
+    </tbody>
+  </table>
+</div>
+</td>
+</tr>
+<!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>situacion (situ_0501)</td>
+    <td>lista_val</td>
+    <td class="romper-palabras">Situación del servicio o instalación para extracción de materiales con respecto al terreno.<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
+(los de cada clase de entidad), en la ficha de cada clase.
+Ese acordeón aparece dentro de la columna "Descripción", junto con el texto {definicion}.
+
+
+El mapeo se hace en este bloque:
+htmlDominioValores = """ """
+                    for value in dominioValores:
+                        htmlDominioValores += """
+                            <...>
+                        """.format(
+                            ID=value[0],
+                            codigo=value[1],
+                            Orden=value[2],
+                            Valor=value[3],
+                            Valordelvalor=value[4],
+                            definicion=value[8]
+                        )                        )-->
+
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+       <!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-CAB">
+    <!--  <th scope="row">893</th>
+    <td>situ_0501</td>
+    <td>1</td> -->
+    <td>CAB</td>
+    <td>Cielo abierto</td>
+    <td>Servicio o instalación de extracción de materiales que se desarrolla en la superficie del terreno.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-SUB">
+    <!--  <th scope="row">894</th>
+    <td>situ_0501</td>
+    <td>2</td> -->
+    <td>SUB</td>
+    <td>Subterráneo</td>
+    <td>Servicio o instalación de extracción de materiales que se desarrolla bajo la superficie del terreno.</td>
+</tr>
+    </tbody>
+  </table>
+</div>
+</td>
+</tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Atributos Extendidos -->
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingExtendedAttributes">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExtendedAttributes" aria-expanded="true" aria-controls="collapseExtendedAttributes">
+                Atributos Extendidos
+            </button>
+        </h2>
+        <div id="collapseExtendedAttributes" class="accordion-collapse collapse show" aria-labelledby="headingExtendedAttributes">
+            <div class="accordion-body">
+                <table class="table table-hover table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Atributo</th>
+                            <th>Atributo base</th>
+                            <th>Código del valor base</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    <tr>
+                        <td>codigo_ex</td>
+                        <td></td>
+                        <td></td>
+                        <td>Identificador temático de la fuente externa de referencia.</td>
+                    </tr>
+                    
+                    <tr id='ext-'>
+                        <td>estado_ex (e_0501_ex)</td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <p>Estado de funcionamiento en el que se encuentra el servicio o instalación para extracción de materiales.</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>HIS</td><td>Histórica</td><td>Servicio o instalación de extracción de materiales histórica que no se encuentra en funcionamiento.</td></tr><tr><td>ACT</td><td>Activa</td><td>Servicio o instalación de extracción de materiales en funcionamiento.</td></tr><tr><td>SEP</td><td>Sin explotación</td><td>Servicio o instalación de extracción de materiales sin explotación.</td></tr><tr><td>ABN</td><td>Abandono</td><td>Servicio o instalación de extracción de materiales en estado de abandono.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div> <!-- cierre correcto de Atributos Extendidos -->
+
+    <!-- Atributos Comunes -->
+<div class="accordion-item">
+    <h2 class="accordion-header" id="headingCommonAttributes">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCommonAttributes" aria-expanded="true" aria-controls="collapseCommonAttributes">
+            Atributos Comunes
+        </button>
+    </h2>
+    <div id="collapseCommonAttributes" class="accordion-collapse collapse show" aria-labelledby="headingCommonAttributes">
+        <div class="accordion-body">
+            <table class="table table-hover table-bordered">
+                <thead class="table-primary">
+                    <tr>
+                        <th style="width: 20%">Atributo</th>
+                        <th style="width: 20%">Tipo de valor</th>
+                        <th style="width: 60%">Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>id_prod</td>
+    <td>cadena(50)</td>
+    <td class="romper-palabras">Identificador del productor. Cadena de texto donde cada productor almacena el identificador que mantiene para cada elemento. Lleva un prefijo del productor.</td>
+</tr>
+<!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>nombre</td>
+    <td>cadena</td>
+    <td class="romper-palabras">Nombre por el que se conoce al objeto geográfico concreto.</td>
+</tr>
+<!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>idioma</td>
+    <td>cadena(11)</td>
+    <td class="romper-palabras">Idioma o idiomas en el que se expresa el nombre.</td>
+</tr>
+<!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>fuente</td>
+    <td>cadena</td>
+    <td class="romper-palabras">Fuente o procedencia de los datos. Da cabida tanto a "método de captura" como a "responsable" u "organización" que proporciona datos.</td>
+</tr>
+<!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>fecha_ref</td>
+    <td>fecha</td>
+    <td class="romper-palabras">Fecha representativa de creación o modificación del objeto por parte del productor (por ejemplo, fecha del contrato de actualización).</td>
+</tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Atributos Comunes Extendidos -->
+<div class="accordion-item">
+    <h2 class="accordion-header" id="headingCommonExtendedAttributes">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCommonExtendedAttributes" aria-expanded="true" aria-controls="collapseCommonExtendedAttributes">
+            Atributos Comunes Extendidos
+        </button>
+    </h2>
+    <div id="collapseCommonExtendedAttributes" class="accordion-collapse collapse show" aria-labelledby="headingCommonExtendedAttributes">
+        <div class="accordion-body">
+            <table class="table table-hover table-bordered">
+                <thead class="table-secondary">
+                    <tr>
+                        <th>Atributo</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                        <tr>
+                            <td>nombre_spa</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en castellano.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nombre_cat</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en catalán.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nombre_glg</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en gallego.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nombre_eus</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en euskera.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nombre_oci</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en occitano.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>id_ng</td>
+                            <td>Identificador de nomenclátor (para elementos con nombre y que estén registrados en el nomenclátor).</td>
+                        </tr>
+                        
+                    <tr>
+                        <td>f_altitud</td>
+                        <td>
+                            <p>Cómo se ha obtenido la altitud de la geometría del objeto.</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>MDT</td><td>MDT</td><td>Altitud del objeto geográfico obtenida utilizando el MDT.</td></tr><tr><td>RES</td><td>Restitución</td><td>Altitud del objeto geográfico obtenida por restitución fotogramétrica.</td></tr><tr><td>MDS</td><td>MDS</td><td>Altitud del objeto geográfico obtenida utilizando el MDS.</td></tr><tr><td>EST</td><td>Estimada</td><td>Altitud estimada del objeto geográfico.</td></tr><tr><td>INT</td><td>Interpolada</td><td>Altitud del objeto geográfico obtenida por interpolación.</td></tr><tr><td>NOZ</td><td>Sin Z</td><td>Objeto geográfico sin altitud asignada.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+  </section>
+
+
+  <footer class="fixed-bottom mt-auto py-3 bg-light">
+  <div class="container text-center">
+    <span class="text-muted">
+      Consejo Superior Geográfico / Comisión Especializada de Normas Geográficas
+    </span>
+  </div>
+</footer>
+
+  <script>
+     document.addEventListener('DOMContentLoaded', function () {
+    // Evita que el dropdown principal se cierre al hacer clic en un toggle de tema
+    document.querySelectorAll('.dropdown-menu .dropdown-toggle').forEach(function (el) {
+      el.addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation(); // <-- Esto impide que el menú padre se cierre
+
+        const targetId = el.getAttribute('data-bs-target');
+        const collapseElement = document.querySelector(targetId);
+        const bsCollapse = bootstrap.Collapse.getOrCreateInstance(collapseElement);
+
+        // Alterna manualmente el estado
+        bsCollapse.toggle();
+      });
+    });
+  });
+
+  </script>
+</body>
+
+</html>

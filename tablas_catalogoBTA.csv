@@ -1,0 +1,1195 @@
+﻿### ATRIBUTOS ###
+id	codigo_obj	orden_atr	nom_atrib	dominio	tipo_valor	unidad	extendido	definicion	comentarios
+1	0401s	1	tipo	tipo_0401s	lista_val		False	Tipo de edificio según sus características constructivas.	
+8	0401p	1	tipo	tipo_0401p	lista_val		False	Tipo de edificio según sus características constructivas.	
+11	0404s	1	tipo	tipo_0404	lista_val		False	Tipo de construcción según sus características o el uso al que se destina.	
+16	0407s	1	tipo	tipo_0407s	lista_val		False	Tipo de otra construcción según sus características constructivas.	
+21	0407l	1	tipo	tipo_0407l	lista_val		False	Tipo de otra construcción según sus características constructivas.	
+26	0407p	1	tipo	tipo_0407p	lista_val		False	Tipo de otra construcción según sus características constructivas.	
+29	0410l	1	tipo	tipo_0410	lista_val		False	Tipo de  del tendido según su función.	
+33	0413l	1	tipo_cons	t_con_0413	lista_val		False	Tipo de construcción de la presa, atendiendo a los materiales empleados en la misma.	
+38	0413s	1	tipo_cons	t_con_0413	lista_val		False	Tipo de construcción de la presa, atendiendo a los materiales empleados en la misma.	
+43	0501p	1	tipo	tipo_0501	lista_val		False	Tipo de servicio o instalación para extracción de materiales.	
+47	0501z	1	id_punto		cadena(50)		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+52	0504p	1	tipo	tipo_0504	lista_val		False	Tipo de servicio o instalación para producción o distribución de diferentes tipos de energía a gran escala.	
+55	0504z	1	id_punto		cadena(50)		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+59	0507p	1	tipo	tipo_0507	lista_val		False	Tipo de industria, servicio o comercio.	
+61	0507z	1	id_punto		cadena(50)		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+64	0510p	1	cod_bic		cadena(50)		False	Identificador del Bien de Interés Cultural (BIC).	
+68	0510z	1	id_punto		cadena(50)		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+73	0513p	1	cod_bic		cadena(50)		False	Identificador del Bien de Interés Cultural (BIC).	
+77	0513z	1	id_punto		cadena(50)		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+82	0201l	1	tipo_tramo	tram_curso	lista_val		False	Tipo de tramo del curso natural en función de por dónde discurre.	
+99	0204l	1	tipo_tramo	tram_curso	lista_val		False	Tipo de tramo del curso artificial.	
+104	0204s	1	tipo	tipo_0204	lista_val		False	Tipo de conducción artificial según características constructivas.	
+108	0207s	1	tipo	tipo_0207	lista_val		False	Tipo de lámina de agua según su naturaleza.	
+114	0210s	1	nivel_agua	niv_a_0210	lista_val		False	Indica si la geometría registrada corresponde al máximo aparente o a la máxima elevación del embalse.	
+117	0213p	1	tipo	tipo_0213	lista_val		False	Tipo de punto hidrográfico según su naturaleza.	
+120	0216p	1	tipo	tipo_0216	lista_val		False	Tipo de aguas marinas.	
+122	0216s	1	id_punto		cadena(50)		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+125	0219s	1	tipo	tipo_0219	lista_val		False	Tipo de isla según donde se encuentre.	
+128	0301l	1	tipo	tipo_0301	lista_val		False	Tipo de la curva de nivel.	
+131	0304l	1	sonda		entero		False	Profundidad expresada en metros respecto una superficie de nivel definida como origen.	
+132	0307l	1	tipo	tipo_0307l	lista_val		False	Tipo de cambio de pendiente.	
+135	0307s	1	tipo	tipo_0307s	lista_val		False	Tipo de cambio de pendiente.	
+137	0310p	1	situacion	situ_0310	lista_val		False	Situación del punto de cota.	
+145	0313p	1	codigo		cadena		False	Código o identificador proporcionado por un organismo externo.	
+150	0313l	1	codigo		cadena		False	Código o identificador proporcionado por un organismo externo.	
+155	0313s	1	codigo		cadena		False	Código o identificador proporcionado por un organismo externo.	
+159	0101a	1	id_vial		cadena		False	Identificador de vial (procedente del catálogo de carreteras de la Red de Transporte del IGN).	
+163	0104a	1	id_vial_c		cadena		False	Identificador de los viales compuestos.	
+165	0107l	1	id_vial		cadena		False	Identificador del vial.	
+178	0107s	1	id_vial		cadena		False	Identificador del vial.	
+191	0110l	1	tipo		cadena		False	Tipos de vía urbana.	
+204	0113l	1	tipo	tipo_0113l	lista_val		False	Tipos de otras vías.	
+209	0113s	1	tipo	tipo_0113s	lista_val		False	Tipos de otras vías.	
+214	0116p	1	id_vial		cadena		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+218	0119p	1	tipo	tipo_0119	lista_val		False	Tipología de servicio.	
+219	0122p	1	tipo	tipo_0122	lista_val		False	Tipología de servicio de carretera.	
+220	0122z	1	id_punto		cadena(50)		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+222	0125l	1	nom_linea		cadena		False	Denominación por la que se conoce a la entidad	
+233	0128p	1	nom_linea		cadena		False	Denominación por la que se conoce a la entidad	
+236	0131p	1	tipo	tipo_0131	lista_val		False	Tipo de estación de ferrocarril.	
+242	0131z	1	id_punto		cadena(50)		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+249	0134l	1	tipo	tipo_0134	lista_val		False	Tipo de transporte suspendido por cable. 	
+250	0137p	1	titular	titular	lista_val		False	Organismo titular del puerto. 	
+255	0137z	1	id_punto		cadena(50)		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+261	0140p	1	titular	titular	lista_val		False	Organismo titular del aeródromo.	
+271	0140z	1	id_punto		cadena(50)		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+282	0143s	1	id_punto		cadena(50)		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+284	0601p	1	codigo		cadena (4)		False	Identificador del punto GNSS.	
+288	0604p	1	codigo		cadena		False	Identificador del punto geodésico.	
+293	0607p	1	codigo		cadena		False	Identificador del punto geodésico.	
+297	0610p	1	codigo		cadena		False	Identificador del punto geodésico.	
+300	0901s	1	tipo	tipo_0901	lista_val		False	Tipología general de Espacios Naturales Protegidos	
+305	0904l	1	codigo		cadena		False	Código para relacionar con información externa.	
+309	0904s	1	codigo		cadena		False	Código para relacionar con información externa.	
+313	0801p	1	tipo	tipo_0801	lista_val		False	Tipo de entidad de población.	
+320	0801s	1	tipo	tipo_0801	lista_val		False	Tipo de entidad de población.	
+327	0804s	1	tipo	tipo_0804	lista_val		False	Tipo de división administrativa.	
+329	0701s	1	tipo	tipo_0701	lista_val		False	Tipología de cubiertas terrestres procedente de SIOSE AR y su simplificación para Mapa Topográfico Nacional.	
+174	0107l	10	acceso	acceso	lista_val		False	Tipo de restricción de acceso a la vía.	
+187	0107s	10	acceso	acceso	lista_val		False	Tipo de restricción de acceso a la vía.	
+2	0401s	2	estadofis	estadofis	lista_val		False	Estado físico en el que se encuentra la construcción.	
+9	0401p	2	estadofis	estadofis	lista_val		False	Estado físico en el que se encuentra la construcción.	
+12	0404s	2	situacion	situ_0404	lista_val		False	Situación de la construcción con respecto al terreno.	
+17	0407s	2	situacion	situ_0407s	lista_val		False	Situación de la construcción con respecto al terreno.	
+22	0407l	2	situacion	situ_0407l	lista_val		False	Situación de la construcción con respecto al terreno.	
+34	0413l	2	tipo_func	t_fun_0413	lista_val		False	Tipo de funcionamiento de la presa.	
+39	0413s	2	tipo_func	t_fun_0413	lista_val		False	Tipo de funcionamiento de la presa.	
+44	0501p	2	situacion	situ_0501	lista_val		False	Situación del servicio o instalación para extracción de materiales con respecto al terreno.	
+48	0501z	2	tipo	tipo_0501	lista_val		False	Tipo de servicio o instalación para extracción de materiales.	
+53	0504p	2	codigo_ex		cadena(50)		False	Identificador temático de la fuente externa de referencia.	
+56	0504z	2	tipo	tipo_0504	lista_val		False	Tipo de servicio o instalación para producción o distribución de diferentes tipos de energía a gran escala.	
+62	0507z	2	tipo	tipo_0507	lista_val		False	Tipo de industria, servicio o comercio.	
+65	0510p	2	tipo	tipo_0510	lista_val		False	Tipo de administración o de equipamiento social.	
+69	0510z	2	cod_bic		cadena(50)		False	Identificador del Bien de Interés Cultural (BIC).	
+74	0513p	2	tipo	tipo_0513	lista_val		False	Tipo de punto con interés cultural o de instalación para el deporte o el ocio.	
+78	0513z	2	cod_bic		cadena(50)		False	Identificador del Bien de Interés Cultural (BIC).	
+83	0201l	2	canalizado	canal_0201	lista_val		False	Indica si se han llevado a cabo obras para encauzar un curso natural de agua, generalmente para evitar inundaciones, afección a otras construcciones o favorecer la navegación.	
+92	0201s	2	nivel_agua	niv_a_0201	lista_val		False	Indica si la geometría registrada corresponde al cauce habitual o es el máximo aparente.	
+100	0204l	2	tipo	tipo_0204	lista_val		False	Tipo de conducción artificial según características constructivas.	
+105	0204s	2	situacion	situ_0204	lista_val		False	Situación del curso artificial respecto de la superficie terrestre.	
+109	0207s	2	regimen	regim_hidr	lista_val		False	Tipología de lámina de agua según su régimen.	
+115	0210s	2	max_elev		real		False	Almacena la máxima elevación de la lámina de agua del embalse. La máxima elevación corresponde al valor de la cota de coronación de la presa asociada menos 2 m.	
+123	0216s	2	tipo	tipo_0216	lista_val		False	Tipo de aguas marinas.	
+129	0301l	2	cota		entero		False	Cota de la curva de nivel.	
+133	0307l	2	seccion	secc_0307	lista_val		False	Sección capturada del cambio de pendiente.	
+138	0310p	2	tipo	tipo_0310	lista_val		False	Clasificación según la morfología del terreno donde se encuentra.	
+146	0313p	2	cod_bic		cadena(50)		False	Código de bien de interés cultural si aplica.	
+151	0313l	2	cod_bic		cadena(50)		False	Código de bien de interés cultural si aplica.	
+156	0313s	2	cod_bic		cadena(50)		False	Código de bien de interés cultural si aplica.	
+160	0101a	2	tipo_vial	tipo_vial	lista_vial		False	Tipologías de viales considerados en cada una de las clases generales.	
+164	0104a	2	id_vial_s		cadena		False	Identificador de los viales simples que forman el compuesto.	
+166	0107l	2	clase	clase_0107	lista_val		False	Clase de tramo por sus características físicas.	
+179	0107s	2	clase	clase_0107	lista_val		False	Clase de tramo por sus características físicas.	
+192	0110l	2	nombre_alt		cadena		False	Nombre de la vía.	
+215	0116p	2	valor_pk		real		False	Valor del punto kilométrico de carretera. 	
+221	0122z	2	tipo	tipo_0122	lista_val		False	Tipología de servicio de carretera.	
+223	0125l	2	tipo_linea	tipo_0125	lista_val		False	Tipo de transporte sobre raíl.	
+234	0128p	2	tipo 	tipo_pk	lista_val		False	Tipo de punto kilométrico según la señal que lo materializa y su posición.	
+243	0131z	2	tipo	tipo_0131	lista_val		False	Tipo de estación de ferrocarril.	
+256	0137z	2	titular	titular	lista_val		False	Organismo titular del puerto. 	
+272	0140z	2	titular	titular	lista_val		False	Organismo titular del aeródromo.	
+283	0143s	2	tipo	tipo_0143	lista_val		False	Tipo de pista por la que circulan las aeronaves cuando están en tierra.	
+289	0604p	2	titular		cadena		False	Organismo titular o propietario del Punto Geodésico, responsable de su obra de monumentación.	
+294	0607p	2	titular		cadena		False	Organismo titular o propietario del Punto Geodésico, responsable de su obra de monumentación.	
+298	0610p	2	titular		cadena		False	Organismo titular o propietario del Punto Geodésico, responsable de su obra de monumentación.	
+306	0904l	2	tipo	tipo_0904	lista_val		False	Tipo de vía pecuaria según su anchura (Ley 3/95, de 23 de Marzo). 	
+310	0904s	2	tipo	tipo_0904	lista_val		False	Tipo de vía pecuaria según su anchura (Ley 3/95, de 23 de Marzo). 	
+328	0804s	2	codig_ua		cadena		False	Código INE de la unidad adminsitrativa.	
+13	0404s	3	estadofis	estadofis	lista_val		False	Estado físico en el que se encuentra la construcción de almacenaje.	
+18	0407s	3	estadofis	estadofis	lista_val		False	Estado físico en el que se encuentra la construcción.	
+23	0407l	3	estadofis	estadofis	lista_val		False	Estado físico en el que se encuentra la construcción.	
+35	0413l	3	estadofis	estadofis	lista_val		False	Estado físico en el que se encuentra la presa.	
+40	0413s	3	estadofis	estadofis	lista_val		False	Estado físico en el que se encuentra la presa.	
+49	0501z	3	situacion	situ_0501	lista_val		False	Situación del servicio o instalación para extracción de materiales con respecto al terreno.	
+54	0504p	3	tipo_ex	t_0504_ex	lista_val		False	Tipo de servicio o instalación para producción o distribución de diferentes tipos de energía a gran escala (modelo extendido).	
+57	0504z	3	codigo_ex		cadena(50)		False	Identificador temático de la fuente externa de referencia.	
+70	0510z	3	tipo	tipo_0510	lista_val		False	Tipo de administración o de equipamiento social.	
+79	0513z	3	tipo	tipo_0513	lista_val		False	Tipo de zona con interés cultural o de instalación para el deporte o el ocio.	
+84	0201l	3	regimen	regim_hidr	lista_val		False	Régimen hidrológico que tendría lugar en un tramo de río sin intervención humana significativa en su cuenca vertiente.	
+93	0201s	3	canalizado	canal_0201	lista_val		False	Indica si se han llevado a cabo obras para encauzar un curso natural de agua, generalmente para evitar inundaciones, afección a otras construcciones o favorecer la navegación.	
+101	0204l	3	situacion	situ_0204	lista_val		False	Situación del curso artificial respecto de la superficie terrestre.	
+106	0204s	3	estadofis	estadofis	lista_val		False	Estado físico en el que se encuentra la construcción del curso artificial.	
+139	0310p	3	cota_conv		entero		False	Altitud del punto acotado expresada en metros.	
+147	0313p	3	tipo	tipo_0313	lista_val		False	Tipo de lugar geográfico.	
+152	0313l	3	tipo	tipo_0313	lista_val		False	Tipo de lugar geográfico.	
+157	0313s	3	tipo	tipo_0313s	lista_val		False	Tipo de lugar geográfico.	
+161	0101a	3	nombre_alt		cadena		False	Nombre alternativo de la vía.	
+167	0107l	3	orden	orden	lista_val		False	Clasificación basada en la importancia de la carretera en la red.	
+180	0107s	3	orden	orden	lista_val		False	Clasificación basada en la importancia de la carretera en la red.	
+193	0110l	3	tramo	tram_trans	lista_val		False	Tipología de tramo en relación al eje de la vía.	
+206	0113l	3	situacion	situ_trans	lista_val		False	Situación del tramo según su posición vertical relativa respecto a la superficie terrestre y a otros condicionantes físicos.	
+211	0113s	3	situacion	situ_trans	lista_val		False	Situación del tramo según su posición vertical relativa respecto a la superficie terrestre y a otros condicionantes físicos.	
+216	0116p	3	tipo	tipo_pk	lista_val		False	Tipo de punto kilométrico según la señal que lo materializa y su posición.	
+224	0125l	3	tramo	tramo_0125	lista_val		False	Tipología de tramo en relación al eje de la vía ferrea. 	
+235	0128p	3	valor_pkfc		real		False	Número que expresa la distancia respecto del origen de la infraestructura, en kilómetros y con un decimal.	
+238	0131p	3	uso	uso_0131	lista_val		False	Uso de la estación de ferrocarril.	
+252	0137p	3	estadofis	esta_trans	lista_val		False	Estado físico en que se encuentra la instalación en relación a su terminación y uso.	
+263	0140p	3	estadofis	esta_trans	lista_val		False	Estado físico en que se encuentra el aeródromo en relación a su terminación y uso.	
+290	0604p	3	tipo	tipo_0604	lista_val		False	Indica la red geodésica a la que pertenece el Punto Geodésico.	
+295	0607p	3	alt_orto		real		False	Altitud ortométrica del punto geodésico. 	
+315	0801p	3	ine	ine_0801	lista_val		False	Indica si la entidad de población figura o no en el nomenclátor del Instituto Nacional de Estadística (INE).	
+322	0801s	3	ine	ine_0801	lista_val		False	Indica si la entidad de población figura o no en el nomenclátor del Instituto Nacional de Estadística (INE).	
+36	0413l	4	cota_coron		real		False	Cota de coronación de la presa.	
+41	0413s	4	cota_coron		real		False	Cota de coronación de la presa.	
+58	0504z	4	tipo_ex	t_0504_ex	lista_val		False	Tipo de servicio o instalación para producción o distribución de diferentes tipos de energía a gran escala (modelo extendido).	
+85	0201l	4	jerarquia	jerar_0201	lista_val		False	Clasificación que se establece para el río en su conjunto, según su longitud e importancia respecto al conjunto de ríos de España.	
+94	0201s	4	regimen	regim_hidr	lista_val		False	Régimen hidrológico que tendría lugar en un tramo de río sin intervención humana significativa en su cuenca vertiente.	
+102	0204l	4	estadofis	estadofis	lista_val		False	Estado físico en el que se encuentra la construcción del curso artificial.	
+162	0101a	4	vial_simple	vial_simpl	lista_val		False	Indica si el vial es o no simple.	
+168	0107l	4	titular	titular	lista_val		False	Organismo titular del tramo de la carretera.	
+181	0107s	4	titular	titular	lista_val		False	Organismo titular del tramo de la carretera.	
+194	0110l	4	calzada	calzada	lista_val		False	Clasificación de los viales en función de su calzada.	
+225	0125l	4	situacion	situ_0125	lista_val		False	Situación del tramo según su posición vertical relativa respecto a la superficie terrestre.	
+239	0131p	4	estadofis	esta_trans	lista_val		False	Estado físico en que se encuentra la estación de ferrocarril en relación a su terminación y uso.	
+245	0131z	4	uso	uso_0131	lista_val		False	Uso de la estación de ferrocarril.	
+258	0137z	4	estadofis	esta_trans	lista_val		False	Estado físico en que se encuentra la instalación en relación a su terminación y uso.	
+264	0140p	4	tipo	tipo_0140	lista_val		False	Tipo de aeródromo.	
+274	0140z	4	estadofis	esta_trans	lista_val		False	Estado físico en que se encuentra el aeródromo en relación a su terminación y uso.	
+316	0801p	4	codig_ep		cadena (11)		False	"Identificador del Instituto Nacional de Estadística (INE) del Ministerio de Asuntos Económicos y Transformación Digital. 
+Código de 11 dígitos con el siguiente formato: dígitos 1,2 provincia; 3, 4, 5 municipio dentro de la provincia; 6, 7 entidad colectiva dentro del municipio (00 si no existe); 8, 9, entidad singular dentro de la entidad colectiva o municipio; 10, 11 núcleos dentro de la entidad singular, utilizando el 99 para el diseminado.
+Si la población es INE, su valor se corresponde con el código INE. Si la población es no INE, contiene el código INE al que pertenece dicha población"	
+323	0801s	4	codig_ep		cadena (11)		False	"Identificador del Instituto Nacional de Estadística (INE) del Ministerio de Asuntos Económicos y Transformación Digital. 
+Código de 11 dígitos con el siguiente formato: dígitos 1,2 provincia; 3, 4, 5 municipio dentro de la provincia; 6, 7 entidad colectiva dentro del municipio (00 si no existe); 8, 9, entidad singular dentro de la entidad colectiva o municipio; 10, 11 núcleos dentro de la entidad singular, utilizando el 99 para el diseminado.
+Si la población es INE, su valor se corresponde con el código INE. Si la población es no INE, contiene el código INE al que pertenece dicha población."	
+25	0407l	5	tipo_ex	t_0407l_ex	lista_val		False	Tipo de otra construcción según sus características constructivas (modelo extendido).	
+95	0201s	5	jerarquia	jerar_0201	lista_val		False	Clasificación que se establece para el río en su conjunto, según su longitud e importancia respecto al conjunto de ríos de España.	
+195	0110l	5	conex_ctra	conex_ctra	lista_val		False	Indica si el tramo de vía urbana constituye una travesía. 	
+226	0125l	5	estadofis	esta_trans	lista_val		False	Estado de uso del tramo de la entidad.	
+246	0131z	5	estadofis	esta_trans	lista_val		False	Estado físico en que se encuentra la estación de ferrocarril en relación a su terminación y uso.	
+265	0140p	5	categoria	categ_0140	lista_val		False	Categoría del aeródromo en función del tipo de vuelo.	
+275	0140z	5	tipo	tipo_0140	lista_val		False	Tipo de aeródromo.	
+170	0107l	6	tramo	tram_trans	lista_val		False	Tipología de tramo en relación al eje de la vía.	
+183	0107s	6	tramo	tram_trans	lista_val		False	Clasificación en función del papel que adopta el tramo dentro del vial.	
+196	0110l	6	situacion	situ_trans	lista_val		False	Situación del tramo según su posición vertical relativa respecto a la superficie terrestre y a otros condicionantes físicos.	
+227	0125l	6	ancho_via	ancho_via	lista_val		False	Ancho del tramo de vía, medido entre sus raíles.	
+266	0140p	6	gestion	gest_0140	lista_val		False	Tipología de autoridad que gestiona el funcionamiento de la infraestructura.	
+276	0140z	6	categoria	categ_0140	lista_val		False	Categoría del aeródromo en función del tipo de vuelo.	
+171	0107l	7	calzada	calzada	lista_val		False	Especifica si la calzada es duplicada o tiene más calzadas aún o única.	
+184	0107s	7	calzada	calzada	lista_val		False	Especifica si la calzada es duplicada o tiene más calzadas aún o única.	
+197	0110l	7	estadofis	esta_trans	lista_val		False	Estado físico en que se encuentra la vía en relación con su terminación y uso.	
+228	0125l	7	electrific	electrific	lista_val		False	Indica si el tramo de vía férrea está electrificado.	
+277	0140z	7	gestion	gest_0140	lista_val		False	Tipología de autoridad que gestiona el funcionamiento de la infraestructura.	
+172	0107l	8	situacion	situ_trans	lista_val		False	Situación del tramo según su posición vertical relativa respecto a la superficie terrestre y a otros condicionantes físicos.	
+185	0107s	8	situacion	situ_trans	lista_val		False	Situación del tramo según su posición vertical relativa respecto a la superficie terrestre y a otros condicionantes físicos.	
+229	0125l	8	n_vias	n_vias	lista_val		False	Número de vías de que consta el tramo.	
+173	0107l	9	estadofis	esta_trans	lista_val		False	Estado físico en que se encuentra la vía en relación con su terminación y uso.	
+186	0107s	9	estadofis	esta_trans	lista_val		False	Estado físico en que se encuentra la vía en relación con su terminación y uso.	
+230	0125l	9	titular	titular	lista_val		False	Organismo titular del tramo de la vía férrea.	
+
+### ATRIBUTOS_EXTENDIDOS ###
+id	codigo_obj	orden_atr	nom_atrib	dominio	tipo_valor	unidad	extendido	definicion	comentarios
+91	0201s	1	pfaf_pr_ex		cadena(50)		True	Identificador de río completo obtenido mediante la metodología topológica Pfafstetter, pero tomando sólo el PFAF_PARES. Es el identificador utilizado por la Dirección General del Agua (DGA).	
+127	0222l	1	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+200	0110l	10	sentido_ex	sentido_ex	lista_val		True	Tipo de sentido de circulación de la calzada	
+231	0125l	10	titular_ex	titular_ex	lista_val		True	Organismo titular del tramo de la vía férrea (modelo extendido).	
+270	0140p	10	activ_ex	a_0140_ex	lista_val		True	Tipo de actividad en función de aquello que se transporte. 	
+280	0140z	10	uso_ex	u_0140_ex	lista_val		True	Tipo de uso que puede realizarse en función de la autoridad que gestiona el tráfico interior en la infraestructura.	
+175	0107l	11	acceso_ex	acceso_ex	lista_val		True	Tipo de restricción de acceso a la vía (modelo extendido).	
+188	0107s	11	acceso_ex	acceso_ex	lista_val		True	Tipo de restricción de acceso a la vía (modelo extendido).	
+201	0110l	11	tipoveh_ex	tipoveh_ex	lista_val		True	Tipo de vehiculo que puede circular por la calzada.	
+232	0125l	11	u_princ_ex	u_0125_ex	lista_val		True	Uso predominante de la línea a la que pertenece el tramo	
+281	0140z	11	activ_ex	a_0140_ex	lista_val		True	Tipo de actividad en función de aquello que se transporte. 	
+176	0107l	12	sentido_ex	sentido_ex	lista_val		True	Tipo de sentido de circulación de la calzada	
+189	0107s	12	sentido_ex	sentido_ex	lista_val		True	Tipo de sentido de circulación de la calzada	
+202	0110l	12	ncarril_ex		entero		True	Número de carriles del tramo de la calzada considerada.	
+177	0107l	13	ncarril_ex		entero		True	Número de carriles del tramo de la calzada considerada.	
+190	0107s	13	ncarril_ex		entero		True	Número de carriles del tramo de la calzada considerada.	
+203	0110l	13	anc_med_ex		entero		True	Ancho medio de la vía.	
+27	0407p	2	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+30	0410l	2	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+60	0507p	2	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+118	0213p	2	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+121	0216p	2	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+126	0219s	2	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+136	0307s	2	tipo _ex	t_0307s_ex	lista_val		True	Tipo de cambio de pendiente.	
+205	0113l	2	tipo_ex	t_0113l_ex	lista_val		True	Tipos de otras vías (modelo extendido).	
+210	0113s	2	tipo_ex	t_0113s_ex	lista_val		True	Tipos de otras vías (modelo extendido).	
+237	0131p	2	tipo_ex	t_0131_ex	lista_val		True	Tipo de estación de ferrocarril (modelo extendido).	
+251	0137p	2	titular_ex	titular_ex	lista_val		True	Organismo titular del puerto (modelo extendido).	
+262	0140p	2	titular_ex	titular_ex	lista_val		True	Organismo titular del aeródromo (modelo extendido).	
+285	0601p	2	codigo_iers_ex		cadena (10)		True	Identificador IERS del punto GNSS.	
+301	0901s	2	tipo_ex	t_0901_ex	lista_val		True	Tipología extendida de Espacios Naturales Protegidos.	
+314	0801p	2	tipo_ex	t_0801_ex	lista_val		True	Tipo de entidad de población (modelo extendido).	
+321	0801s	2	tipo_ex	t_0801_ex	lista_val		True	Tipo de entidad de población (modelo extendido).	
+330	0701s	2	tipo_ex	t_0701_ex	lista_val		True	Tipología de cubiertas terrestres procedente de SIOSE AR y su simplificación para Mapa Topográfico Nacional (modelo extendido).	
+3	0401s	3	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+10	0401p	3	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+28	0407p	3	tipo_ex	t_0407p_ex	lista_val		True	Tipo de otra construcción según sus características constructivas (modelo extendido).	
+31	0410l	3	tipo_ex	t_0410_ex	lista_val		True	Tipo de tendido según su función (modelo extendido).	
+45	0501p	3	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+63	0507z	3	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+66	0510p	3	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+75	0513p	3	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+110	0207s	3	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+116	0210s	3	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+119	0213p	3	tipo_ex	t_0213_ex	lista_val		True	Tipo de punto hidrográfico según su naturaleza (modelo extendido).	
+124	0216s	3	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+130	0301l	3	categor_ex	c_0301_ex	lista_val		True	Categoría de la curva de nivel. 	
+134	0307l	3	tipo _ex	t_0307l_ex	lista_val		True	Tipo de cambio de pendiente.	
+244	0131z	3	tipo_ex	t_0131_ex	lista_val		True	Tipo de estación de ferrocarril (modelo extendido).	
+257	0137z	3	titular_ex	titular_ex	lista_val		True	Organismo titular del puerto (modelo extendido).	
+273	0140z	3	titular_ex	titular_ex	lista_val		True	Organismo titular del aeródromo (modelo extendido).	
+286	0601p	3	titular_ex		cadena		True	Organismo titular o propietario del Punto GNSS, responsable de la estación y de su obra de monumentación.	
+299	0610p	3	url_ex		cadena		True	Dirección de acceso a la ficha técnica del punto.	
+302	0901s	3	id_enp_ex		cadena		True	Identificador nacional de Espacio Natural Protegido.	
+307	0904l	3	tipo_ex	t_0904_ex	lista_val		True	"""Otro tipo de vía pecuaria no contemplada en la anterior tipología."" o ""Tipo de vía pecuaria según su anchura (Ley 3/95, de 23 de Marzo) (modelo extendido)."""	
+311	0904s	3	tipo_ex	t_0904_ex	lista_val		True	"""Otro tipo de vía pecuaria no contemplada en la anterior tipología."" o ""Tipo de vía pecuaria según su anchura (Ley 3/95, de 23 de Marzo) (modelo extendido)."""	
+4	0401s	4	tipo_ex	t_0401s_ex	lista_val		True	Tipo de edificio según sus características constructivas (modelo extendido).	
+14	0404s	4	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+19	0407s	4	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+24	0407l	4	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+32	0410l	4	tension_ex	v_0410_ex	lista_val		True	Clasificación energética del tendido eléctrico.	
+46	0501p	4	estado_ex	e_0501_ex	lista_val		True	Estado de funcionamiento en el que se encuentra el servicio o instalación para extracción de materiales.	
+50	0501z	4	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+67	0510p	4	tipo_ex	t_0510_ex	lista_val		True	Tipo de administración o de equipamiento social (modelo extendido).	
+71	0510z	4	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+76	0513p	4	tipo_ex	t_0513_ex	lista_val		True	Tipo de punto con interés cultural o de instalación para el deporte o el ocio (modelo extendido).	
+80	0513z	4	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+107	0204s	4	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+111	0207s	4	n_agua_ex	n_0207_ex	lista_val		True	Indica si la geometría registrada corresponde al nivel del agua, de la vegetación u otro.	
+140	0310p	4	situ_ex	s_0310_ex	lista_val		True	Situación del punto de cota en el modelo extendido.	
+148	0313p	4	tipo_ex	t_0313_ex	lista_val		True	Tipo de lugar geográfico.	
+153	0313l	4	tipo_ex	t_0313_ex	lista_val		True	Tipo de lugar geográfico.	
+207	0113l	4	tramo_ex	tram_trans	lista_val		True	Tipología de tramo en relación al eje de la vía.	
+212	0113s	4	tramo_ex	tram_trans	lista_val		True	Tipología de tramo en relación al eje de la vía.	
+217	0116p	4	sentido_ex	s_0116_ex	lista_val		True	Sentido creciente o decreciente de la numeración a lo largo de la carretera en el que se encuentra el PK. Es aplicable solo a puntos kilométricos.	
+253	0137p	4	cod_pue_ex		cadena		True	Código del puerto UN/LOCODE (código de Naciones Unidas).	
+287	0601p	4	url_ex		cadena		True	Dirección de acceso a la ficha técnica del punto.	
+291	0604p	4	tipo_ex	t_0604_ex	lista_val		True	Indica la red geodésica a la que pertenece el Punto Geodésico (modelo extendido).	
+296	0607p	4	url_ex		cadena		True	Dirección de acceso a la ficha técnica del punto.	
+303	0901s	4	id_enp_ca_ex		cadena		True	Identificador de la Comunidad Autónoma del Espacio Natural Protegido.	
+308	0904l	4	deslind_ex	deslind_ex	lista_val		True	Indica si se han realizado labores de deslide (establecimiento o demarcación de los límmites de propiedad o terreno) en la vía pecuaria. 	
+312	0904s	4	deslind_ex	deslind_ex	lista_val		True	Indica si se han realizado labores de deslide (establecimiento o demarcación de los límmites de propiedad o terreno) en la vía pecuaria. 	
+5	0401s	5	uso_ex	u_0401s_ex	lista_val		True	Uso del edificio (modelo extendido).	
+15	0404s	5	tipo_ex	t_0404s_ex	lista_val		True	Tipo de construcción según sus características o el uso al que se destina.	
+20	0407s	5	tipo_ex	t_0407s_ex	lista_val		True	Tipo de otra construcción según sus características constructivas (modelo extendido).	
+37	0413l	5	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+42	0413s	5	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+51	0501z	5	estado_ex	e_0501_ex	lista_val		True	Estado de funcionamiento en el que se encuentra el servicio o instalación para extracción de materiales.	
+72	0510z	5	tipo_ex	t_0510_ex	lista_val		True	Tipo de administración o de equipamiento social (modelo extendido).	
+81	0513z	5	tipo_ex	t_0513_ex	lista_val		True	Tipo de zona con interés cultural o de instalación para el deporte o el ocio (modelo extendido).	
+86	0201l	5	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+103	0204l	5	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+112	0207s	5	salada_ex	s_0207_ex	lista_val		True	Indica si el agua es salada o no.	
+141	0310p	5	p_ctra_ex	p_0310_ex	lista_val		True	Indica si el punto de cota es o no puerto de carretera.	
+169	0107l	5	titular_ex	titular_ex	lista_val		True	Organismo titular del tramo de la carretera (modelo extendido).	
+182	0107s	5	titular_ex	titular_ex	lista_val		True	Organismo titular del tramo de la carretera (modelo extendido).	
+208	0113l	5	firme_ex	firme_ex	lista_val		True	Tipo de firme de la vía.	
+213	0113s	5	firme_ex	firme_ex	lista_val		True	Tipo de firme de la vía.	
+240	0131p	5	cod_est_ex		cadena		True	Código de estación (de ADIF para estaciones de ferrocarril de titularidad estatal o, si existe, del titular correspondiente para el resto de los casos).	
+254	0137p	5	tipo_ex	t_0137_ex	lista_val		True	Tipo de puerto. 	
+259	0137z	5	cod_pue_ex		cadena		True	Código del puerto UN/LOCODE (código de Naciones Unidas).	
+292	0604p	5	url_ex		cadena		True	Dirección de acceso a la ficha técnica del punto.	
+304	0901s	5	desig_abbr_ex		cadena		True	Código de figura de protección de Espacio Natural Protegido del MITECO.	
+317	0801p	5	codigo_ep_ex		cadena		True	Extensiones que se pueden hacer al código INE para discriminar ciertas poblaciones.	
+324	0801s	5	codigo_ep_ex		cadena		True	Extensiones que se pueden hacer al código INE para discriminar ciertas poblaciones.	
+6	0401s	6	max_plt_ex		entero		True	Número máximo de plantas de alguna de las partes del edificio.	
+87	0201l	6	codmasa_ex		cadena(50)		True	Código de masa de agua que se utiliza en la Directiva Marco del Agua (DMA).	
+96	0201s	6	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
+113	0207s	6	regimen_ex	reg_hid_ex	lista_val		True	Régimen hidrológico que tendría lugar en una lámina de agua sin intervención humana significativa (modelo extendido).	
+142	0310p	6	promi_ex		cadena		True	Valor de prominencia del punto de cota.	
+241	0131p	6	n_anden_ex		entero		True	Número de andenes de la estación.	
+247	0131z	6	cod_est_ex		cadena		True	Código de estación (de ADIF para estaciones de ferrocarril de titularidad estatal o, si existe, del titular correspondiente para el resto de los casos).	
+260	0137z	6	tipo_ex	t_0137_ex	lista_val		True	Tipo de puerto. 	
+318	0801p	6	capit_ex		cadena(4)		True	Indica el tipo de capitalidad de la entidad de población. Se trata de un código de cuatro dígitos en el que el primero corresponde al municipio, el segundo a la provincia, el tercero a la comunidad autónoma y el cuarto al estado. Cada dígito puede valer 0 (no es capital) o 1 (es capital). Ejemplos: 1000 (capital de municipio), 0000 (no es capital), 1100 (capital de municipio y provincia).	
+325	0801s	6	capit_ex		cadena(4)		True	Indica el tipo de capitalidad de la entidad de población. Se trata de un código de cuatro dígitos en el que el primero corresponde al municipio, el segundo a la provincia, el tercero a la comunidad autónoma y el cuarto al estado. Cada dígito puede valer 0 (no es capital) o 1 (es capital). Ejemplos: 1000 (capital de municipio), 0000 (no es capital), 1100 (capital de municipio y provincia).	
+7	0401s	7	max_sot_ex		entero		True	Número máximo de sótanos (plantas por debajo de la superficie terrestre) de alguna de las partes del edificio.	
+88	0201l	7	pfaf_pr_ex		cadena(50)		True	Identificador de río completo obtenido mediante la metodología topológica Pfafstetter, pero tomando sólo el PFAF_PARES. Es el identificador utilizado por la Dirección General del Agua (DGA).	
+97	0201s	7	regimen_ex	reg_hid_ex	lista_val		True	Régimen hidrológico que tendría lugar en un tramo de río sin intervención humana significativa en su cuenca vertiente (modelo extendido).	
+143	0310p	7	jerarq_ex	j_0310_ex	lista_val		True	Orden de importancia de la cima, de acuerdo con criterios de altitud, importancia relativa de las sierras, etc.	
+248	0131z	7	n_anden_ex		entero		True	Número de andenes de la estación.	
+267	0140p	7	cd_iata_ex		cadena		True	Código IATA para la infraestructura.	
+319	0801p	7	id_ep_ex		entero		True	Identificador de entidad de población en IGR_PO del Instituto Geográfico Nacional.	
+326	0801s	7	id_ep_ex		entero		True	Identificador de entidad de población en IGR_PO del Instituto Geográfico Nacional.	
+89	0201l	8	regimen_ex	reg_hid_ex	lista_val		True	Régimen hidrológico que tendría lugar en un tramo de río sin intervención humana significativa en su cuenca vertiente (modelo extendido).	
+98	0201s	8	jerarq_ex	j_0201_ex	lista_val		True	Clasificación que se establece para el río en su conjunto, según su longitud e importancia respecto al conjunto de ríos de España (modelo extendido).	
+144	0310p	8	id_cad_ex		cadena		True	Identificador de la cadena montañosa de menor categoría a la que pertenece. Se le antepone prefijo del productor para que no haya duplicidades.	
+198	0110l	8	ine_via_ex		cadena		True	Información alfanumérica de los viales del modelo físico de RT (rt_vial_a).	
+268	0140p	8	cd_icao_ex		cadena		True	Código ICAO para la infraestructura.	
+278	0140z	8	cd_iata_ex		cadena		True	Código IATA para la infraestructura.	
+90	0201l	9	jerarq_ex	j_0201_ex	lista_val		True	Clasificación que se establece para el río en su conjunto, según su longitud e importancia respecto al conjunto de ríos de España (modelo extendido).	
+199	0110l	9	dgc_via_ex		entero		True	Código numérico que asocia Catastro a los viales urbanos.	
+269	0140p	9	uso_ex	u_0140_ex	lista_val		True	Tipo de uso que puede realizarse en función de la autoridad que gestiona el tráfico interior en la infraestructura.	
+279	0140z	9	cd_icao_ex		cadena		True	Código ICAO para la infraestructura.	
+
+### ATRIBUTOS_COMUNES ###
+id	orden_atr	nom_atrib	tipo_valor	definicion	comentarios	orden_crea	extendido
+1	1	id_prod	cadena(50)	Identificador del productor. Cadena de texto donde cada productor almacena el identificador que mantiene para cada elemento. Lleva un prefijo del productor.		1	False
+2	2	nombre	cadena	Nombre por el que se conoce al objeto geográfico concreto.		1	False
+3	3	idioma	cadena(11)	Idioma o idiomas en el que se expresa el nombre.		1	False
+4	4	nombre_spa	cadena	Nombre por el que se conoce al objeto geográfico concreto en castellano.		1	True
+5	5	nombre_cat	cadena	Nombre por el que se conoce al objeto geográfico concreto en catalán.		1	True
+6	6	nombre_glg	cadena	Nombre por el que se conoce al objeto geográfico concreto en gallego.		1	True
+7	7	nombre_eus	cadena	Nombre por el que se conoce al objeto geográfico concreto en euskera.		1	True
+8	8	nombre_oci	cadena	Nombre por el que se conoce al objeto geográfico concreto en occitano.		1	True
+9	9	id_ng	cadena(50)	Identificador de nomenclátor (para elementos con nombre y que estén registrados en el nomenclátor).		1	True
+10	10	fuente	cadena	"Fuente o procedencia de los datos. Da cabida tanto a ""método de captura"" como a ""responsable"" u ""organización"" que proporciona datos."		2	False
+11	11	f_altitud	lista_val	Cómo se ha obtenido la altitud de la geometría del objeto.		2	True
+12	12	fecha_ref	fecha	Fecha representativa de creación o modificación del objeto por parte del productor (por ejemplo, fecha del contrato de actualización).		2	False
+
+### TIPOS_GEOMETRIAS ###
+id	geometria	tipo_geom
+1	punto	PointZ
+2	linea	LineStringZ
+3	poligono	PolygonZ
+4	zona	PolygonZ
+5	alfanumerico	
+
+### TIPOS_VALORES ###
+id	tipo_valor	tipo_pg
+1	entero	integer
+2	fecha	timestamp without time zone
+3	real	double precision
+4	booleano	smallint
+5	cadena	character varying
+6	lista_val	varchar(3)
+7	cadena(6)	varchar(6)
+8	cadena(50)	varchar(50)
+9	guid	character varying(38)
+10	cadena(100)	varchar(100)
+11	cadena(20)	varchar(20)
+12	cadena(3)	varchar(3)
+13	cadena(4)	varchar(4)
+14	cadena(40)	varchar(40)
+
+### VALORES ###
+id	dominio_atr	orden_val	codigo_val	valor	dominio_base	valor_base	extendido	definicion
+760	tipo_0407s		PQI	Parque infantil	tipo_0407S		False	Espacio, generalmente acotado, dotado de diversas instalaciones, como columpios y toboganes, para diversión de los niños.
+775	tipo_0407s		PIN	Excavación de materiales	tipo_0407S		False	Área excavada en terreno a cielo abierto para el aprovecahmiento de algún mineral o material.
+776	tipo_0407s		AUX	Auxiliar construido	tipo_0407S		False	Cualquier elemento construido auxiliar, como bordillos, escalinatas, isletas de viales, etc.
+779	t_0407s_ex		CRZ	Cruz	tipo_0407S	MON	True	 Representación del símbolo cristiano, generalmente construida en piedra, que suele encontrarse en cruces de caminos o en lugares donde recuerda algún acontecimiento.  
+781	t_0407s_ex		TTE	Torre de tendido	tipo_0407S	ATE	True	Estructura o armazón de cierta altura que sustenta cables de tendido eléctrico, teléfono u otros suministros.
+782	t_0407s_ex		PTE	Poste de tendido	tipo_0407S	ATE	True	Soporte vertical que sustenta cables de tendido eléctrico, teléfono u otros suministros.
+783	t_0407s_ex		OTE	Otro apoyo de tendido	tipo_0407S	ATE	True	    El apoyo de tendido no puede clasificarse como ninguno de los valores anteriores.  
+793			PEX	Parque de ejercicios	tipo_0407S	PDP	True	Espacio al aire libre diseñado específicamente para la práctica de actividades físicas y deportivas, equipado con una variedad de aparatos y estructuras. Esto incluye parques de calistenia, de ejercicios para personas mayores y de fitness.
+796			CCL	Ciclismo	tipo_0407S	CDT	True	Es un circuito cerrado, generalmente ovalado diseñado para la práctica y competición de carreras de bicicletas.
+806	t_0407s_ex		ISV	Isleta de vial	tipo_0407S	AUX	True	
+807	t_0407s_ex		ESG	Escalinata-grada	tipo_0407S	AUX	True	
+808	t_0407s_ex		PSO	Placa solar	tipo_0407S	AUX	True	
+809	t_0407s_ex		MED	Mediana	tipo_0407S	AUX	True	
+810	t_0407s_ex		AND	Andén	tipo_0407S	AUX	True	
+811	t_0407s_ex		OAU	Otro auxiliar construido	tipo_0407S	AUX	True	
+860			BOC	Bocamina			False	Acceso a la extracción subterránea de algún tipo de mineral.
+1335	t_0904_ex		OVP	Otra vía pecuaria	tipo_0146l	OTR	True	Otras rutas o caminos utilizados para el tránsito de ganado que no se ajustan a las categorías, pero que son igualmente parte de las infraestructuras dedicadas a la circulación del ganado.
+680	tipo_0401s	1	CGN	Caso genérico			False	El edificio no presenta ninguna particularidad en especial como para pertenecer a alguno de los otros tipos.
+709	u_0401s_ex	1	CGU	Caso genérico			True	Caso general de uso empleado para las edificaciones destinadas a vivienda.
+724	estadofis	1	USO	En uso			False	El edificio u otra construcción se encuentra en uso o en condiciones constructivas aparentes para ser usado.
+728	tipo_0401p	1	CGN	Caso genérico			False	El edificio no presenta ninguna particularidad en especial como para pertenecer a alguno de los otros tipos.
+733	tipo_0404	1	SIL	Silo			False	Lugar cerrado y seco para guardar trigo u otros granos, semillas o forraje.
+750	situ_0404	1	ELE	Elevado			False	La construcción se encuentra elevada respecto a la superficie terrestre.
+754	tipo_0407s	1	TRF	Transformador			False	Conjunto de estructuras, generalmente al aire libre, diseñadas para aumentar o disminuir la tensión eléctrica.
+812	situ_0407s	1	ELE	Elevado			False	La construcción se encuentra elevada respecto a la superficie terrestre.
+816	tipo_0407l	1	MUE	Muelle			False	Construcción en la orilla de una masa de agua para facilitar el embarque y desembarque de personas y mercancías en o desde embarcaciones. En estaciones ferroviarias, andén para la carga de mercancías.
+850	situ_0407l	1	ELE	Elevado			False	La construcción se encuentra elevada respecto a la superficie terrestre.
+855	tipo_0407p	1	MON	Monumento			False	Construcción situada en un lugar público para conmemorar algo o que tiene cierto valor histórico o artístico.
+876	tipo_0410	1	LEL	Eléctrico			False	Conjunto de cables elevados, soportados por apoyos de tendido, destinados al transporte de energía eléctrica.
+880	v_0410_ex	1	400	400 kV			True	400 kV de tensión de red eléctrica.
+886	t_con_0413	1	HOR	Hormigón/mampostería			False	Material empleado para la construcción de las presas de tipo: gravedad, arco y contrafuerte. Puede ser utilizado con o sin armadura de acero.
+890	tipo_0501	1	CRA	Cantera			False	Sitio de donde se saca piedra, greda u otra sustancia análoga para obras varias.
+893	situ_0501	1	CAB	Cielo abierto			False	Servicio o instalación de extracción de materiales que se desarrolla en la superficie del terreno.
+895	e_0501_ex	1	HIS	Histórica			True	Servicio o instalación de extracción de materiales histórica que no se encuentra en funcionamiento.
+899	tipo_0504	1	CTE	Central térmica			False	Instalación donde se lleva a cabo la producción de energía electrica a partir de la energía térmica obtenida mediante la combustión de diferentes elementos fósiles. Se incluyen aquí también las plantas de biomasa, biogás y las de cogeneración.
+916	tipo_0507	1	ZIN	Zona Industrial			False	Zona urbanística donde se agrupan diferentes edificios, destinados a uso industrial, ubicados generalmente en el extrarradio de los núcleos de población.
+924	tipo_0510	1	AYT	Ayuntamiento			False	Casa consistorial.
+953	tipo_0513	1	CHA	Conjunto histórico artístico			False	Agrupación de edificios o infraestructuras declaradas legalmente como Bien de Interés Cultural (BIC).
+979	tram_curso	1	LIN	Lineal			False	Tramo de curso que no está dentro de una superficie de agua (embalse, laguna, recinto de curso de agua).
+982	canal_0201	1	CAN	Canalizado			False	Se han llevado a cabo obras para encauzar un curso natural de agua.
+984	regim_hidr	1	PEM	Permanente			False	Curso fluvial que en, régimen natural, presenta agua fluyendo, de manera habitual, durante todo el año en su cauce.
+990	jerar_0201	1	PRI	Primera			False	Solo aplicable a los ríos: Duero, Ebro, Guadalquivir, Guadiana, Júcar, Miño, Segura y Tajo.
+998	niv_a_0201	1	AGU	Agua aparente			False	Nivel de agua aparente correspondiente al instante de captura de la información.
+1001	tipo_0204	1	CAN	Canal			False	Cauce artificial de ancho >= 2 metros (m) que conduce agua con fines de abastecimiento, riego, navegación, trasvase, etc.
+1005	situ_0204	1	ELE	Elevado			False	El curso artificial se encuentra elevado respecto a la superficie terrestre.
+1008	tipo_0207	1	LAG	Lago/Laguna			False	Masa de agua de poca profundidad acumulada en la depresión natural de un terreno, con entrada de un río o arroyo pero sin desembocadura lo que provoca su estancamiento.
+1014	n_0207_ex	1	AGU	Agua aparente			True	Captura de la información a nivel del agua.
+1017	s_0207_ex	1	SSA	Sí			True	Agua salada.
+1020	niv_a_0210	1	NMX	Nivel máximo			False	Corresponde a la geometría de la cota máxima posible que puede almacenar el embalse.
+1023	tipo_0213	1	FTE	Fuente			False	Lugar, natural o artificial, donde existe una surgencia de agua (potable o no) acondicionado con una obra.
+1032	tipo_0216	1	CGN	Caso genérico			False	Masa de agua exterior a la línea de costa.
+1035	tipo_0219	1	ISM	Marítima			False	La isla se encuentra situada en el mar.
+1037	tipo_0301	1	CGN	Caso genérico			False	Caso genérico de curva de nivel.
+1042	tipo_0307l	1	ESC	Escarpado			False	Zona del terreno donde, de forma natural, existe una muy fuerte pendiente o un corte vertical del terreno.
+1051	tipo_0307s	1	ESC	Escarpado			False	
+1059	secc_0307	1	CAB	Cabeza			False	Línea que constituye el tramo de mayor altitud que delimita el fenómeno. 
+1062	situ_0310	1	SUP	En superficie			False	Punto de cota que se encuentra sobre la superficie terrestre.
+1068	tipo_0310	1	CGN	Caso genérico			False	Punto situado en un terreno que no presenta ninguna particularidad morfológica.
+1073	p_0310_ex	1	SPC	Sí			True	El punto de cota sí es puerto de carretera
+1075	j_0310_ex	1	PPO	Primer orden			True	Cimas de primer orden.
+1081	tipo_0313	1	CGE	Comarca geográfica			False	Territorio geográfico de extensión que se identifica por determinadas características físicas o culturales.
+1094	tipo_0313s	1	CGE	Comarca geográfica			False	Territorio geográfico de extensión que se identifica por determinadas características físicas o culturales.
+1101	j_0313_ex	1	CMP	Primer orden			True	Cadena montañosa de primer orden.
+1108	tipo_vial	1	RTT	Red Ten-T			False	Pertenencia a la Red Transeuropea de Transporte (TEN-T) definida y gestionada por la Agencia ejecutiva para la red transeuropea de transporte (DGMove).
+1112	vial_simpl	1	SI_	Sí			False	El vial es simple.
+1114	clase_0107	1	APE	Autopista de peaje			False	Carretera de acceso controlado donde se cobra una tarifa (peaje) por su uso.
+1118	orden	1	PRI	Principal			False	Todas las autopistas y autovías (independientemente de la administración titular), y también las carreteras convencionales y multicarriles de la Red de Carreteras del Estado).
+1123	titular	1	EST	Estado			False	La titularidad de la vía o de la infraestructura pertenece al Estado.
+1136	tram_trans	1	TRO	Troncal			False	Tramos que forman la parte principal de la carretera.
+1140	calzada	1	UNI	Única			False	Cuando el vial tiene sólo una calzada.
+1142	situ_trans	1	ELE	Elevado			False	El tramo está elevado respecto de la superficie terrestre.
+1147	esta_trans	1	USO	En uso			False	Se encuentra en uso.
+1150	acceso	1	LIB	Libre			False	Acceso a la carretera donde no se cobra ningún tipo de tarifa o peaje, y cualquier vehículo puede ingresar sin restricciones.
+1159	sentido_ex	1	UNI	Único			True	La carretera permite el tránsito en solo una dirección, es decir, todos los vehículos deben circular en el mismo sentido.
+1162	conex_ctra	1	SI_	Sí			False	El tramo de vía urbana forma parte de un tramo de carretera (es una travesía).
+1164	tipoveh_ex	1	PVV	Peatón VMP Vehiculo			True	Calzada por la que pueden circular peatones, Vehiculos de Movilidad Reducida (VMP) y resto de vehiculos autorizados.
+1167	tipo_0113l	1	PCA	Pista - camino			False	
+1173	firme_ex	1	PAV	Pavimentado			True	La superficie de la calzada tiene una estructura compuesta por varias capas de materiales, cuya capa superior, o de rodadura, generalmente es de asfalto.
+1176	tipo_0113s	1	PCA	Pista - camino			False	
+1181	tipo_pk	1	HIT	Hito			False	La posición del punto kilométrico se sitúa sobre el hito que lo materializa y éste existe y se ha identificado.
+1185	s_0116_ex	1	CRE	Creciente			True	Sentido creciente de la numeración a lo largo de la carretera en el que se encuentra el PK. 
+1188	tipo_0119	1	RVE	Recarga vehículo eléctrico			False	Punto de recarga de vehículo eléctrico.
+1190	tipo_0122	1	ASE	Área de servicio			False	Espacio ubicado a lo largo de una carretera o autopista, destinado a ofrecer diversos servicios a los conductores y pasajeros, como estaciones de gasolina, restaurantes, baños, tiendas, entre otros. 
+1195	tipo_0125	1	TRR	Tren			False	Vía férrea por la que circulan trenes, exceptuando funiculares, tranvías, trenes cremallera y metro.
+1201	tramo_0125	1	TRO	Troncal			False	Tramos que forman la parte principal de vía ferrea.
+1203	situ_0125	1	ELE	Elevado			False	El tramo está elevado respecto de la superficie terrestre.
+1206	ancho_via	1	IBE	Ibérico			False	Tramos de vía cuya distancia entre raíles es de 1,668 m, llamado también ancho Renfe.
+1211	electrific	1	SI_	Sí			False	El tramo está electrificado.
+1213	n_vias	1	UNI	Única			False	Tramo constituido por una vía única.
+1217	u_0125_ex	1	ALT	Alta velocidad			True	Uso predominante de alta velocidad.
+1219	tipo_0131	1	APC	Apartadero - cargadero			False	Instalación ferroviaria donde los trenes pueden apartarse para permitir el paso de otros y, a la vez, se utiliza para cargar o descargar mercancías. Generalmente, es una zona secundaria en la que los trenes no hacen parada para pasajeros.
+1232	uso_0131	1	PAS	Pasajeros			False	Estación destinada exclusivamente para la llegada, salida y espera de trenes que transportan personas.
+1235	tipo_0134	1	TLC	Telecabina			False	Teleférico de cable único para la tracción y la suspensión, dotado de cabina.
+1238	t_0137_ex	1	GEN	Caso genérico			True	Puerto que no está especializado en una actividad específica, sino que tiene una funcionalidad general.
+1246	tipo_0140	1	AER	Aeródromo			False	Aeródromo que está diseñado para operar con aeronaves convencionales, es decir, aviones que requieren pistas de aterrizaje y despegue. 
+1251	categ_0140	1	INT	Internacional			False	Aeródromo que está autorizado para recibir vuelos internacionales, es decir, vuelos que cruzan las fronteras de un país hacia o desde otros países.
+1254	gest_0140	1	AGE	Administración General del Estado			False	La gestión del aeródromo recae en la Administración General del Estado. 
+1257	u_0140_ex	1	CIV	Civil			True	Aeródromo de uso civil.
+1260	a_0140_ex	1	GEN	General			True	Aeródromo destinado a una amplia gama de actividades aeronáuticas, que no está especializado en un tipo de operación en particular.
+1263	tipo_0143	1	PDA	Pista de aterrizaje			False	Área rectangular definida en un aeródromo/helipuerto terrestre preparada para el aterrizaje y el despegue de aeronaves
+1266	tipo_0604	1	REG	REGENTE			False	Punto perteneciente a la red geodésica REGENTE, BALEAR98 o REGCAN95.
+1272	tipo_0901	1	PNA	Parque Nacional			False	Espacio natural de alto valor natural y cultural, poco alterado por la actividad humana que, en razón de sus excepcionales valores naturales, de su carácter representativo, la singularidad de su flora, de su fauna o de sus formaciones geomorfológicas, merece su conservación una atención preferente y se declara de interés general de la Nación por ser representativo del patrimonio natural español.
+1327	tipo_0904	1	CAN	Cañada			False	Vía para ganados trashumantes cuya anchura es mayor a 37,5 m es menor o igual a 75 m.
+1336	deslind_ex	1	SI_	Sí			True	Se ha realizado deslinde.
+1338	tipo_0801	1	ECO	Entidad Colectiva			False	"Agrupación de entidades singulares, como unidad intermedia entre la entidad singular de población y el municipio, que existen en algunas regiones, y conforman una entidad colectiva de población con personalidad propia y un origen marcadamente histórico.
+Información procedente del Instituto Nacional de Estadística (INE) del Ministerio de Asuntos Económicos y Transformación Digital y del Nomenclátor Geográfico de Municipios y Entidades de Población (NGMEP) del Instituto Geográfico Nacional."
+1346	ine_0801	1	NO_	No INE			False	No figura en el nomenclátor INE del año indicado en fecha INE.
+1348	tipo_0804	1	CAT	Autonómica			False	División adminsitrativa autonómica.
+1352	tipo_0701	1	S01	Prados y vegetación de ribera			False	
+689	tipo_0401s	10	PZT	Plaza de toros			False	Recinto donde se corren o lidian toros y se celebran otras fiestas públicas. Consta de un coso rodeado por una estructura diseñada para permitir a los espectadores asistir, sentados o de pie.
+718	u_0401s_ex	10	IFR	Infraestructuras			True	Edificaciones auxiliares en presas, transformadores, casetas eléctricas, etc.
+744	t_0404_ex	10	DAG	Depósito de agua	tipo_0404	DPO	True	Recipiente de almacenamiento de agua.
+764	tipo_0407s	10	PUE	Puente	tipo_0407S		False	Construcción sobre la cual una vía de comunicación u otra infraestructura (por ejemplo, un acueducto) puede salvar un obstáculo (río, barranco) o cruzar otras vías o infraestructuras situadas a niveles inferiores (carreteras, vías férreas, obras de desagüe, ríos, canales), que por sus características constructivas permite la circulación de automóviles.
+825	tipo_0407l	10	TUN	Túnel			False	Paso subterráneo artificial para establecer una comunicación.
+865	t_0407p_ex	10	FAR	Faro	tipo_0407p	SNV	True	Lugar donde se ubica una señal luminosa o de otro tipo que facilita la orientación y la navegación de embarcaciones en el mar.
+908	t_0504_ex	10	CCM	Ciclo combinado	tipo_0504	CTE	True	Instalación para la producción de energía eléctrica obtenida mediante la co-existencia de dos ciclos termodinámicos en un mismo sistema: uno cuyo fluido de trabajo es el vapor de agua y otro cuyo fluido de trabajo es un gas producto de una combustión.
+933	tipo_0510	10	TRA	Tratamiento aguas			False	Instalaciones, equipamiento o edificios utilizados para el tratamiento de aguas.
+962	tipo_0513	10	CAM	Camping			False	Recinto al aire libre, especialmente dispuesto y acondicionado para albergar personas, que posibilita la pernoctación segura de los mismos en tienda de campaña, autocaravana o bungalow.
+1093	t_0313_ex	10	OES	Otro elemento singular del paisaje	tipo_0313	ESP	True	Cualquier otro elemento singular del pasaje que no se englobe en ninguna de las otras categorias.
+1132	titular_ex	10	MIL	Militar	titular	OTR	True	La titularidad de la vía o de la infraestructura es militar.
+1228	t_0131_ex	10	ESF	Estación funicular	tipo_0131	OTR	True	Estación especializada en el servicio de trenes funiculares.
+1281	t_0901_ex	10	PRT	Parque Natural	tipo_0901	PAR	True	Parque Natural
+1361	tipo_0701	10	S10	Olivar			False	
+690	tipo_0401s	11	RFM	Refugio de montaña			False	Edificio situado en determinados lugares de las montañas para acoger a viajeros y excursionistas.
+719	u_0401s_ex	11	APP	Administraciones públicas			True	Construcción de administración pública.
+745	t_0404_ex	11	DHI	Depósito hidrocarburos	tipo_0404	DPO	True	Recipiente de almacenamiento de hidrocarburos.
+765	tipo_0407s	11	PAS	Pasarela	tipo_0407S		False	Construcción liviana sobre la cual los peatones pueden salvar y cruzar obstáculos, vías o infraestructuras situadas a niveles inferiores (carreteras, vías férreas, desniveles, ríos, canales), pero que por sus características constructivas no permite la circulación de automóviles.
+826	tipo_0407l	11	AUX	Auxiliar construido			False	Cualquier elemento construido auxiliar, como bordillos, escalinatas, isletas de viales, etc.
+866	t_0407p_ex	11	BPU	Baliza de puerto	tipo_0407p	SNV	True	Lugar donde se ubica una señal fija que indica la bocana del puerto y orienta a las embarcaciones para entrar en él y con un anclaje sólido a tierra firme. Señal afirmada al lecho marino mediante una estructura. Se trata de pilares o estacas de mampostería o armadura metálica situados en aguas poco profundas y que sirven para indicar canales o señalizar bajos.
+909	t_0504_ex	11	FOT	Fotovoltaica	tipo_0504	SOL	True	Instalación donde se lleva a cabo la producción de energía eléctrica obtenida directamente a partir de la radiación solar empleando semiconductores agrupados en paneles u otras superficies.
+934	tipo_0510	11	GRE	Gestion residuos			False	Infraestructura, instalación o edificación destinada al acopio y almacenaje de basura, residuos materiales de desecho o escorias de diferente tipo.
+963	tipo_0513	11	IOG	Instalación de ocio genérica			False	Tipo de instalación de ocio no contemplada en las otras tipologías.
+1091	t_0313_ex	11	ARB	Árbol	tipo_0313	ESP	True	Árbol que merece ser destacado por su tamaño o notabilidad.
+1133	titular_ex	11	EMI	Empresa minera	titular	OTR	True	La titularidad de la vía o de la infraestructura pertenece a una empresa minera
+1229	t_0131_ex	11	ESC	Estación tren cremallera	tipo_0131	OTR	True	Estación diseñada para trenes de cremallera.
+1282	t_0901_ex	11	PRG	Parque Regional	tipo_0901	PAR	True	Comunidad de Madrid, Ley 8/1991 Espacios Naturales Protegidos de Castilla y León; Ley 4/1992, de Ordenación y Protección del Territorio de la Región de Murcia
+1362	tipo_0701	11	S11	Olivar y viñedo			False	
+691	tipo_0401s	12	CUH	Cueva habitable			False	Espacio para albergar actividades humanas o económicas que normalmente se abre dentro de una roca y se completa con muros exteriores, y que puede tener en el interior estructuras análogas a las de los edificios convencionales.
+720	u_0401s_ex	12	SYE	Servicio y equipamiento			True	Bomberos, policía, biblioteca, etc.
+746	t_0404_ex	12	RSG	Otro residuos sólidos	tipo_0404	RSO	True	Otros residuos sólidos no contemplados en las categoriías anteriores.
+766	tipo_0407s	12	MUE	Muelle	tipo_0407S		False	Construcción en la orilla de una masa de agua para facilitar el embarque y desembarque de personas y mercancías en o desde embarcaciones. En estaciones ferroviarias, andén para la carga de mercancías.
+827	tipo_0407l	12	CGA	Conducción genérica			False	Canal, comúnmente tapado, que sirve para dar paso y salida a las aguas y otras cosas.
+867	t_0407p_ex	12	RDR	Radar	tipo_0407p	SNV	True	Sistema que utiliza radiaciones electromagnéticas reflejadas por un objeto para determinar la localización o velocidad de este.
+910	t_0504_ex	12	TMS	Termosolar	tipo_0504	SOL	True	Instalación, equipamiento o estructuras donde se lleva a cabo la producción de energía térmica obtenida directamente de la radiación solar mediante el uso de espejos o lentes. La energía térmica que se produce se transforma en energía mecánica destinada a mover diferentes generadores que producen la energía eléctrica.
+935	tipo_0510	12	ITE	Instalación de telecomunicaciones			False	Instalaciones destinadas a la captación y distribución de señales de radiodifusión sonora, televisión o telefonía.
+964	t_0513_ex	12	CEV	Centro de interpretación o visitantes	tipo_0513	ICG	True	Equipamiento cuyo principal objetivo es promover y divulgar el legado cultural e histórico de los bienes que expone o del lugar en el que se encuentra.
+1092	t_0313_ex	12	MIR	Mirador	tipo_0313	ESP	True	Emplazamiento estratégico que cuenta con vistas a un paisaje o zona determinada.
+1134	titular_ex	12	CAU	Ciudad Autónoma	titular	OTR	True	La titularidad de la vía o de la infraestructura pertenece a la Ciudad Autónoma
+1230	t_0131_ex	12	ESL	Estación tren ligero o metro ligero	tipo_0131	OTR	True	Estación destinada a trenes ligeros.
+1283	t_0901_ex	12	PPC	Parque Periurbano de Conservación y Ocio	tipo_0901	PAR	True	Ley 8/1998, Conservación de la Naturaleza y de Espacios Naturales de Extremadura
+1363	tipo_0701	12	S12	Viñedo y frutales			False	
+692	tipo_0401s	13	EST	Estadio			False	Edificio de grandes dimensiones, habitualmente cerrado, que puede estar al aire libre o cubierto, con numerosas gradas para los espectadores, destinado a competiciones deportivas u otros eventos culturales.
+721	u_0401s_ex	13	SOC	Servicio social			True	Construcción con uso social o asistencial.
+747	t_0404_ex	13	VER	Vertedero	tipo_0404	RSO	True	Lugar donde se vierten o acumulan basuras.
+767	tipo_0407s	13	ESL	Escollera	tipo_0407S		False	Obra construida mediante la acumulación de bloques de piedra u hormigón dispuestos para formar una defensa contra el oleaje, servir de cimento a un muelle o resguardar el pie de otra obra.  
+828	tipo_0407l	13	CHD	Conducción de hidrocarburos			False	Canal, comúnmente tapado, que sirve para transportar hidrocarburos.
+868	t_0407p_ex	13	VHR	VHOR	tipo_0407p	SNV	True	Dispositivo de radioayuda a la navegación que se localiza en los aeropuertos y es utilizado por las aeronaves para seguir en vuelo una ruta preestablecida.
+911	t_0504_ex	13	RFN	Refinería	tipo_0504	IHC	True	Fábrica o instalación industrial donde se refina un producto.
+936	tipo_0510	13	OTR	Otro			False	Otro servicio o instalación no contemplada en las anteriores tipologias.
+965	t_0513_ex	13	MUS	Museo	tipo_0513	ICG	True	Edificio o instalaciones, sin ánimo de lucro, en las que se conservan y exponen colecciones de objetos artísticos y científicos que pueden atraer el interés del público.
+1135	titular_ex	13	OTR	Otro titular	titular	OTR	True	La titularidad de la vía o de la infraestructura recae en otro organismo distinto a las anteriores categorias.
+1231	t_0131_ex	13	OES	Otra estación	tipo_0131	OTR	True	Categoría que abarca estaciones que no encajan específicamente en las definiciones anteriores, pudiendo incluir tipos menos comunes o estaciones con funciones específicas y particulares.
+1284	t_0901_ex	13	PRL	Parque Rural	tipo_0901	PAR	True	Decreto legislativo 1/2000 Ordenación del Territorio de Canarias y de Espacios Naturales de las Islas Canarias
+1364	tipo_0701	13	S13	Viñedo y herbáceos			False	
+693	tipo_0401s	14	PPD	Pabellón polideportivo			False	Edificio generalmente de grandes dimensiones, con un espacio diáfano muy amplio en su interior que suele albergar pistas deportivas o tiene un uso deportivo.
+722	u_0401s_ex	14	-97	Desconocido			True	Edificio del que se desconoce el valor de tipo uso.
+748	t_0404_ex	14	ESC	Escombrera	tipo_0404	RSO	True	Conjunto de escombros o desechos.
+768	tipo_0407s	14	PNT	Pantalán	tipo_0407S		False	Muelle o pasarela flotante para el embarque y desembarque, para el uso de barcos de poco tonelaje, construido con materiales livianos y que flota sobre el agua. 
+829	t_0407l_ex	14	MCO	Muro contención	tipo_0407l	OCO	True	Muro resistente destinado a contener el empuje de las tierras que se encuentran a un lado o evitar el desbordamiento de agua a los lados de una corriente.
+869	t_0407p_ex	14	OTN	Otra señal de navegación	tipo_0407p	SNV	True	Tipo señal de navegación no contemplada en las otras tipologías.
+912	t_0504_ex	14	RGS	Regasificadora	tipo_0504	IHC	True	Instalación industrial que existe entre la de extracción del gas natural licuado y la red de distribución de gas natural.
+937	t_0510_ex	14	HOS	Hospital	tipo_0510	SAN	True	Edificio o conjunto de edificios destinados al diagnóstico y tratamiento de enfermos donde, a menudo, se practican la investigación y la docencia.
+966	t_0513_ex	14	CCL	Centro cultural	tipo_0513	ICG	True	Equipamiento cuya principal finalidad es promover y mantener actividades de carácter cultural destinadas a la población de la zona.
+1285	t_0901_ex	14	RNE	Reserva Natural Especial	tipo_0901	RNT	True	Reserva Natural Especial
+1365	tipo_0701	14	S14	Olivar y herbáceos			False	
+694	tipo_0401s	15	INV	Invernadero			False	Construcción con techo, generalmente translúcido, para generar un ambiente favorable al cultivo de ciertas plantas.
+723	u_0401s_ex	15	-98	No aplicable			True	El atributo de uso no se aplica para este caso concreto.
+749	t_0404_ex	15	VRS	Vaso residuos sellado	tipo_0404	RSO	True	Vaso de residuos sólidos que ya no está en explotación y se encuentra en fase de sellamiento o ha sido sellado.
+769	tipo_0407s	15	MRL	Muralla	tipo_0407S		False	Muro u obra defensiva de carácter histórico que se empleaba para proteger un lugar.
+830	t_0407l_ex	15	ECO	Escollera contención	tipo_0407l	OCO	True	Obra de contención constituida mediante la acumulación de bloques de piedra u hormigón dispuestos para formar una defensa contra corrimientos de tierras, desprendimientos y/o el agua. 
+870	t_0407p_ex	15	TTE	Torre de tendido	tipo_0407p	ATE	True	Estructura o armazón de cierta altura que sustenta cables de tendido eléctrico, teléfono u otros suministros.
+913	t_0504_ex	15	ALM	Almacenaje	tipo_0504	IHC	True	Planta de almacenaje de energía.
+938	t_0510_ex	15	OCS	Otros centros sanitarios	tipo_0510	SAN	True	Edificio o conjunto de edificios destinados al diagnóstico y tratamiento de enfermos, de carácter no hospitalario. Ejemplos de este tipo son los centros de salud y los centros asistenciales.
+967	t_0513_ex	15	ABL	Archivo - biblioteca	tipo_0513	ICG	True	Equipamientos donde se almacenan, de forma ordenada y clasificada, documentación y libros, que pueden estar o no disponibles para la consulta o el préstamo.
+1286	t_0901_ex	15	RNF	Reserva Natural de Fauna Salvaje	tipo_0901	RNT	True	Ley 3/1988, de Protección de los Animales Cataluña
+1366	tipo_0701	15	S15	Olivar y frutal			False	
+695	tipo_0401s	16	REL	Arquitectura religiosa			False	Edificio dedicado a la congregación y culto religioso.
+770	tipo_0407s	16	CER	Cercado	tipo_0407S		False	Cerco de cualquier material que cierra o divide un espacio. Generalmente se emplean para marcar o delimitar dicho espacio o preservar la entrada a su interior. 
+831	t_0407l_ex	16	OOC	Otra obra contención	tipo_0407l	OCO	True	Otra obra de contención no contemplada en las anteriores tipologías.
+871	t_0407p_ex	16	PTE	Poste de tendido	tipo_0407p	ATE	True	Columna colocada verticalmente para servir de apoyo. Generalmente puede ser de madera o de hormigón.
+914	t_0504_ex	16	HID	Hidrogenera	tipo_0504	IHC	True	Planta en la que se produce hidrógeno con la finalidad de producción energética.
+939	t_0510_ex	16	CUN	Campus universitario	tipo_0510	EDU	True	Conjunto de terrenos, edificios e instalaciones asociadas a un centro universitario. No incluyen los asociados a colegios mayores.
+968	t_0513_ex	16	TAD	Teatro - auditorio	tipo_0513	ICG	True	Edificio o instalaciones destinadas principalmente a la representación de diferentes tipos de espectáculos.
+1287	t_0901_ex	16	RNP	Reserva Natural Parcial	tipo_0901	RNT	True	Ley 5/1991, de Protección de los Espacios Naturales del Principado de Asturias Ley 13/1985, de Espacios Naturales de Cataluña
+1367	tipo_0701	16	S16	Olivar, viñedo y herbáceos			False	
+696	tipo_0401s	17	LOC	Arquitectura local			False	Edificio local (por ejemplo horreo, casa de nieve, palomar, etc.). 
+771	tipo_0407s	17	ANT	Antena	tipo_0407S		False	Estructura o armazón de cierta altura para situar sistemas de emisión, recepción y/o amplificación de señales electromagnéticas.
+832	t_0407l_ex	17	MRO	Muro	tipo_0407l	CER	True	Pared o tapia.
+872	t_0407p_ex	17	OTE	Otro apoyo de tendido	tipo_0407p	ATE	True	Otro tipo de apoyo de tendido no contemplado en las anteriores tipologias. 
+915	t_0504_ex	17	OTR	Otra instalación de hidrocarburos	tipo_0504	IHC	True	Tipo de instalación de hidrocarburos no contemplada en las otras tipologías.
+940	t_0510_ex	17	CEU	Centro universitario	tipo_0510	EDU	True	Edificio o conjunto de edificios e instalaciones donde se desarrolla la enseñanza superior y que confiere los grados académicos correspondientes.
+969	t_0513_ex	17	PLT	Planetario	tipo_0513	ICG	True	Aparato o instalación que representa los planetas del sistema solar y reproduce los movimientos respectivos.
+1288	t_0901_ex	17	RNI	Reserva Natural Integral	tipo_0901	RNT	True	Ley 5/2005, la Conservación de los Espacios de Relevancia Ambiental (LECO) de Illes Balears; Ley 5/1991, de Protección de los Espacios Naturales del Principado de Asturias; Ley 13/1985, de Espacios Naturales de Cataluña Reserva natural marina Ley 11/1994, de Espacios Naturales Protegidos
+1368	tipo_0701	17	S17	Huerta			False	
+697	t_0401s_ex	18	CBA	Chabola	tipo_0401s	EDL	True	Vivienda de escasas proporciones y pobre construcción, que suele edificarse en zonas suburbanas.
+772	tipo_0407s	18	AER	Aerogenerador	tipo_0407S		False	Estructura o armazón de cierta altura que soporta un mecanismo de unas palas para transformar la energía eólica en eléctrica.
+833	t_0407l_ex	18	SET	Seto	tipo_0407l	CER	True	Cercado hecho de matas o arbustos, o de palos o varas entretejidos.
+873	t_0407p_ex	18	ACO	Antena comunicaciones	tipo_0407p	ANT	True	Tipo de antena utilizada para las telecomunicaciones.
+941	t_0510_ex	18	CED	Centro docente no universitario	tipo_0510	EDU	True	Edificio o conjunto de edificios e instalaciones, de titularidad pública o privada, donde se imparten enseñanzas regladas no universitarias, confiriendo la titulación académica correspondiente.
+970	t_0513_ex	18	OIC	Otra instalación cultural	tipo_0513	ICG	True	Tipo de instalación cultural no contemplada en las otras tipologías.
+1289	t_0901_ex	18	RNC	Reserva Natural Concertada	tipo_0901	RNT	True	Ley 2/ 1989, del Inventario de Espacios Naturales de Andalucía
+1369	tipo_0701	18	S18	Pastizales			False	
+698	t_0401s_ex	19	CST	Caseta o cobertizo	tipo_0401s	EDL	True	Sitio cubierto ligera o rústicamente para resguardar de la intemperie personas, animales o efectos.
+773	tipo_0407s	19	CGA	Conducción genérica	tipo_0407S		False	Conjunto de conductos dispuestos para el paso y distribución de algún fluido, exceptuando el de hidrocarburos.
+834	t_0407l_ex	19	VAL	Valla	tipo_0407l	CER	True	Línea o término formado de estacas hincadas en el suelo o de tablas unidas, para cerrar algún sitio o señalarlo.
+874	t_0407p_ex	19	AES	Antena observación espacial 	tipo_0407p	ANT	True	Tipo de antena utilizada para la observación espacial.
+942	t_0510_ex	19	OCD	Otros centros docentes	tipo_0510	EDU	True	Edificio o conjunto de edificios e instalaciones donde se imparten enseñanzas no regladas.
+971	t_0513_ex	19	GLF	Campo de golf	tipo_0513	DEP	True	Recinto al aire libre, acondicionado y equipado especialmente para practicar el deporte del golf. Suele contener una superficie cubierta por césped, existiendo adicionalmente zonas arboladas, cubiertas por arena o superficies de agua de tamaño variable.
+1290	t_0901_ex	19	RND	Reserva Natural Dirigida	tipo_0901	RNT	True	Ley 6/1998, de Espacios Naturales Protegidos de Aragón
+1370	tipo_0701	19	S19	Matorrales			False	
+681	tipo_0401s	2	TOR	Edificio fortificado			False	Edificio dotado de obras de defensa. Incluye: torre defensiva, torreón, torre vigía, casa-torre, palacio-torre, casa fortificada.
+710	u_0401s_ex	2	IDT	Industrial			True	Construcción con uso industrial. 
+725	estadofis	2	CON	En construcción			False	El edificio u otra construcción se encuentra en construcción o en proyecto a la fecha de captura de los datos.
+729	tipo_0401p	2	TOR	Edificio fortificado			False	Edificio dotado de obras de defensa. Incluye: torre defensiva, torreón, torre vigía, casa-torre, palacio-torre, casa fortificada.
+734	tipo_0404	2	DPO	Depósito			False	Recipiente cerrado destinado al acopio o almacenaje de productos (grano, forraje, áridos) o sustancias (agua, hidrocarburos, gas). En el tipo extendido clasifica según el tipo de material o sustancia
+751	situ_0404	2	SUB	Subterráneo			False	La construcción se encuentra bajo la superficie terrestre.
+755	tipo_0407s	2	MON	Monumento	tipo_0407S		False	"Elemento de interés, obra artística y patente (por ejemplo, una estatua) situada en la vía pública en conmemoración de un hecho o personaje histórico o con fines puramente ornamentales. A su vez, por el atributo tipo extendido se clasifica en:
+"
+813	situ_0407s	2	SUB	Subterráneo			False	La construcción se encuentra bajo la superficie terrestre.
+817	tipo_0407l	2	ESL	Escollera			False	Obra hecha con piedras echadas al fondo del agua, para formar un dique de defensa contra el oleaje, para servir de cimiento a un muelle o para resguardar el pie de otra obra.
+887	t_con_0413	2	ACM	Acumulación materiales			False	Presas formadas por rocas o tierras sueltas sin cementar. Para conseguir la impermeabilidad de la presa se construyen pantallas impermeables de arcilla, asfalto o algún material sintético.
+851	situ_0407l	2	SUB	Subterráneo			False	La construcción se encuentra bajo la superficie terrestre.
+856	tipo_0407p	2	SNV	Señal de navegación			False	Dispositivo visual, acústico o radioeléctrico destinado a garantizar la seguridad de la navegación y a facilitar sus movimientos
+877	tipo_0410	2	OTR	Otro			False	Conjunto de cables elevados, soportados por apoyos de tendido, no destinados al transporte de energía eléctrica.
+881	v_0410_ex	2	220	220 kV			True	220 kV de tensión de red eléctrica.
+891	tipo_0501	2	MIN	Mina			False	Excavación que se hace para extraer un mineral.
+894	situ_0501	2	SUB	Subterráneo			False	Servicio o instalación de extracción de materiales que se desarrolla bajo la superficie del terreno.
+896	e_0501_ex	2	ACT	Activa			True	Servicio o instalación de extracción de materiales en funcionamiento.
+900	tipo_0504	2	NUC	Central nuclear			False	Instalación donde se obtiene energía eléctrica a partir de la fisión nuclear de elementos radioactivos.
+917	tipo_0507	2	PTE	Parque tecnológico			False	Agrupación de edificios o instalaciones donde se estimula y gestiona el flujo de conocimiento y tecnología entre universidades e instituciones de investigación, empresas y mercados.
+925	tipo_0510	2	APP	Administraciones públicas			False	Edificio o conjunto de edificios e instalaciones donde se desarrollan actividades relacionadas con la administración pública.
+954	tipo_0513	2	FOR	Castillo - Fortaleza			False	Recinto defensivo que puede incluir en su interior torres, edificios, murallas, fosos, etc, generalmente situado en alguna eminencia del terreno.
+980	tram_curso	2	EJE	Eje			False	Tramo de curso que discurre dentro de una superficie de agua (embalse, laguna, recinto de curso de agua).
+983	canal_0201	2	CGN	Caso genérico			False	El curso de agua discurre por su cauce natural.
+985	regim_hidr	2	NPE	No permanente			False	Curso fluvial que en, régimen natural, no presenta agua fluyendo, de manera habitual, durante todo el año en su cauce.
+991	jerar_0201	2	SEG	Segunda			False	Ríos de longitud mayor de 90 km y que no están en la lista de los de primera.
+999	niv_a_0201	2	CAU	Cauce habitual aparente			False	Cauce habitual aparente del curso natural.
+1002	tipo_0204	2	ACE	Acequia			False	Cauce artificial de ancho < 2 metros (m) principalmente destinado a la conducción de agua para riego.
+1006	situ_0204	2	SUB	Subterráneo			False	El curso artificial se encuentra bajo la superficie terrestre.
+1009	tipo_0207	2	MRM	Marisma			False	Terreno bajo y pantanoso que inundan las aguas del mar.
+1015	n_0207_ex	2	VEG	Vegetación			True	Captura de la información a nivel de la vegetación.
+1018	s_0207_ex	2	NSA	No			True	Agua dulce.
+1021	niv_a_0210	2	NVE	Vegetación			False	Nivel aparente obtenido por fotointerpretación sobre las imágenes PNOA, correspondiente al nivel de vegetación.
+1024	tipo_0213	2	MAN	Manantial			False	Lugar donde nace o brota, de forma natural, el agua.
+1033	tipo_0216	2	EGB	Estrecho, golfo o bahía			False	Paso angosto comprendido entre dos tierras y por el cual se comunica un mar con otro. Gran porción de mar que se interna en la tierra entre dos cabos.
+1036	tipo_0219	2	AIN	Aguas interiores			False	La isla se encuentra situada en un recinto de agua situado tierra adentro.
+1038	tipo_0301	2	DEP	De depresión			False	La curva de nivel está en una zona donde el terreno está hundido respecto a su entorno.
+1043	tipo_0307l	2	BAN	Margen de bancal			False	Límite de un rellano de tierra, formado natural o artificialmente, situado en las laderas de las montañas y que frecuentemente se aprovecha para el cultivo.
+1052	tipo_0307s	2	TAL	Talud			False	
+1060	secc_0307	2	PIE	Pie			False	Línea que constituye el tramo de menor altitud que delimita el fenómeno.
+1063	situ_0310	2	SCE	Sobre construcción elevada			False	Punto de cota que se encuentra sobre edificaciones o estructuras elevadas.
+1069	tipo_0310	2	PIC	Pico o cima			False	Punto de cota máxima en su entorno, rodeado de curvas de nivel de cota inferior.
+1074	p_0310_ex	2	NPC	No			True	El punto de cota no es puerto de carretera
+1076	j_0310_ex	2	PSP	Segundo orden			True	Cimas de segundo orden.
+1082	tipo_0313	2	PAR	Paraje			False	Lugar no habitado, tierras, campo de cultivo, bosque, depresión, valle, hondonada, nava, vaguada, barranco no asociado a curso de agua, llano, etc. 
+1095	tipo_0313s	2	PAR	Paraje			False	Lugar no habitado, tierras, campo de cultivo, bosque, depresión, valle, hondonada, nava, vaguada, barranco no asociado a curso de agua, llano, etc. 
+1102	j_0313_ex	2	CMS	Segundo orden			True	Cadena montañosa de segundo orden.
+1109	tipo_vial	2	IEU	Itinerario europeo			False	Ruta gestionada por la Comisión Económica de las Naciones Unidas para Europa (UNECE), que forma parte de la red internacional de carreteras europeas, caracterizadas por su identificador de itinerario europeo.
+1113	vial_simpl	2	NO_	No			False	El vial no es simple.
+1115	clase_0107	2	AUT	Autopista libre o autovía			False	
+1119	orden	2	POR	Primer orden			False	La carretera posee categoría de primer orden.
+1124	titular	2	CAU	Comunidad Autónoma			False	La titularidad de la vía o de la infraestructura pertenece a la Comunidad Autónoma
+1137	tram_trans	2	VSE	Vía servicio			False	Vía sensiblemente paralela a una carretera, respecto de la cual tiene carácter secundario, conectada a ella solamente en algunos puntos, y que sirve a las propiedades o edificios contiguos.
+1141	calzada	2	DUP	Duplicada o superior			False	" Cuando el vial tiene más de una calzada.
+"
+1143	situ_trans	2	SUB	Subterráneo			False	El tramo está bajo el nivel de la superficie terrestre.
+1148	esta_trans	2	CON	En construcción			False	Se encuentra en construcción o en proyecto
+1151	acceso	2	PEA	Peaje			False	Acceso donde los vehículos deben pagar una tarifa para ingresar o utilizar la carretera.
+1160	sentido_ex	2	DOB	Doble			True	La carretera permite el tránsito en ambas direcciones, con carriles separados para cada sentido de circulación.
+1163	conex_ctra	2	NO_	No			False	El tramo de vía urbana no forma parte de un tramo de carretera.
+1165	tipoveh_ex	2	PEV	Peatón VMP			True	Calzada por la que pueden circular peatones y Vehiculos de Movilidad Reducida (VMP).
+1168	tipo_0113l	2	SEN	Senda			False	Vía estrecha abierta por el tránsito de peatones o ganado menor.
+1174	firme_ex	2	TSU	Tratamiento superficial			True	La superficie de la calzada puede tener una capa de materiales como grava, arena, o una mezcla de estos que proporciona una superficie de rodadura mejorada en comparación con una carretera de tierra, pero sin llegar a la calidad y durabilidad del asfalto.
+1177	tipo_0113s	2	BIC	Carril bici			False	Vía diseñada y construida exclusivamente para el tránsito de bicicletas.
+1182	tipo_pk	2	ECH	En eje con hito			False	La posición del punto kilométrico se sitúa sobre el eje de la vía y el hito existe y se ha identificado. 
+1186	s_0116_ex	2	DEC	Decreciente			True	Sentido decreciente de la numeración a lo largo de la carretera en el que se encuentra el PK. 
+1189	tipo_0119	2	RHC	Repostaje hidrocarburos			False	Punto de repostaje de hidrocarburos.
+1191	tipo_0122	2	ADE	Área de descanso			False	Zona habilitada para que los conductores y viajeros puedan detenerse temporalmente a descansar durante un viaje. Generalmente, incluye bancos, mesas, baños y, en algunos casos, zonas verdes.
+1196	tipo_0125	2	TRA	Tranvía			False	Vía férrea, situada en una vía pública o calle, por la que circulan ferrocarriles, que permite la coexistencia con el resto de circulación urbana (automóviles, personas).
+1202	tramo_0125	2	PLV	Playa de vías			False	DEFINICIÓN RT: Área ocupada por una serie de vías de raíl, normalmente más de dos, interconectadas entre ellas, usadas para la carga y descarga de mercancías sin interrumpir el tráfico principal
+1204	situ_0125	2	SUB	Subterráneo			False	El tramo está bajo el nivel de la superficie terrestre.
+1207	ancho_via	2	INT	Internacional			False	Para aquellas vías cuyo ancho sea de 1,435 m, mayoritario en Europa. 
+1212	electrific	2	NO_	No			False	El tramo no está electrificado.
+1214	n_vias	2	DOB	Doble			False	Tramo constituido al menos por una vía en cada sentido.
+1218	u_0125_ex	2	OTR	Otro			True	Otros usos que no encajan con la tipologia de alta velocidad.
+1220	tipo_0131	2	ACA	Apeadero - cargadero			False	Similar al apartadero-cargadero, pero con una función más centrada en la carga o descarga de mercancías, y con una parada limitada para los pasajeros. No es una estación completa, sino una parada o lugar de transbordo.
+1233	uso_0131	2	MER	Mercancías			False	Estación especializada en el manejo, carga y descarga de bienes y productos transportados por tren.
+1236	tipo_0134	2	TLS	Telesilla			False	Asiento suspendido de un cable de tracción, para el transporte de personas a la cumbre de una montaña o a un lugar elevado. 
+1239	t_0137_ex	2	COM	Comercial			True	Puerto dedicado principalmente al comercio, que se utiliza para la importación y exportación de mercancías.
+1247	tipo_0140	2	AEH	Aeródromo con helipuerto			False	Aeródromo que no solo tiene instalaciones para aviones convencionales, sino también un helipuerto, permitiendo operaciones de ambos vehículos.
+1252	categ_0140	2	NAC	Nacional			False	Aeródromo que solo está autorizado para recibir vuelos dentro de un mismo país.
+1255	gest_0140	2	OAD	Otras administraciones públicas			False	La gestión del aeródromo recae en otras administraciones publicas distintas de la Administración General del Estado. 
+1258	u_0140_ex	2	MIL	Militar			True	Aeródromo de uso militar.
+1261	a_0140_ex	2	PAS	Pasajeros			True	Aeródromo principalmente destinado a la llegada, salida y manejo de vuelos comerciales de pasajeros, equipado con instalaciones y servicios relacionados con el transporte aéreo de viajeros.
+1264	tipo_0143	2	CDR	Calle de rodaje			False	Vía definida en un aeródromo/helipuerto, establecida para el rodaje de aeronaves/helicópteros y destinada a proporcionar enlace entre dos partes del aeródromo. Debe estar contenida en un área de aeródromo.
+1267	tipo_0604	2	ROI	ROI			False	Punto perteneciente a la red geodésica ROI, Red de Orden Inferior.
+1273	tipo_0901	2	PAR	Parque			False	Parques Áreas naturales, que, en razón a la belleza de sus paisajes, la representatividad de sus ecosistemas o la singularidad de su flora, de su fauna o de su diversidad geológica, incluidas sus formaciones geomorfológicas, poseen unos valores ecológicos, estéticos, educativos y científicos cuya conservación merece una atención preferente.
+1328	tipo_0904	2	COR	Cordel			False	Vía pastoril para los ganados trashumantes cuya anchura es mayor a 20 m es menor o igual a 37,5 m.
+1337	deslind_ex	2	NO_	No			True	No se ha realizado deslinde. 
+1339	tipo_0801	2	ESI	Entidad Singular			False	"Área habitable del término municipal, habitada o excepcionalmente deshabitada, claramente diferenciada dentro del mismo, y que es conocida por una denominación específica que la identifica sin posibilidad de confusión.
+Información procedente del Instituto Nacional de Estadística (INE) del Ministerio de Asuntos Económicos y Transformación Digital y del Nomenclátor Geográfico de Municipios y Entidades de Población (NGMEP) del Instituto Geográfico Nacional.
+"
+1347	ine_0801	2	SI_	INE			False	Sí figura en el nomenclátor INE del año indicado en fecha INE. Información de Poblaciones INE procedente de Información Geográfica de Referencia de Poblaciones (IGR_PO) del Instituto Geográfico Nacional.
+1349	tipo_0804	2	CPR	Provincial			False	División adminsitrativa provincial.
+1353	tipo_0701	2	S02	Secano			False	
+699	t_0401s_ex	20	NAA	Nave abierta	tipo_0401s	EDL	True	Edificio abierto de dimensiones y geometría aptas para la producción y/o almacenamiento de bienes industriales.
+774	tipo_0407s	20	CHD	Conducción de hidrocarburos	tipo_0407S		False	Conjunto de conductos dispuestos para el paso y distribución de hidrocarburos. 
+835	t_0407l_ex	20	ALA	Alambrada	tipo_0407l	CER	True	Construcción vertical hecha de alambre y en ocasiones cubierta de vegetación para cerrar un espacio de terreno.
+875	t_0407p_ex	20	OAN	Otra antena	tipo_0407p	ANT	True	Tipo de antena no incluida en las anteriores categorías.
+943	t_0510_ex	20	BOM	Bomberos	tipo_0510	OPS	True	Estación o instalación pública donde se almacenan los vehículos y equipos de extinción de incendios, y, a su vez, lugar de trabajo del personal dedicado a la prestación de servicios de prevención y extinción de incendios.
+972	t_0513_ex	20	VEL	Circuito velocidad	tipo_0513	DEP	True	Zona destinada a la celebración de carreras de velocidad (automóviles, motos, karts, etc.) o a enseñanza vial, que engloba la pista de competición y resto de instalaciones o servicios.
+1291	t_0901_ex	20	RNM	Reserva Natural Marina	tipo_0901	RNT	True	Reserva Natural Marina
+1371	tipo_0701	20	S20	Frondosas			False	
+700	t_0401s_ex	21	MQS	Marquesina	tipo_0401s	EDL	True	Construcción protegida por los lados y cubierta, destinada, en las paradas de transportes públicos, a guardar del sol y la lluvia a quienes esperan.
+777	tipo_0407s	21	OTR	Otro	tipo_0407S		False	Otro tipo de construcción no contemplado en las otras tipologías.
+836	t_0407l_ex	21	CEG	Otro cercado	tipo_0407l	CER	True	Vallado o tapia que rodea normalmente a un huerto, prado u otra cosa para su resguardo.
+944	t_0510_ex	21	EME	Emergencias sanitarias	tipo_0510	OPS	True	Edificio o conjunto de edificios e instalaciones con equipamiento y personal para atender a la población en situaciones de emergencias sanitarias.
+973	t_0513_ex	21	EIN	Estación invernal	tipo_0513	DEP	True	Conjunto de terrenos, infraestructuras y equipamientos para uso recreativo, deportivo o turístico y especialmente diseñados para la práctica de deportes de invierno como, por ejemplo, esquí o snowboard.
+1292	t_0901_ex	21	MNN	Monumento Natural de Interés Nacional	tipo_0901	MNT	True	Monumento Natural de Interés Nacional
+1372	tipo_0701	21	S21	Coníferas			False	
+701	t_0401s_ex	22	NIC	Nicho	tipo_0401s	EDL	True	
+778	t_0407s_ex	22	FTO	Fuente ornamental	tipo_0407S	MON	True	Estanque destinado al uso ornamental.  
+837	t_0407l_ex	22	BOR	Bordillo	tipo_0407l	AUX	True	Faja o cinta de piedra que forma el borde de una acera, de un andén, etc.
+945	t_0510_ex	22	CIV	Protección civil	tipo_0510	OPS	True	Edificio o conjunto de edificios e instalaciones con equipamiento y personal de protección civil.
+974	t_0513_ex	22	OZD	Otra zona deportiva	tipo_0513	DEP	True	Recinto o área especialmente diseñada y construida para la práctica de deportes diversos.
+1293	t_0901_ex	22	ZIR	Zona de Interés Regional	tipo_0901	RNA	True	Zona de Interés Regional
+1373	tipo_0701	22	S22	Arbolado Mixto			False	
+702	t_0401s_ex	23	OEL	Otro edificio ligero	tipo_0401s	EDL	True	Construcción para dotar de cierta protección a los elementos que se encuentran bajo ella.
+780	t_0407s_ex	23	OMT	Otro monumento	tipo_0407S	MON	True	 Otro monumento: Monumento sin particularidad que merezca ser reseñada. Cualquier monumento que no se haya clasificado.  
+838	t_0407l_ex	23	ESG	Escalinata-grada	tipo_0407l	AUX	True	Escalera amplia y generalmente artística, en el exterior o en el vestíbulo de un edificio.
+946	t_0510_ex	23	POL	Policía	tipo_0510	OPS	True	Edificio o conjunto de edificios e instalaciones utilizado como estación u oficina de policía.
+975	t_0513_ex	23	PRD	Parador	tipo_0513	IOG	True	Establecimiento hotelero dependiente de organismos oficiales.
+1294	t_0901_ex	23	ZRN	Zona de la Red Ecológica Europea Natura 2000	tipo_0901	RNA	True	Zona de la Red Ecológica Europea Natura 2000
+1374	tipo_0701	23	S23	Dehesa			False	
+703	t_0401s_ex	24	CAT	Catedral	tipo_0401s	REL	True	Iglesia principal de una diócesis, sede del obispado.
+784	t_0407s_ex	24	FUT	Campo de fútbol	tipo_0407S	CDP	True	 es un terreno rectangular, generalmente de césped natural o artificial, donde se juega el deporte del fútbol. Está marcado con líneas que delimitan el área de juego, las porterías y otras áreas como el centro del campo y el área penal.
+839	t_0407l_ex	24	MET	Estructura metálica	tipo_0407l	AUX	True	Armadura metálica que, fija al suelo, sirve de sustentación a un edificio u otro objeto.
+947	t_0510_ex	24	GUA	Guardia Civil	tipo_0510	OPS	True	Edificio o conjunto de edificios e instalaciones utilizados por la Guardia Civil.
+976	t_0513_ex	24	ABG	Albergue	tipo_0513	IOG	True	Establecimiento que proporciona hospedaje para estancias cortas. Normalmente situados en zonas de montaña, de paso o estratégicas.
+1295	t_0901_ex	24	ZIC	Zona de Importancia Comunitaria ZIC (ZEPA/ZEC)	tipo_0901	RNA	True	Zona de Importancia Comunitaria ZIC (ZEPA/ZEC)
+1375	tipo_0701	24	S24	Cortafuegos			False	
+704	t_0401s_ex	25	ERM	Ermita	tipo_0401s	REL	True	Santuario o capilla -por lo general- en despoblado, aislada o en alto.
+785	t_0407s_ex	25	RUG	Campo de rugby	tipo_0407S	CDP	True	    es un terreno rectangular con marcas específicas donde se juega el deporte del rugby, que incluye líneas de juego, áreas de anotación y postes de gol. 
+948	t_0510_ex	25	OOP	Otro orden público y seguridad	tipo_0510	OPS	True	Tipo de instalación de orden público y seguridad no contemplada en las otras tipologías.
+977	t_0513_ex	25	BLN	Balneario	tipo_0513	IOG	True	Edificación dotada de instalaciones apropiadas para tomar baños medicinales y curativos y en el cual suele darse hospedaje.
+1296	t_0901_ex	25	ZES	Zona Especial de Conservación	tipo_0901	RNA	True	Zona Especial de Conservación
+1376	tipo_0701	25	S25	Roquedo			False	
+705	t_0401s_ex	26	IGL	Iglesia	tipo_0401s	REL	True	Edificio dedicado a la congregación y culto de la religión cristiana.
+786	t_0407s_ex	26	BEI	Campo de béisbol	tipo_0407S	CDP	True	es un terreno rectangular con bases ubicadas en las esquinas, un montículo de lanzamiento en el centro y un área de campo externo delimitada, donde se juega el deporte del béisbol.
+840	t_0407l_ex	26	PAC	Pantalla acústica	tipo_0407l	AUX	True	Superficie que sirve de protección acústica.
+949	t_0510_ex	26	TAP	ETAP	tipo_0510	TRA	True	Instalación o conjunto de instalaciones e infraestructuras destinadas al tratamiento de agua potable.
+978	t_0513_ex	26	OTI	Otra instalación de ocio	tipo_0513	IOG	True	Tipo de instalación de ocio no contemplada en las otras tipologías.
+1297	t_0901_ex	26	RIN	Reserva Integral	tipo_0901	OEN	True	Ley Foral 9/1996, de Espacios Naturales de la Comunidad Foral de Navarra
+1377	tipo_0701	26	S26	Suelo desnudo			False	
+706	t_0401s_ex	27	MEZ	Mezquita	tipo_0401s	REL	True	Edificio dedicado a la congregación y culto de la religión islámica.
+787	t_0407s_ex	27	OCD	Otro campo deportivo	tipo_0407S	CDP	True	Otro campo deportivo no clasificado en las anteriores categorías.
+841	t_0407l_ex	27	PSO	Placa solar	tipo_0407l	AUX	True	Dispositivo, en forma de plancha rígida y no muy gruesa, que capta la energía de la radiación solar para su aprovechamiento.
+950	t_0510_ex	27	DAR	EDAR	tipo_0510	TRA	True	Instalación o conjunto de instalaciones e infraestructuras destinadas al tratamiento de aguas residuales para reducir su contaminación.
+1298	t_0901_ex	27	PNT	Paraje Natural	tipo_0901	OEN	True	Ley 11/1994, de Espacios Naturales Protegidos de la Comunidad Valenciana; Ley 5/2005, de Conservación de los Espacios de Relevancia Ambiental de Illes Balears; Ley 2/1989, del Inventario de Espacios Naturales Protegidos de Andalucía
+1378	tipo_0701	27	S27	Temporalmente desarbolado por incendios			False	
+707	t_0401s_ex	28	SIN	Sinagoga	tipo_0401s	REL	True	Edificio dedicado a la congregación y culto de la religión judia.
+788	t_0407s_ex	28	TEN	Pista de tenis	tipo_0407S	PDP	True	Es una superficie rectangular dividida por una red, utilizada para jugar al tenis.
+842	t_0407l_ex	28	CIT	Cinta transportadora	tipo_0407l	AUX	True	Dispositivo mecánico formado por una banda móvil que traslada mercancías, equipajes, personas, etc.
+951	t_0510_ex	28	DES	Desalinizadora	tipo_0510	TRA	True	Instalación o conjunto de instalaciones e infraestructuras destinadas a eliminar la sal presente en el agua salobre (ya sea procedente del mar o de lagos salados) para convertirla en potable para el consumo humano o para ciertos usos industriales.
+1299	t_0901_ex	28	PNN	Paraje Natural de Interés Nacional	tipo_0901	OEN	True	Ley 13/1985, de Espacios Naturales de Cataluña
+1379	tipo_0701	28	S28	Lavas			False	
+708	t_0401s_ex	29	OAR	Otra arquitectura religiosa	tipo_0401s	REL	True	Otra edificación de arquitectura religiosa no contemplado en la anterior clasificación
+789	t_0407s_ex	29	BAL	Pista de baloncesto	tipo_0407S	PDP	True	es un área rectangular con un piso duro y liso, marcada con líneas específicas, donde se juega el deporte del baloncesto.
+843	t_0407l_ex	29	MED	Mediana	tipo_0407l	AUX	True	En un vial, separación que impide el paso entre los carriles de dirección contraria.
+952	t_0510_ex	29	OTA	Otro tratamiento de aguas	tipo_0510	TRA	True	Tipo de instalación, equipamiento o edificio utilizado para el tratamiento de aguas no contemplado en las otra tipologías.
+1300	t_0901_ex	29	PNM	Paraje Natural Municipal	tipo_0901	OEN	True	Ley 11/1994, de Espacios Naturales Protegidos de la Comunidad Valenciana
+1380	tipo_0701	29	S29	Playas y dunas			False	
+682	tipo_0401s	3	TVI	Torre de vigilancia			False	Estructura estrecha y relativamente alta utilizada para labores de vigilancia, que puede estar aislada o formar parte de otra estructura.
+711	u_0401s_ex	3	CMC	Comercial			True	Construcción con uso comercial. 
+726	estadofis	3	RUI	En ruinas			False	El edificio u otra construcción evidencia un pésimo estado, decadencia o amenaza con caer.
+730	tipo_0401p	3	TVI	Torre de vigilancia			False	Estructura estrecha y relativamente alta utilizada para labores de vigilancia, que puede estar aislada o formar parte de otra estructura.
+735	tipo_0404	3	PIS	Piscina			False	Recinto que almacena agua con el objeto de usarla para el baño o natación. 
+752	situ_0404	3	SUP	En superficie			False	La construcción se encuentra sobre la superficie terrestre.
+756	tipo_0407s	3	ATE	Apoyo de tendido	tipo_0407S		False	Construcción o estructura destinada a sostener las líneas aéreas de energía y telecomunicaciones y cables al transporte por cable, o hacer de suporte entre el centro emisor o receptor de ondas para las telecomunicaciones.
+814	situ_0407s	3	SUP	En superficie			False	La construcción se encuentra sobre la superficie terrestre.
+818	tipo_0407l	3	PNT	Pantalán			False	Muelle o pasarela sustentado por pilares o flotando sobre el agua. Al estar sobre el agua no puede coincidir con la línea de agua (Línea de costa, margen de embalse, río, etc).
+888	t_fun_0413	3	PGN	Caso genérico			False	Presa genérica.
+852	situ_0407l	3	SUP	En superficie			False	La construcción se encuentra sobre la superficie terrestre.
+857	tipo_0407p	3	ATE	Apoyo de tendido			False	Estructura, armazón o poste de cierta altura que sustenta cables de tendido eléctrico, telefónico u otros suministros.
+878	t_0410_ex	3	COM	Comunicación	tipo_0410	OTR	False	Conjunto de cables elevados, soportados por apoyos de tendido, destinados a comunicaciones.
+882	v_0410_ex	3	150	150 - 110 kV			True	150 - 110 kV de tensión de red eléctrica.
+897	e_0501_ex	3	SEP	Sin explotación			True	Servicio o instalación de extracción de materiales sin explotación.
+901	tipo_0504	3	HDR	Hidroeléctrica			False	Instalación para la producción de energía eléctrica obtenida de la energía hidráulica que se genera en saltos de agua producidos por la caida a diferentes niveles de un cauce ya sea de modo natural o artificial.
+918	tipo_0507	3	RFE	Recinto ferial			False	Edificio o conjunto de edificios e instalaciones para la organización de ferias.
+926	tipo_0510	3	SAN	Sanitario			False	Edificio o conjunto de edificios destinados al diagnóstico y tratamiento de enfermos.
+955	tipo_0513	3	YAC	Yacimiento arqueológico			False	Recinto donde se encuentran restos arqueológicos o excavaciones de interés histórico-cultural o restos materiales indicativos de vida humana o animal ya desaparecida.
+981	tram_curso	3	CNX	Conexión			False	Tramo de curso en el que se desconoce su trazado y que se emplea para dar continuidad a la red.
+986	regim_hidr	3	MAR	Mareal			False	Curso fluvial cuyo régimen hidrológico se ve afectado por las mareas.
+992	jerar_0201	3	T_C	Tercera y cuarta			False	Ríos de longitud comprendida entre 25 y 90 km.
+1000	niv_a_0201	3	ONA	Otro			False	Otra tipología referente al nivel de agua no contemplada en las anteriores.
+1003	tipo_0204	3	TUB	Tubería			False	Infraestructura de tamaño variable destinada a la canalización, conducción o distribución de agua ya sea para consumo humano u otros usos.
+1007	situ_0204	3	SUP	En superficie			False	El curso artificial se encuentra sobre la superficie terrestre.
+1010	tipo_0207	3	LGC	Laguna costera			False	Cuerpo de agua próximos al mar, separado aparentemente del mar por una barra arenosa o de cantos cuya formación (carácter genético) está unida, o relacionada, con procesos de dinámica litoral, actuales o subactuales.
+1016	n_0207_ex	3	ONA	Otro nivel de agua			True	Nivel de agua no contemplado en las otras tipologías.
+1019	s_0207_ex	3	-97	Desconocido			True	Se desconoce si el agua es salada o dulce.
+1022	niv_a_0210	3	ONA	Otro			False	Otro nivel de agua no contemplado en las anteriores tipologías.
+1025	tipo_0213	3	POZ	Pozo			False	Perforación en el terreno para extraer agua subterránea que puede venir acompañada de una obra de fábrica en superficie.
+1034	tipo_0216	3	RIA	Ría			False	Penetración que forma el mar en la costa, debida a la sumersión de la parte litoral de una cuenca fluvial.
+1039	c_0301_ex	3	NOR	Normal			True	Curva de nivel a la equidistancia definida para la base (5 m).
+1044	tipo_0307l	3	TAL	Talud			False	Límite de una superficie inclinada que impide derrumbamientos del terreno, fundamentalmente asociados a infraestructuras.
+1053	tipo_0307s	3	CGN	Caso genérico			False	Cualquier caso no clasificado como uno de los anteriores. 
+1061	secc_0307	3	-97	Desconocido			False	No clasificado según el atributo.
+1064	s_0310_ex	3	PCO	Sobre otra construcción elevada	situ_0310	SCE	True	Punto de cota que se encuentra sobre cualquier otra construcción elevada distinta de las anteriores.
+1070	tipo_0310	3	DEP	Depresión			False	Punto de cota mínima en su entorno, rodeado de curvas de nivel de cota superior.
+1077	j_0310_ex	3	PTO	Tercer orden			True	Cimas de tercer orden.
+1083	tipo_0313	3	ESP	Elemento singular del paisaje			False	Lugar o elemento de interés natural o paisajístico.
+1096	tipo_0313s	3	LLA	Llanura			False	Terreno igual y dilatado, sin altos ni bajos.
+1103	j_0313_ex	3	CMT	Tercer orden			True	Cadena montañosa de tercer orden.
+1110	tipo_vial	3	CAR	Carretera			False	Carreteras nacionales o regionales que no forman parte de la Red TEN-T ni de los itinerarios europeos, pero que siguen siendo esenciales para la conectividad dentro de un país o región.
+1116	clase_0107	3	CMU	Carretera Multicarril			False	PAGINA 50 ESPECIFICACIONES IGR-RT: Carreteras tradicionalmente clasificadas como convencionales de calzada duplicada, conforme con la Ley 37/2015.
+1120	orden	3	SOR	Segundo orden			False	La carretera posee categoría de segundo orden.
+1125	titular	3	DIP	Diputación Provincial			False	La titularidad de la vía o de la infraestructura pertenece a la Diputación Provincial
+1138	tram_trans	3	ENL	Enlace			False	DEFINCION DE NUDO DE RT: Ramales, vías de giro y, eventualmente, intersecciones que puede utilizar los vehículos para pasar de una carretera a otra.
+1144	situ_trans	3	SUP	En superficie			False	El tramo está situado sobre la superficie terrestre.
+1149	esta_trans	3	FSE	Fuera de servicio			False	Se encuetra fuera de servicio.
+1152	acceso	3	RES	Restringido			False	Acceso a la carretera donde solo ciertos tipos de vehículos o usuarios tienen permitido ingresar, ya sea por características específicas (como vehículos de carga) o por normativas de acceso.
+1161	sentido_ex	3	REV	Reversible			True	La carretera tiene un único conjunto de carriles que se utilizan en diferentes direcciones dependiendo del horario o la demanda del tráfico, adaptándose a los flujos de vehículos.
+1166	tipoveh_ex	3	PEA	Peatón			True	Calzada de uso excluisvo peatonal.
+1169	tipo_0113l	3	BIC	Carril bici			False	Vía diseñada y construida exclusivamente para el tránsito de bicicletas.
+1175	firme_ex	3	STS	Sin tratamiento superficial			True	La superficie de la calzada está compuesta por suelo natural y no tiene ninguna capa adicional de materiales o cualquier otro tipo de tratamiento superficial.
+1178	t_0113s_ex	3	PST	Pista	tipo_0113s	PCA	True	Vía que, sin llegar a considerarse carretera, permite el tránsito de vehículos y pequeños camiones, para lo que se han ejecutado trabajos de mejora de firme y trazado, y que tiene una anchura suficiente para que los vehículos que circulan en sentidos opuestos se puedan cruzar.
+1183	tipo_pk	3	ESH	En eje sin hito			False	La posición del punto kilométrico se sitúa sobre el eje de la vía y el hito no se ha identificado. 
+1187	s_0116_ex	3	AMB	Ambos			True	Ambos sentidos de la numeración a lo largo de la carretera en el que se encuentra el PK.
+1192	tipo_0122	3	ESA	Estación de autobús			False	Lugar destinado para la llegada, salida y espera de autobuses. Suele contar con espacios techados o cerrados donde los pasajeros pueden esperar, así como servicios adicionales.
+1197	tipo_0125	3	MET	Metro			False	Vía férrea por la que circulan ferrocarriles urbanos, generalmente subterráneos, para el transporte rápido de viajeros en una gran urbe y sus cercanías.
+1205	situ_0125	3	SUP	En superficie			False	El tramo está situado sobre la superficie terrestre.
+1208	ancho_via	3	EST	Vía estrecha			False	Tramos de vía cuyo ancho sea inferior al internacional.
+1215	n_vias	3	TRI	Triple			False	Tramo constituido por tres vías.
+1221	tipo_0131	3	EST	Estación tren			False	Estación principal destinada a la llegada y salida de trenes de pasajeros, con instalaciones adecuadas para este fin, como andenes, taquillas y salas de espera.
+1234	uso_0131	3	MIX	Mixto			False	Estación que maneja tanto el transporte de pasajeros como de mercancías.
+1237	tipo_0134	3	TLE	Telesquí			False	Remontador que permite a los esquiadores subir hasta las pistas sobre sus esquís mediante un sistema de arrastre. 
+1240	t_0137_ex	3	DEP	Deportivo			True	Puerto destinado a la recepción y mantenimiento de embarcaciones de recreo o deportivas, como yates y veleros.
+1248	tipo_0140	3	HEL	Helipuerto			False	Instalación específicamente diseñada para el aterrizaje y despegue de helicópteros.
+1253	categ_0140	3	REG	Regional			False	Aeródromo que sirve para vuelos dentro de una región específica del país, a menudo conectando ciudades dentro de la misma área geográfica o territorio.
+1256	gest_0140	3	PRI	Privado			False	La gestión del aeródromo es privada.
+1259	u_0140_ex	3	MIX	Mixto			True	Aeródromo de uso mixto (civil/militar).
+1262	a_0140_ex	3	MER	Mercancías			True	Aeródromo especializado en el transporte y manejo de carga aérea. No está destinado principalmente a vuelos de pasajeros.
+1265	tipo_0143	3	ADE	Área de estacionamiento			False	Área definida, en un aeródromo/helipuerto terrestre, destinada a dar cabida a las aeronaves/helicópteros para los fines de embarque o desembarque de pasajeros, correo o carga, abastecimiento de combustible, estacionamiento o mantenimiento. Debe estar contenida en un área de aeródromo.
+1268	tipo_0604	3	OTR	Otro			False	Punto perteneciente a otra red geodésica disitinta a la REGENTE , BALEAR98, REGCAN95 o ROI.
+1274	tipo_0901	3	RNT	Reserva Natural			False	Espacios naturales cuya creación tiene como finalidad la protección de ecosistemas, comunidades o elementos biológicos que, por su rareza, fragilidad, importancia o singularidad, merecen una valoración especial.
+1329	tipo_0904	3	VER	Vereda			False	Vía pastoril para los ganados trashumantes cuya anchura es menor o igual a 20 m.
+1340	tipo_0801	3	NPO	Núcleo de población			False	"Ciudad, pueblo, aldea, urbanización, etc. Incluye: núcleo y diseminado del nomenclátor INE, población no recogida en el nomenclátor INE, barrio de población no definida en La Ley de Grandes Ciudades o Ley de Medidas para la Modernización del Gobierno Local (Ley 57/2003, de 16 de diciembre).
+Información de Núcleos INE procedente de Información Geográfica de Referencia de Poblaciones (IGR_PO) del Instituto Geográfico Nacional.
+Información de Diseminados INE procedente del Instituto Nacional de Estadística (INE) del Ministerio de Asuntos Económicos y Transformación Digital y del Nomenclátor Geográfico de Municipios y Entidades de Población (NGMEP) del Instituto Geográfico Nacional."
+1350	tipo_0804	3	PMN	Municipal			False	División adminsitrativa municipal.
+1354	tipo_0701	3	S03	Regadío			False	
+790	t_0407s_ex	30	FRT	Frontón	tipo_0407S	PDP	True	es un recinto rectangular con paredes laterales y un frontis, donde se juega el deporte de pelota vasca.
+844	t_0407l_ex	30	OBF	Obra de fábrica	tipo_0407l	AUX	True	Puente, viaducto, alcantarilla u otra de las construcciones semejantes que se ejecutan en una vía de comunicación, acueducto, etc., diferentes de las explanaciones.
+1301	t_0901_ex	30	SNN	Sitio Natural de Interés Nacional	tipo_0901	OEN	True	Galicia y Comunidad de Madrid. Real Orden del Ministerio de Fomento de 1927 por la que se crean las figuras de Sitios y Monumentos Naturales de Interés Nacional
+1381	tipo_0701	30	S30	Reservas y glaciares			False	
+791	t_0407s_ex	31	MUL	Múltiple	tipo_0407S	PDP	True	Pista deportiva acondicionada para el ejercicio de varios deportes en un mismo espacio de forma integrada.
+845	t_0407l_ex	31	AND	Andén	tipo_0407l	AUX	True	En las estaciones de los ferrocarriles, especie de acera a lo largo de la vía para que los viajeros entren en los vagones y se apeen de ellos, así como también para cargar y descargar equipajes y efectos. En los puertos de mar, espacio de terreno sobre el muelle en que andan las personas por diferentes motivos (cuidado embarque, etc.).
+1382	tipo_0701	31	S31	Ramblas			False	
+1302	t_0901_ex	31	LIN	Lugar de Interés Científico	tipo_0901	OEN	True	Ley 5/2005, de Conservación de los Espacios de Relevancia Ambiental de Illes Balears
+792	t_0407s_ex	32	PDL	Pista de padel	tipo_0407S	PDP	True	es un recinto cerrado, similar a una pista de tenis, pero más pequeña, con paredes de cristal y alambradas, donde se juega el deporte de pádel.
+1383	tipo_0701	32	S32	Zonas pantanosas			False	
+1303	t_0901_ex	32	ENC	Enclave Natural	tipo_0901	OEN	True	Ley 4/1992, de Ordenación y Protección del Territorio de la Comunidad Foral de Navarra
+794	t_0407s_ex	33	PDG	Otra pista deportiva	tipo_0407S	PDP	True	Otro pista deportiva no clasificada en las anteriores categorías.
+846	t_0407l_ex	33	BTU	Boca de túnel	tipo_0407l	AUX	True	Lugar de entrada o salida de un túnel, a partir del cual una infraestructura (carretera, vía férrea, canal) pasa a ser soterrada o subterránea o deja de serlo.
+1384	tipo_0701	33	S33	Reserva verde			False	
+1304	t_0901_ex	33	ARS	Árbol Singular	tipo_0901	OEN	True	Ley 8/1998, Conservación de la Naturaleza y de Espacios Naturales de Extremadura, Ley 16/1994 de Conservación de la Naturaleza del País Vasco.
+795	t_0407s_ex	34	ATL	Atletismo	tipo_0407S	CDT	True	Es un circuito ovalado con carriles marcados, diseñado para la práctica y competición de diversas disciplinas atléticas como carreras, saltos y lanzamientos. 
+847	t_0407l_ex	34	OAU	Otro auxiliar construido	tipo_0407l	AUX	True	Cualquier elemento construido auxiliar, como bordillos, escalinatas, isletas de viales, etc.
+1385	tipo_0701	34	S34	Reservas infraestructuras; No clasificado			False	
+1305	t_0901_ex	34	ANR	Área Natural Recreativa	tipo_0901	OEN	True	Ley Foral 9/1996 de Espacios Naturales de la Comunidad Foral de Navarra
+797	t_0407s_ex	35	GOL	Calle golf	tipo_0407S	CDT	True	Es una vía estrecha y larga que se extiende desde el tee hasta el green en un campo de golf, por donde los golfistas juegan sus golpes para avanzar hacia el hoyo.
+848	t_0407l_ex	35	OLE	Oleoducto	tipo_0407l	CHD	True	Tubería provista de bombas y otros aparatos para conducir el petróleo a larga distancia.
+1306	t_0901_ex	35	PPI	Paraje Pintoresco	tipo_0901	OEN	True	Paraje Pintoresco
+1386	tipo_0701	35	S35	Combinación de cultivos con vegetación			False	
+798	t_0407s_ex	36	VEL	Circuito velocidad	tipo_0407S	CDT	True	Es una pista especialmente diseñada para carreras de vehículos de motor, como automóviles, motocicletas o karts, donde los competidores pueden alcanzar altas velocidades en un entorno seguro y controlado.
+849	t_0407l_ex	36	GSL	Gasoducto	tipo_0407l	CHD	True	Tubería de grueso calibre y gran longitud para conducir a distancia gas combustible, procedente por lo general de emanaciones naturales.
+1307	t_0901_ex	36	MCR	Microrreserva	tipo_0901	OEN	True	Ley 9/1999, de Conservación de la Naturaleza de Castilla-La Mancha, Decreto 218/1994, de Microrreservas Vegetales de la Comunidad Valenciana
+1387	tipo_0701	36	S36	Otras coberturas			False	
+799	t_0407s_ex	37	CCG	Otra calle/circuito deportivo	tipo_0407S	CDT	True	Otra calle o circuito deportivo no clasificado en las anteriores categorías.  
+1308	t_0901_ex	37	RDB	Reserva de la Biosfera	tipo_0901	OEN	True	Reserva de la Biosfera
+1388	t_0701_ex	37	S37	Frondosas naturales	tipo_0701		True	
+800	t_0407s_ex	38	EXN	Explanada no pavimentada	tipo_0407S	EXP	True	Espacio de terreno allanado sin pavimentar.
+1309	t_0901_ex	38	HMP	Humedal Protegido	tipo_0901	OEN	True	Ley 9/2001, de Conservación de la Naturaleza de Galicia
+1389	t_0701_ex	38	S38	Frondosas de plantación	tipo_0701		True	
+801	t_0407s_ex	39	EXS	Explanada pavimentada	tipo_0407S	EXP	True	Espacio de terreno allanado pavimentado.
+1310	t_0901_ex	39	ANI	Área Natural de Especial Interés	tipo_0901	OEN	True	Área Natural de Especial Interés
+1390	t_0701_ex	39	S39	Coníferas naturales	tipo_0701		True	
+683	tipo_0401s	4	FAR	Faro			False	Estructura diseñada para emitir luz a partir de un sistema de lámparas y lentes, por lo general, ubicadas en una torre elevada. La torre del faro puede formar parte de otra edificación de tamaños y formas variables.
+712	u_0401s_ex	4	CTR	Cultural			True	Construcción con uso cultural. 
+727	estadofis	4	-97	Desconocido			False	Se desconoce el valor del atributo estado físico.
+731	tipo_0401p	4	CHI	Chimenea			False	Cañón o conducto vertical por donde se puede dar salida a gases o humos.
+736	tipo_0404	4	ETQ	Estanque genérico			False	Recinto de agua que almacena agua con objeto de emplearla para diversos fines, exceptuando el baño o la natación. (Ejemplo: estanques EDAR)
+753	situ_0404	4	-97	Desconocido			False	Se desconoce la situación en altura de la construcción con respecto a la superficie terrestre. 
+757	tipo_0407s	4	CDP	Campo deportivo	tipo_0407S		False	Terreno de juego especialmente diseñado y construido para la práctica de una o varias actividades deportivas. Además de los deportes habituales como fútbol, rugby, beisbol, entre otros. 
+815	situ_0407s	4	-97	Desconocido			False	Se desconoce la situación en altura de la construcción con respecto a la superficie terrestre. 
+819	tipo_0407l	4	OCO	Obra contención			False	Obra destinada a contener el empuje del agua y/o de las tierras que se encuentran a uno de sus lados.
+853	situ_0407l	4	-97	Desconocido			False	Se desconoce la situación en altura de la construcción con respecto a la superficie terrestre. 
+858	tipo_0407p	4	ANT	Antena			False	Estructura o armazón de cierta altura para situar sistemas de emisión, recepción y/o amplificación de señales electromagnéticas.
+879	t_0410_ex	4	OTE	Otro tendido	tipo_0410	OTR	False	Conjunto de cables elevados, soportados por apoyos de tendido, que no puede clasificarse en las categorías anteriores.
+883	v_0410_ex	4	110	< 110 kV			True	< 110 kV de tensión de red eléctrica.
+889	t_fun_0413	4	AZU	Azud			False	Presa pequeña en un río. Barrera hecha en los ríos con el fin de facilitar el desvío de parte del caudal para riego y otros usos.
+892	tipo_0501	4	GVR	Gravera			False	Yacimiento de grava.
+898	e_0501_ex	4	ABN	Abandono			True	Servicio o instalación de extracción de materiales en estado de abandono.
+902	tipo_0504	4	SOL	Solar			False	Instalación, equipamiento o estructuras donde se lleva a cabo la producción de energía obtenida directamente de la radiación solar.
+919	tipo_0507	4	ZCO	Zona comercial			False	Agrupación de edificios o instalaciones situada cercana a un núcleo de población cuyo fin es la venta de diferentes productos de consumo.
+927	tipo_0510	4	EDU	Educativo			False	Edificio o conjunto de edificios destinados a la enseñanza.
+956	tipo_0513	4	ICG	Instalación cultural genérica			False	Tipo de instalación cultural no contemplada en las otras tipologías.
+993	jerar_0201	4	Q_S	Quinta y sexta			False	Ríos de longitud inferior a 25 km.
+1004	tipo_0204	4	OCA	Otro			False	Otra tipología constructiva de curso artificial no contemplada en las anteriores.
+1011	tipo_0207	4	TUR	Turbera			False	Tipo de humedal ácido en el cual se ha acumulado materia orgánica en forma de turba
+1026	tipo_0213	4	TMA	Toma de agua			False	Instalación por la que se deriva hacia un edificio u otro lugar parte del agua que circula por una conducción principal
+1040	c_0301_ex	4	MAE	Maestra			True	Curva de nivel a la equidistancia de 5 curvas de nivel sencillas (25 m). 
+1045	tipo_0307l	4	CGN	Caso genérico			False	Cualquier caso no clasificado como uno de los anteriores. 
+1054	t_0307s_ex	4	ACA	Acantilado	tipo_0307s	ESC	True	Escarpado de roca, vertical o prácticamente vertical, que forma un precipicio en los límites entre la zona terrestre y marítima.
+1065	s_0310_ex	4	PCP	Sobre puente	situ_0310	SCE	True	Punto de cota que se encuentra sobre puente
+1071	tipo_0310	4	COL	Collado			False	Punto más bajo de una línea de cumbres comprendido entre dos elevaciones. 
+1078	j_0310_ex	4	PCO	Cuarto orden 			True	Cimas de cuarto orden.
+1084	tipo_0313	4	CUE	Cueva			False	Cavidad subterránea natural más o menos extensa, que a veces se prolonga en tortuosas direcciones y con variedad de formas
+1097	tipo_0313s	4	DEP	Depresión			False	Terreno hundido respecto al relieve circundante.
+1104	j_0313_ex	4	CMC	Cuarto orden 			True	Cadena montañosa de cuarto orden.
+1111	tipo_vial	4	-98	No aplicable			False	Aquellos viales o rutas que no encajan en ninguna de las categorías anteriores.
+1117	clase_0107	4	CCO	Carretera Convencional			False	Vía pavimentada que no reúne las características propias de las autopistas, las autovías o las carreteras multicarril, recogida o no en un catálogo oficial de carreteras. También se incluyen los tramos de vía que, estando recogidos en un catálogo oficial de carreteras, no estén pavimentados. [Definición adaptada del Real Decreto 1428/2003]
+1121	orden	4	TOR	Tercer orden			False	La carretera posee categoría de tercer orden.
+1126	titular	4	CAB	Cabildo o Consell Insular			False	La titularidad de la vía o de la infraestructura pertenece al Cabildo o Consell Insular
+1139	tram_trans	4	ROT	Rotonda			False	Conjunto de tramos que forman un anillo, dentro del cual solo se puede circular en una dirección.
+1145	situ_trans	4	VAD	En vado			False	El tramo atraviesa a nivel una masa de agua.
+1153	acceso	4	-97	Desconocido			False	Tipo de acceso cuya información o condiciones son inciertas o no están claramente especificadas y por lo tanto se desconocen.
+1170	t_0113l_ex	4	PST	Pista	tipo_0113l	PCA	True	Vía que, sin llegar a considerarse carretera, permite el tránsito de vehículos y pequeños camiones, para lo que se han ejecutado trabajos de mejora de firme y trazado, y que tiene una anchura suficiente para que los vehículos que circulan en sentidos opuestos se puedan cruzar.
+1179	t_0113s_ex	4	PFO	Pista forestal	tipo_0113s	PCA	True	Vía que permite la realización de trabajos forestales, tales como el desbroce o la saca de troncos, pero no está acondicionada para el tránsito regular de vehículos. 
+1184	tipo_pk	4	-97	Desconocido			False	Se desconoce la posición del punto kilométrico.
+1193	tipo_0122	4	PEA	Peaje			False	Espacio dentro de una carretera o autopista donde los conductores deben detenerse para abonar una tarifa por el uso de esa vía.
+1198	tipo_0125	4	FUN	Funicular			False	Vía férrea por la que circulan vehículos que reciben la tracción mediante un cable, para superar grandes pendientes.
+1209	ancho_via	4	MIX	Mixto			False	Tramos que disponen de tres raíles paralelos y que permiten el paso de convoyes o trenes tanto de ancho ibérico como de ancho internacional, empleando la misma vía. 
+1216	n_vias	4	CUA	Cuádruple			False	Tramo constituido al menos por cuatro vías.
+1222	tipo_0131	4	CAR	Cargadero			False	Estación o instalación especializada en la carga y descarga de mercancías en trenes. No se utilizan para el transporte de pasajeros.
+1241	t_0137_ex	4	IND	Industrial			True	Puerto especializado en el manejo de materiales y productos relacionados con la industria, como materias primas, productos manufacturados o maquinarias.
+1249	tipo_0140	4	HDA	Hidroaeródromo			False	Aeródromo destinado a aeronaves que tienen flotadores o hidroalas, como los hidroaviones, y que operan en cuerpos de agua (lagos, ríos, mares).
+1269	t_0604_ex	4	IBE	IBERIA95	tipo_0604	OTR	True	Punto perteneciente a la red geodésica IBERIA95 (incluidos en REGENTE, con mayor precisión).
+1275	tipo_0901	4	AMP	Área Marina Protegida			False	Espacios naturales designados para la protección de ecosistemas, comunidades o elementos biológicos o geológicos del medio marino, incluidas las áreas intermareal y submareal, que, en razón de su rareza, fragilidad, importancia o singularidad, merecen una protección especial.
+1330	tipo_0904	4	COL	Colada			False	Faja de terreno por donde pueden transitar los ganados para ir de unos a otros pastos; son de anchura variable, inferior a la de las veredas, y que no se corresponden con el resto de tipos. 
+1341	tipo_0801	4	OTR	Otro ente de población			False	La entidad de población es distinta a las anteriores categorías.
+1351	tipo_0804	4	OTR	Otro			False	Otras divisiones administrativas oficiales.
+1355	tipo_0701	4	S04	Arroz			False	
+987	reg_hid_ex	4	EST	Estacional	regim_hidr	NPE	True	Curso fluvial que, en régimen natural, presenta una marcada estacionalidad, caracterizada por presentar bajo caudal o permanecer secos en verano, fluyendo agua, al menos, durante un periodo medio de 300 días al año.
+802	t_0407s_ex	40	MRO	Muro	tipo_0407S	CER	True	Pared o tapia construida con materiales de obra, vertical y resistente, que cierra o divide un espacio.
+1311	t_0901_ex	40	ANS	Área Natural Singular	tipo_0901	OEN	True	Ley 4/2003, Conservación de Espacios Naturales de La Rioja.
+1391	t_0701_ex	40	S40	Coníferas de plantación	tipo_0701		True	
+803	t_0407s_ex	41	SET	Seto	tipo_0407S	CER	True	Cercado hecho de palos, varas entretejidas o constituido por arbusto o vegetación. 
+1312	t_0901_ex	41	PEP	Plan Especial de Protección (PEIN)	tipo_0901	OEN	True	Plan Especial de Protección (PEIN)
+1392	t_0701_ex	41	S41	Arbolado Mixto natural	tipo_0701		True	
+804	t_0407s_ex	42	OLE	Oleoducto	tipo_0407S	CHD	True	Tubería provista de bombas y otros aparatos para conducir el petróleo a larga distancia.
+1313	t_0901_ex	42	RDF	Reserva de Fauna	tipo_0901	OEN	True	Decreto 32/2004, Catálogo Valenciano de Especies de Fauna Amenazada de la Comunidad Valenciana
+1393	t_0701_ex	42	S42	Arbola Mixto de plantación	tipo_0701		True	
+805	t_0407s_ex	43	GSL	Gasoducto	tipo_0407S	CHD	True	Tubería de grueso calibre y gran longitud para conducir a distancia gas combustible, procedente por lo general de emanaciones naturales.
+1314	t_0901_ex	43	SDI	Sitio de Interés	tipo_0901	OEN	True	Sitio de Interés
+1315	t_0901_ex	44	ZCO	Zona de Especial Conservación de Importancia Comunitaria	tipo_0901	OEN	True	Zona de Especial Conservación de Importancia Comunitaria
+1316	t_0901_ex	45	ZHU	Zonas Húmedas	tipo_0901	OEN	True	Zonas Húmedas
+1317	t_0901_ex	46	CUE	Cuevas	tipo_0901	OEN	True	Ley 11/1997, de espacios naturales protegidos de la Comunidad Valenciana.
+1318	t_0901_ex	47	CEC	Corredores Ecoculturales	tipo_0901	OEN	True	Corredores Ecoculturales
+1319	t_0901_ex	48	API	Área Privada de Interés Ecológico	tipo_0901	OEN	True	Área Privada de Interés Ecológico
+1320	t_0901_ex	49	RMA	Reservas Marinas	tipo_0901	OEN	True	Reservas Marinas
+684	tipo_0401s	5	CHI	Chimenea			False	Cañón o conducto vertical por donde se puede dar salida a gases o humos.
+713	u_0401s_ex	5	OFC	Oficinas			True	Construcción con uso de oficinas.
+732	tipo_0401p	5	CUH	Cueva habitable			False	Espacio para albergar actividades humanas o económicas que normalmente se abre dentro de una roca y se completa con muros exteriores, y que puede tener en el interior estructuras análogas a las de los edificios convencionales.
+737	tipo_0404	5	ORN	Estanque ornamental			False	Estanque destinado al uso ornamental.
+758	tipo_0407s	5	PDP	Pista deportiva	tipo_0407S		False	Es la pista, cancha o terreno de juego especialmente diseñado y construido para la práctica de una o varias actividades deportivas. Además de los deportes habituales como fútbol, baloncesto, tenis, pistas polideportivas, etc.
+820	tipo_0407l	5	MUR	Muralla			False	Muro u obra defensiva de carácter histórico que se empleaba para proteger un lugar.
+854	situ_0407l	5	-98	No aplicable			False	El atributo de situación no se aplica para este caso concreto.
+859	tipo_0407p	5	AER	Aerogenerador			False	Estructura o armazón de cierta altura que soporta unas palas para transformar la energía eólica en eléctrica.
+884	v_0410_ex	5	-97	Desconocido			True	Se desconoce el valor de la tensión de la red eléctrica.
+903	tipo_0504	5	EOL	Parque eólico			False	Instalación, equipamiento o estructuras donde se lleva a cabo la producción de energía eléctrica mediante aerogeneradores distanciados unos de otros, en función del impacto ambiental y de las turbulencias generadas por el movimiento de las palas, y formando agrupaciones (a veces de gran tamaño) en las zonas montañosas donde el viento es frecuente, normalmente alejadas de los núcleos de población.
+920	tipo_0507	5	ZAG	Zona agropecuaria			False	Instalación en la que se lleva a cabo la producción de productos vegetales y animales para fines de alimentación, de venta, de autoconsumo o industriales.
+928	tipo_0510	5	CEM	Cementerio-tanatorio			False	Cementerio: instalaciones, equipamiento o edificios sobre un terreno, generalmente cercado, destinado al depósito de cadáveres o restos humanos ya sea mediante el enterramiento u otros medios. Tanatorio: edificio en que son depositados los cadáveres durante las horas que preceden a su inhumación o cremación.
+957	tipo_0513	5	DEP	Instalación deportiva			False	Recinto o área especialmente diseñada y construida para la práctica de deportes diversos.
+994	j_0201_ex	5	TER	Tercera	jerar_0201	T_C	True	Ríos de longitud comprendida entre 40 y 90 km.
+1012	tipo_0207	5	HUM	Humedal			False	Terreno de aguas superficiales o subterráneas de poca profundidad.
+1027	tipo_0213	5	SUM	Sumidero			False	Lugar de entrada de un cauce natural o artificial de agua en el terreno cuando éste pasa a ser subterráneo y no se conoce su trazado ni dónde vuelve a surgir. En general, lugar en que se pierde el trazado de un cauce natural o artificial.
+1041	c_0301_ex	5	AUX	Auxiliar			True	Curva de nivel a la mitad de equidistancia de las curvas de nivel sencillas (2,5 m).
+1046	t_0307l_ex	5	ACA	Acantilado	tipo_0307l	ESC	True	Escarpado de roca, vertical o prácticamente vertical, que forma un precipicio en los límites entre la zona terrestre y marítima.
+1055	t_0307s_ex	5	OES	Otro escarpado	tipo_0307s	ESC	True	Cualquier otro escarpado que no cumpla las características de acantilado. 
+1066	s_0310_ex	5	PCE	Sobre edificio	situ_0310	SCE	True	Punto de cota que se encuentra sobre edificios.
+1072	tipo_0310	5	-97	Desconocido			False	Se desconoce el tipo de punto de cota.
+1079	j_0310_ex	5	PQO	Otras cimas			True	Resto de cimas de menor jerarquía.
+1085	tipo_0313	5	LLA	Llanura			False	Terreno igual y dilatado, sin altos ni bajos.
+1098	tipo_0313s	5	VER	Vertiente			False	Porción de terreno inclinado, que se extiende entre divisorias y vaguadas.
+1105	j_0313_ex	5	CMQ	Quinto orden			True	Cadena montañosa de quinto orden.
+1122	orden	5	NCA	No catalogada			False	La carretera no está catalogada dentro de alguna categoría.
+1127	titular	5	AYU	Ayuntamiento			False	La titularidad de la vía o de la infraestructura pertenece al Ayuntamiento
+1146	situ_trans	5	TRA	En transbordador			False	El tráfico vehicular en esa sección de la carretera está siendo desviado temporalmente a través de un medio de transporte alternativo, como un transbordador (barco o ferry).
+1154	acceso_ex	5	RGE	Restricción genérica	acceso	RES	True	Acceso restringido aplica limitaciones generales para todos los vehículos sin importar su tipo o características.
+1171	t_0113l_ex	5	PFO	Pista forestal	tipo_0113l	PCA	True	Vía que permite la realización de trabajos forestales, tales como el desbroce o la saca de troncos, pero no está acondicionada para el tránsito regular de vehículos. 
+1180	t_0113s_ex	5	CAM	Camino	tipo_0113s	PCA	True	
+1194	tipo_0122	5	AIN	Aparcamiento invernal			False	Tipo de aparcamiento diseñado para condiciones climáticas frías o invernales, especialmente en áreas donde las nevadas son frecuentes. 
+1199	tipo_0125	5	CRE	Cremallera			False	Vía férrea por la que circulan ferrocarriles de montaña que utilizan un tercer raíl dentado para superar grandes pendientes.
+1210	ancho_via	5	OTR	Otro			False	Tramos de vía cuyo ancho sea distinto a las anteriores categorías.
+1223	tipo_0131	5	APE	Apeadero			False	Parada ferroviaria pequeña, generalmente sin grandes instalaciones, donde los pasajeros pueden subir o bajar de los trenes, pero no tiene los servicios de una estación completa.
+1242	t_0137_ex	5	MIL	Militar			True	Puerto destinado a las fuerzas armadas para la operación de barcos militares, como buques de guerra y submarinos.
+1250	tipo_0140	5	DEP	Deportivo y recreativo			False	Aeródromo dedicado principalmente a la aviación ligera, deportiva o recreativa.
+1270	t_0604_ex	5	AUT	Autonómico	tipo_0604	OTR	True	Punto perteneciente a una red geodésica de densificación de 4º orden dependiente de una Comunidad Autónoma o Diputación Foral.
+1276	tipo_0901	5	MNT	Monumento Natural			False	Espacios o elementos de la naturaleza constituidos básicamente por formaciones de notoria singularidad, rareza o belleza, que merecen ser objeto de una protección especial. Tienen también esta consideración los árboles singulares y monumentales y las formaciones geológicas, los yacimientos paleontológicos y mineralógicos, los estratotipos y demás elementos de la gea que reúnan un interés especial por la singularidad o importancia de sus valores científicos, culturales o paisajísticos.
+1331	tipo_0904	5	OTR	Otro			False	Otro tipo de vía pecuaria no clasificado como ninguno de los anteriores.
+1342	t_0801_ex	5	GEN	Caso Genérico	tipo_0801		True	
+1356	tipo_0701	5	S05	Frutales cítricos			False	
+988	reg_hid_ex	5	INT	Intermitente	regim_hidr	NPE	True	Curso fluvial que, en régimen natural, presenta una elevada temporalidad, fluyendo agua durante un periodo medio comprendido entre 100 y 300 días al año.
+1321	t_0901_ex	50	BIP	Biotopo Protegido	tipo_0901	OEN	True	Ley 16/1994, de Conservación de la Naturaleza del País Vasco
+1322	t_0901_ex	51	RFL	Reserva Fluvial	tipo_0901	OEN	True	Ley 9/1999, de Conservación de la Naturaleza Castilla-La Mancha
+1323	t_0901_ex	52	SIC	Sitio de Interés Científico	tipo_0901	OEN	True	Ley 5/2005, de Conservación de los espacios de relevancia ambiental de Illes Balears
+1324	t_0901_ex	53	CEB	Corredor Ecológico y de Biodiversidad	tipo_0901	OEN	True	Ley 8/1998, de Conservación de la Naturaleza y de Espacios Naturales de Extremadura.
+1325	t_0901_ex	54	RFA	Refugio de Fauna	tipo_0901	OEN	True	Comunidad de Madrid
+1326	t_0901_ex	55	OTR	Otros	tipo_0901	OEN	True	Otros
+685	tipo_0401s	6	MVI	Molino de viento			False	Edificio que dispone de mecanismos para transformar la energía eólica en energía mecánica mediante la rotación de velas o palas. Generalmente se trata de edificaciones aisladas en los exteriores del núcleo de población y ubicados en altos o zonas de especial incidencia eólica. En esta categoría no se incluyen los aerogeneradores.
+714	u_0401s_ex	6	HTR	Hostelero			True	Construcción con uso hostelero.
+738	tipo_0404	6	BAL	Balsa			False	Recipiente de agua, generalmente destinada al riego, excavado en el terrero o cuyas paredes están formadas por acumulación de tierra. 
+759	tipo_0407s	6	CDT	Calle/circuito deportivo	tipo_0407S		False	Trazado curvo y cerrado diseñado para realizar pruebas deportivas de diferentes disciplinas, como ciclismo, atletismo, automovilismo. También incluiríamos aquí las calles del campo de golf.
+821	tipo_0407l	6	CER	Cercado			False	Vallado o tapia que rodea normalmente a un huerto, prado u otra cosa para su resguardo.
+861	tipo_0407p	6	OTR	Otro			False	Tipo de otras construcciones puntuales no contemplada en las otras tipologías.
+885	v_0410_ex	6	-98	No aplicable			True	El atributo de tensión no se aplica para este caso concreto.
+906	tipo_0504	6	OTR	Otro			False	Tipo de instalación energética no contemplada en las otras tipologías.
+921	tipo_0507	6	ESA	Explotación salinera			False	Instalación donde se extrae y transporta sal para comerciar con ella.
+929	tipo_0510	6	ZMI	Zona militar			False	Instalaciones, equipamiento o edificios destinados a la planificación, organización y administración en el uso de los recursos de la fuerzas armadas del estado o entidades colaboradoras afines a estas.
+958	tipo_0513	6	PTM	Parque temático y ocio			False	Recinto que dispone de equipamientos e infraestructuras destinados a la diversión y el ocio. Se incluyen en esta categoría tanto los parques de atracciones, temáticos, zoológicos, acuaticos, etc.
+995	j_0201_ex	6	CUA	Cuarta	jerar_0201	T_C	True	Ríos de longitud comprendida entre 25 y 40 km.
+1013	tipo_0207	6	SAL	Salina			False	Lugar donde se obtiene sal por evaporación de aguas salinas. 
+1028	tipo_0213	6	CAS	Cascada			False	Perfil longitudinal de un cauce en el que el agua cae verticalmente.
+1047	t_0307l_ex	6	OES	Otro escarpado	tipo_0307l	ESC	True	Cualquier otro escarpado que no cumpla las características de acantilado. 
+1056	t_0307s_ex	6	DES	Desmonte	tipo_0307s	TAL	True	Talud formado mediante vaciado de tierras o rocas previamente existentes en el terreno. 
+1067	s_0310_ex	6	PCP	Sobre presa	situ_0310	SCE	True	Punto de cota que se encuentra sobre presa.
+1080	j_0310_ex	6	-98	No aplicable			True	El atributo no se aplica para la entidad.
+1086	tipo_0313	6	DEP	Depresión			False	Terreno hundido respecto al relieve circundante.
+1099	tipo_0313s	6	PLA	Playa			False	Superficie cubierta por arenales sin consolidar, arena suelta, grava o cantos rodados.
+1106	j_0313_ex	6	-97	Desconocido			True	Se desconoce el tipo de cadena montañosa.
+1128	titular	6	-97	Desconocido			False	La titularidad de la vía o de la infraestructura se desconoce.
+1155	acceso_ex	6	RHR	Por horas	acceso	RES	True	El acceso a la carretera está limitado a ciertos horarios del día. Fuera de esas horas específicas, el acceso está permitido.
+1172	t_0113l_ex	6	CAM	Camino	tipo_0113l	PCA	True	DEFINICIÓN EN BTA.1 Vía estrecha abierta por el tránsito de peatones o ganado menor.
+1200	tipo_0125	6	TML	Tren ligero o metro ligero			False	Vía férrea por la que circulan trenes o metros ligeros.
+1224	tipo_0131	6	APA	Apartadero			False	Instalación secundaria en la que los trenes pueden detenerse temporalmente para permitir el paso de otros trenes o para maniobras, pero no está diseñada para la atención a pasajeros ni para la carga.
+1243	t_0137_ex	6	PES	Pesquero			True	Puerto dedicado principalmente a la actividad pesquera.
+1271	t_0604_ex	6	ORE	Otra red	tipo_0604	OTR	True	Punto perteneciente a otra red geodésica no icluida en las anteriores tipologías.
+1277	tipo_0901	6	PPR	Paisaje Protegido			False	Partes del territorio que las Administraciones competentes consideren merecedores de una protección especial por sus valores naturales, estéticos y culturales, y de acuerdo con el Convenio Europeo del Paisaje, del Consejo de Europa.
+1332	t_0904_ex	6	DES	Descansadero	tipo_0146l	OTR	True	Espacio o área dentro de una vía pecuaria destinada para que el ganado descanse durante su tránsito.
+1343	t_0801_ex	6	URB	Urbanización	tipo_0801		True	
+1357	tipo_0701	6	S06	Frutales no cítricos			False	
+989	reg_hid_ex	6	EFM	Efímero	regim_hidr	NPE	True	Curso fluvial en el que, en régimen natural, tan sólo fluye agua superficialmente de manera esporádica, en episodios de tormenta, durante un periodo medio inferior a 100 días al año.
+686	tipo_0401s	7	MAG	Molino de agua			False	Edificio ubicado en las inmediaciones de un curso de agua y que dispone de mecanismos para transformar la energía hidráulica en energía mecánica generalmente mediante la rotación de turbinas o ruedas hidráulicas.
+715	u_0401s_ex	7	SAN	Sanitario			True	Construcción con uso sanitario.
+739	tipo_0404	7	ALB	Alberca			False	Recipiente de agua, generalmente destinada al riego, cuyas paredes están construidas con obra de fábrica.
+741	tipo_0404	7	RSO	Residuos sólidos			False	Recinto destinado al acopio y almacenaje de residuos, materiales de desecho, escorias, basura, escombros, residuos líquidos o semilíquidos u otra tipología de residuos. 
+761	tipo_0407s	7	PTR	Parterre	tipo_0407S		False	    Elemento construido que delimita una zona de jardín o parterre con vegetación, tierra, césped o flores.  
+822	tipo_0407l	7	PUE	Puente			False	Construcción elevada sobre el terreno que permite a los coches u otros medios de transporte salvar obstáculos (ríos, barrancos, etc.) o cruzar otras vías o infraestructuras.
+864	t_0407p_ex	7	OMO	Otro monumento	tipo_0407p	MON	True	Construcción situada en un lugar público para conmemorar algo o que tiene cierto valor histórico o artístico.
+904	tipo_0504	7	SBS	Subestación			False	Instalación provista de un conjunto equipos dedicados reducir o aumentar el voltaje de la corriente eléctrica.
+922	tipo_0507	7	PIC	Piscifactoría			False	Instalación compuesta por uno o múltiples estanques donde se crían diversas especies de peces y mariscos con fines comerciales.
+930	tipo_0510	7	CPT	Centro penitenciario			False	Edificio o conjunto de edificios e instalaciones destinadas a la reclusión de presos.
+959	tipo_0513	7	PAR	Parque-jardín			False	Espacio natural poco transformado por la explotación u ocupación humana que, en razón a la belleza de sus paisajes, la representatividad de sus ecosistemas o la singularidad de su flora, de su fauna o de sus formaciones geomorfológicas, poseen unos valores ecológicos, estéticos, educativos y científicos cuya conservación merece una atención preferente.
+996	j_0201_ex	7	QUI	Quinta	jerar_0201	Q_S	True	Ríos de longitud comprendida entre 10 y 25 km.
+1029	tipo_0213	7	ESH	Elemento singular hidrográfico			False	Otra tipología de punto hidrográfico no contemplada en las anteriores.
+1048	t_0307l_ex	7	DES	Desmonte	tipo_0307l	TAL	True	Talud formado mediante vaciado de tierras o rocas previamente existentes en el terreno. 
+1057	t_0307s_ex	7	TER	Terraplén	tipo_0307s	TAL	True	Talud formado por materiales granulares o de relleno cuya pendiente responde a la acción de la gravedad.
+1087	tipo_0313	7	VER	Vertiente			False	Porción de terreno inclinado, que se extiende entre divisorias y vaguadas.
+1107	j_0313_ex	7	-98	No aplicable			True	
+1129	titular	7	OTR	Otro			False	La titularidad de la vía o de la infraestructura recae en otro organismo distinto a las anteriores categorias. 
+1156	acceso_ex	7	RTV	Por tipo vehículo	acceso	RES	True	Limita el acceso de ciertos tipos de vehículos, como camiones pesados, autobuses o vehículos de carga. La restricción puede estar basada en el tamaño, peso o uso del vehículo, para proteger la infraestructura vial o reducir el impacto ambiental.
+1225	tipo_0131	7	ESM	Estación metro			False	Estación diseñada para el servicio de metro.
+1244	t_0137_ex	7	TUR	Turístico			True	Puerto destinado a los viajeros y turistas, donde las embarcaciones de cruceros y barcos turísticos hacen parada.
+1278	tipo_0901	7	RNA	Espacio Protegido Red Natura 2000			False	Red ecológica europea de áreas de conservación de la biodiversidad.
+1333	t_0904_ex	7	ABR	Abrevadero	tipo_0146l	OTR	True	Punto o área en una vía pecuaria donde el ganado puede beber agua. o RAE : Estanque, pilón o paraje del río, arroyo o manantial a propósito para dar de beber al ganado.
+1344	t_0801_ex	7	DIS	Distrito	tipo_0801		True	
+1358	tipo_0701	7	S07	Frutales cítricos y no cítricos			False	
+687	tipo_0401s	8	NAV	Nave			False	Edificio de dimensiones y geometría aptas para la producción y/o almacenamiento de bienes industriales.
+716	u_0401s_ex	8	RLG	Religioso			True	Construcción con uso religioso.
+740	tipo_0404	8	ABR	Abrevadero			False	Estanque, generalmente estrecho, construido para dar de beber al ganado.
+742	tipo_0404	8	BRE	Balsa residuos			False	Vaso o recinto abierto donde se almacenan residuos líquidos como el alpechín, purines u otros.
+762	tipo_0407s	8	EXP	Explanada	tipo_0407S		False	Espacio de terreno allanado, que en ocasiones puede estar pavimentado con algún tipo de revestimiento. Suele ubicarse de forma adyacente o en los aledaños de una carretera, pista o vía de comunicación.
+823	tipo_0407l	8	PAS	Pasarela			False	Puente para peatones, destinado a salvar carreteras, ferrocarriles, etc.
+862	t_0407p_ex	8	FTO	Fuente ornamental	tipo_0407p	MON	True	Fuente monumental, con valor artístico o histórico y que, por lo general, no permite coger agua.
+905	tipo_0504	8	IHC	Instalación hidrocarburos			False	Instalación destinada a la producción, tratamiento o distribución de hidrocarburos. No incluye gasolineras u otros puntos de venta orientados al público general.
+923	tipo_0507	8	OTR	Otro			False	Tipo de industria, servicio o comercio no contemplada en las otras tipologías.
+931	tipo_0510	8	OPS	Orden público y seguridad			False	Instalaciones, equipamiento o edificios utilizados por las fuerzas y cuerpos de seguridad del estado para el desarrollo de las competencias que tienen legalmente asignadas.
+960	tipo_0513	8	REC	Área recreativa			False	Zona de ocio al aire libre que posee unos límites definidos. Estos límites pueden materializarse mediante algún tipo de cerramiento.
+997	j_0201_ex	8	SXT	Sexta	jerar_0201	Q_S	True	Ríos de longitud inferior a 10 km.
+1030	t_0213_ex	8	TAG	Otra toma de agua	tipo_0213	TMA	True	Instalación genérica por la que se deriva hacia un edificio u otro lugar parte del agua que circula por una conducción principal
+1049	t_0307l_ex	8	TER	Terraplén	tipo_0307l	TAL	True	Talud formado por materiales granulares o de relleno cuya pendiente responde a la acción de la gravedad.
+1058	t_0307s_ex	8	OTA	Otro talud	tipo_0307s	TAL	True	Cualquier otro tipo de talud que no se englobe en ninguna de las otras categorias.
+1088	tipo_0313	8	SCO	Saliente costero			False	Lengua de tierra que penetra en el mar.
+1130	titular_ex	8	CHD	Confederación hidrográfica	titular	OTR	True	La titularidad de la vía o de la infraestructura pertenece a la Confederación hidrográfica
+1157	acceso_ex	8	RES	Estacional	acceso	RES	True	Acceso restringido únicamente en ciertas estaciones o periodos del año, como invierno o verano, debido a condiciones climáticas o al incremento del tráfico en períodos específicos.
+1226	tipo_0131	8	OTR	Estación otras vías férreas			False	Estación destinada a sistemas ferroviarios que no encajan en las categorías anteriores.
+1245	t_0137_ex	8	ASN	Astillero naval			True	Puerto especializado en la construcción, reparación y mantenimiento de barcos y embarcaciones.
+1279	tipo_0901	8	OEN	Otros Espacios Naturales Protegidos			False	Otros no contemplados en las figuras anteriores.
+1334	t_0904_ex	8	MAJ	Majada	tipo_0146l	OTR	True	Área dentro de una vía pecuaria donde el ganado puede ser agrupado para pasar la noche o durante períodos de descanso.
+1345	t_0801_ex	8	BAR	Barrio	tipo_0801		True	
+1359	tipo_0701	8	S08	Otros cultivos leñosos			False	
+688	tipo_0401s	9	EDL	Edificio ligero			False	Construcción para dotar de cierta protección a los elementos que se encuentran bajo ella. Ejemplos de este tipo son las marquesinas, naves abiertas, casetas o cobertizos.
+717	u_0401s_ex	9	EDC	Educativo			True	Construcción con uso educativo.
+743	t_0404_ex	9	DAL	Depósito de almacenamiento	tipo_0404	DPO	True	Recipiente de almacenamiento de productos o sustancias.
+763	tipo_0407s	9	MZN	Manzana	tipo_0407S		False	Espacio urbano edificado o destinado a edificar, generalmente de forma rectangular o cuadrada y frecuentemente delimitado por viales o vías urbanas. 
+824	tipo_0407l	9	ACU	Acueducto			False	Construcción elevada para conducir el agua a una cota adecuada salvando una depresión del terreno.
+863	t_0407p_ex	9	CZA	Cruz aislada	tipo_0407p	MON	True	Símbolo cristiano, generalmente construida en piedra, que suele encontrarse en cruces de caminos o en lugares donde recuerda algún acontecimiento.
+907	t_0504_ex	9	TEC	Térmica convencional	tipo_0504	CTE	True	Central termoeléctrica donde se utilizan combustibles fósiles (gas natural, carbón o fueloil) para generar energía eléctrica mediante un ciclo termodinámico de agua-vapor.
+932	tipo_0510	9	OSC	Equipamiento social			False	Tipo de equipamiento social no contemplada en las otras tipologías.
+961	tipo_0513	9	ZAC	Zona acampada			False	Espacio al aire libre dispuesto para detenerse y permanecer en despoblado, alojándose o no en tiendas o barracas en un lugar fuera de las zonas controladas o campamentos. Por lo general estas zonas no cuentan con límites bien definidos.
+1031	t_0213_ex	9	NOR	Noria	tipo_0213	TMA	True	Máquina compuesta de dos grandes ruedas engranadas que, mediante cangilones, sube el agua de los pozos, acequias, etc.
+1050	t_0307l_ex	9	OTA	Otro talud	tipo_0307l	TAL	True	Cualquier otro tipo de talud que no se englobe en ninguna de las otras categorias.
+1089	tipo_0313	9	PLA	Playa			False	Superficie cubierta por arenales sin consolidar, arena suelta, grava o cantos rodados.
+1090	tipo_0313	9	MON	Cadena Montañosa			False	
+1100	tipo_0313s	9	MON	Cadena Montañosa			False	Superficie cubierta por arenales sin consolidar, arena suelta, grava o cantos rodados.
+1131	titular_ex	9	AUP	Autoridad portuaria	titular	OTR	True	La titularidad de la vía o de la infraestructura pertenece a la Autoridad portuaria
+1158	acceso_ex	9	RMU	Multiple	acceso	RES	True	Restricción que implica varias condiciones combinadas, como limitaciones por hora, tipo de vehículo, o estacionales.
+1227	t_0131_ex	9	EST	Estación tranvía	tipo_0131	OTR	True	Estación destinada al servicio de tranvías.
+1280	t_0901_ex	9	PPU	Parque Periurbano	tipo_0901	PAR	True	Ley 2/1989, del Inventario de Espacios Naturales Protegidos de Andalucía
+1360	tipo_0701	9	S09	Viñedo			False	
+
+### VALORES_ATR_COMUNES ###
+id	nom_cod_atr	orden_val	codigo_val	valor	extendido	definicion
+1	f_altitud	1	MDT	MDT	True	Altitud del objeto geográfico obtenida utilizando el MDT.
+2	f_altitud	2	RES	Restitución	True	Altitud del objeto geográfico obtenida por restitución fotogramétrica.
+3	f_altitud	3	MDS	MDS	True	Altitud del objeto geográfico obtenida utilizando el MDS.
+4	f_altitud	4	EST	Estimada	True	Altitud estimada del objeto geográfico.
+5	f_altitud	5	INT	Interpolada	True	Altitud del objeto geográfico obtenida por interpolación.
+6	f_altitud	6	NOZ	Sin Z	True	Objeto geográfico sin altitud asignada.
+
+### TEMAS ###
+id	codigo_tema	nombre_tema	extendido	definicion	comentarios
+1	01	Transportes	False		
+2	02	Hidrografía	False		
+3	03	Orografía y lugares geográficos	False		
+4	04	Edificios y construcciones	False		
+5	05	Servicios e instalaciones	False		
+6	06	Puntos de referencia	True		
+7	07	Cubierta terrestre	True		
+8	08	Unidades territoriales	False		
+9	09	Lugares protegidos	True		
+
+### OBJETOS_GEOGRAFICOS ###
+id	codigo	nom_corto	nombre	geometria	extendido	definicion	comentarios
+39	0101a	catalogo_carretera	Catálogo de carreteras	alfanumerico	False	Listado alfanumérico que contiene todas las carreteras recogidas en inventarios oficiales a las que se les ha asignado un identificador único. Incluye también identificadores para viales compuestos por más de una carretera.	
+40	0104a	vial_carretera_compuesto	Viales de carretera compuestos	alfanumerico	False	PROPIA: Listado alfanumerico que contiene los identificadores de los viales de carretera compuestos y su relación con los viales de carretera simples que los forman.	
+41	0107l	carretera	Carretera	linea	False	Vía revestida proyectada y construida fundamentalmente para la circulación de vehículos automóviles, constituida por una o varias calzadas.	
+42	0107s	carretera	Carretera	poligono	False	Vía revestida proyectada y construida fundamentalmente para la circulación de vehículos automóviles, constituida por una o varias calzadas.	
+43	0110l	via_urbana	Vía urbana	linea	False	Vía en el espacio público urbano entre edificios y solares. Incluye las calles fuera de casco urbano, en polígonos industriales o urbanizaciones dispersas.	
+44	0113l	otras_vias	Otras vías	linea	False	Vías que no se clasifican dentro de las categorías de carreteras o vías urbanas, pero que son utilizadas para el tránsito de vehículos o personas.	
+45	0113s	otras_vias_ex	Otras vías	poligono	True	Vías que no se clasifican dentro de las categorías de carreteras o vías urbanas, pero que son utilizadas para el tránsito de vehículos o personas.	
+46	0116p	pk_carretera	Punto kilométrico de carretera	punto	False	Señal permanente que se pone en las carreteras para marcar la distancia recorrida o que falta por recorrer, respecto a un origen definido, que suele corresponder al punto considerado como origen o comienzo de la misma. Sirve para localizar un punto perteneciente a la infraestructura, midiendo la distancia a lo largo de ella.	
+47	0119p	recarga_repostaje_ex	Punto de recarga o repostaje	punto	True	Punto de recarga o repostaje de vehículos.	
+48	0122p	servicio_carretera	Servicio de carretera	punto	False	Instalaciones disponibles a lo largo de las carreteras para proporcionar diferentes servicios a los viajeros y conductores.	
+49	0122z	servicio_carretera	Servicio de carretera	zona	False	Instalaciones disponibles a lo largo de las carreteras para proporcionar diferentes servicios a los viajeros y conductores.	
+50	0125l	via_ferrea	Vía ferrea	linea	False	Vía de transporte destinada a la circulación de vehículos conducidos mediante raíles.	
+51	0128p	pk_fc	Punto kilométrico de ferrocarril	punto	False	Señal permanente que se pone en las vías de ferrocarril para marcar la distancia recorrida o que falta por recorrer, respecto a un origen definido, que suele corresponder al punto considerado como origen o comienzo de la misma. Sirve para localizar un punto perteneciente a la infraestructura, midiendo la distancia a lo largo de ella.	
+52	0131p	estacion_fc	Estación ferrocarril	punto	False	Lugar donde habitualmente paran los vehículos para la subida y bajada de pasajeros y la carga y descarga de mercancías.	
+53	0131z	estacion_fc	Estación ferrocarril	zona	False	Lugar donde habitualmente paran los vehículos para la subida y bajada de pasajeros y la carga y descarga de mercancías.	
+54	0134l	transporte_cable	Transporte por cable	linea	False	Remontador mecánico en el que los vehículos están suspendidos de uno o más cables.	
+55	0137p	puerto	Puerto	punto	False	Zona definida en la costa o en las orillas de un río que por sus características, naturales o artificiales, sirve para que las embarcaciones realicen operaciones de carga y descarga, embarque y desembarco, etc. con geometría de punto.	
+56	0137z	puerto	Puerto	zona	False	Zona definida en la costa o en las orillas de un río que por sus características, naturales o artificiales, sirve para que las embarcaciones realicen operaciones de carga y descarga, embarque y desembarco. etc.	
+57	0140p	aerodromo	Aeródromo	punto	False	Zona definida, sobre tierra o agua, cuyo propósito es ser utilizada total o parcialmente para la llegada, salida y movimiento en superficie de aeronaves y/o helicópteros.	
+58	0140z	aerodromo	Aeródromo	zona	False	Zona definida, sobre tierra o agua, cuyo propósito es ser utilizada total o parcialmente para la llegada, salida y movimiento en superficie de aeronaves y/o helicópteros.	
+59	0143s	pista_aerodromo	Pista aeródromo	poligono	False	Área definida en un aeródromo/helipuerto terrestre preparada para el aterrizaje y el despegue de aeronaves.	
+20	0201l	curso_natural	Curso natural	linea	False	Curso de agua que recoge los aportes de una cuenca fluvial.	
+21	0201s	curso_natural	Curso natural	poligono	False	Curso de agua que recoge los aportes de una cuenca fluvial.	
+22	0204l	curso_artificial	Curso artificial	linea	False	Curso de agua creado o muy modificado por la actividad humana.	
+23	0204s	curso_artificial	Curso artificial	poligono	False	Infraestructura creada para conducir un curso de agua y utilizarla para diferentes usos.	
+24	0207s	lamina_agua	Lámina de agua	poligono	False	Superficie de agua detenida en una zona de modo más o menos estable que no presenta movimiento de traslación continuado en una dirección determinada debido al efecto de la gravedad.	
+25	0210s	embalse	Embalse	poligono	False	Masa de agua formada mediante retención artificial de las aguas de una corriente natural.	
+26	0213p	punto_hidro	Punto hidrográfico	punto	False	Lugar donde existe un elemento singular desde el punto de vista hidrográfico.	
+27	0216p	mar	Mar	punto	False	Masa de agua salada exterior a la línea de costa.	
+28	0216s	mar	Mar	poligono	False	Masa de agua salada exterior a la línea de costa.	
+29	0219s	isla	Isla	poligono	False	Zona de la superficie terrestre que se encuentra totalmente rodeada de agua, ya sea en el seno del mar, en cursos naturales de agua, lagunas o embalses.	
+30	0222l	costa	Costa	linea	False	Límite entre zona terrestre y marítima coincidente con la curva de nivel de cota cero (nivel medio del mar en Alicante). En zonas artificiales (muelles, diques, espigones, rompeolas, terreno ganado al mar, etc.) la línea de costa se ha capturado coincidente con la infraestructura, a una fecha determinada.	
+31	0301l	curva_nivel	Curva de nivel	linea	False	Línea imaginaria de altitud constante que sirve para describir la forma tridimensional de la superficie terrestre.	
+32	0304l	curva_batimetrica	Curva batimétrica	linea	True	Línea imaginaria de profundidad constante que sirve para describir la forma tridimensional del relieve del fondo marino o lacustre.	
+33	0307l	cambio_pendiente	Cambio de pendiente	linea	False	Línea que indica cambios de pendiente.	
+34	0307s	cambio_pendiente	Cambio de pendiente	poligono	False	Superficie que indica cambios de pendiente.	
+35	0310p	punto_cota	Punto de cota	punto	False	Punto genérico de altitud conocida, que se representa para facilitar la interpretación gráfica de la morfología del terreno.	
+37	0313l	lugar_geografico	Lugar geográfico	linea	False	Ubicación específica en la superficie terrestre que puede ser identificada y descrita por sus características físicas, culturales o naturales.	
+36	0313p	lugar_geografico	Lugar geográfico	punto	False	Ubicación específica en la superficie terrestre que puede ser identificada y descrita por sus características físicas, culturales o naturales.	
+38	0313s	lugar_geografico	Lugar geográfico	poligono	False	Ubicación específica en la superficie terrestre que puede ser identificada y descrita por sus características físicas, culturales o naturales.	
+2	0401p	edificacion	Edificación	punto	False	Construcción fija, hecha con materiales resistentes, para habitación humana o para otros usos con geometría de punto.	
+1	0401s	edificacion	Edificación	poligono	False	Construcción fija, hecha con materiales resistentes, para habitación humana o para otros usos con geometría de polígono.	
+3	0404s	constr_almacenaje	Construcción de almacenaje	poligono	False	Construcciones destinadas a almacenar sustancias, materiales u objetos en su interior.	
+5	0407l	otras_constr	Otras construcciones	linea	False	Otras construcciones fijas que no se recogen en Edificio y con geometría de línea.	
+6	0407p	otras_constr	Otras construcciones	punto	False	Otras construcciones fijas que no se recogen en Edificio y con geometría de punto.	
+4	0407s	otras_constr	Otras construcciones	poligono	False	Otras construcciones fijas que no se recogen en Edificio y con geometría de polígono.	
+7	0410l	tendido	Tendido eléctrico	linea	False	Conjunto de cables y otras elementos que constituyen una conducción eléctrica, destinada a diferentes usos.	
+8	0413l	presa	Presa	linea	False	Construcción interpuesta transversalmente en un punto de un curso natural o artificial con el objeto de almacenar el agua del mismo, derivarla o regular su curso fuera del cauce con geometría de línea.	
+9	0413s	presa	Presa	poligono	False	Construcción interpuesta transversalmente en un punto de un curso natural o artificial con el objeto de almacenar el agua del mismo, derivarla o regular su curso fuera del cauce con geometría de polígono.	
+10	0501p	explotacion_materiales	Explotación de materiales	punto	False	Lugar destinado a la extracción y aprovechamiento de algún tipo de mineral o recurso.	
+11	0501z	explotacion_materiales	Explotación de materiales	zona	False	Lugar destinado a la extracción y aprovechamiento de algún tipo de mineral o recurso.	
+12	0504p	energia	Energia	punto	False	Instalación o estructura para la producción o distribución a gran escala de hidrocarburos o recursos eléctricos incluidos los provenientes de fuentes de energía renovables.	
+13	0504z	energia	Energia	zona	False	Instalación o estructura para la producción o distribución a gran escala de hidrocarburos o recursos eléctricos incluidos los provenientes de fuentes de energía renovables.	
+14	0507p	industria_serv_com	Industria, servicio y comercio	punto	False	Zona o conjunto de construcciones dedicadas a una actividad industrial, de servicios o comercial.	
+15	0507z	industria_serv_com	Industria, servicio y comercio	zona	False	Zona o conjunto de construcciones dedicadas a una actividad industrial, de servicios o comercial.	
+16	0510p	admon_equip_social	Administración equipamiento social	punto	False	Zona asociada a edificios o instalaciones destinadas a fines de atención sanitaria, educativos, militares, de seguridad o servicios generales tanto de la administración pública como de gestión privada.	
+17	0510z	admon_equip_social	Administración equipamiento social	zona	False	Zona asociada a edificios o instalaciones destinadas a fines de atención sanitaria, educativos, militares, de seguridad o servicios generales tanto de la administración pública como de gestión privada.	
+18	0513p	cultura_ocio	Cultura y ocio	punto	False	Instalación, construcción o equipamiento destinado a actividades culturales, deportivas o de recreo ya sean públicas o privadas.	
+19	0513z	cultura_ocio	Cultura y ocio	zona	False	Instalación, construcción o equipamiento destinado a actividades culturales, deportivas o de recreo ya sean públicas o privadas.	
+60	0601p	ergnss	Red Geodésica Nacional de Estaciones de Referencia GNSS (ERGNSS)	punto	False	Punto señalizado sobre el terreno mediante una obra de monumentación u otro procedimiento, de posición conocida, en el que se coloca un dispositivo fijo para la recepción permanente de señales procedentes de satélites que ofrecen servicio de posicionamiento, pudiendo pertenecer a una o a varias redes de observación de diversa categoría.	
+61	0604p	vertice_geodesico	Vértice geodésico	punto	False	Punto señalizado sobre el terreno mediante una obra de monumentación u otro procedimiento, del que se conocen su posición y ciertas magnitudes geodésicas, pudiendo pertenecer a una o a varias redes de diversa tipología.	
+62	0607p	punto_nap_ex	Punto geodesico red NAP	punto	True	Punto geodésico perteneciente a la red NAP, Red de Nivelación de Alta Precisión.	
+63	0610p	mareografo_ex	Punto geodésico Red de Mareógrafos	punto	True	Punto geodésico perteneciente a la Red de Mareógrafos	
+70	0701s	cub_terrestre	Cubierta terrestre	poligono	False	Representación de las diferentes coberturas o usos del suelo sobre la superficie terrestre.	
+67	0801p	ent_pob	Entidades de Población	punto	False	Área habitable, habitada o excepcionalmente deshabitada que es conocida por una denominación específica que la identifica sin posibilidad de confusión.	
+68	0801s	ent_pob_ex	Entidades de Población	poligono	True	Área habitable, habitada o excepcionalmente deshabitada que es conocida por una denominación específica que la identifica sin posibilidad de confusión	
+69	0804s	uni_adm	Unidades Administrativas	poligono	False	Divisiones territoriales que se utilizan para la organización y la gestión administrativa de un país o región.	
+64	0901s	esp_nat_prot	Espacios Naturales Protegidos	poligono	False	Espacios Naturales Protegidos declarados por las administraciones competentes en aplicación de la Ley 42/2007, de 13 de diciembre, del Patrimonio Natural y de la Biodiversidad.	
+65	0904l	via_pecuaria	Vía pecuaria	linea	False	Vía para la trashumancia del ganado.	
+66	0904s	via_pecuaria	Vía pecuaria	poligono	False	Vía para la trashumancia del ganado.	
+

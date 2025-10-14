@@ -1,0 +1,23 @@
+<!-- Este archivo representa una sola fila de valor dentro del acordeón
+generado por valores_atributo_comun.html. Es decir:
+ - valores_atributo_comun.html crea la estructura completa del acordeón y la tabla.
+ - fila_valor_comun.html se encarga de una línea de esa tabla, con los datos del valor individual
+
+El mapeo está en este bloque:
+htmlDominioComunesValores = """ """
+            for value in dominioComunesValores:
+                htmlDominioComunesValores += fila_valor_comun_template.format(
+                    ID=value[0],
+                    Atributo=value[1],
+                    Orden=value[2],
+                    Valor=value[3],
+                    Valordelvalor=value[4],
+                    definicion=value[6]
+
+-->
+
+<tr>
+    <td>{Valor}</td>
+    <td>{Valordelvalor}</td>
+    <td>{definicion}</td>
+</tr>

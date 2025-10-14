@@ -1,0 +1,61 @@
+=============================================
+ CATALOGO BTA 2.0 - ESTRUCTURA DE DATOS
+=============================================
+
+Este catálogo ha sido generado automáticamente a partir de la base de datos 'cat_bta20'.
+Contiene tanto los metadatos (atributos, valores, temas, objetos geográficos, etc.) como
+las páginas HTML resultantes.
+
+---------------------------------------------
+📁 ESTRUCTURA DE CARPETAS
+---------------------------------------------
+./catalogoBTA_HTML
+│
+├── index.html ................ Página principal del catálogo.
+├── LEEME_catalogoBTA.txt ...... Este archivo informativo.
+├── bootstrap-5.3.2-dist/ ...... Librerías CSS y JS de Bootstrap.
+├── css/ ....................... Hojas de estilo personalizadas.
+├── Fichas/ .................... Normas de captura en formato pdf.
+├── jquery-3.7.1/ .............. Librería JavaScript jQuery utilizada por el catálogo.
+├── JS/ ........................ Scripts propios adicionales.
+├── objetos_geograficos/ ....... Carpeta con una página HTML por cada objeto geográfico.
+│      ├── index.html .......... Índice de todos los objetos.
+│      └── [CODIGO].html ....... Página detallada de cada objeto.
+│
+├── tablas_catalogoBTA.csv ..... Archivo tabulado con todos los metadatos extraídos de PostgreSQL.
+└── ... (otros archivos del template HTML)
+
+---------------------------------------------
+🗂️  TABLAS INCLUIDAS EN EL CSV
+---------------------------------------------
+Cada tabla se separa por un encabezado del tipo:
+   ### NOMBRE_TABLA ###
+seguido por los nombres de las columnas y los registros.
+
+Las tablas de la base de datos original incluidas son:
+  - atributos
+  - atributos_extendidos
+  - atributos_comunes
+  - tipos_geometrias
+  - tipos_valores
+  - valores
+  - valores_atr_comunes
+  - temas
+  - objetos_geograficos
+
+---------------------------------------------
+📑 NOTAS
+---------------------------------------------
+- El archivo CSV está separado por tabuladores (\t).
+- Los valores vacíos aparecen como campos en blanco.
+- Los caracteres especiales están codificados en UTF-8-sig.
+- Este catálogo se genera automáticamente a partir de la base de datos PostgreSQL.
+- Cada página HTML se corresponde con un objeto geográfico de la tabla 'objetos'.
+
+---------------------------------------------
+📧 CONTACTO
+---------------------------------------------
+Para más información o soporte técnico:
+  · Autor: [...]
+  · Email: [...]
+  · Fecha de generación: [...]

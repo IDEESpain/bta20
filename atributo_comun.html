@@ -1,0 +1,23 @@
+<!--Este HTML se utiliza para mostrar una fila en la tabla de atributos comunes.
+Cada fila representa un atributo y, si corresponde,
+un desplegable con los valores posibles
+En este bloque se mapean los datos:
+HTMLAtributosComunes += plantilla_atributo_comun.format(
+                ID=atr[0],
+                orden_atr=atr[1],
+                nombre_atr=atr[2],
+                tipo_valor=atr[3],
+                definicion=atr[4],
+                tablaValoresComunes=htmlContenidoComunesValores
+            )-->
+
+<tr>
+    <!--<th scope="row">{ID}</th>
+    <td>{orden_atr}</td>-->
+    <td>{nombre_atr}</td>
+    <td>{tipo_valor}</td>
+    <td>
+        <p>{definicion}</p>
+        {tablaValoresComunes}
+    </td>
+</tr>
