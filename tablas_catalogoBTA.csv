@@ -1,354 +1,354 @@
 ﻿### ATRIBUTOS ###
-id	codigo_obj	orden_atr	nom_atrib	dominio	tipo_valor	unidad	extendido	definicion	comentarios
-1	0401s	1	tipo	tipo_0401s	lista_val		False	Tipo de edificio según sus características constructivas.	
-8	0401p	1	tipo	tipo_0401p	lista_val		False	Tipo de edificio según sus características constructivas.	
-11	0404s	1	tipo	tipo_0404	lista_val		False	Tipo de construcción según sus características o el uso al que se destina.	
-16	0407s	1	tipo	tipo_0407s	lista_val		False	Tipo de otra construcción según sus características constructivas.	
-21	0407l	1	tipo	tipo_0407l	lista_val		False	Tipo de otra construcción según sus características constructivas.	
-26	0407p	1	tipo	tipo_0407p	lista_val		False	Tipo de otra construcción según sus características constructivas.	
-29	0410l	1	tipo	tipo_0410	lista_val		False	Tipo de  del tendido según su función.	
-33	0413l	1	tipo_cons	t_con_0413	lista_val		False	Tipo de construcción de la presa, atendiendo a los materiales empleados en la misma.	
-38	0413s	1	tipo_cons	t_con_0413	lista_val		False	Tipo de construcción de la presa, atendiendo a los materiales empleados en la misma.	
-43	0501p	1	tipo	tipo_0501	lista_val		False	Tipo de servicio o instalación para extracción de materiales.	
-47	0501z	1	id_punto		cadena(50)		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
-52	0504p	1	tipo	tipo_0504	lista_val		False	Tipo de servicio o instalación para producción o distribución de diferentes tipos de energía a gran escala.	
-55	0504z	1	id_punto		cadena(50)		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
-59	0507p	1	tipo	tipo_0507	lista_val		False	Tipo de industria, servicio o comercio.	
-61	0507z	1	id_punto		cadena(50)		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
-64	0510p	1	cod_bic		cadena(50)		False	Identificador del Bien de Interés Cultural (BIC).	
-68	0510z	1	id_punto		cadena(50)		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
-73	0513p	1	cod_bic		cadena(50)		False	Identificador del Bien de Interés Cultural (BIC).	
-77	0513z	1	id_punto		cadena(50)		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
-82	0201l	1	tipo_tramo	tram_curso	lista_val		False	Tipo de tramo del curso natural en función de por dónde discurre.	
-99	0204l	1	tipo_tramo	tram_curso	lista_val		False	Tipo de tramo del curso artificial.	
-104	0204s	1	tipo	tipo_0204	lista_val		False	Tipo de conducción artificial según características constructivas.	
-108	0207s	1	tipo	tipo_0207	lista_val		False	Tipo de lámina de agua según su naturaleza.	
-114	0210s	1	nivel_agua	niv_a_0210	lista_val		False	Indica si la geometría registrada corresponde al máximo aparente o a la máxima elevación del embalse.	
-117	0213p	1	tipo	tipo_0213	lista_val		False	Tipo de punto hidrográfico según su naturaleza.	
-120	0216p	1	tipo	tipo_0216	lista_val		False	Tipo de aguas marinas.	
-122	0216s	1	id_punto		cadena(50)		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
-125	0219s	1	tipo	tipo_0219	lista_val		False	Tipo de isla según donde se encuentre.	
-128	0301l	1	tipo	tipo_0301	lista_val		False	Tipo de la curva de nivel.	
-131	0304l	1	sonda		entero		False	Profundidad expresada en metros respecto una superficie de nivel definida como origen.	
-132	0307l	1	tipo	tipo_0307l	lista_val		False	Tipo de cambio de pendiente.	
-135	0307s	1	tipo	tipo_0307s	lista_val		False	Tipo de cambio de pendiente.	
-137	0310p	1	situacion	situ_0310	lista_val		False	Situación del punto de cota.	
-145	0313p	1	codigo		cadena		False	Código o identificador proporcionado por un organismo externo.	
-150	0313l	1	codigo		cadena		False	Código o identificador proporcionado por un organismo externo.	
-155	0313s	1	codigo		cadena		False	Código o identificador proporcionado por un organismo externo.	
-159	0101a	1	id_vial		cadena		False	Identificador de vial (procedente del catálogo de carreteras de la Red de Transporte del IGN).	
-163	0104a	1	id_vial_c		cadena		False	Identificador de los viales compuestos.	
-165	0107l	1	id_vial		cadena		False	Identificador del vial.	
-178	0107s	1	id_vial		cadena		False	Identificador del vial.	
-191	0110l	1	tipo		cadena		False	Tipos de vía urbana.	
-204	0113l	1	tipo	tipo_0113l	lista_val		False	Tipos de otras vías.	
-209	0113s	1	tipo	tipo_0113s	lista_val		False	Tipos de otras vías.	
-214	0116p	1	id_vial		cadena		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
-218	0119p	1	tipo	tipo_0119	lista_val		False	Tipología de servicio.	
-219	0122p	1	tipo	tipo_0122	lista_val		False	Tipología de servicio de carretera.	
-220	0122z	1	id_punto		cadena(50)		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
-222	0125l	1	nom_linea		cadena		False	Denominación por la que se conoce a la entidad	
-233	0128p	1	nom_linea		cadena		False	Denominación por la que se conoce a la entidad	
-236	0131p	1	tipo	tipo_0131	lista_val		False	Tipo de estación de ferrocarril.	
-242	0131z	1	id_punto		cadena(50)		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
-249	0134l	1	tipo	tipo_0134	lista_val		False	Tipo de transporte suspendido por cable. 	
-250	0137p	1	titular	titular	lista_val		False	Organismo titular del puerto. 	
-255	0137z	1	id_punto		cadena(50)		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
-261	0140p	1	titular	titular	lista_val		False	Organismo titular del aeródromo.	
-271	0140z	1	id_punto		cadena(50)		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
-282	0143s	1	id_punto		cadena(50)		False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
-284	0601p	1	codigo		cadena (4)		False	Identificador del punto GNSS.	
-288	0604p	1	codigo		cadena		False	Identificador del punto geodésico.	
-293	0607p	1	codigo		cadena		False	Identificador del punto geodésico.	
-297	0610p	1	codigo		cadena		False	Identificador del punto geodésico.	
-300	0901s	1	tipo	tipo_0901	lista_val		False	Tipología general de Espacios Naturales Protegidos	
-305	0904l	1	codigo		cadena		False	Código para relacionar con información externa.	
-309	0904s	1	codigo		cadena		False	Código para relacionar con información externa.	
-313	0801p	1	tipo	tipo_0801	lista_val		False	Tipo de entidad de población.	
-320	0801s	1	tipo	tipo_0801	lista_val		False	Tipo de entidad de población.	
-327	0804s	1	tipo	tipo_0804	lista_val		False	Tipo de división administrativa.	
-329	0701s	1	tipo	tipo_0701	lista_val		False	Tipología de cubiertas terrestres procedente de SIOSE AR y su simplificación para Mapa Topográfico Nacional.	
-174	0107l	10	acceso	acceso	lista_val		False	Tipo de restricción de acceso a la vía.	
-187	0107s	10	acceso	acceso	lista_val		False	Tipo de restricción de acceso a la vía.	
-2	0401s	2	estadofis	estadofis	lista_val		False	Estado físico en el que se encuentra la construcción.	
-9	0401p	2	estadofis	estadofis	lista_val		False	Estado físico en el que se encuentra la construcción.	
-12	0404s	2	situacion	situ_0404	lista_val		False	Situación de la construcción con respecto al terreno.	
-17	0407s	2	situacion	situ_0407s	lista_val		False	Situación de la construcción con respecto al terreno.	
-22	0407l	2	situacion	situ_0407l	lista_val		False	Situación de la construcción con respecto al terreno.	
-34	0413l	2	tipo_func	t_fun_0413	lista_val		False	Tipo de funcionamiento de la presa.	
-39	0413s	2	tipo_func	t_fun_0413	lista_val		False	Tipo de funcionamiento de la presa.	
-44	0501p	2	situacion	situ_0501	lista_val		False	Situación del servicio o instalación para extracción de materiales con respecto al terreno.	
-48	0501z	2	tipo	tipo_0501	lista_val		False	Tipo de servicio o instalación para extracción de materiales.	
-53	0504p	2	codigo_ex		cadena(50)		False	Identificador temático de la fuente externa de referencia.	
-56	0504z	2	tipo	tipo_0504	lista_val		False	Tipo de servicio o instalación para producción o distribución de diferentes tipos de energía a gran escala.	
-62	0507z	2	tipo	tipo_0507	lista_val		False	Tipo de industria, servicio o comercio.	
-65	0510p	2	tipo	tipo_0510	lista_val		False	Tipo de administración o de equipamiento social.	
-69	0510z	2	cod_bic		cadena(50)		False	Identificador del Bien de Interés Cultural (BIC).	
-74	0513p	2	tipo	tipo_0513	lista_val		False	Tipo de punto con interés cultural o de instalación para el deporte o el ocio.	
-78	0513z	2	cod_bic		cadena(50)		False	Identificador del Bien de Interés Cultural (BIC).	
-83	0201l	2	canalizado	canal_0201	lista_val		False	Indica si se han llevado a cabo obras para encauzar un curso natural de agua, generalmente para evitar inundaciones, afección a otras construcciones o favorecer la navegación.	
-92	0201s	2	nivel_agua	niv_a_0201	lista_val		False	Indica si la geometría registrada corresponde al cauce habitual o es el máximo aparente.	
-100	0204l	2	tipo	tipo_0204	lista_val		False	Tipo de conducción artificial según características constructivas.	
-105	0204s	2	situacion	situ_0204	lista_val		False	Situación del curso artificial respecto de la superficie terrestre.	
-109	0207s	2	regimen	regim_hidr	lista_val		False	Tipología de lámina de agua según su régimen.	
-115	0210s	2	max_elev		real		False	Almacena la máxima elevación de la lámina de agua del embalse. La máxima elevación corresponde al valor de la cota de coronación de la presa asociada menos 2 m.	
-123	0216s	2	tipo	tipo_0216	lista_val		False	Tipo de aguas marinas.	
-129	0301l	2	cota		entero		False	Cota de la curva de nivel.	
-133	0307l	2	seccion	secc_0307	lista_val		False	Sección capturada del cambio de pendiente.	
-138	0310p	2	tipo	tipo_0310	lista_val		False	Clasificación según la morfología del terreno donde se encuentra.	
-146	0313p	2	cod_bic		cadena(50)		False	Código de bien de interés cultural si aplica.	
-151	0313l	2	cod_bic		cadena(50)		False	Código de bien de interés cultural si aplica.	
-156	0313s	2	cod_bic		cadena(50)		False	Código de bien de interés cultural si aplica.	
-160	0101a	2	tipo_vial	tipo_vial	lista_vial		False	Tipologías de viales considerados en cada una de las clases generales.	
-164	0104a	2	id_vial_s		cadena		False	Identificador de los viales simples que forman el compuesto.	
-166	0107l	2	clase	clase_0107	lista_val		False	Clase de tramo por sus características físicas.	
-179	0107s	2	clase	clase_0107	lista_val		False	Clase de tramo por sus características físicas.	
-192	0110l	2	nombre_alt		cadena		False	Nombre de la vía.	
-215	0116p	2	valor_pk		real		False	Valor del punto kilométrico de carretera. 	
-221	0122z	2	tipo	tipo_0122	lista_val		False	Tipología de servicio de carretera.	
-223	0125l	2	tipo_linea	tipo_0125	lista_val		False	Tipo de transporte sobre raíl.	
-234	0128p	2	tipo 	tipo_pk	lista_val		False	Tipo de punto kilométrico según la señal que lo materializa y su posición.	
-243	0131z	2	tipo	tipo_0131	lista_val		False	Tipo de estación de ferrocarril.	
-256	0137z	2	titular	titular	lista_val		False	Organismo titular del puerto. 	
-272	0140z	2	titular	titular	lista_val		False	Organismo titular del aeródromo.	
-283	0143s	2	tipo	tipo_0143	lista_val		False	Tipo de pista por la que circulan las aeronaves cuando están en tierra.	
-289	0604p	2	titular		cadena		False	Organismo titular o propietario del Punto Geodésico, responsable de su obra de monumentación.	
-294	0607p	2	titular		cadena		False	Organismo titular o propietario del Punto Geodésico, responsable de su obra de monumentación.	
-298	0610p	2	titular		cadena		False	Organismo titular o propietario del Punto Geodésico, responsable de su obra de monumentación.	
-306	0904l	2	tipo	tipo_0904	lista_val		False	Tipo de vía pecuaria según su anchura (Ley 3/95, de 23 de Marzo). 	
-310	0904s	2	tipo	tipo_0904	lista_val		False	Tipo de vía pecuaria según su anchura (Ley 3/95, de 23 de Marzo). 	
-328	0804s	2	codig_ua		cadena		False	Código INE de la unidad adminsitrativa.	
-13	0404s	3	estadofis	estadofis	lista_val		False	Estado físico en el que se encuentra la construcción de almacenaje.	
-18	0407s	3	estadofis	estadofis	lista_val		False	Estado físico en el que se encuentra la construcción.	
-23	0407l	3	estadofis	estadofis	lista_val		False	Estado físico en el que se encuentra la construcción.	
-35	0413l	3	estadofis	estadofis	lista_val		False	Estado físico en el que se encuentra la presa.	
-40	0413s	3	estadofis	estadofis	lista_val		False	Estado físico en el que se encuentra la presa.	
-49	0501z	3	situacion	situ_0501	lista_val		False	Situación del servicio o instalación para extracción de materiales con respecto al terreno.	
-54	0504p	3	tipo_ex	t_0504_ex	lista_val		False	Tipo de servicio o instalación para producción o distribución de diferentes tipos de energía a gran escala (modelo extendido).	
-57	0504z	3	codigo_ex		cadena(50)		False	Identificador temático de la fuente externa de referencia.	
-70	0510z	3	tipo	tipo_0510	lista_val		False	Tipo de administración o de equipamiento social.	
-79	0513z	3	tipo	tipo_0513	lista_val		False	Tipo de zona con interés cultural o de instalación para el deporte o el ocio.	
-84	0201l	3	regimen	regim_hidr	lista_val		False	Régimen hidrológico que tendría lugar en un tramo de río sin intervención humana significativa en su cuenca vertiente.	
-93	0201s	3	canalizado	canal_0201	lista_val		False	Indica si se han llevado a cabo obras para encauzar un curso natural de agua, generalmente para evitar inundaciones, afección a otras construcciones o favorecer la navegación.	
-101	0204l	3	situacion	situ_0204	lista_val		False	Situación del curso artificial respecto de la superficie terrestre.	
-106	0204s	3	estadofis	estadofis	lista_val		False	Estado físico en el que se encuentra la construcción del curso artificial.	
-139	0310p	3	cota_conv		entero		False	Altitud del punto acotado expresada en metros.	
-147	0313p	3	tipo	tipo_0313	lista_val		False	Tipo de lugar geográfico.	
-152	0313l	3	tipo	tipo_0313	lista_val		False	Tipo de lugar geográfico.	
-157	0313s	3	tipo	tipo_0313s	lista_val		False	Tipo de lugar geográfico.	
-161	0101a	3	nombre_alt		cadena		False	Nombre alternativo de la vía.	
-167	0107l	3	orden	orden	lista_val		False	Clasificación basada en la importancia de la carretera en la red.	
-180	0107s	3	orden	orden	lista_val		False	Clasificación basada en la importancia de la carretera en la red.	
-193	0110l	3	tramo	tram_trans	lista_val		False	Tipología de tramo en relación al eje de la vía.	
-206	0113l	3	situacion	situ_trans	lista_val		False	Situación del tramo según su posición vertical relativa respecto a la superficie terrestre y a otros condicionantes físicos.	
-211	0113s	3	situacion	situ_trans	lista_val		False	Situación del tramo según su posición vertical relativa respecto a la superficie terrestre y a otros condicionantes físicos.	
-216	0116p	3	tipo	tipo_pk	lista_val		False	Tipo de punto kilométrico según la señal que lo materializa y su posición.	
-224	0125l	3	tramo	tramo_0125	lista_val		False	Tipología de tramo en relación al eje de la vía ferrea. 	
-235	0128p	3	valor_pkfc		real		False	Número que expresa la distancia respecto del origen de la infraestructura, en kilómetros y con un decimal.	
-238	0131p	3	uso	uso_0131	lista_val		False	Uso de la estación de ferrocarril.	
-252	0137p	3	estadofis	esta_trans	lista_val		False	Estado físico en que se encuentra la instalación en relación a su terminación y uso.	
-263	0140p	3	estadofis	esta_trans	lista_val		False	Estado físico en que se encuentra el aeródromo en relación a su terminación y uso.	
-290	0604p	3	tipo	tipo_0604	lista_val		False	Indica la red geodésica a la que pertenece el Punto Geodésico.	
-295	0607p	3	alt_orto		real		False	Altitud ortométrica del punto geodésico. 	
-315	0801p	3	ine	ine_0801	lista_val		False	Indica si la entidad de población figura o no en el nomenclátor del Instituto Nacional de Estadística (INE).	
-322	0801s	3	ine	ine_0801	lista_val		False	Indica si la entidad de población figura o no en el nomenclátor del Instituto Nacional de Estadística (INE).	
-36	0413l	4	cota_coron		real		False	Cota de coronación de la presa.	
-41	0413s	4	cota_coron		real		False	Cota de coronación de la presa.	
-58	0504z	4	tipo_ex	t_0504_ex	lista_val		False	Tipo de servicio o instalación para producción o distribución de diferentes tipos de energía a gran escala (modelo extendido).	
-85	0201l	4	jerarquia	jerar_0201	lista_val		False	Clasificación que se establece para el río en su conjunto, según su longitud e importancia respecto al conjunto de ríos de España.	
-94	0201s	4	regimen	regim_hidr	lista_val		False	Régimen hidrológico que tendría lugar en un tramo de río sin intervención humana significativa en su cuenca vertiente.	
-102	0204l	4	estadofis	estadofis	lista_val		False	Estado físico en el que se encuentra la construcción del curso artificial.	
-162	0101a	4	vial_simple	vial_simpl	lista_val		False	Indica si el vial es o no simple.	
-168	0107l	4	titular	titular	lista_val		False	Organismo titular del tramo de la carretera.	
-181	0107s	4	titular	titular	lista_val		False	Organismo titular del tramo de la carretera.	
-194	0110l	4	calzada	calzada	lista_val		False	Clasificación de los viales en función de su calzada.	
-225	0125l	4	situacion	situ_0125	lista_val		False	Situación del tramo según su posición vertical relativa respecto a la superficie terrestre.	
-239	0131p	4	estadofis	esta_trans	lista_val		False	Estado físico en que se encuentra la estación de ferrocarril en relación a su terminación y uso.	
-245	0131z	4	uso	uso_0131	lista_val		False	Uso de la estación de ferrocarril.	
-258	0137z	4	estadofis	esta_trans	lista_val		False	Estado físico en que se encuentra la instalación en relación a su terminación y uso.	
-264	0140p	4	tipo	tipo_0140	lista_val		False	Tipo de aeródromo.	
-274	0140z	4	estadofis	esta_trans	lista_val		False	Estado físico en que se encuentra el aeródromo en relación a su terminación y uso.	
-316	0801p	4	codig_ep		cadena (11)		False	"Identificador del Instituto Nacional de Estadística (INE) del Ministerio de Asuntos Económicos y Transformación Digital. 
+id	codigo_obj	orden_atr	nom_atrib	dominio	tipo_valor	extendido	definicion	comentarios
+1	0401s	1	tipo	tipo_0401s	lista_val	False	Tipo de edificio según sus características constructivas.	
+8	0401p	1	tipo	tipo_0401p	lista_val	False	Tipo de edificio según sus características constructivas.	
+11	0404s	1	tipo	tipo_0404	lista_val	False	Tipo de construcción según sus características o el uso al que se destina.	
+16	0407s	1	tipo	tipo_0407s	lista_val	False	Tipo de otra construcción según sus características constructivas.	
+21	0407l	1	tipo	tipo_0407l	lista_val	False	Tipo de otra construcción según sus características constructivas.	
+26	0407p	1	tipo	tipo_0407p	lista_val	False	Tipo de otra construcción según sus características constructivas.	
+29	0410l	1	tipo	tipo_0410	lista_val	False	Tipo de  del tendido según su función.	
+33	0413l	1	tipo_cons	t_con_0413	lista_val	False	Tipo de construcción de la presa, atendiendo a los materiales empleados en la misma.	
+38	0413s	1	tipo_cons	t_con_0413	lista_val	False	Tipo de construcción de la presa, atendiendo a los materiales empleados en la misma.	
+43	0501p	1	tipo	tipo_0501	lista_val	False	Tipo de servicio o instalación para extracción de materiales.	
+47	0501z	1	id_punto		cadena(50)	False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+52	0504p	1	tipo	tipo_0504	lista_val	False	Tipo de servicio o instalación para producción o distribución de diferentes tipos de energía a gran escala.	
+55	0504z	1	id_punto		cadena(50)	False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+59	0507p	1	tipo	tipo_0507	lista_val	False	Tipo de industria, servicio o comercio.	
+61	0507z	1	id_punto		cadena(50)	False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+64	0510p	1	cod_bic		cadena(50)	False	Identificador del Bien de Interés Cultural (BIC).	
+68	0510z	1	id_punto		cadena(50)	False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+73	0513p	1	cod_bic		cadena(50)	False	Identificador del Bien de Interés Cultural (BIC).	
+77	0513z	1	id_punto		cadena(50)	False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+82	0201l	1	tipo_tramo	tram_curso	lista_val	False	Tipo de tramo del curso natural en función de por dónde discurre.	
+99	0204l	1	tipo_tramo	tram_curso	lista_val	False	Tipo de tramo del curso artificial.	
+104	0204s	1	tipo	tipo_0204	lista_val	False	Tipo de conducción artificial según características constructivas.	
+108	0207s	1	tipo	tipo_0207	lista_val	False	Tipo de lámina de agua según su naturaleza.	
+114	0210s	1	nivel_agua	niv_a_0210	lista_val	False	Indica si la geometría registrada corresponde al máximo aparente o a la máxima elevación del embalse.	
+117	0213p	1	tipo	tipo_0213	lista_val	False	Tipo de punto hidrográfico según su naturaleza.	
+120	0216p	1	tipo	tipo_0216	lista_val	False	Tipo de aguas marinas.	
+122	0216s	1	id_punto		cadena(50)	False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+125	0219s	1	tipo	tipo_0219	lista_val	False	Tipo de isla según donde se encuentre.	
+128	0301l	1	tipo	tipo_0301	lista_val	False	Tipo de la curva de nivel.	
+131	0304l	1	sonda		entero	False	Profundidad expresada en metros respecto una superficie de nivel definida como origen.	
+132	0307l	1	tipo	tipo_0307l	lista_val	False	Tipo de cambio de pendiente.	
+135	0307s	1	tipo	tipo_0307s	lista_val	False	Tipo de cambio de pendiente.	
+137	0310p	1	situacion	situ_0310	lista_val	False	Situación del punto de cota.	
+145	0313p	1	codigo		cadena	False	Código o identificador proporcionado por un organismo externo.	
+150	0313l	1	codigo		cadena	False	Código o identificador proporcionado por un organismo externo.	
+155	0313s	1	codigo		cadena	False	Código o identificador proporcionado por un organismo externo.	
+159	0101a	1	id_vial		cadena	False	Identificador de vial (procedente del catálogo de carreteras de la Red de Transporte del IGN).	
+163	0104a	1	id_vial_c		cadena	False	Identificador de los viales compuestos.	
+165	0107l	1	id_vial		cadena	False	Identificador del vial.	
+178	0107s	1	id_vial		cadena	False	Identificador del vial.	
+191	0110l	1	tipo		cadena	False	Tipos de vía urbana.	
+204	0113l	1	tipo	tipo_0113l	lista_val	False	Tipos de otras vías.	
+209	0113s	1	tipo	tipo_0113s	lista_val	False	Tipos de otras vías.	
+214	0116p	1	id_vial		cadena	False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+218	0119p	1	tipo	tipo_0119	lista_val	False	Tipología de servicio.	
+219	0122p	1	tipo	tipo_0122	lista_val	False	Tipología de servicio de carretera.	
+220	0122z	1	id_punto		cadena(50)	False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+222	0125l	1	nom_linea		cadena	False	Denominación por la que se conoce a la entidad	
+233	0128p	1	nom_linea		cadena	False	Denominación por la que se conoce a la entidad	
+236	0131p	1	tipo	tipo_0131	lista_val	False	Tipo de estación de ferrocarril.	
+242	0131z	1	id_punto		cadena(50)	False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+249	0134l	1	tipo	tipo_0134	lista_val	False	Tipo de transporte suspendido por cable. 	
+250	0137p	1	titular	titular	lista_val	False	Organismo titular del puerto. 	
+255	0137z	1	id_punto		cadena(50)	False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+261	0140p	1	titular	titular	lista_val	False	Organismo titular del aeródromo.	
+271	0140z	1	id_punto		cadena(50)	False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+282	0143s	1	id_punto		cadena(50)	False	Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde.	
+284	0601p	1	codigo		cadena (4)	False	Identificador del punto GNSS.	
+288	0604p	1	codigo		cadena	False	Identificador del punto geodésico.	
+293	0607p	1	codigo		cadena	False	Identificador del punto geodésico.	
+297	0610p	1	codigo		cadena	False	Identificador del punto geodésico.	
+300	0901s	1	tipo	tipo_0901	lista_val	False	Tipología general de Espacios Naturales Protegidos	
+305	0904l	1	codigo		cadena	False	Código para relacionar con información externa.	
+309	0904s	1	codigo		cadena	False	Código para relacionar con información externa.	
+313	0801p	1	tipo	tipo_0801	lista_val	False	Tipo de entidad de población.	
+320	0801s	1	tipo	tipo_0801	lista_val	False	Tipo de entidad de población.	
+327	0804s	1	tipo	tipo_0804	lista_val	False	Tipo de división administrativa.	
+329	0701s	1	tipo	tipo_0701	lista_val	False	Tipología de cubiertas terrestres procedente de SIOSE AR y su simplificación para Mapa Topográfico Nacional.	
+174	0107l	10	acceso	acceso	lista_val	False	Tipo de restricción de acceso a la vía.	
+187	0107s	10	acceso	acceso	lista_val	False	Tipo de restricción de acceso a la vía.	
+2	0401s	2	estadofis	estadofis	lista_val	False	Estado físico en el que se encuentra la construcción.	
+9	0401p	2	estadofis	estadofis	lista_val	False	Estado físico en el que se encuentra la construcción.	
+12	0404s	2	situacion	situ_0404	lista_val	False	Situación de la construcción con respecto al terreno.	
+17	0407s	2	situacion	situ_0407s	lista_val	False	Situación de la construcción con respecto al terreno.	
+22	0407l	2	situacion	situ_0407l	lista_val	False	Situación de la construcción con respecto al terreno.	
+34	0413l	2	tipo_func	t_fun_0413	lista_val	False	Tipo de funcionamiento de la presa.	
+39	0413s	2	tipo_func	t_fun_0413	lista_val	False	Tipo de funcionamiento de la presa.	
+44	0501p	2	situacion	situ_0501	lista_val	False	Situación del servicio o instalación para extracción de materiales con respecto al terreno.	
+48	0501z	2	tipo	tipo_0501	lista_val	False	Tipo de servicio o instalación para extracción de materiales.	
+53	0504p	2	codigo_ex		cadena(50)	False	Identificador temático de la fuente externa de referencia.	
+56	0504z	2	tipo	tipo_0504	lista_val	False	Tipo de servicio o instalación para producción o distribución de diferentes tipos de energía a gran escala.	
+62	0507z	2	tipo	tipo_0507	lista_val	False	Tipo de industria, servicio o comercio.	
+65	0510p	2	tipo	tipo_0510	lista_val	False	Tipo de administración o de equipamiento social.	
+69	0510z	2	cod_bic		cadena(50)	False	Identificador del Bien de Interés Cultural (BIC).	
+74	0513p	2	tipo	tipo_0513	lista_val	False	Tipo de punto con interés cultural o de instalación para el deporte o el ocio.	
+78	0513z	2	cod_bic		cadena(50)	False	Identificador del Bien de Interés Cultural (BIC).	
+83	0201l	2	canalizado	canal_0201	lista_val	False	Indica si se han llevado a cabo obras para encauzar un curso natural de agua, generalmente para evitar inundaciones, afección a otras construcciones o favorecer la navegación.	
+92	0201s	2	nivel_agua	niv_a_0201	lista_val	False	Indica si la geometría registrada corresponde al cauce habitual o es el máximo aparente.	
+100	0204l	2	tipo	tipo_0204	lista_val	False	Tipo de conducción artificial según características constructivas.	
+105	0204s	2	situacion	situ_0204	lista_val	False	Situación del curso artificial respecto de la superficie terrestre.	
+109	0207s	2	regimen	regim_hidr	lista_val	False	Tipología de lámina de agua según su régimen.	
+115	0210s	2	max_elev		real	False	Almacena la máxima elevación de la lámina de agua del embalse. La máxima elevación corresponde al valor de la cota de coronación de la presa asociada menos 2 m.	
+123	0216s	2	tipo	tipo_0216	lista_val	False	Tipo de aguas marinas.	
+129	0301l	2	cota		entero	False	Cota de la curva de nivel.	
+133	0307l	2	seccion	secc_0307	lista_val	False	Sección capturada del cambio de pendiente.	
+138	0310p	2	tipo	tipo_0310	lista_val	False	Clasificación según la morfología del terreno donde se encuentra.	
+146	0313p	2	cod_bic		cadena(50)	False	Código de bien de interés cultural si aplica.	
+151	0313l	2	cod_bic		cadena(50)	False	Código de bien de interés cultural si aplica.	
+156	0313s	2	cod_bic		cadena(50)	False	Código de bien de interés cultural si aplica.	
+160	0101a	2	tipo_vial	tipo_vial	lista_vial	False	Tipologías de viales considerados en cada una de las clases generales.	
+164	0104a	2	id_vial_s		cadena	False	Identificador de los viales simples que forman el compuesto.	
+166	0107l	2	clase	clase_0107	lista_val	False	Clase de tramo por sus características físicas.	
+179	0107s	2	clase	clase_0107	lista_val	False	Clase de tramo por sus características físicas.	
+192	0110l	2	nombre_alt		cadena	False	Nombre de la vía.	
+215	0116p	2	valor_pk		real	False	Valor del punto kilométrico de carretera. 	
+221	0122z	2	tipo	tipo_0122	lista_val	False	Tipología de servicio de carretera.	
+223	0125l	2	tipo_linea	tipo_0125	lista_val	False	Tipo de transporte sobre raíl.	
+234	0128p	2	tipo 	tipo_pk	lista_val	False	Tipo de punto kilométrico según la señal que lo materializa y su posición.	
+243	0131z	2	tipo	tipo_0131	lista_val	False	Tipo de estación de ferrocarril.	
+256	0137z	2	titular	titular	lista_val	False	Organismo titular del puerto. 	
+272	0140z	2	titular	titular	lista_val	False	Organismo titular del aeródromo.	
+283	0143s	2	tipo	tipo_0143	lista_val	False	Tipo de pista por la que circulan las aeronaves cuando están en tierra.	
+289	0604p	2	titular		cadena	False	Organismo titular o propietario del Punto Geodésico, responsable de su obra de monumentación.	
+294	0607p	2	titular		cadena	False	Organismo titular o propietario del Punto Geodésico, responsable de su obra de monumentación.	
+298	0610p	2	titular		cadena	False	Organismo titular o propietario del Punto Geodésico, responsable de su obra de monumentación.	
+306	0904l	2	tipo	tipo_0904	lista_val	False	Tipo de vía pecuaria según su anchura (Ley 3/95, de 23 de Marzo). 	
+310	0904s	2	tipo	tipo_0904	lista_val	False	Tipo de vía pecuaria según su anchura (Ley 3/95, de 23 de Marzo). 	
+328	0804s	2	codig_ua		cadena	False	Código INE de la unidad adminsitrativa.	
+13	0404s	3	estadofis	estadofis	lista_val	False	Estado físico en el que se encuentra la construcción de almacenaje.	
+18	0407s	3	estadofis	estadofis	lista_val	False	Estado físico en el que se encuentra la construcción.	
+23	0407l	3	estadofis	estadofis	lista_val	False	Estado físico en el que se encuentra la construcción.	
+35	0413l	3	estadofis	estadofis	lista_val	False	Estado físico en el que se encuentra la presa.	
+40	0413s	3	estadofis	estadofis	lista_val	False	Estado físico en el que se encuentra la presa.	
+49	0501z	3	situacion	situ_0501	lista_val	False	Situación del servicio o instalación para extracción de materiales con respecto al terreno.	
+54	0504p	3	tipo_ex	t_0504_ex	lista_val	False	Tipo de servicio o instalación para producción o distribución de diferentes tipos de energía a gran escala (modelo extendido).	
+57	0504z	3	codigo_ex		cadena(50)	False	Identificador temático de la fuente externa de referencia.	
+70	0510z	3	tipo	tipo_0510	lista_val	False	Tipo de administración o de equipamiento social.	
+79	0513z	3	tipo	tipo_0513	lista_val	False	Tipo de zona con interés cultural o de instalación para el deporte o el ocio.	
+84	0201l	3	regimen	regim_hidr	lista_val	False	Régimen hidrológico que tendría lugar en un tramo de río sin intervención humana significativa en su cuenca vertiente.	
+93	0201s	3	canalizado	canal_0201	lista_val	False	Indica si se han llevado a cabo obras para encauzar un curso natural de agua, generalmente para evitar inundaciones, afección a otras construcciones o favorecer la navegación.	
+101	0204l	3	situacion	situ_0204	lista_val	False	Situación del curso artificial respecto de la superficie terrestre.	
+106	0204s	3	estadofis	estadofis	lista_val	False	Estado físico en el que se encuentra la construcción del curso artificial.	
+139	0310p	3	cota_conv		entero	False	Altitud del punto acotado expresada en metros.	
+147	0313p	3	tipo	tipo_0313	lista_val	False	Tipo de lugar geográfico.	
+152	0313l	3	tipo	tipo_0313	lista_val	False	Tipo de lugar geográfico.	
+157	0313s	3	tipo	tipo_0313s	lista_val	False	Tipo de lugar geográfico.	
+161	0101a	3	nombre_alt		cadena	False	Nombre alternativo de la vía.	
+167	0107l	3	orden	orden	lista_val	False	Clasificación basada en la importancia de la carretera en la red.	
+180	0107s	3	orden	orden	lista_val	False	Clasificación basada en la importancia de la carretera en la red.	
+193	0110l	3	tramo	tram_trans	lista_val	False	Tipología de tramo en relación al eje de la vía.	
+206	0113l	3	situacion	situ_trans	lista_val	False	Situación del tramo según su posición vertical relativa respecto a la superficie terrestre y a otros condicionantes físicos.	
+211	0113s	3	situacion	situ_trans	lista_val	False	Situación del tramo según su posición vertical relativa respecto a la superficie terrestre y a otros condicionantes físicos.	
+216	0116p	3	tipo	tipo_pk	lista_val	False	Tipo de punto kilométrico según la señal que lo materializa y su posición.	
+224	0125l	3	tramo	tramo_0125	lista_val	False	Tipología de tramo en relación al eje de la vía ferrea. 	
+235	0128p	3	valor_pkfc		real	False	Número que expresa la distancia respecto del origen de la infraestructura, en kilómetros y con un decimal.	
+238	0131p	3	uso	uso_0131	lista_val	False	Uso de la estación de ferrocarril.	
+252	0137p	3	estadofis	esta_trans	lista_val	False	Estado físico en que se encuentra la instalación en relación a su terminación y uso.	
+263	0140p	3	estadofis	esta_trans	lista_val	False	Estado físico en que se encuentra el aeródromo en relación a su terminación y uso.	
+290	0604p	3	tipo	tipo_0604	lista_val	False	Indica la red geodésica a la que pertenece el Punto Geodésico.	
+295	0607p	3	alt_orto		real	False	Altitud ortométrica del punto geodésico. 	
+315	0801p	3	ine	ine_0801	lista_val	False	Indica si la entidad de población figura o no en el nomenclátor del Instituto Nacional de Estadística (INE).	
+322	0801s	3	ine	ine_0801	lista_val	False	Indica si la entidad de población figura o no en el nomenclátor del Instituto Nacional de Estadística (INE).	
+36	0413l	4	cota_coron		real	False	Cota de coronación de la presa.	
+41	0413s	4	cota_coron		real	False	Cota de coronación de la presa.	
+58	0504z	4	tipo_ex	t_0504_ex	lista_val	False	Tipo de servicio o instalación para producción o distribución de diferentes tipos de energía a gran escala (modelo extendido).	
+85	0201l	4	jerarquia	jerar_0201	lista_val	False	Clasificación que se establece para el río en su conjunto, según su longitud e importancia respecto al conjunto de ríos de España.	
+94	0201s	4	regimen	regim_hidr	lista_val	False	Régimen hidrológico que tendría lugar en un tramo de río sin intervención humana significativa en su cuenca vertiente.	
+102	0204l	4	estadofis	estadofis	lista_val	False	Estado físico en el que se encuentra la construcción del curso artificial.	
+168	0107l	4	titular	titular	lista_val	False	Organismo titular del tramo de la carretera.	
+181	0107s	4	titular	titular	lista_val	False	Organismo titular del tramo de la carretera.	
+194	0110l	4	calzada	calzada	lista_val	False	Clasificación de los viales en función de su calzada.	
+225	0125l	4	situacion	situ_0125	lista_val	False	Situación del tramo según su posición vertical relativa respecto a la superficie terrestre.	
+239	0131p	4	estadofis	esta_trans	lista_val	False	Estado físico en que se encuentra la estación de ferrocarril en relación a su terminación y uso.	
+245	0131z	4	uso	uso_0131	lista_val	False	Uso de la estación de ferrocarril.	
+258	0137z	4	estadofis	esta_trans	lista_val	False	Estado físico en que se encuentra la instalación en relación a su terminación y uso.	
+264	0140p	4	tipo	tipo_0140	lista_val	False	Tipo de aeródromo.	
+274	0140z	4	estadofis	esta_trans	lista_val	False	Estado físico en que se encuentra el aeródromo en relación a su terminación y uso.	
+316	0801p	4	codig_ep		cadena (11)	False	"Identificador del Instituto Nacional de Estadística (INE) del Ministerio de Asuntos Económicos y Transformación Digital. 
 Código de 11 dígitos con el siguiente formato: dígitos 1,2 provincia; 3, 4, 5 municipio dentro de la provincia; 6, 7 entidad colectiva dentro del municipio (00 si no existe); 8, 9, entidad singular dentro de la entidad colectiva o municipio; 10, 11 núcleos dentro de la entidad singular, utilizando el 99 para el diseminado.
 Si la población es INE, su valor se corresponde con el código INE. Si la población es no INE, contiene el código INE al que pertenece dicha población"	
-323	0801s	4	codig_ep		cadena (11)		False	"Identificador del Instituto Nacional de Estadística (INE) del Ministerio de Asuntos Económicos y Transformación Digital. 
+323	0801s	4	codig_ep		cadena (11)	False	"Identificador del Instituto Nacional de Estadística (INE) del Ministerio de Asuntos Económicos y Transformación Digital. 
 Código de 11 dígitos con el siguiente formato: dígitos 1,2 provincia; 3, 4, 5 municipio dentro de la provincia; 6, 7 entidad colectiva dentro del municipio (00 si no existe); 8, 9, entidad singular dentro de la entidad colectiva o municipio; 10, 11 núcleos dentro de la entidad singular, utilizando el 99 para el diseminado.
 Si la población es INE, su valor se corresponde con el código INE. Si la población es no INE, contiene el código INE al que pertenece dicha población."	
-25	0407l	5	tipo_ex	t_0407l_ex	lista_val		False	Tipo de otra construcción según sus características constructivas (modelo extendido).	
-95	0201s	5	jerarquia	jerar_0201	lista_val		False	Clasificación que se establece para el río en su conjunto, según su longitud e importancia respecto al conjunto de ríos de España.	
-195	0110l	5	conex_ctra	conex_ctra	lista_val		False	Indica si el tramo de vía urbana constituye una travesía. 	
-226	0125l	5	estadofis	esta_trans	lista_val		False	Estado de uso del tramo de la entidad.	
-246	0131z	5	estadofis	esta_trans	lista_val		False	Estado físico en que se encuentra la estación de ferrocarril en relación a su terminación y uso.	
-265	0140p	5	categoria	categ_0140	lista_val		False	Categoría del aeródromo en función del tipo de vuelo.	
-275	0140z	5	tipo	tipo_0140	lista_val		False	Tipo de aeródromo.	
-170	0107l	6	tramo	tram_trans	lista_val		False	Tipología de tramo en relación al eje de la vía.	
-183	0107s	6	tramo	tram_trans	lista_val		False	Clasificación en función del papel que adopta el tramo dentro del vial.	
-196	0110l	6	situacion	situ_trans	lista_val		False	Situación del tramo según su posición vertical relativa respecto a la superficie terrestre y a otros condicionantes físicos.	
-227	0125l	6	ancho_via	ancho_via	lista_val		False	Ancho del tramo de vía, medido entre sus raíles.	
-266	0140p	6	gestion	gest_0140	lista_val		False	Tipología de autoridad que gestiona el funcionamiento de la infraestructura.	
-276	0140z	6	categoria	categ_0140	lista_val		False	Categoría del aeródromo en función del tipo de vuelo.	
-171	0107l	7	calzada	calzada	lista_val		False	Especifica si la calzada es duplicada o tiene más calzadas aún o única.	
-184	0107s	7	calzada	calzada	lista_val		False	Especifica si la calzada es duplicada o tiene más calzadas aún o única.	
-197	0110l	7	estadofis	esta_trans	lista_val		False	Estado físico en que se encuentra la vía en relación con su terminación y uso.	
-228	0125l	7	electrific	electrific	lista_val		False	Indica si el tramo de vía férrea está electrificado.	
-277	0140z	7	gestion	gest_0140	lista_val		False	Tipología de autoridad que gestiona el funcionamiento de la infraestructura.	
-172	0107l	8	situacion	situ_trans	lista_val		False	Situación del tramo según su posición vertical relativa respecto a la superficie terrestre y a otros condicionantes físicos.	
-185	0107s	8	situacion	situ_trans	lista_val		False	Situación del tramo según su posición vertical relativa respecto a la superficie terrestre y a otros condicionantes físicos.	
-229	0125l	8	n_vias	n_vias	lista_val		False	Número de vías de que consta el tramo.	
-173	0107l	9	estadofis	esta_trans	lista_val		False	Estado físico en que se encuentra la vía en relación con su terminación y uso.	
-186	0107s	9	estadofis	esta_trans	lista_val		False	Estado físico en que se encuentra la vía en relación con su terminación y uso.	
-230	0125l	9	titular	titular	lista_val		False	Organismo titular del tramo de la vía férrea.	
+162	0101a	4	vial_simpl	vial_simpl	lista_val	False	Indica si el vial es o no simple.	
+25	0407l	5	tipo_ex	t_0407l_ex	lista_val	False	Tipo de otra construcción según sus características constructivas (modelo extendido).	
+95	0201s	5	jerarquia	jerar_0201	lista_val	False	Clasificación que se establece para el río en su conjunto, según su longitud e importancia respecto al conjunto de ríos de España.	
+195	0110l	5	conex_ctra	conex_ctra	lista_val	False	Indica si el tramo de vía urbana constituye una travesía. 	
+226	0125l	5	estadofis	esta_trans	lista_val	False	Estado de uso del tramo de la entidad.	
+246	0131z	5	estadofis	esta_trans	lista_val	False	Estado físico en que se encuentra la estación de ferrocarril en relación a su terminación y uso.	
+265	0140p	5	categoria	categ_0140	lista_val	False	Categoría del aeródromo en función del tipo de vuelo.	
+275	0140z	5	tipo	tipo_0140	lista_val	False	Tipo de aeródromo.	
+170	0107l	6	tramo	tram_trans	lista_val	False	Tipología de tramo en relación al eje de la vía.	
+183	0107s	6	tramo	tram_trans	lista_val	False	Clasificación en función del papel que adopta el tramo dentro del vial.	
+196	0110l	6	situacion	situ_trans	lista_val	False	Situación del tramo según su posición vertical relativa respecto a la superficie terrestre y a otros condicionantes físicos.	
+227	0125l	6	ancho_via	ancho_via	lista_val	False	Ancho del tramo de vía, medido entre sus raíles.	
+266	0140p	6	gestion	gest_0140	lista_val	False	Tipología de autoridad que gestiona el funcionamiento de la infraestructura.	
+276	0140z	6	categoria	categ_0140	lista_val	False	Categoría del aeródromo en función del tipo de vuelo.	
+171	0107l	7	calzada	calzada	lista_val	False	Especifica si la calzada es duplicada o tiene más calzadas aún o única.	
+184	0107s	7	calzada	calzada	lista_val	False	Especifica si la calzada es duplicada o tiene más calzadas aún o única.	
+197	0110l	7	estadofis	esta_trans	lista_val	False	Estado físico en que se encuentra la vía en relación con su terminación y uso.	
+228	0125l	7	electrific	electrific	lista_val	False	Indica si el tramo de vía férrea está electrificado.	
+277	0140z	7	gestion	gest_0140	lista_val	False	Tipología de autoridad que gestiona el funcionamiento de la infraestructura.	
+172	0107l	8	situacion	situ_trans	lista_val	False	Situación del tramo según su posición vertical relativa respecto a la superficie terrestre y a otros condicionantes físicos.	
+185	0107s	8	situacion	situ_trans	lista_val	False	Situación del tramo según su posición vertical relativa respecto a la superficie terrestre y a otros condicionantes físicos.	
+229	0125l	8	n_vias	n_vias	lista_val	False	Número de vías de que consta el tramo.	
+173	0107l	9	estadofis	esta_trans	lista_val	False	Estado físico en que se encuentra la vía en relación con su terminación y uso.	
+186	0107s	9	estadofis	esta_trans	lista_val	False	Estado físico en que se encuentra la vía en relación con su terminación y uso.	
+230	0125l	9	titular	titular	lista_val	False	Organismo titular del tramo de la vía férrea.	
 
 ### ATRIBUTOS_EXTENDIDOS ###
-id	codigo_obj	orden_atr	nom_atrib	dominio	tipo_valor	unidad	extendido	definicion	comentarios
-91	0201s	1	pfaf_pr_ex		cadena(50)		True	Identificador de río completo obtenido mediante la metodología topológica Pfafstetter, pero tomando sólo el PFAF_PARES. Es el identificador utilizado por la Dirección General del Agua (DGA).	
-127	0222l	1	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-200	0110l	10	sentido_ex	sentido_ex	lista_val		True	Tipo de sentido de circulación de la calzada	
-231	0125l	10	titular_ex	titular_ex	lista_val		True	Organismo titular del tramo de la vía férrea (modelo extendido).	
-270	0140p	10	activ_ex	a_0140_ex	lista_val		True	Tipo de actividad en función de aquello que se transporte. 	
-280	0140z	10	uso_ex	u_0140_ex	lista_val		True	Tipo de uso que puede realizarse en función de la autoridad que gestiona el tráfico interior en la infraestructura.	
-175	0107l	11	acceso_ex	acceso_ex	lista_val		True	Tipo de restricción de acceso a la vía (modelo extendido).	
-188	0107s	11	acceso_ex	acceso_ex	lista_val		True	Tipo de restricción de acceso a la vía (modelo extendido).	
-201	0110l	11	tipoveh_ex	tipoveh_ex	lista_val		True	Tipo de vehiculo que puede circular por la calzada.	
-232	0125l	11	u_princ_ex	u_0125_ex	lista_val		True	Uso predominante de la línea a la que pertenece el tramo	
-281	0140z	11	activ_ex	a_0140_ex	lista_val		True	Tipo de actividad en función de aquello que se transporte. 	
-176	0107l	12	sentido_ex	sentido_ex	lista_val		True	Tipo de sentido de circulación de la calzada	
-189	0107s	12	sentido_ex	sentido_ex	lista_val		True	Tipo de sentido de circulación de la calzada	
-202	0110l	12	ncarril_ex		entero		True	Número de carriles del tramo de la calzada considerada.	
-177	0107l	13	ncarril_ex		entero		True	Número de carriles del tramo de la calzada considerada.	
-190	0107s	13	ncarril_ex		entero		True	Número de carriles del tramo de la calzada considerada.	
-203	0110l	13	anc_med_ex		entero		True	Ancho medio de la vía.	
-27	0407p	2	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-30	0410l	2	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-60	0507p	2	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-118	0213p	2	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-121	0216p	2	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-126	0219s	2	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-136	0307s	2	tipo _ex	t_0307s_ex	lista_val		True	Tipo de cambio de pendiente.	
-205	0113l	2	tipo_ex	t_0113l_ex	lista_val		True	Tipos de otras vías (modelo extendido).	
-210	0113s	2	tipo_ex	t_0113s_ex	lista_val		True	Tipos de otras vías (modelo extendido).	
-237	0131p	2	tipo_ex	t_0131_ex	lista_val		True	Tipo de estación de ferrocarril (modelo extendido).	
-251	0137p	2	titular_ex	titular_ex	lista_val		True	Organismo titular del puerto (modelo extendido).	
-262	0140p	2	titular_ex	titular_ex	lista_val		True	Organismo titular del aeródromo (modelo extendido).	
-285	0601p	2	codigo_iers_ex		cadena (10)		True	Identificador IERS del punto GNSS.	
-301	0901s	2	tipo_ex	t_0901_ex	lista_val		True	Tipología extendida de Espacios Naturales Protegidos.	
-314	0801p	2	tipo_ex	t_0801_ex	lista_val		True	Tipo de entidad de población (modelo extendido).	
-321	0801s	2	tipo_ex	t_0801_ex	lista_val		True	Tipo de entidad de población (modelo extendido).	
-330	0701s	2	tipo_ex	t_0701_ex	lista_val		True	Tipología de cubiertas terrestres procedente de SIOSE AR y su simplificación para Mapa Topográfico Nacional (modelo extendido).	
-3	0401s	3	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-10	0401p	3	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-28	0407p	3	tipo_ex	t_0407p_ex	lista_val		True	Tipo de otra construcción según sus características constructivas (modelo extendido).	
-31	0410l	3	tipo_ex	t_0410_ex	lista_val		True	Tipo de tendido según su función (modelo extendido).	
-45	0501p	3	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-63	0507z	3	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-66	0510p	3	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-75	0513p	3	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-110	0207s	3	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-116	0210s	3	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-119	0213p	3	tipo_ex	t_0213_ex	lista_val		True	Tipo de punto hidrográfico según su naturaleza (modelo extendido).	
-124	0216s	3	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-130	0301l	3	categor_ex	c_0301_ex	lista_val		True	Categoría de la curva de nivel. 	
-134	0307l	3	tipo _ex	t_0307l_ex	lista_val		True	Tipo de cambio de pendiente.	
-244	0131z	3	tipo_ex	t_0131_ex	lista_val		True	Tipo de estación de ferrocarril (modelo extendido).	
-257	0137z	3	titular_ex	titular_ex	lista_val		True	Organismo titular del puerto (modelo extendido).	
-273	0140z	3	titular_ex	titular_ex	lista_val		True	Organismo titular del aeródromo (modelo extendido).	
-286	0601p	3	titular_ex		cadena		True	Organismo titular o propietario del Punto GNSS, responsable de la estación y de su obra de monumentación.	
-299	0610p	3	url_ex		cadena		True	Dirección de acceso a la ficha técnica del punto.	
-302	0901s	3	id_enp_ex		cadena		True	Identificador nacional de Espacio Natural Protegido.	
-307	0904l	3	tipo_ex	t_0904_ex	lista_val		True	"""Otro tipo de vía pecuaria no contemplada en la anterior tipología."" o ""Tipo de vía pecuaria según su anchura (Ley 3/95, de 23 de Marzo) (modelo extendido)."""	
-311	0904s	3	tipo_ex	t_0904_ex	lista_val		True	"""Otro tipo de vía pecuaria no contemplada en la anterior tipología."" o ""Tipo de vía pecuaria según su anchura (Ley 3/95, de 23 de Marzo) (modelo extendido)."""	
-4	0401s	4	tipo_ex	t_0401s_ex	lista_val		True	Tipo de edificio según sus características constructivas (modelo extendido).	
-14	0404s	4	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-19	0407s	4	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-24	0407l	4	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-32	0410l	4	tension_ex	v_0410_ex	lista_val		True	Clasificación energética del tendido eléctrico.	
-46	0501p	4	estado_ex	e_0501_ex	lista_val		True	Estado de funcionamiento en el que se encuentra el servicio o instalación para extracción de materiales.	
-50	0501z	4	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-67	0510p	4	tipo_ex	t_0510_ex	lista_val		True	Tipo de administración o de equipamiento social (modelo extendido).	
-71	0510z	4	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-76	0513p	4	tipo_ex	t_0513_ex	lista_val		True	Tipo de punto con interés cultural o de instalación para el deporte o el ocio (modelo extendido).	
-80	0513z	4	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-107	0204s	4	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-111	0207s	4	n_agua_ex	n_0207_ex	lista_val		True	Indica si la geometría registrada corresponde al nivel del agua, de la vegetación u otro.	
-140	0310p	4	situ_ex	s_0310_ex	lista_val		True	Situación del punto de cota en el modelo extendido.	
-148	0313p	4	tipo_ex	t_0313_ex	lista_val		True	Tipo de lugar geográfico.	
-153	0313l	4	tipo_ex	t_0313_ex	lista_val		True	Tipo de lugar geográfico.	
-207	0113l	4	tramo_ex	tram_trans	lista_val		True	Tipología de tramo en relación al eje de la vía.	
-212	0113s	4	tramo_ex	tram_trans	lista_val		True	Tipología de tramo en relación al eje de la vía.	
-217	0116p	4	sentido_ex	s_0116_ex	lista_val		True	Sentido creciente o decreciente de la numeración a lo largo de la carretera en el que se encuentra el PK. Es aplicable solo a puntos kilométricos.	
-253	0137p	4	cod_pue_ex		cadena		True	Código del puerto UN/LOCODE (código de Naciones Unidas).	
-287	0601p	4	url_ex		cadena		True	Dirección de acceso a la ficha técnica del punto.	
-291	0604p	4	tipo_ex	t_0604_ex	lista_val		True	Indica la red geodésica a la que pertenece el Punto Geodésico (modelo extendido).	
-296	0607p	4	url_ex		cadena		True	Dirección de acceso a la ficha técnica del punto.	
-303	0901s	4	id_enp_ca_ex		cadena		True	Identificador de la Comunidad Autónoma del Espacio Natural Protegido.	
-308	0904l	4	deslind_ex	deslind_ex	lista_val		True	Indica si se han realizado labores de deslide (establecimiento o demarcación de los límmites de propiedad o terreno) en la vía pecuaria. 	
-312	0904s	4	deslind_ex	deslind_ex	lista_val		True	Indica si se han realizado labores de deslide (establecimiento o demarcación de los límmites de propiedad o terreno) en la vía pecuaria. 	
-5	0401s	5	uso_ex	u_0401s_ex	lista_val		True	Uso del edificio (modelo extendido).	
-15	0404s	5	tipo_ex	t_0404s_ex	lista_val		True	Tipo de construcción según sus características o el uso al que se destina.	
-20	0407s	5	tipo_ex	t_0407s_ex	lista_val		True	Tipo de otra construcción según sus características constructivas (modelo extendido).	
-37	0413l	5	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-42	0413s	5	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-51	0501z	5	estado_ex	e_0501_ex	lista_val		True	Estado de funcionamiento en el que se encuentra el servicio o instalación para extracción de materiales.	
-72	0510z	5	tipo_ex	t_0510_ex	lista_val		True	Tipo de administración o de equipamiento social (modelo extendido).	
-81	0513z	5	tipo_ex	t_0513_ex	lista_val		True	Tipo de zona con interés cultural o de instalación para el deporte o el ocio (modelo extendido).	
-86	0201l	5	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-103	0204l	5	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-112	0207s	5	salada_ex	s_0207_ex	lista_val		True	Indica si el agua es salada o no.	
-141	0310p	5	p_ctra_ex	p_0310_ex	lista_val		True	Indica si el punto de cota es o no puerto de carretera.	
-169	0107l	5	titular_ex	titular_ex	lista_val		True	Organismo titular del tramo de la carretera (modelo extendido).	
-182	0107s	5	titular_ex	titular_ex	lista_val		True	Organismo titular del tramo de la carretera (modelo extendido).	
-208	0113l	5	firme_ex	firme_ex	lista_val		True	Tipo de firme de la vía.	
-213	0113s	5	firme_ex	firme_ex	lista_val		True	Tipo de firme de la vía.	
-240	0131p	5	cod_est_ex		cadena		True	Código de estación (de ADIF para estaciones de ferrocarril de titularidad estatal o, si existe, del titular correspondiente para el resto de los casos).	
-254	0137p	5	tipo_ex	t_0137_ex	lista_val		True	Tipo de puerto. 	
-259	0137z	5	cod_pue_ex		cadena		True	Código del puerto UN/LOCODE (código de Naciones Unidas).	
-292	0604p	5	url_ex		cadena		True	Dirección de acceso a la ficha técnica del punto.	
-304	0901s	5	desig_abbr_ex		cadena		True	Código de figura de protección de Espacio Natural Protegido del MITECO.	
-317	0801p	5	codigo_ep_ex		cadena		True	Extensiones que se pueden hacer al código INE para discriminar ciertas poblaciones.	
-324	0801s	5	codigo_ep_ex		cadena		True	Extensiones que se pueden hacer al código INE para discriminar ciertas poblaciones.	
-6	0401s	6	max_plt_ex		entero		True	Número máximo de plantas de alguna de las partes del edificio.	
-87	0201l	6	codmasa_ex		cadena(50)		True	Código de masa de agua que se utiliza en la Directiva Marco del Agua (DMA).	
-96	0201s	6	codigo_ex		cadena(50)		True	Identificador temático de la fuente externa de referencia.	
-113	0207s	6	regimen_ex	reg_hid_ex	lista_val		True	Régimen hidrológico que tendría lugar en una lámina de agua sin intervención humana significativa (modelo extendido).	
-142	0310p	6	promi_ex		cadena		True	Valor de prominencia del punto de cota.	
-241	0131p	6	n_anden_ex		entero		True	Número de andenes de la estación.	
-247	0131z	6	cod_est_ex		cadena		True	Código de estación (de ADIF para estaciones de ferrocarril de titularidad estatal o, si existe, del titular correspondiente para el resto de los casos).	
-260	0137z	6	tipo_ex	t_0137_ex	lista_val		True	Tipo de puerto. 	
-318	0801p	6	capit_ex		cadena(4)		True	Indica el tipo de capitalidad de la entidad de población. Se trata de un código de cuatro dígitos en el que el primero corresponde al municipio, el segundo a la provincia, el tercero a la comunidad autónoma y el cuarto al estado. Cada dígito puede valer 0 (no es capital) o 1 (es capital). Ejemplos: 1000 (capital de municipio), 0000 (no es capital), 1100 (capital de municipio y provincia).	
-325	0801s	6	capit_ex		cadena(4)		True	Indica el tipo de capitalidad de la entidad de población. Se trata de un código de cuatro dígitos en el que el primero corresponde al municipio, el segundo a la provincia, el tercero a la comunidad autónoma y el cuarto al estado. Cada dígito puede valer 0 (no es capital) o 1 (es capital). Ejemplos: 1000 (capital de municipio), 0000 (no es capital), 1100 (capital de municipio y provincia).	
-7	0401s	7	max_sot_ex		entero		True	Número máximo de sótanos (plantas por debajo de la superficie terrestre) de alguna de las partes del edificio.	
-88	0201l	7	pfaf_pr_ex		cadena(50)		True	Identificador de río completo obtenido mediante la metodología topológica Pfafstetter, pero tomando sólo el PFAF_PARES. Es el identificador utilizado por la Dirección General del Agua (DGA).	
-97	0201s	7	regimen_ex	reg_hid_ex	lista_val		True	Régimen hidrológico que tendría lugar en un tramo de río sin intervención humana significativa en su cuenca vertiente (modelo extendido).	
-143	0310p	7	jerarq_ex	j_0310_ex	lista_val		True	Orden de importancia de la cima, de acuerdo con criterios de altitud, importancia relativa de las sierras, etc.	
-248	0131z	7	n_anden_ex		entero		True	Número de andenes de la estación.	
-267	0140p	7	cd_iata_ex		cadena		True	Código IATA para la infraestructura.	
-319	0801p	7	id_ep_ex		entero		True	Identificador de entidad de población en IGR_PO del Instituto Geográfico Nacional.	
-326	0801s	7	id_ep_ex		entero		True	Identificador de entidad de población en IGR_PO del Instituto Geográfico Nacional.	
-89	0201l	8	regimen_ex	reg_hid_ex	lista_val		True	Régimen hidrológico que tendría lugar en un tramo de río sin intervención humana significativa en su cuenca vertiente (modelo extendido).	
-98	0201s	8	jerarq_ex	j_0201_ex	lista_val		True	Clasificación que se establece para el río en su conjunto, según su longitud e importancia respecto al conjunto de ríos de España (modelo extendido).	
-144	0310p	8	id_cad_ex		cadena		True	Identificador de la cadena montañosa de menor categoría a la que pertenece. Se le antepone prefijo del productor para que no haya duplicidades.	
-198	0110l	8	ine_via_ex		cadena		True	Información alfanumérica de los viales del modelo físico de RT (rt_vial_a).	
-268	0140p	8	cd_icao_ex		cadena		True	Código ICAO para la infraestructura.	
-278	0140z	8	cd_iata_ex		cadena		True	Código IATA para la infraestructura.	
-90	0201l	9	jerarq_ex	j_0201_ex	lista_val		True	Clasificación que se establece para el río en su conjunto, según su longitud e importancia respecto al conjunto de ríos de España (modelo extendido).	
-199	0110l	9	dgc_via_ex		entero		True	Código numérico que asocia Catastro a los viales urbanos.	
-269	0140p	9	uso_ex	u_0140_ex	lista_val		True	Tipo de uso que puede realizarse en función de la autoridad que gestiona el tráfico interior en la infraestructura.	
-279	0140z	9	cd_icao_ex		cadena		True	Código ICAO para la infraestructura.	
+id	codigo_obj	orden_atr	nom_atrib	dominio	tipo_valor	extendido	definicion	comentarios
+91	0201s	1	pfaf_pr_ex		cadena(50)	True	Identificador de río completo obtenido mediante la metodología topológica Pfafstetter, pero tomando sólo el PFAF_PARES. Es el identificador utilizado por la Dirección General del Agua (DGA).	
+127	0222l	1	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+200	0110l	10	sentido_ex	sentido_ex	lista_val	True	Tipo de sentido de circulación de la calzada	
+231	0125l	10	titular_ex	titular_ex	lista_val	True	Organismo titular del tramo de la vía férrea (modelo extendido).	
+270	0140p	10	activ_ex	a_0140_ex	lista_val	True	Tipo de actividad en función de aquello que se transporte. 	
+280	0140z	10	uso_ex	u_0140_ex	lista_val	True	Tipo de uso que puede realizarse en función de la autoridad que gestiona el tráfico interior en la infraestructura.	
+175	0107l	11	acceso_ex	acceso_ex	lista_val	True	Tipo de restricción de acceso a la vía (modelo extendido).	
+188	0107s	11	acceso_ex	acceso_ex	lista_val	True	Tipo de restricción de acceso a la vía (modelo extendido).	
+201	0110l	11	tipoveh_ex	tipoveh_ex	lista_val	True	Tipo de vehiculo que puede circular por la calzada.	
+232	0125l	11	u_princ_ex	u_0125_ex	lista_val	True	Uso predominante de la línea a la que pertenece el tramo	
+281	0140z	11	activ_ex	a_0140_ex	lista_val	True	Tipo de actividad en función de aquello que se transporte. 	
+176	0107l	12	sentido_ex	sentido_ex	lista_val	True	Tipo de sentido de circulación de la calzada	
+189	0107s	12	sentido_ex	sentido_ex	lista_val	True	Tipo de sentido de circulación de la calzada	
+202	0110l	12	ncarril_ex		entero	True	Número de carriles del tramo de la calzada considerada.	
+177	0107l	13	ncarril_ex		entero	True	Número de carriles del tramo de la calzada considerada.	
+190	0107s	13	ncarril_ex		entero	True	Número de carriles del tramo de la calzada considerada.	
+203	0110l	13	anc_med_ex		entero	True	Ancho medio de la vía.	
+27	0407p	2	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+30	0410l	2	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+60	0507p	2	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+118	0213p	2	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+121	0216p	2	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+126	0219s	2	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+136	0307s	2	tipo _ex	t_0307s_ex	lista_val	True	Tipo de cambio de pendiente.	
+205	0113l	2	tipo_ex	t_0113l_ex	lista_val	True	Tipos de otras vías (modelo extendido).	
+210	0113s	2	tipo_ex	t_0113s_ex	lista_val	True	Tipos de otras vías (modelo extendido).	
+237	0131p	2	tipo_ex	t_0131_ex	lista_val	True	Tipo de estación de ferrocarril (modelo extendido).	
+251	0137p	2	titular_ex	titular_ex	lista_val	True	Organismo titular del puerto (modelo extendido).	
+262	0140p	2	titular_ex	titular_ex	lista_val	True	Organismo titular del aeródromo (modelo extendido).	
+301	0901s	2	tipo_ex	t_0901_ex	lista_val	True	Tipología extendida de Espacios Naturales Protegidos.	
+314	0801p	2	tipo_ex	t_0801_ex	lista_val	True	Tipo de entidad de población (modelo extendido).	
+321	0801s	2	tipo_ex	t_0801_ex	lista_val	True	Tipo de entidad de población (modelo extendido).	
+285	0601p	2	cd_iers_ex		cadena (10)	True	Identificador IERS del punto GNSS.	
+330	0701s	2	tipo_ex	t_0701_ex	lista_val	True	Tipología de cubiertas terrestres procedente de SIOSE AR y su simplificación para Mapa Topográfico Nacional (modelo extendido).	
+3	0401s	3	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+10	0401p	3	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+28	0407p	3	tipo_ex	t_0407p_ex	lista_val	True	Tipo de otra construcción según sus características constructivas (modelo extendido).	
+31	0410l	3	tipo_ex	t_0410_ex	lista_val	True	Tipo de tendido según su función (modelo extendido).	
+45	0501p	3	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+63	0507z	3	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+66	0510p	3	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+75	0513p	3	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+110	0207s	3	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+116	0210s	3	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+119	0213p	3	tipo_ex	t_0213_ex	lista_val	True	Tipo de punto hidrográfico según su naturaleza (modelo extendido).	
+124	0216s	3	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+130	0301l	3	categor_ex	c_0301_ex	lista_val	True	Categoría de la curva de nivel. 	
+134	0307l	3	tipo _ex	t_0307l_ex	lista_val	True	Tipo de cambio de pendiente.	
+244	0131z	3	tipo_ex	t_0131_ex	lista_val	True	Tipo de estación de ferrocarril (modelo extendido).	
+257	0137z	3	titular_ex	titular_ex	lista_val	True	Organismo titular del puerto (modelo extendido).	
+273	0140z	3	titular_ex	titular_ex	lista_val	True	Organismo titular del aeródromo (modelo extendido).	
+286	0601p	3	titular_ex		cadena	True	Organismo titular o propietario del Punto GNSS, responsable de la estación y de su obra de monumentación.	
+299	0610p	3	url_ex		cadena	True	Dirección de acceso a la ficha técnica del punto.	
+302	0901s	3	id_enp_ex		cadena	True	Identificador nacional de Espacio Natural Protegido.	
+307	0904l	3	tipo_ex	t_0904_ex	lista_val	True	"""Otro tipo de vía pecuaria no contemplada en la anterior tipología."" o ""Tipo de vía pecuaria según su anchura (Ley 3/95, de 23 de Marzo) (modelo extendido)."""	
+311	0904s	3	tipo_ex	t_0904_ex	lista_val	True	"""Otro tipo de vía pecuaria no contemplada en la anterior tipología."" o ""Tipo de vía pecuaria según su anchura (Ley 3/95, de 23 de Marzo) (modelo extendido)."""	
+4	0401s	4	tipo_ex	t_0401s_ex	lista_val	True	Tipo de edificio según sus características constructivas (modelo extendido).	
+14	0404s	4	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+19	0407s	4	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+24	0407l	4	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+32	0410l	4	tension_ex	v_0410_ex	lista_val	True	Clasificación energética del tendido eléctrico.	
+46	0501p	4	estado_ex	e_0501_ex	lista_val	True	Estado de funcionamiento en el que se encuentra el servicio o instalación para extracción de materiales.	
+50	0501z	4	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+67	0510p	4	tipo_ex	t_0510_ex	lista_val	True	Tipo de administración o de equipamiento social (modelo extendido).	
+71	0510z	4	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+76	0513p	4	tipo_ex	t_0513_ex	lista_val	True	Tipo de punto con interés cultural o de instalación para el deporte o el ocio (modelo extendido).	
+80	0513z	4	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+107	0204s	4	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+111	0207s	4	n_agua_ex	n_0207_ex	lista_val	True	Indica si la geometría registrada corresponde al nivel del agua, de la vegetación u otro.	
+140	0310p	4	situ_ex	s_0310_ex	lista_val	True	Situación del punto de cota en el modelo extendido.	
+148	0313p	4	tipo_ex	t_0313_ex	lista_val	True	Tipo de lugar geográfico.	
+153	0313l	4	tipo_ex	t_0313_ex	lista_val	True	Tipo de lugar geográfico.	
+207	0113l	4	tramo_ex	tram_trans	lista_val	True	Tipología de tramo en relación al eje de la vía.	
+212	0113s	4	tramo_ex	tram_trans	lista_val	True	Tipología de tramo en relación al eje de la vía.	
+217	0116p	4	sentido_ex	s_0116_ex	lista_val	True	Sentido creciente o decreciente de la numeración a lo largo de la carretera en el que se encuentra el PK. Es aplicable solo a puntos kilométricos.	
+253	0137p	4	cod_pue_ex		cadena	True	Código del puerto UN/LOCODE (código de Naciones Unidas).	
+287	0601p	4	url_ex		cadena	True	Dirección de acceso a la ficha técnica del punto.	
+291	0604p	4	tipo_ex	t_0604_ex	lista_val	True	Indica la red geodésica a la que pertenece el Punto Geodésico (modelo extendido).	
+296	0607p	4	url_ex		cadena	True	Dirección de acceso a la ficha técnica del punto.	
+308	0904l	4	deslind_ex	deslind_ex	lista_val	True	Indica si se han realizado labores de deslide (establecimiento o demarcación de los límmites de propiedad o terreno) en la vía pecuaria. 	
+312	0904s	4	deslind_ex	deslind_ex	lista_val	True	Indica si se han realizado labores de deslide (establecimiento o demarcación de los límmites de propiedad o terreno) en la vía pecuaria. 	
+303	0901s	4	id_enp_ex		cadena	True	Identificador de la Comunidad Autónoma del Espacio Natural Protegido.	
+5	0401s	5	uso_ex	u_0401s_ex	lista_val	True	Uso del edificio (modelo extendido).	
+15	0404s	5	tipo_ex	t_0404s_ex	lista_val	True	Tipo de construcción según sus características o el uso al que se destina.	
+20	0407s	5	tipo_ex	t_0407s_ex	lista_val	True	Tipo de otra construcción según sus características constructivas (modelo extendido).	
+37	0413l	5	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+42	0413s	5	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+51	0501z	5	estado_ex	e_0501_ex	lista_val	True	Estado de funcionamiento en el que se encuentra el servicio o instalación para extracción de materiales.	
+72	0510z	5	tipo_ex	t_0510_ex	lista_val	True	Tipo de administración o de equipamiento social (modelo extendido).	
+81	0513z	5	tipo_ex	t_0513_ex	lista_val	True	Tipo de zona con interés cultural o de instalación para el deporte o el ocio (modelo extendido).	
+86	0201l	5	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+103	0204l	5	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+112	0207s	5	salada_ex	s_0207_ex	lista_val	True	Indica si el agua es salada o no.	
+141	0310p	5	p_ctra_ex	p_0310_ex	lista_val	True	Indica si el punto de cota es o no puerto de carretera.	
+169	0107l	5	titular_ex	titular_ex	lista_val	True	Organismo titular del tramo de la carretera (modelo extendido).	
+182	0107s	5	titular_ex	titular_ex	lista_val	True	Organismo titular del tramo de la carretera (modelo extendido).	
+208	0113l	5	firme_ex	firme_ex	lista_val	True	Tipo de firme de la vía.	
+213	0113s	5	firme_ex	firme_ex	lista_val	True	Tipo de firme de la vía.	
+240	0131p	5	cod_est_ex		cadena	True	Código de estación (de ADIF para estaciones de ferrocarril de titularidad estatal o, si existe, del titular correspondiente para el resto de los casos).	
+254	0137p	5	tipo_ex	t_0137_ex	lista_val	True	Tipo de puerto. 	
+259	0137z	5	cod_pue_ex		cadena	True	Código del puerto UN/LOCODE (código de Naciones Unidas).	
+292	0604p	5	url_ex		cadena	True	Dirección de acceso a la ficha técnica del punto.	
+304	0901s	5	desig_a_ex		cadena	True	Código de figura de protección de Espacio Natural Protegido del MITECO.	
+317	0801p	5	cod_ep_ex		cadena	True	Extensiones que se pueden hacer al código INE para discriminar ciertas poblaciones.	
+324	0801s	5	cod_ep_ex		cadena	True	Extensiones que se pueden hacer al código INE para discriminar ciertas poblaciones.	
+6	0401s	6	max_plt_ex		entero	True	Número máximo de plantas de alguna de las partes del edificio.	
+87	0201l	6	codmasa_ex		cadena(50)	True	Código de masa de agua que se utiliza en la Directiva Marco del Agua (DMA).	
+96	0201s	6	codigo_ex		cadena(50)	True	Identificador temático de la fuente externa de referencia.	
+113	0207s	6	regimen_ex	reg_hid_ex	lista_val	True	Régimen hidrológico que tendría lugar en una lámina de agua sin intervención humana significativa (modelo extendido).	
+142	0310p	6	promi_ex		cadena	True	Valor de prominencia del punto de cota.	
+241	0131p	6	n_anden_ex		entero	True	Número de andenes de la estación.	
+247	0131z	6	cod_est_ex		cadena	True	Código de estación (de ADIF para estaciones de ferrocarril de titularidad estatal o, si existe, del titular correspondiente para el resto de los casos).	
+260	0137z	6	tipo_ex	t_0137_ex	lista_val	True	Tipo de puerto. 	
+318	0801p	6	capit_ex		cadena(4)	True	Indica el tipo de capitalidad de la entidad de población. Se trata de un código de cuatro dígitos en el que el primero corresponde al municipio, el segundo a la provincia, el tercero a la comunidad autónoma y el cuarto al estado. Cada dígito puede valer 0 (no es capital) o 1 (es capital). Ejemplos: 1000 (capital de municipio), 0000 (no es capital), 1100 (capital de municipio y provincia).	
+325	0801s	6	capit_ex		cadena(4)	True	Indica el tipo de capitalidad de la entidad de población. Se trata de un código de cuatro dígitos en el que el primero corresponde al municipio, el segundo a la provincia, el tercero a la comunidad autónoma y el cuarto al estado. Cada dígito puede valer 0 (no es capital) o 1 (es capital). Ejemplos: 1000 (capital de municipio), 0000 (no es capital), 1100 (capital de municipio y provincia).	
+7	0401s	7	max_sot_ex		entero	True	Número máximo de sótanos (plantas por debajo de la superficie terrestre) de alguna de las partes del edificio.	
+88	0201l	7	pfaf_pr_ex		cadena(50)	True	Identificador de río completo obtenido mediante la metodología topológica Pfafstetter, pero tomando sólo el PFAF_PARES. Es el identificador utilizado por la Dirección General del Agua (DGA).	
+97	0201s	7	regimen_ex	reg_hid_ex	lista_val	True	Régimen hidrológico que tendría lugar en un tramo de río sin intervención humana significativa en su cuenca vertiente (modelo extendido).	
+143	0310p	7	jerarq_ex	j_0310_ex	lista_val	True	Orden de importancia de la cima, de acuerdo con criterios de altitud, importancia relativa de las sierras, etc.	
+248	0131z	7	n_anden_ex		entero	True	Número de andenes de la estación.	
+267	0140p	7	cd_iata_ex		cadena	True	Código IATA para la infraestructura.	
+319	0801p	7	id_ep_ex		entero	True	Identificador de entidad de población en IGR_PO del Instituto Geográfico Nacional.	
+326	0801s	7	id_ep_ex		entero	True	Identificador de entidad de población en IGR_PO del Instituto Geográfico Nacional.	
+89	0201l	8	regimen_ex	reg_hid_ex	lista_val	True	Régimen hidrológico que tendría lugar en un tramo de río sin intervención humana significativa en su cuenca vertiente (modelo extendido).	
+98	0201s	8	jerarq_ex	j_0201_ex	lista_val	True	Clasificación que se establece para el río en su conjunto, según su longitud e importancia respecto al conjunto de ríos de España (modelo extendido).	
+144	0310p	8	id_cad_ex		cadena	True	Identificador de la cadena montañosa de menor categoría a la que pertenece. Se le antepone prefijo del productor para que no haya duplicidades.	
+198	0110l	8	ine_via_ex		cadena	True	Información alfanumérica de los viales del modelo físico de RT (rt_vial_a).	
+268	0140p	8	cd_icao_ex		cadena	True	Código ICAO para la infraestructura.	
+278	0140z	8	cd_iata_ex		cadena	True	Código IATA para la infraestructura.	
+90	0201l	9	jerarq_ex	j_0201_ex	lista_val	True	Clasificación que se establece para el río en su conjunto, según su longitud e importancia respecto al conjunto de ríos de España (modelo extendido).	
+199	0110l	9	dgc_via_ex		entero	True	Código numérico que asocia Catastro a los viales urbanos.	
+269	0140p	9	uso_ex	u_0140_ex	lista_val	True	Tipo de uso que puede realizarse en función de la autoridad que gestiona el tráfico interior en la infraestructura.	
+279	0140z	9	cd_icao_ex		cadena	True	Código ICAO para la infraestructura.	
 
 ### ATRIBUTOS_COMUNES ###
-id	orden_atr	nom_atrib	tipo_valor	definicion	comentarios	orden_crea	extendido
-1	1	id_prod	cadena(50)	Identificador del productor. Cadena de texto donde cada productor almacena el identificador que mantiene para cada elemento. Lleva un prefijo del productor.		1	False
-2	2	nombre	cadena	Nombre por el que se conoce al objeto geográfico concreto.		1	False
-3	3	idioma	cadena(11)	Idioma o idiomas en el que se expresa el nombre.		1	False
-4	4	nombre_spa	cadena	Nombre por el que se conoce al objeto geográfico concreto en castellano.		1	True
-5	5	nombre_cat	cadena	Nombre por el que se conoce al objeto geográfico concreto en catalán.		1	True
-6	6	nombre_glg	cadena	Nombre por el que se conoce al objeto geográfico concreto en gallego.		1	True
-7	7	nombre_eus	cadena	Nombre por el que se conoce al objeto geográfico concreto en euskera.		1	True
-8	8	nombre_oci	cadena	Nombre por el que se conoce al objeto geográfico concreto en occitano.		1	True
-9	9	id_ng	cadena(50)	Identificador de nomenclátor (para elementos con nombre y que estén registrados en el nomenclátor).		1	True
-10	10	fuente	cadena	"Fuente o procedencia de los datos. Da cabida tanto a ""método de captura"" como a ""responsable"" u ""organización"" que proporciona datos."		2	False
-11	11	f_altitud	lista_val	Cómo se ha obtenido la altitud de la geometría del objeto.		2	True
-12	12	fecha_ref	fecha	Fecha representativa de creación o modificación del objeto por parte del productor (por ejemplo, fecha del contrato de actualización).		2	False
+id	orden_atr	nom_atrib	dominio	tipo_valor	extendido	definicion	comentarios	orden_crea
+1	1	id_prod		cadena(50)	False	Identificador del productor. Cadena de texto donde cada productor almacena el identificador que mantiene para cada elemento. Lleva un prefijo del productor.		1
+2	2	nombre		cadena	False	Nombre por el que se conoce al objeto geográfico concreto.		1
+3	3	idioma		cadena(11)	False	Idioma o idiomas en el que se expresa el nombre.		1
+4	4	nombre_spa		cadena	True	Nombre por el que se conoce al objeto geográfico concreto en castellano.		1
+5	5	nombre_cat		cadena	True	Nombre por el que se conoce al objeto geográfico concreto en catalán.		1
+6	6	nombre_glg		cadena	True	Nombre por el que se conoce al objeto geográfico concreto en gallego.		1
+7	7	nombre_eus		cadena	True	Nombre por el que se conoce al objeto geográfico concreto en euskera.		1
+8	8	nombre_oci		cadena	True	Nombre por el que se conoce al objeto geográfico concreto en occitano.		1
+10	10	fuente		lista_val	False	"Fuente o procedencia de los datos. Da cabida tanto a ""método de captura"" como a ""responsable"" u ""organización"" que proporciona datos."		2
+11	11	f_alt_ex	f_altitud	fecha	True	Cómo se ha obtenido la altitud de la geometría del objeto.		2
+9	9	id_ng		cadena(50)	True	Identificador de nomenclátor (para elementos con nombre y que estén registrados en el nomenclátor).		1
+12	12	fecha_ref			False	Fecha representativa de creación o modificación del objeto por parte del productor (por ejemplo, fecha del contrato de actualización).		2
 
 ### TIPOS_GEOMETRIAS ###
 id	geometria	tipo_geom
@@ -1100,7 +1100,7 @@ Información de Diseminados INE procedente del Instituto Nacional de Estadístic
 1360	tipo_0701	9	S09	Viñedo			False	
 
 ### VALORES_ATR_COMUNES ###
-id	nom_cod_atr	orden_val	codigo_val	valor	extendido	definicion
+id	dominio_atr	orden_val	codigo_val	valor	extendido	definicion
 1	f_altitud	1	MDT	MDT	True	Altitud del objeto geográfico obtenida utilizando el MDT.
 2	f_altitud	2	RES	Restitución	True	Altitud del objeto geográfico obtenida por restitución fotogramétrica.
 3	f_altitud	3	MDS	MDS	True	Altitud del objeto geográfico obtenida utilizando el MDS.
