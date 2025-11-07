@@ -264,7 +264,7 @@
                                                 </a>
                                                 <div class="collapse ps-3" id="tema07">
                                                     <ul class="list-unstyled">
-                                <li><a class="dropdown-item" href="../objetos_geograficos/0701s.html" data-valores="">Cubierta terrestre 0701s</a></li>
+                                <li><a class="dropdown-item" href="../objetos_geograficos/0701s.html" data-valores="">Cubierta Terrestre 0701s</a></li>
 
                             </ul>
                         </div>
@@ -412,7 +412,7 @@ Este es el bloque de mapeo:
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
     <td>tipo (tipo_0801)</td>
     <td>lista_val</td>
-    <td class="romper-palabras">None<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
+    <td class="romper-palabras">Tipo de entidad de población.<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
 (los de cada clase de entidad), en la ficha de cada clase.
 Ese acordeón aparece dentro de la columna "Descripción", junto con el texto {definicion}.
 
@@ -448,11 +448,11 @@ htmlDominioValores = """ """
        <!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-ECO">
-    <!--  <th scope="row">1338</th>
+<tr id="valor-ECL">
+    <!--  <th scope="row">665</th>
     <td>tipo_0801</td>
     <td>1</td> -->
-    <td>ECO</td>
+    <td>ECL</td>
     <td>Entidad Colectiva</td>
     <td>Agrupación de entidades singulares, como unidad intermedia entre la entidad singular de población y el municipio, que existen en algunas regiones, y conforman una entidad colectiva de población con personalidad propia y un origen marcadamente histórico.
 Información procedente del Instituto Nacional de Estadística (INE) del Ministerio de Asuntos Económicos y Transformación Digital y del Nomenclátor Geográfico de Municipios y Entidades de Población (NGMEP) del Instituto Geográfico Nacional.</td>
@@ -460,7 +460,7 @@ Información procedente del Instituto Nacional de Estadística (INE) del Ministe
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-ESI">
-    <!--  <th scope="row">1339</th>
+    <!--  <th scope="row">666</th>
     <td>tipo_0801</td>
     <td>2</td> -->
     <td>ESI</td>
@@ -472,7 +472,7 @@ Información procedente del Instituto Nacional de Estadística (INE) del Ministe
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-NPO">
-    <!--  <th scope="row">1340</th>
+    <!--  <th scope="row">667</th>
     <td>tipo_0801</td>
     <td>3</td> -->
     <td>NPO</td>
@@ -483,12 +483,12 @@ Información de Diseminados INE procedente del Instituto Nacional de Estadístic
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-OTR">
-    <!--  <th scope="row">1341</th>
+<tr id="valor-<a href='#ext-OTR'>OTR</a>">
+    <!--  <th scope="row">668</th>
     <td>tipo_0801</td>
     <td>4</td> -->
-    <td>OTR</td>
-    <td>Otro ente de población</td>
+    <td><a href='#ext-OTR'>OTR</a></td>
+    <td>Otro</td>
     <td>La entidad de población es distinta a las anteriores categorías.</td>
 </tr>
     </tbody>
@@ -519,7 +519,7 @@ Este es el bloque de mapeo:
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
     <td>ine (ine_0801)</td>
     <td>lista_val</td>
-    <td class="romper-palabras">None<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
+    <td class="romper-palabras">Indica si la entidad de población figura o no en el nomenclátor del Instituto Nacional de Estadística (INE).<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
 (los de cada clase de entidad), en la ficha de cada clase.
 Ese acordeón aparece dentro de la columna "Descripción", junto con el texto {definicion}.
 
@@ -555,23 +555,23 @@ htmlDominioValores = """ """
        <!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-NO_">
-    <!--  <th scope="row">1346</th>
+<tr id="valor-SI_">
+    <!--  <th scope="row">673</th>
     <td>ine_0801</td>
     <td>1</td> -->
-    <td>NO_</td>
-    <td>No INE</td>
-    <td>No figura en el nomenclátor INE del año indicado en fecha INE.</td>
-</tr><!-- Es el equivalente a fila_valor_comun.html,
-pero se usa con los datos provenientes de la tabla valores -->
-
-<tr id="valor-SI_">
-    <!--  <th scope="row">1347</th>
-    <td>ine_0801</td>
-    <td>2</td> -->
     <td>SI_</td>
     <td>INE</td>
     <td>Sí figura en el nomenclátor INE del año indicado en fecha INE. Información de Poblaciones INE procedente de Información Geográfica de Referencia de Poblaciones (IGR_PO) del Instituto Geográfico Nacional.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-NO_">
+    <!--  <th scope="row">674</th>
+    <td>ine_0801</td>
+    <td>2</td> -->
+    <td>NO_</td>
+    <td>No INE</td>
+    <td>No figura en el nomenclátor INE del año indicado en fecha INE.</td>
 </tr>
     </tbody>
   </table>
@@ -600,8 +600,10 @@ Este es el bloque de mapeo:
 <tr>
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
     <td>codig_ep ()</td>
-    <td>cadena (11)</td>
-    <td class="romper-palabras">None </td>
+    <td>cadena(11)</td>
+    <td class="romper-palabras">Identificador del Instituto Nacional de Estadística (INE) del Ministerio de Asuntos Económicos y Transformación Digital. 
+Código de 11 dígitos con el siguiente formato: dígitos 1,2 provincia; 3, 4, 5 municipio dentro de la provincia; 6, 7 entidad colectiva dentro del municipio (00 si no existe); 8, 9, entidad singular dentro de la entidad colectiva o municipio; 10, 11 núcleos dentro de la entidad singular, utilizando el 99 para el diseminado.
+Si la población es INE, su valor se corresponde con el código INE. Si la población es no INE, contiene el código INE al que pertenece dicha población </td>
 </tr>
 
                     </tbody>
@@ -630,12 +632,12 @@ Este es el bloque de mapeo:
                     </thead>
                     <tbody>
                         
-                    <tr id='ext-'>
+                    <tr id='ext-OTR'>
                         <td>tipo_ex (t_0801_ex)</td>
                         <td>tipo_0801</td>
-                        <td></td>
+                        <td>OTR</td>
                         <td>
-                            <p></p>
+                            <p>Tipo de entidad de población (modelo extendido).</p>
                             
 <div class="mb-3">
 
@@ -651,7 +653,15 @@ Este es el bloque de mapeo:
       </tr>
     </thead>
     <tbody>
-      <tr><td>GEN</td><td>Caso Genérico</td><td></td></tr><tr><td>URB</td><td>Urbanización</td><td></td></tr><tr><td>DIS</td><td>Distrito</td><td></td></tr><tr><td>BAR</td><td>Barrio</td><td></td></tr>
+      <tr><td>URB</td><td>Urbanización</td><td>EN BTN SE ENCUENTRA DENTRO DE &quot;/POBLACIÓN&quot;</td></tr><tr><td>DIS</td><td>Distrito</td><td>Distritos de ciudades de:
+- Municipios de más de 250.000 habitantes.
+- Capitales provinciales o autonómicas o sedes de las instituciones autonómicas.
+- Ciudades de más de 75.000 habitantes cuyas características lo justifiquen y lo 
+aprueben sus Ayuntamientos</td></tr><tr><td>BAR</td><td>Barrio</td><td>Barrios de ciudades de:
+- Municipios de más de 250.000 habitantes.
+- Capitales provinciales o autonómicas o sedes de las instituciones autonómicas.
+- Ciudades de más de 75.000 habitantes cuyas características lo justifiquen y lo 
+aprueben sus Ayuntamientos.</td></tr><tr><td>OEP</td><td>Otra entidad de población</td><td>Otra entidad de población no recogida en las anteriores tipologías.</td></tr>
     </tbody>
   </table>
 </div>
@@ -660,24 +670,24 @@ Este es el bloque de mapeo:
                     </tr>
                     
                     <tr>
-                        <td>cod_ep_ex</td>
+                        <td>cd_ep_ex</td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                        <td>Extensiones que se pueden hacer al código INE para discriminar ciertas poblaciones.</td>
                     </tr>
                     
                     <tr>
                         <td>capit_ex</td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                        <td>Indica el tipo de capitalidad de la entidad de población. Se trata de un código de cuatro dígitos en el que el primero corresponde al municipio, el segundo a la provincia, el tercero a la comunidad autónoma y el cuarto al estado. Cada dígito puede valer 0 (no es capital) o 1 (es capital). Ejemplos: 1000 (capital de municipio), 0000 (no es capital), 1100 (capital de municipio y provincia).</td>
                     </tr>
                     
                     <tr>
                         <td>id_ep_ex</td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                        <td>Identificador de entidad de población en IGR_PO del Instituto Geográfico Nacional.</td>
                     </tr>
                     
                     </tbody>
@@ -725,259 +735,9 @@ Este es el bloque de mapeo:
 
 <tr>
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>id_prod</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena(50)</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>idioma</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena(11)</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_spa</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_cat</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_glg</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_eus</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_oci</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
     <td>fuente</td>
-    <td>None</td>
-    <td class="romper-palabras">lista_val</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>f_alt_ex</td>
-    <td>f_altitud</td>
-    <td class="romper-palabras">fecha</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>id_ng</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena(50)</td>
+    <td>cadena</td>
+    <td class="romper-palabras">Fuente o procedencia de los datos. Da cabida tanto a "método de captura" como a "responsable" u "organización" que proporciona datos.</td>
 </tr>
 <!-- Este bloque representa una fila dentro de la tabla
 de atributos específicos de una clase de entidad.
@@ -1001,8 +761,83 @@ Este es el bloque de mapeo:
 <tr>
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
     <td>fecha_ref</td>
-    <td>None</td>
-    <td class="romper-palabras">None</td>
+    <td>fecha</td>
+    <td class="romper-palabras">Fecha representativa de creación o modificación del objeto por parte del productor (por ejemplo, fecha del contrato de actualización).</td>
+</tr>
+<!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>id_prod</td>
+    <td>cadena(50)</td>
+    <td class="romper-palabras">Identificador del productor. Cadena de texto donde cada productor almacena el identificador que mantiene para cada elemento. Lleva un prefijo del productor.</td>
+</tr>
+<!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>nombre</td>
+    <td>cadena</td>
+    <td class="romper-palabras">Nombre por el que se conoce al objeto geográfico concreto.</td>
+</tr>
+<!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>idioma</td>
+    <td>cadena(11)</td>
+    <td class="romper-palabras">Idioma o idiomas en el que se expresa el nombre.</td>
 </tr>
 
                 </tbody>
@@ -1029,6 +864,63 @@ Este es el bloque de mapeo:
                 </thead>
                 <tbody>
                     
+                    <tr>
+                        <td>f_alt_ex</td>
+                        <td>
+                            <p>Cómo se ha obtenido la altitud de la geometría del objeto.</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>MDT</td><td>MDT</td><td>Altitud del objeto geográfico obtenida utilizando el MDT.</td></tr><tr><td>RES</td><td>Restitución</td><td>Altitud del objeto geográfico obtenida por restitución fotogramétrica.</td></tr><tr><td>MDS</td><td>MDS</td><td>Altitud del objeto geográfico obtenida utilizando el MDS.</td></tr><tr><td>EST</td><td>Estimada</td><td>Altitud estimada del objeto geográfico.</td></tr><tr><td>INT</td><td>Interpolada</td><td>Altitud del objeto geográfico obtenida por interpolación.</td></tr><tr><td>NOZ</td><td>Sin Z</td><td>Objeto geográfico sin altitud asignada.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
+                        <tr>
+                            <td>nom_spa_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en castellano.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nom_cat_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en catalán.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nom_glg_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en gallego.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nom_eus_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en euskera.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nom_oci_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en occitano.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>id_ng_ex</td>
+                            <td>Identificador de nomenclátor (para elementos con nombre y que estén registrados en el nomenclátor).</td>
+                        </tr>
+                        
                 </tbody>
             </table>
         </div>

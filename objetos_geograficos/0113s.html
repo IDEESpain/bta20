@@ -264,7 +264,7 @@
                                                 </a>
                                                 <div class="collapse ps-3" id="tema07">
                                                     <ul class="list-unstyled">
-                                <li><a class="dropdown-item" href="../objetos_geograficos/0701s.html" data-valores="">Cubierta terrestre 0701s</a></li>
+                                <li><a class="dropdown-item" href="../objetos_geograficos/0701s.html" data-valores="">Cubierta Terrestre 0701s</a></li>
 
                             </ul>
                         </div>
@@ -412,7 +412,7 @@ Este es el bloque de mapeo:
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
     <td>tipo (tipo_0113s)</td>
     <td>lista_val</td>
-    <td class="romper-palabras">None<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
+    <td class="romper-palabras">Tipos de otras vías.<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
 (los de cada clase de entidad), en la ficha de cada clase.
 Ese acordeón aparece dentro de la columna "Descripción", junto con el texto {definicion}.
 
@@ -449,17 +449,17 @@ htmlDominioValores = """ """
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-<a href='#ext-PCA'>PCA</a>">
-    <!--  <th scope="row">1176</th>
+    <!--  <th scope="row">506</th>
     <td>tipo_0113s</td>
     <td>1</td> -->
     <td><a href='#ext-PCA'>PCA</a></td>
     <td>Pista - camino</td>
-    <td></td>
+    <td>Vía que no se considera carretera ni vía urbana pero que permite el tránsito de vehículos.</td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-BIC">
-    <!--  <th scope="row">1177</th>
+    <!--  <th scope="row">507</th>
     <td>tipo_0113s</td>
     <td>2</td> -->
     <td>BIC</td>
@@ -492,9 +492,9 @@ Este es el bloque de mapeo:
 
 <tr>
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>situacion (situ_trans)</td>
+    <td>situacion (situ_vial)</td>
     <td>lista_val</td>
-    <td class="romper-palabras">None<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
+    <td class="romper-palabras">Situación del tramo según su posición vertical relativa respecto a la superficie terrestre y a otros condicionantes físicos.<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
 (los de cada clase de entidad), en la ficha de cada clase.
 Ese acordeón aparece dentro de la columna "Descripción", junto con el texto {definicion}.
 
@@ -531,8 +531,8 @@ htmlDominioValores = """ """
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-ELE">
-    <!--  <th scope="row">1142</th>
-    <td>situ_trans</td>
+    <!--  <th scope="row">470</th>
+    <td>situ_vial</td>
     <td>1</td> -->
     <td>ELE</td>
     <td>Elevado</td>
@@ -541,8 +541,8 @@ pero se usa con los datos provenientes de la tabla valores -->
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-SUB">
-    <!--  <th scope="row">1143</th>
-    <td>situ_trans</td>
+    <!--  <th scope="row">471</th>
+    <td>situ_vial</td>
     <td>2</td> -->
     <td>SUB</td>
     <td>Subterráneo</td>
@@ -551,8 +551,8 @@ pero se usa con los datos provenientes de la tabla valores -->
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-SUP">
-    <!--  <th scope="row">1144</th>
-    <td>situ_trans</td>
+    <!--  <th scope="row">472</th>
+    <td>situ_vial</td>
     <td>3</td> -->
     <td>SUP</td>
     <td>En superficie</td>
@@ -561,8 +561,8 @@ pero se usa con los datos provenientes de la tabla valores -->
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-VAD">
-    <!--  <th scope="row">1145</th>
-    <td>situ_trans</td>
+    <!--  <th scope="row">473</th>
+    <td>situ_vial</td>
     <td>4</td> -->
     <td>VAD</td>
     <td>En vado</td>
@@ -570,13 +570,23 @@ pero se usa con los datos provenientes de la tabla valores -->
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-TRA">
-    <!--  <th scope="row">1146</th>
-    <td>situ_trans</td>
+<tr id="valor-TBD">
+    <!--  <th scope="row">474</th>
+    <td>situ_vial</td>
     <td>5</td> -->
-    <td>TRA</td>
+    <td>TBD</td>
     <td>En transbordador</td>
-    <td>El tráfico vehicular en esa sección de la carretera está siendo desviado temporalmente a través de un medio de transporte alternativo, como un transbordador (barco o ferry).</td>
+    <td>El tráfico vehicular en esa sección de la vía está siendo desviado temporalmente a través de un medio de transporte alternativo, como un transbordador (barco o ferry).</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor--97">
+    <!--  <th scope="row">475</th>
+    <td>situ_vial</td>
+    <td>6</td> -->
+    <td>-97</td>
+    <td>Desconocido</td>
+    <td>Se desconoce la situación del tramo.</td>
 </tr>
     </tbody>
   </table>
@@ -615,7 +625,7 @@ pero se usa con los datos provenientes de la tabla valores -->
                         <td>tipo_0113s</td>
                         <td>PCA</td>
                         <td>
-                            <p></p>
+                            <p>Tipos de otras vías (modelo extendido).</p>
                             
 <div class="mb-3">
 
@@ -631,7 +641,7 @@ pero se usa con los datos provenientes de la tabla valores -->
       </tr>
     </thead>
     <tbody>
-      <tr><td>PST</td><td>Pista</td><td>Vía que, sin llegar a considerarse carretera, permite el tránsito de vehículos y pequeños camiones, para lo que se han ejecutado trabajos de mejora de firme y trazado, y que tiene una anchura suficiente para que los vehículos que circulan en sentidos opuestos se puedan cruzar.</td></tr><tr><td>PFO</td><td>Pista forestal</td><td>Vía que permite la realización de trabajos forestales, tales como el desbroce o la saca de troncos, pero no está acondicionada para el tránsito regular de vehículos. </td></tr><tr><td>CAM</td><td>Camino</td><td></td></tr>
+      <tr><td>PST</td><td>Pista</td><td>Vía que, sin llegar a considerarse carretera, permite el tránsito de vehículos y pequeños camiones, para lo que se han ejecutado trabajos de mejora de firme y trazado, y que tiene una anchura suficiente para que los vehículos que circulan en sentidos opuestos se puedan cruzar.</td></tr><tr><td>PFO</td><td>Pista forestal</td><td>Vía que permite la realización de trabajos forestales, tales como el desbroce o la saca de troncos, pero no está acondicionada para el tránsito regular de vehículos. </td></tr><tr><td>CAM</td><td>Camino</td><td>Vía estrecha que generalmente permite el tránsito de vehículos aunque, en algunos tramos, puede tener problemas de firme o anchura insuficiente para el cruce cómodo de vehículos que circulan en sentidos opuestos.</td></tr>
     </tbody>
   </table>
 </div>
@@ -640,40 +650,11 @@ pero se usa con los datos provenientes de la tabla valores -->
                     </tr>
                     
                     <tr id='ext-'>
-                        <td>tramo_ex (tram_trans)</td>
+                        <td>t_firme_ex (tipo_firme)</td>
                         <td></td>
                         <td></td>
                         <td>
-                            <p></p>
-                            
-<div class="mb-3">
-
-  <table class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <!-- <th scope="col">ID</th>
-        <th scope="col">Nombre Código Atributo</th>
-        <th scope="col">Orden</th> -->
-        <th scope="col">Código del valor</th>
-        <th scope="col">Valor</th>
-        <th scope="col">Definición</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>TRO</td><td>Troncal</td><td>Tramos que forman la parte principal de la carretera.</td></tr><tr><td>VSE</td><td>Vía servicio</td><td>Vía sensiblemente paralela a una carretera, respecto de la cual tiene carácter secundario, conectada a ella solamente en algunos puntos, y que sirve a las propiedades o edificios contiguos.</td></tr><tr><td>ENL</td><td>Enlace</td><td>DEFINCION DE NUDO DE RT: Ramales, vías de giro y, eventualmente, intersecciones que puede utilizar los vehículos para pasar de una carretera a otra.</td></tr><tr><td>ROT</td><td>Rotonda</td><td>Conjunto de tramos que forman un anillo, dentro del cual solo se puede circular en una dirección.</td></tr>
-    </tbody>
-  </table>
-</div>
-
-                        </td>
-                    </tr>
-                    
-                    <tr id='ext-'>
-                        <td>firme_ex (firme_ex)</td>
-                        <td></td>
-                        <td></td>
-                        <td>
-                            <p></p>
+                            <p>Tipo de firme de la vía.</p>
                             
 <div class="mb-3">
 
@@ -742,259 +723,9 @@ Este es el bloque de mapeo:
 
 <tr>
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>id_prod</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena(50)</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>idioma</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena(11)</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_spa</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_cat</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_glg</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_eus</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_oci</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
     <td>fuente</td>
-    <td>None</td>
-    <td class="romper-palabras">lista_val</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>f_alt_ex</td>
-    <td>f_altitud</td>
-    <td class="romper-palabras">fecha</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>id_ng</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena(50)</td>
+    <td>cadena</td>
+    <td class="romper-palabras">Fuente o procedencia de los datos. Da cabida tanto a "método de captura" como a "responsable" u "organización" que proporciona datos.</td>
 </tr>
 <!-- Este bloque representa una fila dentro de la tabla
 de atributos específicos de una clase de entidad.
@@ -1018,8 +749,83 @@ Este es el bloque de mapeo:
 <tr>
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
     <td>fecha_ref</td>
-    <td>None</td>
-    <td class="romper-palabras">None</td>
+    <td>fecha</td>
+    <td class="romper-palabras">Fecha representativa de creación o modificación del objeto por parte del productor (por ejemplo, fecha del contrato de actualización).</td>
+</tr>
+<!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>id_prod</td>
+    <td>cadena(50)</td>
+    <td class="romper-palabras">Identificador del productor. Cadena de texto donde cada productor almacena el identificador que mantiene para cada elemento. Lleva un prefijo del productor.</td>
+</tr>
+<!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>nombre</td>
+    <td>cadena</td>
+    <td class="romper-palabras">Nombre por el que se conoce al objeto geográfico concreto.</td>
+</tr>
+<!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>idioma</td>
+    <td>cadena(11)</td>
+    <td class="romper-palabras">Idioma o idiomas en el que se expresa el nombre.</td>
 </tr>
 
                 </tbody>
@@ -1046,6 +852,63 @@ Este es el bloque de mapeo:
                 </thead>
                 <tbody>
                     
+                    <tr>
+                        <td>f_alt_ex</td>
+                        <td>
+                            <p>Cómo se ha obtenido la altitud de la geometría del objeto.</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>MDT</td><td>MDT</td><td>Altitud del objeto geográfico obtenida utilizando el MDT.</td></tr><tr><td>RES</td><td>Restitución</td><td>Altitud del objeto geográfico obtenida por restitución fotogramétrica.</td></tr><tr><td>MDS</td><td>MDS</td><td>Altitud del objeto geográfico obtenida utilizando el MDS.</td></tr><tr><td>EST</td><td>Estimada</td><td>Altitud estimada del objeto geográfico.</td></tr><tr><td>INT</td><td>Interpolada</td><td>Altitud del objeto geográfico obtenida por interpolación.</td></tr><tr><td>NOZ</td><td>Sin Z</td><td>Objeto geográfico sin altitud asignada.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
+                        <tr>
+                            <td>nom_spa_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en castellano.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nom_cat_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en catalán.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nom_glg_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en gallego.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nom_eus_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en euskera.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nom_oci_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en occitano.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>id_ng_ex</td>
+                            <td>Identificador de nomenclátor (para elementos con nombre y que estén registrados en el nomenclátor).</td>
+                        </tr>
+                        
                 </tbody>
             </table>
         </div>

@@ -264,7 +264,7 @@
                                                 </a>
                                                 <div class="collapse ps-3" id="tema07">
                                                     <ul class="list-unstyled">
-                                <li><a class="dropdown-item" href="../objetos_geograficos/0701s.html" data-valores="">Cubierta terrestre 0701s</a></li>
+                                <li><a class="dropdown-item" href="../objetos_geograficos/0701s.html" data-valores="">Cubierta Terrestre 0701s</a></li>
 
                             </ul>
                         </div>
@@ -357,7 +357,7 @@ HTMLDescripcion = HTMLDescripcion.format(
 <table class="table table-bordered tabla-ajustada">
   <tr>
     <th style="width: 10%;">Descripción</th>
-    <td style="width: 70%;">Otras construcciones fijas que no se recogen en Edificio y con geometría de punto.</td>
+    <td style="width: 70%;">Otras construcciones fijas que no se recogen en Edificio.</td>
     <td style="width: 20%;" colspan="3">
       <a href="../fichas/ficha_0407p.pdf" target="_blank">Normas de captura</a>
     </td>
@@ -412,7 +412,7 @@ Este es el bloque de mapeo:
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
     <td>tipo (tipo_0407p)</td>
     <td>lista_val</td>
-    <td class="romper-palabras">None<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
+    <td class="romper-palabras">Tipo de otra construcción según sus características constructivas.<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
 (los de cada clase de entidad), en la ficha de cada clase.
 Ese acordeón aparece dentro de la columna "Descripción", junto con el texto {definicion}.
 
@@ -449,7 +449,7 @@ htmlDominioValores = """ """
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-<a href='#ext-MON'>MON</a>">
-    <!--  <th scope="row">855</th>
+    <!--  <th scope="row">182</th>
     <td>tipo_0407p</td>
     <td>1</td> -->
     <td><a href='#ext-MON'>MON</a></td>
@@ -459,7 +459,7 @@ pero se usa con los datos provenientes de la tabla valores -->
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-<a href='#ext-SNV'>SNV</a>">
-    <!--  <th scope="row">856</th>
+    <!--  <th scope="row">183</th>
     <td>tipo_0407p</td>
     <td>2</td> -->
     <td><a href='#ext-SNV'>SNV</a></td>
@@ -469,7 +469,7 @@ pero se usa con los datos provenientes de la tabla valores -->
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-<a href='#ext-ATE'>ATE</a>">
-    <!--  <th scope="row">857</th>
+    <!--  <th scope="row">184</th>
     <td>tipo_0407p</td>
     <td>3</td> -->
     <td><a href='#ext-ATE'>ATE</a></td>
@@ -479,7 +479,7 @@ pero se usa con los datos provenientes de la tabla valores -->
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-<a href='#ext-ANT'>ANT</a>">
-    <!--  <th scope="row">858</th>
+    <!--  <th scope="row">185</th>
     <td>tipo_0407p</td>
     <td>4</td> -->
     <td><a href='#ext-ANT'>ANT</a></td>
@@ -489,7 +489,7 @@ pero se usa con los datos provenientes de la tabla valores -->
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-AER">
-    <!--  <th scope="row">859</th>
+    <!--  <th scope="row">186</th>
     <td>tipo_0407p</td>
     <td>5</td> -->
     <td>AER</td>
@@ -498,10 +498,20 @@ pero se usa con los datos provenientes de la tabla valores -->
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-OTR">
-    <!--  <th scope="row">861</th>
+<tr id="valor-BOC">
+    <!--  <th scope="row">187</th>
     <td>tipo_0407p</td>
     <td>6</td> -->
+    <td>BOC</td>
+    <td>Bocamina</td>
+    <td>Acceso a la extracción subterránea de algún tipo de mineral.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-OTR">
+    <!--  <th scope="row">188</th>
+    <td>tipo_0407p</td>
+    <td>7</td> -->
     <td>OTR</td>
     <td>Otro</td>
     <td>Tipo de otras construcciones puntuales no contemplada en las otras tipologías.</td>
@@ -542,15 +552,15 @@ pero se usa con los datos provenientes de la tabla valores -->
                         <td>codigo_ex</td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                        <td>Identificador temático de la fuente externa de referencia.</td>
                     </tr>
                     
-                    <tr id='ext-SNV'>
+                    <tr id='ext-MON'>
                         <td>tipo_ex (t_0407p_ex)</td>
                         <td>tipo_0407p</td>
-                        <td>SNV</td>
+                        <td>MON</td>
                         <td>
-                            <p></p>
+                            <p>Tipo de otra construcción según sus características constructivas (modelo extendido).</p>
                             
 <div class="mb-3">
 
@@ -566,7 +576,36 @@ pero se usa con los datos provenientes de la tabla valores -->
       </tr>
     </thead>
     <tbody>
-      <tr><td>FAR</td><td>Faro</td><td>Lugar donde se ubica una señal luminosa o de otro tipo que facilita la orientación y la navegación de embarcaciones en el mar.</td></tr><tr><td>BPU</td><td>Baliza de puerto</td><td>Lugar donde se ubica una señal fija que indica la bocana del puerto y orienta a las embarcaciones para entrar en él y con un anclaje sólido a tierra firme. Señal afirmada al lecho marino mediante una estructura. Se trata de pilares o estacas de mampostería o armadura metálica situados en aguas poco profundas y que sirven para indicar canales o señalizar bajos.</td></tr><tr><td>RDR</td><td>Radar</td><td>Sistema que utiliza radiaciones electromagnéticas reflejadas por un objeto para determinar la localización o velocidad de este.</td></tr><tr><td>VHR</td><td>VHOR</td><td>Dispositivo de radioayuda a la navegación que se localiza en los aeropuertos y es utilizado por las aeronaves para seguir en vuelo una ruta preestablecida.</td></tr><tr><td>OTN</td><td>Otra señal de navegación</td><td>Tipo señal de navegación no contemplada en las otras tipologías.</td></tr>
+      <tr><td>OMT</td><td>Otro monumento</td><td>Construcción situada en un lugar público para conmemorar algo o que tiene cierto valor histórico o artístico.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
+                    <tr id='ext-SNV'>
+                        <td>tipo_ex (t_0407p_ex)</td>
+                        <td>tipo_0407p</td>
+                        <td>SNV</td>
+                        <td>
+                            <p>Tipo de otra construcción según sus características constructivas (modelo extendido).</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>FAS</td><td>Faro señal</td><td>Lugar donde se ubica una señal luminosa o de otro tipo que facilita la orientación y la navegación de embarcaciones en el mar.</td></tr><tr><td>BPU</td><td>Baliza de puerto</td><td>Lugar donde se ubica una señal fija que indica la bocana del puerto y orienta a las embarcaciones para entrar en él y con un anclaje sólido a tierra firme. Señal afirmada al lecho marino mediante una estructura. Se trata de pilares o estacas de mampostería o armadura metálica situados en aguas poco profundas y que sirven para indicar canales o señalizar bajos.</td></tr><tr><td>RDR</td><td>Radar</td><td>Sistema que utiliza radiaciones electromagnéticas reflejadas por un objeto para determinar la localización o velocidad de este.</td></tr><tr><td>VHR</td><td>VHOR</td><td>Dispositivo de radioayuda a la navegación que se localiza en los aeropuertos y es utilizado por las aeronaves para seguir en vuelo una ruta preestablecida.</td></tr><tr><td>OTN</td><td>Otra señal de navegación</td><td>Tipo señal de navegación no contemplada en las otras tipologías.</td></tr>
     </tbody>
   </table>
 </div>
@@ -579,7 +618,7 @@ pero se usa con los datos provenientes de la tabla valores -->
                         <td>tipo_0407p</td>
                         <td>ATE</td>
                         <td>
-                            <p></p>
+                            <p>Tipo de otra construcción según sus características constructivas (modelo extendido).</p>
                             
 <div class="mb-3">
 
@@ -595,7 +634,7 @@ pero se usa con los datos provenientes de la tabla valores -->
       </tr>
     </thead>
     <tbody>
-      <tr><td>TTE</td><td>Torre de tendido</td><td>Estructura o armazón de cierta altura que sustenta cables de tendido eléctrico, teléfono u otros suministros.</td></tr><tr><td>PTE</td><td>Poste de tendido</td><td>Columna colocada verticalmente para servir de apoyo. Generalmente puede ser de madera o de hormigón.</td></tr><tr><td>OTE</td><td>Otro apoyo de tendido</td><td>Otro tipo de apoyo de tendido no contemplado en las anteriores tipologias. </td></tr>
+      <tr><td>TTE</td><td>Torre de tendido</td><td>Estructura o armazón de cierta altura que sustenta cables de tendido eléctrico, teléfono u otros suministros.</td></tr><tr><td>PTE</td><td>Poste de tendido</td><td>Soporte vertical que sustenta cables de tendido eléctrico, teléfono u otros suministros.</td></tr><tr><td>OAT</td><td>Otro apoyo de tendido</td><td>El apoyo de tendido no puede clasificarse como ninguno de los valores anteriores.  </td></tr>
     </tbody>
   </table>
 </div>
@@ -608,7 +647,7 @@ pero se usa con los datos provenientes de la tabla valores -->
                         <td>tipo_0407p</td>
                         <td>ANT</td>
                         <td>
-                            <p></p>
+                            <p>Tipo de otra construcción según sus características constructivas (modelo extendido).</p>
                             
 <div class="mb-3">
 
@@ -624,7 +663,7 @@ pero se usa con los datos provenientes de la tabla valores -->
       </tr>
     </thead>
     <tbody>
-      <tr><td>ACO</td><td>Antena comunicaciones</td><td>Tipo de antena utilizada para las telecomunicaciones.</td></tr><tr><td>AES</td><td>Antena observación espacial </td><td>Tipo de antena utilizada para la observación espacial.</td></tr><tr><td>OAN</td><td>Otra antena</td><td>Tipo de antena no incluida en las anteriores categorías.</td></tr>
+      <tr><td>ACO</td><td>Antena comunicaciones</td><td>Tipo de antena utilizada para las telecomunicaciones.</td></tr><tr><td>AOS</td><td>Antena observación espacial </td><td>Tipo de antena utilizada para la observación espacial.</td></tr><tr><td>OAN</td><td>Otra antena</td><td>Tipo de antena no incluida en las anteriores categorías.</td></tr>
     </tbody>
   </table>
 </div>
@@ -637,7 +676,7 @@ pero se usa con los datos provenientes de la tabla valores -->
                         <td>tipo_0407p</td>
                         <td>MON</td>
                         <td>
-                            <p></p>
+                            <p>Tipo de otra construcción según sus características constructivas (modelo extendido).</p>
                             
 <div class="mb-3">
 
@@ -653,7 +692,7 @@ pero se usa con los datos provenientes de la tabla valores -->
       </tr>
     </thead>
     <tbody>
-      <tr><td>OMO</td><td>Otro monumento</td><td>Construcción situada en un lugar público para conmemorar algo o que tiene cierto valor histórico o artístico.</td></tr><tr><td>FTO</td><td>Fuente ornamental</td><td>Fuente monumental, con valor artístico o histórico y que, por lo general, no permite coger agua.</td></tr><tr><td>CZA</td><td>Cruz aislada</td><td>Símbolo cristiano, generalmente construida en piedra, que suele encontrarse en cruces de caminos o en lugares donde recuerda algún acontecimiento.</td></tr>
+      <tr><td>FTO</td><td>Fuente ornamental</td><td>Estanque destinado al uso ornamental.</td></tr><tr><td>CZA</td><td>Cruz aislada</td><td>Símbolo cristiano, generalmente construida en piedra, que suele encontrarse en cruces de caminos o en lugares donde recuerda algún acontecimiento.</td></tr>
     </tbody>
   </table>
 </div>
@@ -706,259 +745,9 @@ Este es el bloque de mapeo:
 
 <tr>
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>id_prod</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena(50)</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>idioma</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena(11)</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_spa</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_cat</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_glg</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_eus</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_oci</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
     <td>fuente</td>
-    <td>None</td>
-    <td class="romper-palabras">lista_val</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>f_alt_ex</td>
-    <td>f_altitud</td>
-    <td class="romper-palabras">fecha</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>id_ng</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena(50)</td>
+    <td>cadena</td>
+    <td class="romper-palabras">Fuente o procedencia de los datos. Da cabida tanto a "método de captura" como a "responsable" u "organización" que proporciona datos.</td>
 </tr>
 <!-- Este bloque representa una fila dentro de la tabla
 de atributos específicos de una clase de entidad.
@@ -982,8 +771,83 @@ Este es el bloque de mapeo:
 <tr>
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
     <td>fecha_ref</td>
-    <td>None</td>
-    <td class="romper-palabras">None</td>
+    <td>fecha</td>
+    <td class="romper-palabras">Fecha representativa de creación o modificación del objeto por parte del productor (por ejemplo, fecha del contrato de actualización).</td>
+</tr>
+<!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>id_prod</td>
+    <td>cadena(50)</td>
+    <td class="romper-palabras">Identificador del productor. Cadena de texto donde cada productor almacena el identificador que mantiene para cada elemento. Lleva un prefijo del productor.</td>
+</tr>
+<!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>nombre</td>
+    <td>cadena</td>
+    <td class="romper-palabras">Nombre por el que se conoce al objeto geográfico concreto.</td>
+</tr>
+<!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>idioma</td>
+    <td>cadena(11)</td>
+    <td class="romper-palabras">Idioma o idiomas en el que se expresa el nombre.</td>
 </tr>
 
                 </tbody>
@@ -1010,6 +874,63 @@ Este es el bloque de mapeo:
                 </thead>
                 <tbody>
                     
+                    <tr>
+                        <td>f_alt_ex</td>
+                        <td>
+                            <p>Cómo se ha obtenido la altitud de la geometría del objeto.</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>MDT</td><td>MDT</td><td>Altitud del objeto geográfico obtenida utilizando el MDT.</td></tr><tr><td>RES</td><td>Restitución</td><td>Altitud del objeto geográfico obtenida por restitución fotogramétrica.</td></tr><tr><td>MDS</td><td>MDS</td><td>Altitud del objeto geográfico obtenida utilizando el MDS.</td></tr><tr><td>EST</td><td>Estimada</td><td>Altitud estimada del objeto geográfico.</td></tr><tr><td>INT</td><td>Interpolada</td><td>Altitud del objeto geográfico obtenida por interpolación.</td></tr><tr><td>NOZ</td><td>Sin Z</td><td>Objeto geográfico sin altitud asignada.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
+                        <tr>
+                            <td>nom_spa_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en castellano.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nom_cat_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en catalán.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nom_glg_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en gallego.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nom_eus_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en euskera.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nom_oci_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en occitano.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>id_ng_ex</td>
+                            <td>Identificador de nomenclátor (para elementos con nombre y que estén registrados en el nomenclátor).</td>
+                        </tr>
+                        
                 </tbody>
             </table>
         </div>

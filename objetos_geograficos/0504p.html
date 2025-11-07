@@ -264,7 +264,7 @@
                                                 </a>
                                                 <div class="collapse ps-3" id="tema07">
                                                     <ul class="list-unstyled">
-                                <li><a class="dropdown-item" href="../objetos_geograficos/0701s.html" data-valores="">Cubierta terrestre 0701s</a></li>
+                                <li><a class="dropdown-item" href="../objetos_geograficos/0701s.html" data-valores="">Cubierta Terrestre 0701s</a></li>
 
                             </ul>
                         </div>
@@ -412,7 +412,7 @@ Este es el bloque de mapeo:
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
     <td>tipo (tipo_0504)</td>
     <td>lista_val</td>
-    <td class="romper-palabras">None<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
+    <td class="romper-palabras">Tipo de servicio o instalación para producción o distribución de diferentes tipos de energía a gran escala.<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
 (los de cada clase de entidad), en la ficha de cada clase.
 Ese acordeón aparece dentro de la columna "Descripción", junto con el texto {definicion}.
 
@@ -449,7 +449,7 @@ htmlDominioValores = """ """
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-<a href='#ext-CTE'>CTE</a>">
-    <!--  <th scope="row">899</th>
+    <!--  <th scope="row">226</th>
     <td>tipo_0504</td>
     <td>1</td> -->
     <td><a href='#ext-CTE'>CTE</a></td>
@@ -459,7 +459,7 @@ pero se usa con los datos provenientes de la tabla valores -->
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-NUC">
-    <!--  <th scope="row">900</th>
+    <!--  <th scope="row">227</th>
     <td>tipo_0504</td>
     <td>2</td> -->
     <td>NUC</td>
@@ -469,7 +469,7 @@ pero se usa con los datos provenientes de la tabla valores -->
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-HDR">
-    <!--  <th scope="row">901</th>
+    <!--  <th scope="row">228</th>
     <td>tipo_0504</td>
     <td>3</td> -->
     <td>HDR</td>
@@ -479,7 +479,7 @@ pero se usa con los datos provenientes de la tabla valores -->
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-<a href='#ext-SOL'>SOL</a>">
-    <!--  <th scope="row">902</th>
+    <!--  <th scope="row">229</th>
     <td>tipo_0504</td>
     <td>4</td> -->
     <td><a href='#ext-SOL'>SOL</a></td>
@@ -489,7 +489,7 @@ pero se usa con los datos provenientes de la tabla valores -->
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-EOL">
-    <!--  <th scope="row">903</th>
+    <!--  <th scope="row">230</th>
     <td>tipo_0504</td>
     <td>5</td> -->
     <td>EOL</td>
@@ -498,20 +498,10 @@ pero se usa con los datos provenientes de la tabla valores -->
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-OTR">
-    <!--  <th scope="row">906</th>
+<tr id="valor-SBS">
+    <!--  <th scope="row">231</th>
     <td>tipo_0504</td>
     <td>6</td> -->
-    <td>OTR</td>
-    <td>Otro</td>
-    <td>Tipo de instalación energética no contemplada en las otras tipologías.</td>
-</tr><!-- Es el equivalente a fila_valor_comun.html,
-pero se usa con los datos provenientes de la tabla valores -->
-
-<tr id="valor-SBS">
-    <!--  <th scope="row">904</th>
-    <td>tipo_0504</td>
-    <td>7</td> -->
     <td>SBS</td>
     <td>Subestación</td>
     <td>Instalación provista de un conjunto equipos dedicados reducir o aumentar el voltaje de la corriente eléctrica.</td>
@@ -519,189 +509,22 @@ pero se usa con los datos provenientes de la tabla valores -->
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-<a href='#ext-IHC'>IHC</a>">
-    <!--  <th scope="row">905</th>
+    <!--  <th scope="row">232</th>
     <td>tipo_0504</td>
-    <td>8</td> -->
+    <td>7</td> -->
     <td><a href='#ext-IHC'>IHC</a></td>
     <td>Instalación hidrocarburos</td>
     <td>Instalación destinada a la producción, tratamiento o distribución de hidrocarburos. No incluye gasolineras u otros puntos de venta orientados al público general.</td>
-</tr>
-    </tbody>
-  </table>
-</div>
-</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>codigo_ex ()</td>
-    <td>cadena(50)</td>
-    <td class="romper-palabras">None </td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>tipo_ex (t_0504_ex)</td>
-    <td>lista_val</td>
-    <td class="romper-palabras">None<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
-(los de cada clase de entidad), en la ficha de cada clase.
-Ese acordeón aparece dentro de la columna "Descripción", junto con el texto {definicion}.
-
-
-El mapeo se hace en este bloque:
-htmlDominioValores = """ """
-                    for value in dominioValores:
-                        htmlDominioValores += """
-                            <...>
-                        """.format(
-                            ID=value[0],
-                            codigo=value[1],
-                            Orden=value[2],
-                            Valor=value[3],
-                            Valordelvalor=value[4],
-                            definicion=value[8]
-                        )                        )-->
-
-<div class="mb-3">
-
-  <table class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <!-- <th scope="col">ID</th>
-        <th scope="col">Nombre Código Atributo</th>
-        <th scope="col">Orden</th> -->
-        <th scope="col">Código del valor</th>
-        <th scope="col">Valor</th>
-        <th scope="col">Definición</th>
-      </tr>
-    </thead>
-    <tbody>
-       <!-- Es el equivalente a fila_valor_comun.html,
-pero se usa con los datos provenientes de la tabla valores -->
-
-<tr id="valor-CCM">
-    <!--  <th scope="row">908</th>
-    <td>t_0504_ex</td>
-    <td>10</td> -->
-    <td>CCM</td>
-    <td>Ciclo combinado</td>
-    <td>Instalación para la producción de energía eléctrica obtenida mediante la co-existencia de dos ciclos termodinámicos en un mismo sistema: uno cuyo fluido de trabajo es el vapor de agua y otro cuyo fluido de trabajo es un gas producto de una combustión.</td>
-</tr><!-- Es el equivalente a fila_valor_comun.html,
-pero se usa con los datos provenientes de la tabla valores -->
-
-<tr id="valor-FOT">
-    <!--  <th scope="row">909</th>
-    <td>t_0504_ex</td>
-    <td>11</td> -->
-    <td>FOT</td>
-    <td>Fotovoltaica</td>
-    <td>Instalación donde se lleva a cabo la producción de energía eléctrica obtenida directamente a partir de la radiación solar empleando semiconductores agrupados en paneles u otras superficies.</td>
-</tr><!-- Es el equivalente a fila_valor_comun.html,
-pero se usa con los datos provenientes de la tabla valores -->
-
-<tr id="valor-TMS">
-    <!--  <th scope="row">910</th>
-    <td>t_0504_ex</td>
-    <td>12</td> -->
-    <td>TMS</td>
-    <td>Termosolar</td>
-    <td>Instalación, equipamiento o estructuras donde se lleva a cabo la producción de energía térmica obtenida directamente de la radiación solar mediante el uso de espejos o lentes. La energía térmica que se produce se transforma en energía mecánica destinada a mover diferentes generadores que producen la energía eléctrica.</td>
-</tr><!-- Es el equivalente a fila_valor_comun.html,
-pero se usa con los datos provenientes de la tabla valores -->
-
-<tr id="valor-RFN">
-    <!--  <th scope="row">911</th>
-    <td>t_0504_ex</td>
-    <td>13</td> -->
-    <td>RFN</td>
-    <td>Refinería</td>
-    <td>Fábrica o instalación industrial donde se refina un producto.</td>
-</tr><!-- Es el equivalente a fila_valor_comun.html,
-pero se usa con los datos provenientes de la tabla valores -->
-
-<tr id="valor-RGS">
-    <!--  <th scope="row">912</th>
-    <td>t_0504_ex</td>
-    <td>14</td> -->
-    <td>RGS</td>
-    <td>Regasificadora</td>
-    <td>Instalación industrial que existe entre la de extracción del gas natural licuado y la red de distribución de gas natural.</td>
-</tr><!-- Es el equivalente a fila_valor_comun.html,
-pero se usa con los datos provenientes de la tabla valores -->
-
-<tr id="valor-ALM">
-    <!--  <th scope="row">913</th>
-    <td>t_0504_ex</td>
-    <td>15</td> -->
-    <td>ALM</td>
-    <td>Almacenaje</td>
-    <td>Planta de almacenaje de energía.</td>
-</tr><!-- Es el equivalente a fila_valor_comun.html,
-pero se usa con los datos provenientes de la tabla valores -->
-
-<tr id="valor-HID">
-    <!--  <th scope="row">914</th>
-    <td>t_0504_ex</td>
-    <td>16</td> -->
-    <td>HID</td>
-    <td>Hidrogenera</td>
-    <td>Planta en la que se produce hidrógeno con la finalidad de producción energética.</td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-OTR">
-    <!--  <th scope="row">915</th>
-    <td>t_0504_ex</td>
-    <td>17</td> -->
+    <!--  <th scope="row">233</th>
+    <td>tipo_0504</td>
+    <td>8</td> -->
     <td>OTR</td>
-    <td>Otra instalación de hidrocarburos</td>
-    <td>Tipo de instalación de hidrocarburos no contemplada en las otras tipologías.</td>
-</tr><!-- Es el equivalente a fila_valor_comun.html,
-pero se usa con los datos provenientes de la tabla valores -->
-
-<tr id="valor-TEC">
-    <!--  <th scope="row">907</th>
-    <td>t_0504_ex</td>
-    <td>9</td> -->
-    <td>TEC</td>
-    <td>Térmica convencional</td>
-    <td>Central termoeléctrica donde se utilizan combustibles fósiles (gas natural, carbón o fueloil) para generar energía eléctrica mediante un ciclo termodinámico de agua-vapor.</td>
+    <td>Otro</td>
+    <td>Tipo de instalación energética no contemplada en las otras tipologías.</td>
 </tr>
     </tbody>
   </table>
@@ -735,6 +558,158 @@ pero se usa con los datos provenientes de la tabla valores -->
                     </thead>
                     <tbody>
                         
+                    <tr>
+                        <td>codigo_ex</td>
+                        <td></td>
+                        <td></td>
+                        <td>Identificador temático de la fuente externa de referencia.</td>
+                    </tr>
+                    
+                    <tr id='ext-CTE'>
+                        <td>tipo_ex (t_0504_ex)</td>
+                        <td>tipo_0504</td>
+                        <td>CTE</td>
+                        <td>
+                            <p>Tipo de servicio o instalación para producción o distribución de diferentes tipos de energía a gran escala (modelo extendido).</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>CCM</td><td>Ciclo combinado</td><td>Instalación para la producción de energía eléctrica obtenida mediante la co-existencia de dos ciclos termodinámicos en un mismo sistema: uno cuyo fluido de trabajo es el vapor de agua y otro cuyo fluido de trabajo es un gas producto de una combustión.</td></tr><tr><td>BIO</td><td>Biomasa - biogas</td><td>Instalación para la producción de energía eléctrica mediante la quema de combustibles renovables obtenidos de materia orgánica.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
+                    <tr id='ext-CTE'>
+                        <td>tipo_ex (t_0504_ex)</td>
+                        <td>tipo_0505</td>
+                        <td>CTE</td>
+                        <td>
+                            <p>Tipo de servicio o instalación para producción o distribución de diferentes tipos de energía a gran escala (modelo extendido).</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>OCT</td><td>Otra central térmica</td><td>Tipo de central térmica no contemplada en las otras categorías.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
+                    <tr id='ext-SOL'>
+                        <td>tipo_ex (t_0504_ex)</td>
+                        <td>tipo_0504</td>
+                        <td>SOL</td>
+                        <td>
+                            <p>Tipo de servicio o instalación para producción o distribución de diferentes tipos de energía a gran escala (modelo extendido).</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>FOT</td><td>Fotovoltaica</td><td>Instalación donde se lleva a cabo la producción de energía eléctrica obtenida directamente a partir de la radiación solar empleando semiconductores agrupados en paneles u otras superficies.</td></tr><tr><td>TMS</td><td>Termosolar</td><td>Instalación, equipamiento o estructuras donde se lleva a cabo la producción de energía térmica obtenida directamente de la radiación solar mediante el uso de espejos o lentes. La energía térmica que se produce se transforma en energía mecánica destinada a mover diferentes generadores que producen la energía eléctrica.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
+                    <tr id='ext-IHC'>
+                        <td>tipo_ex (t_0504_ex)</td>
+                        <td>tipo_0504</td>
+                        <td>IHC</td>
+                        <td>
+                            <p>Tipo de servicio o instalación para producción o distribución de diferentes tipos de energía a gran escala (modelo extendido).</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>RFN</td><td>Refinería</td><td>Fábrica o instalación industrial donde se refina un producto.</td></tr><tr><td>RGS</td><td>Regasificadora</td><td>Instalación industrial que existe entre la de extracción del gas natural licuado y la red de distribución de gas natural.</td></tr><tr><td>ALM</td><td>Almacenaje</td><td>Planta de almacenaje de energía.</td></tr><tr><td>HID</td><td>Hidrogenera</td><td>Planta en la que se produce hidrógeno con la finalidad de producción energética.</td></tr><tr><td>OIH</td><td>Otra instalación de hidrocarburos</td><td>Tipo de instalación de hidrocarburos no contemplada en las otras tipologías.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
+                    <tr id='ext-CTE'>
+                        <td>tipo_ex (t_0504_ex)</td>
+                        <td>tipo_0504</td>
+                        <td>CTE</td>
+                        <td>
+                            <p>Tipo de servicio o instalación para producción o distribución de diferentes tipos de energía a gran escala (modelo extendido).</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>TEC</td><td>Térmica convencional</td><td>Central termoeléctrica donde se utilizan combustibles fósiles (gas natural, carbón o fueloil) para generar energía eléctrica mediante un ciclo termodinámico de agua-vapor.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
                     </tbody>
                 </table>
             </div>
@@ -780,259 +755,9 @@ Este es el bloque de mapeo:
 
 <tr>
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>id_prod</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena(50)</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>idioma</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena(11)</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_spa</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_cat</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_glg</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_eus</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_oci</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
     <td>fuente</td>
-    <td>None</td>
-    <td class="romper-palabras">lista_val</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>f_alt_ex</td>
-    <td>f_altitud</td>
-    <td class="romper-palabras">fecha</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>id_ng</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena(50)</td>
+    <td>cadena</td>
+    <td class="romper-palabras">Fuente o procedencia de los datos. Da cabida tanto a "método de captura" como a "responsable" u "organización" que proporciona datos.</td>
 </tr>
 <!-- Este bloque representa una fila dentro de la tabla
 de atributos específicos de una clase de entidad.
@@ -1056,8 +781,83 @@ Este es el bloque de mapeo:
 <tr>
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
     <td>fecha_ref</td>
-    <td>None</td>
-    <td class="romper-palabras">None</td>
+    <td>fecha</td>
+    <td class="romper-palabras">Fecha representativa de creación o modificación del objeto por parte del productor (por ejemplo, fecha del contrato de actualización).</td>
+</tr>
+<!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>id_prod</td>
+    <td>cadena(50)</td>
+    <td class="romper-palabras">Identificador del productor. Cadena de texto donde cada productor almacena el identificador que mantiene para cada elemento. Lleva un prefijo del productor.</td>
+</tr>
+<!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>nombre</td>
+    <td>cadena</td>
+    <td class="romper-palabras">Nombre por el que se conoce al objeto geográfico concreto.</td>
+</tr>
+<!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>idioma</td>
+    <td>cadena(11)</td>
+    <td class="romper-palabras">Idioma o idiomas en el que se expresa el nombre.</td>
 </tr>
 
                 </tbody>
@@ -1084,6 +884,63 @@ Este es el bloque de mapeo:
                 </thead>
                 <tbody>
                     
+                    <tr>
+                        <td>f_alt_ex</td>
+                        <td>
+                            <p>Cómo se ha obtenido la altitud de la geometría del objeto.</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>MDT</td><td>MDT</td><td>Altitud del objeto geográfico obtenida utilizando el MDT.</td></tr><tr><td>RES</td><td>Restitución</td><td>Altitud del objeto geográfico obtenida por restitución fotogramétrica.</td></tr><tr><td>MDS</td><td>MDS</td><td>Altitud del objeto geográfico obtenida utilizando el MDS.</td></tr><tr><td>EST</td><td>Estimada</td><td>Altitud estimada del objeto geográfico.</td></tr><tr><td>INT</td><td>Interpolada</td><td>Altitud del objeto geográfico obtenida por interpolación.</td></tr><tr><td>NOZ</td><td>Sin Z</td><td>Objeto geográfico sin altitud asignada.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
+                        <tr>
+                            <td>nom_spa_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en castellano.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nom_cat_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en catalán.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nom_glg_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en gallego.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nom_eus_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en euskera.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nom_oci_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en occitano.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>id_ng_ex</td>
+                            <td>Identificador de nomenclátor (para elementos con nombre y que estén registrados en el nomenclátor).</td>
+                        </tr>
+                        
                 </tbody>
             </table>
         </div>

@@ -264,7 +264,7 @@
                                                 </a>
                                                 <div class="collapse ps-3" id="tema07">
                                                     <ul class="list-unstyled">
-                                <li><a class="dropdown-item" href="../objetos_geograficos/0701s.html" data-valores="">Cubierta terrestre 0701s</a></li>
+                                <li><a class="dropdown-item" href="../objetos_geograficos/0701s.html" data-valores="">Cubierta Terrestre 0701s</a></li>
 
                             </ul>
                         </div>
@@ -357,7 +357,7 @@ HTMLDescripcion = HTMLDescripcion.format(
 <table class="table table-bordered tabla-ajustada">
   <tr>
     <th style="width: 10%;">Descripción</th>
-    <td style="width: 70%;">Otras construcciones fijas que no se recogen en Edificio y con geometría de polígono.</td>
+    <td style="width: 70%;">Otras construcciones fijas que no se recogen en Edificio.</td>
     <td style="width: 20%;" colspan="3">
       <a href="../fichas/ficha_0407s.pdf" target="_blank">Normas de captura</a>
     </td>
@@ -412,7 +412,7 @@ Este es el bloque de mapeo:
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
     <td>tipo (tipo_0407s)</td>
     <td>lista_val</td>
-    <td class="romper-palabras">None<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
+    <td class="romper-palabras">Tipo de otra construcción según sus características constructivas.<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
 (los de cada clase de entidad), en la ficha de cada clase.
 Ese acordeón aparece dentro de la columna "Descripción", junto con el texto {definicion}.
 
@@ -448,38 +448,8 @@ htmlDominioValores = """ """
        <!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-PQI">
-    <!--  <th scope="row">760</th>
-    <td>tipo_0407s</td>
-    <td></td> -->
-    <td>PQI</td>
-    <td>Parque infantil</td>
-    <td>Espacio, generalmente acotado, dotado de diversas instalaciones, como columpios y toboganes, para diversión de los niños.</td>
-</tr><!-- Es el equivalente a fila_valor_comun.html,
-pero se usa con los datos provenientes de la tabla valores -->
-
-<tr id="valor-PIN">
-    <!--  <th scope="row">775</th>
-    <td>tipo_0407s</td>
-    <td></td> -->
-    <td>PIN</td>
-    <td>Excavación de materiales</td>
-    <td>Área excavada en terreno a cielo abierto para el aprovecahmiento de algún mineral o material.</td>
-</tr><!-- Es el equivalente a fila_valor_comun.html,
-pero se usa con los datos provenientes de la tabla valores -->
-
-<tr id="valor-AUX">
-    <!--  <th scope="row">776</th>
-    <td>tipo_0407s</td>
-    <td></td> -->
-    <td>AUX</td>
-    <td>Auxiliar construido</td>
-    <td>Cualquier elemento construido auxiliar, como bordillos, escalinatas, isletas de viales, etc.</td>
-</tr><!-- Es el equivalente a fila_valor_comun.html,
-pero se usa con los datos provenientes de la tabla valores -->
-
 <tr id="valor-TRF">
-    <!--  <th scope="row">754</th>
+    <!--  <th scope="row">78</th>
     <td>tipo_0407s</td>
     <td>1</td> -->
     <td>TRF</td>
@@ -488,10 +458,20 @@ pero se usa con los datos provenientes de la tabla valores -->
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-PUE">
-    <!--  <th scope="row">764</th>
+<tr id="valor-MZN">
+    <!--  <th scope="row">87</th>
     <td>tipo_0407s</td>
     <td>10</td> -->
+    <td>MZN</td>
+    <td>Manzana</td>
+    <td>Espacio urbano edificado o destinado a edificar, generalmente de forma rectangular o cuadrada y frecuentemente delimitado por viales o vías urbanas. </td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-PUE">
+    <!--  <th scope="row">88</th>
+    <td>tipo_0407s</td>
+    <td>11</td> -->
     <td>PUE</td>
     <td>Puente</td>
     <td>Construcción sobre la cual una vía de comunicación u otra infraestructura (por ejemplo, un acueducto) puede salvar un obstáculo (río, barranco) o cruzar otras vías o infraestructuras situadas a niveles inferiores (carreteras, vías férreas, obras de desagüe, ríos, canales), que por sus características constructivas permite la circulación de automóviles.</td>
@@ -499,9 +479,9 @@ pero se usa con los datos provenientes de la tabla valores -->
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-PAS">
-    <!--  <th scope="row">765</th>
+    <!--  <th scope="row">89</th>
     <td>tipo_0407s</td>
-    <td>11</td> -->
+    <td>12</td> -->
     <td>PAS</td>
     <td>Pasarela</td>
     <td>Construcción liviana sobre la cual los peatones pueden salvar y cruzar obstáculos, vías o infraestructuras situadas a niveles inferiores (carreteras, vías férreas, desniveles, ríos, canales), pero que por sus características constructivas no permite la circulación de automóviles.</td>
@@ -509,9 +489,9 @@ pero se usa con los datos provenientes de la tabla valores -->
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-MUE">
-    <!--  <th scope="row">766</th>
+    <!--  <th scope="row">90</th>
     <td>tipo_0407s</td>
-    <td>12</td> -->
+    <td>13</td> -->
     <td>MUE</td>
     <td>Muelle</td>
     <td>Construcción en la orilla de una masa de agua para facilitar el embarque y desembarque de personas y mercancías en o desde embarcaciones. En estaciones ferroviarias, andén para la carga de mercancías.</td>
@@ -519,49 +499,49 @@ pero se usa con los datos provenientes de la tabla valores -->
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-ESL">
-    <!--  <th scope="row">767</th>
+    <!--  <th scope="row">91</th>
     <td>tipo_0407s</td>
-    <td>13</td> -->
+    <td>14</td> -->
     <td>ESL</td>
     <td>Escollera</td>
     <td>Obra construida mediante la acumulación de bloques de piedra u hormigón dispuestos para formar una defensa contra el oleaje, servir de cimento a un muelle o resguardar el pie de otra obra.  </td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-PNT">
-    <!--  <th scope="row">768</th>
+<tr id="valor-PTL">
+    <!--  <th scope="row">92</th>
     <td>tipo_0407s</td>
-    <td>14</td> -->
-    <td>PNT</td>
+    <td>15</td> -->
+    <td>PTL</td>
     <td>Pantalán</td>
     <td>Muelle o pasarela flotante para el embarque y desembarque, para el uso de barcos de poco tonelaje, construido con materiales livianos y que flota sobre el agua. </td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-MRL">
-    <!--  <th scope="row">769</th>
+    <!--  <th scope="row">93</th>
     <td>tipo_0407s</td>
-    <td>15</td> -->
+    <td>16</td> -->
     <td>MRL</td>
     <td>Muralla</td>
     <td>Muro u obra defensiva de carácter histórico que se empleaba para proteger un lugar.</td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-CER">
-    <!--  <th scope="row">770</th>
+<tr id="valor-<a href='#ext-CER'>CER</a>">
+    <!--  <th scope="row">94</th>
     <td>tipo_0407s</td>
-    <td>16</td> -->
-    <td>CER</td>
+    <td>17</td> -->
+    <td><a href='#ext-CER'>CER</a></td>
     <td>Cercado</td>
     <td>Cerco de cualquier material que cierra o divide un espacio. Generalmente se emplean para marcar o delimitar dicho espacio o preservar la entrada a su interior. </td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-ANT">
-    <!--  <th scope="row">771</th>
+    <!--  <th scope="row">95</th>
     <td>tipo_0407s</td>
-    <td>17</td> -->
+    <td>18</td> -->
     <td>ANT</td>
     <td>Antena</td>
     <td>Estructura o armazón de cierta altura para situar sistemas de emisión, recepción y/o amplificación de señales electromagnéticas.</td>
@@ -569,123 +549,143 @@ pero se usa con los datos provenientes de la tabla valores -->
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-AER">
-    <!--  <th scope="row">772</th>
+    <!--  <th scope="row">96</th>
     <td>tipo_0407s</td>
-    <td>18</td> -->
+    <td>19</td> -->
     <td>AER</td>
     <td>Aerogenerador</td>
     <td>Estructura o armazón de cierta altura que soporta un mecanismo de unas palas para transformar la energía eólica en eléctrica.</td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-CGA">
-    <!--  <th scope="row">773</th>
-    <td>tipo_0407s</td>
-    <td>19</td> -->
-    <td>CGA</td>
-    <td>Conducción genérica</td>
-    <td>Conjunto de conductos dispuestos para el paso y distribución de algún fluido, exceptuando el de hidrocarburos.</td>
-</tr><!-- Es el equivalente a fila_valor_comun.html,
-pero se usa con los datos provenientes de la tabla valores -->
-
-<tr id="valor-MON">
-    <!--  <th scope="row">755</th>
+<tr id="valor-<a href='#ext-MON'>MON</a>">
+    <!--  <th scope="row">79</th>
     <td>tipo_0407s</td>
     <td>2</td> -->
-    <td>MON</td>
+    <td><a href='#ext-MON'>MON</a></td>
     <td>Monumento</td>
     <td>Elemento de interés, obra artística y patente (por ejemplo, una estatua) situada en la vía pública en conmemoración de un hecho o personaje histórico o con fines puramente ornamentales. A su vez, por el atributo tipo extendido se clasifica en:
 </td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-CHD">
-    <!--  <th scope="row">774</th>
+<tr id="valor-CGA">
+    <!--  <th scope="row">97</th>
     <td>tipo_0407s</td>
     <td>20</td> -->
-    <td>CHD</td>
+    <td>CGA</td>
+    <td>Conducción genérica</td>
+    <td>Conjunto de conductos dispuestos para el paso y distribución de algún fluido, exceptuando el de hidrocarburos.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-<a href='#ext-CHD'>CHD</a>">
+    <!--  <th scope="row">98</th>
+    <td>tipo_0407s</td>
+    <td>21</td> -->
+    <td><a href='#ext-CHD'>CHD</a></td>
     <td>Conducción de hidrocarburos</td>
     <td>Conjunto de conductos dispuestos para el paso y distribución de hidrocarburos. </td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-OTR">
-    <!--  <th scope="row">777</th>
+<tr id="valor-EXC">
+    <!--  <th scope="row">99</th>
     <td>tipo_0407s</td>
-    <td>21</td> -->
+    <td>22</td> -->
+    <td>EXC</td>
+    <td>Excavación de materiales</td>
+    <td>Área excavada en terreno a cielo abierto para el aprovecahmiento de algún mineral o material.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-<a href='#ext-AUX'>AUX</a>">
+    <!--  <th scope="row">100</th>
+    <td>tipo_0407s</td>
+    <td>23</td> -->
+    <td><a href='#ext-AUX'>AUX</a></td>
+    <td>Auxiliar construido</td>
+    <td>Cualquier elemento construido auxiliar, como bordillos, escalinatas, isletas de viales, etc.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-OTR">
+    <!--  <th scope="row">101</th>
+    <td>tipo_0407s</td>
+    <td>24</td> -->
     <td>OTR</td>
     <td>Otro</td>
     <td>Otro tipo de construcción no contemplado en las otras tipologías.</td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-ATE">
-    <!--  <th scope="row">756</th>
+<tr id="valor-<a href='#ext-ATE'>ATE</a>">
+    <!--  <th scope="row">80</th>
     <td>tipo_0407s</td>
     <td>3</td> -->
-    <td>ATE</td>
+    <td><a href='#ext-ATE'>ATE</a></td>
     <td>Apoyo de tendido</td>
     <td>Construcción o estructura destinada a sostener las líneas aéreas de energía y telecomunicaciones y cables al transporte por cable, o hacer de suporte entre el centro emisor o receptor de ondas para las telecomunicaciones.</td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-CDP">
-    <!--  <th scope="row">757</th>
+<tr id="valor-<a href='#ext-CDP'>CDP</a>">
+    <!--  <th scope="row">81</th>
     <td>tipo_0407s</td>
     <td>4</td> -->
-    <td>CDP</td>
+    <td><a href='#ext-CDP'>CDP</a></td>
     <td>Campo deportivo</td>
     <td>Terreno de juego especialmente diseñado y construido para la práctica de una o varias actividades deportivas. Además de los deportes habituales como fútbol, rugby, beisbol, entre otros. </td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-PDP">
-    <!--  <th scope="row">758</th>
+<tr id="valor-<a href='#ext-PDP'>PDP</a>">
+    <!--  <th scope="row">82</th>
     <td>tipo_0407s</td>
     <td>5</td> -->
-    <td>PDP</td>
+    <td><a href='#ext-PDP'>PDP</a></td>
     <td>Pista deportiva</td>
     <td>Es la pista, cancha o terreno de juego especialmente diseñado y construido para la práctica de una o varias actividades deportivas. Además de los deportes habituales como fútbol, baloncesto, tenis, pistas polideportivas, etc.</td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-CDT">
-    <!--  <th scope="row">759</th>
+<tr id="valor-<a href='#ext-CDT'>CDT</a>">
+    <!--  <th scope="row">83</th>
     <td>tipo_0407s</td>
     <td>6</td> -->
-    <td>CDT</td>
-    <td>Calle/circuito deportivo</td>
+    <td><a href='#ext-CDT'>CDT</a></td>
+    <td>Calle - circuito deportivo</td>
     <td>Trazado curvo y cerrado diseñado para realizar pruebas deportivas de diferentes disciplinas, como ciclismo, atletismo, automovilismo. También incluiríamos aquí las calles del campo de golf.</td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-PTR">
-    <!--  <th scope="row">761</th>
+<tr id="valor-PQI">
+    <!--  <th scope="row">84</th>
     <td>tipo_0407s</td>
     <td>7</td> -->
+    <td>PQI</td>
+    <td>Parque infantil</td>
+    <td>Espacio, generalmente acotado, dotado de diversas instalaciones, como columpios y toboganes, para diversión de los niños.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-PTR">
+    <!--  <th scope="row">85</th>
+    <td>tipo_0407s</td>
+    <td>8</td> -->
     <td>PTR</td>
     <td>Parterre</td>
     <td>    Elemento construido que delimita una zona de jardín o parterre con vegetación, tierra, césped o flores.  </td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-EXP">
-    <!--  <th scope="row">762</th>
-    <td>tipo_0407s</td>
-    <td>8</td> -->
-    <td>EXP</td>
-    <td>Explanada</td>
-    <td>Espacio de terreno allanado, que en ocasiones puede estar pavimentado con algún tipo de revestimiento. Suele ubicarse de forma adyacente o en los aledaños de una carretera, pista o vía de comunicación.</td>
-</tr><!-- Es el equivalente a fila_valor_comun.html,
-pero se usa con los datos provenientes de la tabla valores -->
-
-<tr id="valor-MZN">
-    <!--  <th scope="row">763</th>
+<tr id="valor-<a href='#ext-EXP'>EXP</a>">
+    <!--  <th scope="row">86</th>
     <td>tipo_0407s</td>
     <td>9</td> -->
-    <td>MZN</td>
-    <td>Manzana</td>
-    <td>Espacio urbano edificado o destinado a edificar, generalmente de forma rectangular o cuadrada y frecuentemente delimitado por viales o vías urbanas. </td>
+    <td><a href='#ext-EXP'>EXP</a></td>
+    <td>Explanada</td>
+    <td>Espacio de terreno allanado, que en ocasiones puede estar pavimentado con algún tipo de revestimiento. Suele ubicarse de forma adyacente o en los aledaños de una carretera, pista o vía de comunicación.</td>
 </tr>
     </tbody>
   </table>
@@ -713,9 +713,9 @@ Este es el bloque de mapeo:
 
 <tr>
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>situacion (situ_0407s)</td>
+    <td>situacion (situ_gener)</td>
     <td>lista_val</td>
-    <td class="romper-palabras">None<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
+    <td class="romper-palabras">Situación de la construcción con respecto al terreno.<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
 (los de cada clase de entidad), en la ficha de cada clase.
 Ese acordeón aparece dentro de la columna "Descripción", junto con el texto {definicion}.
 
@@ -752,42 +752,42 @@ htmlDominioValores = """ """
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-ELE">
-    <!--  <th scope="row">812</th>
-    <td>situ_0407s</td>
+    <!--  <th scope="row">74</th>
+    <td>situ_gener</td>
     <td>1</td> -->
     <td>ELE</td>
     <td>Elevado</td>
-    <td>La construcción se encuentra elevada respecto a la superficie terrestre.</td>
+    <td>La construcción, curso de agua o vía férrea, se encuentra elevada respecto a la superficie terrestre.</td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-SUB">
-    <!--  <th scope="row">813</th>
-    <td>situ_0407s</td>
+    <!--  <th scope="row">75</th>
+    <td>situ_gener</td>
     <td>2</td> -->
     <td>SUB</td>
     <td>Subterráneo</td>
-    <td>La construcción se encuentra bajo la superficie terrestre.</td>
+    <td>La construcción, curso de agua o vía férrea, se encuentra bajo la superficie terrestre.</td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-SUP">
-    <!--  <th scope="row">814</th>
-    <td>situ_0407s</td>
+    <!--  <th scope="row">76</th>
+    <td>situ_gener</td>
     <td>3</td> -->
     <td>SUP</td>
     <td>En superficie</td>
-    <td>La construcción se encuentra sobre la superficie terrestre.</td>
+    <td>La construcción, curso de agua o vía férrea,  se encuentra sobre la superficie terrestre.</td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor--97">
-    <!--  <th scope="row">815</th>
-    <td>situ_0407s</td>
+    <!--  <th scope="row">77</th>
+    <td>situ_gener</td>
     <td>4</td> -->
     <td>-97</td>
     <td>Desconocido</td>
-    <td>Se desconoce la situación en altura de la construcción con respecto a la superficie terrestre. </td>
+    <td>Se desconoce la situación en altura de la construcción, curso de agua o vía férrea, con respecto a la superficie terrestre. </td>
 </tr>
     </tbody>
   </table>
@@ -815,9 +815,9 @@ Este es el bloque de mapeo:
 
 <tr>
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>estadofis (estadofis)</td>
+    <td>estadofis (esta_gener)</td>
     <td>lista_val</td>
-    <td class="romper-palabras">None<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
+    <td class="romper-palabras">Estado físico en el que se encuentra la construcción.<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
 (los de cada clase de entidad), en la ficha de cada clase.
 Ese acordeón aparece dentro de la columna "Descripción", junto con el texto {definicion}.
 
@@ -854,8 +854,8 @@ htmlDominioValores = """ """
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-USO">
-    <!--  <th scope="row">724</th>
-    <td>estadofis</td>
+    <!--  <th scope="row">48</th>
+    <td>esta_gener</td>
     <td>1</td> -->
     <td>USO</td>
     <td>En uso</td>
@@ -863,19 +863,19 @@ pero se usa con los datos provenientes de la tabla valores -->
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-CON">
-    <!--  <th scope="row">725</th>
-    <td>estadofis</td>
+<tr id="valor-ENC">
+    <!--  <th scope="row">49</th>
+    <td>esta_gener</td>
     <td>2</td> -->
-    <td>CON</td>
+    <td>ENC</td>
     <td>En construcción</td>
     <td>El edificio u otra construcción se encuentra en construcción o en proyecto a la fecha de captura de los datos.</td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor-RUI">
-    <!--  <th scope="row">726</th>
-    <td>estadofis</td>
+    <!--  <th scope="row">50</th>
+    <td>esta_gener</td>
     <td>3</td> -->
     <td>RUI</td>
     <td>En ruinas</td>
@@ -884,8 +884,8 @@ pero se usa con los datos provenientes de la tabla valores -->
 pero se usa con los datos provenientes de la tabla valores -->
 
 <tr id="valor--97">
-    <!--  <th scope="row">727</th>
-    <td>estadofis</td>
+    <!--  <th scope="row">51</th>
+    <td>esta_gener</td>
     <td>4</td> -->
     <td>-97</td>
     <td>Desconocido</td>
@@ -927,15 +927,15 @@ pero se usa con los datos provenientes de la tabla valores -->
                         <td>codigo_ex</td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                        <td>Identificador temático de la fuente externa de referencia.</td>
                     </tr>
                     
                     <tr id='ext-MON'>
                         <td>tipo_ex (t_0407s_ex)</td>
-                        <td>tipo_0407S</td>
+                        <td>tipo_0407s</td>
                         <td>MON</td>
                         <td>
-                            <p></p>
+                            <p>Tipo de otra construcción según sus características constructivas (modelo extendido).</p>
                             
 <div class="mb-3">
 
@@ -951,7 +951,7 @@ pero se usa con los datos provenientes de la tabla valores -->
       </tr>
     </thead>
     <tbody>
-      <tr><td>CRZ</td><td>Cruz</td><td> Representación del símbolo cristiano, generalmente construida en piedra, que suele encontrarse en cruces de caminos o en lugares donde recuerda algún acontecimiento.  </td></tr>
+      <tr><td>FTO</td><td>Fuente ornamental</td><td>Estanque destinado al uso ornamental.</td></tr><tr><td>CRZ</td><td>Cruz</td><td> Representación del símbolo cristiano, generalmente construida en piedra, que suele encontrarse en cruces de caminos o en lugares donde recuerda algún acontecimiento.  </td></tr><tr><td>OMT</td><td>Otro monumento</td><td> Otro monumento: Monumento sin particularidad que merezca ser reseñada. Cualquier monumento que no se haya clasificado.  </td></tr>
     </tbody>
   </table>
 </div>
@@ -961,10 +961,10 @@ pero se usa con los datos provenientes de la tabla valores -->
                     
                     <tr id='ext-ATE'>
                         <td>tipo_ex (t_0407s_ex)</td>
-                        <td>tipo_0407S</td>
+                        <td>tipo_0407s</td>
                         <td>ATE</td>
                         <td>
-                            <p></p>
+                            <p>Tipo de otra construcción según sus características constructivas (modelo extendido).</p>
                             
 <div class="mb-3">
 
@@ -980,65 +980,7 @@ pero se usa con los datos provenientes de la tabla valores -->
       </tr>
     </thead>
     <tbody>
-      <tr><td>TTE</td><td>Torre de tendido</td><td>Estructura o armazón de cierta altura que sustenta cables de tendido eléctrico, teléfono u otros suministros.</td></tr><tr><td>PTE</td><td>Poste de tendido</td><td>Soporte vertical que sustenta cables de tendido eléctrico, teléfono u otros suministros.</td></tr><tr><td>OTE</td><td>Otro apoyo de tendido</td><td>    El apoyo de tendido no puede clasificarse como ninguno de los valores anteriores.  </td></tr>
-    </tbody>
-  </table>
-</div>
-
-                        </td>
-                    </tr>
-                    
-                    <tr id='ext-AUX'>
-                        <td>tipo_ex (t_0407s_ex)</td>
-                        <td>tipo_0407S</td>
-                        <td>AUX</td>
-                        <td>
-                            <p></p>
-                            
-<div class="mb-3">
-
-  <table class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <!-- <th scope="col">ID</th>
-        <th scope="col">Nombre Código Atributo</th>
-        <th scope="col">Orden</th> -->
-        <th scope="col">Código del valor</th>
-        <th scope="col">Valor</th>
-        <th scope="col">Definición</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>ISV</td><td>Isleta de vial</td><td></td></tr><tr><td>ESG</td><td>Escalinata-grada</td><td></td></tr><tr><td>PSO</td><td>Placa solar</td><td></td></tr><tr><td>MED</td><td>Mediana</td><td></td></tr><tr><td>AND</td><td>Andén</td><td></td></tr><tr><td>OAU</td><td>Otro auxiliar construido</td><td></td></tr>
-    </tbody>
-  </table>
-</div>
-
-                        </td>
-                    </tr>
-                    
-                    <tr id='ext-MON'>
-                        <td>tipo_ex (t_0407s_ex)</td>
-                        <td>tipo_0407S</td>
-                        <td>MON</td>
-                        <td>
-                            <p></p>
-                            
-<div class="mb-3">
-
-  <table class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <!-- <th scope="col">ID</th>
-        <th scope="col">Nombre Código Atributo</th>
-        <th scope="col">Orden</th> -->
-        <th scope="col">Código del valor</th>
-        <th scope="col">Valor</th>
-        <th scope="col">Definición</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>FTO</td><td>Fuente ornamental</td><td>Estanque destinado al uso ornamental.  </td></tr><tr><td>OMT</td><td>Otro monumento</td><td> Otro monumento: Monumento sin particularidad que merezca ser reseñada. Cualquier monumento que no se haya clasificado.  </td></tr>
+      <tr><td>TTE</td><td>Torre de tendido</td><td>Estructura o armazón de cierta altura que sustenta cables de tendido eléctrico, teléfono u otros suministros.</td></tr><tr><td>PTE</td><td>Poste de tendido</td><td>Soporte vertical que sustenta cables de tendido eléctrico, teléfono u otros suministros.</td></tr><tr><td>OAT</td><td>Otro apoyo de tendido</td><td>El apoyo de tendido no puede clasificarse como ninguno de los valores anteriores.  </td></tr>
     </tbody>
   </table>
 </div>
@@ -1048,10 +990,10 @@ pero se usa con los datos provenientes de la tabla valores -->
                     
                     <tr id='ext-CDP'>
                         <td>tipo_ex (t_0407s_ex)</td>
-                        <td>tipo_0407S</td>
+                        <td>tipo_0407s</td>
                         <td>CDP</td>
                         <td>
-                            <p></p>
+                            <p>Tipo de otra construcción según sus características constructivas (modelo extendido).</p>
                             
 <div class="mb-3">
 
@@ -1067,7 +1009,7 @@ pero se usa con los datos provenientes de la tabla valores -->
       </tr>
     </thead>
     <tbody>
-      <tr><td>FUT</td><td>Campo de fútbol</td><td> es un terreno rectangular, generalmente de césped natural o artificial, donde se juega el deporte del fútbol. Está marcado con líneas que delimitan el área de juego, las porterías y otras áreas como el centro del campo y el área penal.</td></tr><tr><td>RUG</td><td>Campo de rugby</td><td>    es un terreno rectangular con marcas específicas donde se juega el deporte del rugby, que incluye líneas de juego, áreas de anotación y postes de gol. </td></tr><tr><td>BEI</td><td>Campo de béisbol</td><td>es un terreno rectangular con bases ubicadas en las esquinas, un montículo de lanzamiento en el centro y un área de campo externo delimitada, donde se juega el deporte del béisbol.</td></tr><tr><td>OCD</td><td>Otro campo deportivo</td><td>Otro campo deportivo no clasificado en las anteriores categorías.</td></tr>
+      <tr><td>FUT</td><td>Campo de fútbol</td><td>es un terreno rectangular, generalmente de césped natural o artificial, donde se juega el deporte del fútbol. Está marcado con líneas que delimitan el área de juego, las porterías y otras áreas como el centro del campo y el área penal.</td></tr><tr><td>RUG</td><td>Campo de rugby</td><td>    es un terreno rectangular con marcas específicas donde se juega el deporte del rugby, que incluye líneas de juego, áreas de anotación y postes de gol. </td></tr><tr><td>BEI</td><td>Campo de béisbol</td><td>es un terreno rectangular con bases ubicadas en las esquinas, un montículo de lanzamiento en el centro y un área de campo externo delimitada, donde se juega el deporte del béisbol.</td></tr><tr><td>OCP</td><td>Otro campo deportivo</td><td>Campo deportivo no clasificado en las anteriores categorías.  </td></tr>
     </tbody>
   </table>
 </div>
@@ -1077,10 +1019,10 @@ pero se usa con los datos provenientes de la tabla valores -->
                     
                     <tr id='ext-PDP'>
                         <td>tipo_ex (t_0407s_ex)</td>
-                        <td>tipo_0407S</td>
+                        <td>tipo_0407s</td>
                         <td>PDP</td>
                         <td>
-                            <p></p>
+                            <p>Tipo de otra construcción según sus características constructivas (modelo extendido).</p>
                             
 <div class="mb-3">
 
@@ -1096,7 +1038,7 @@ pero se usa con los datos provenientes de la tabla valores -->
       </tr>
     </thead>
     <tbody>
-      <tr><td>TEN</td><td>Pista de tenis</td><td>Es una superficie rectangular dividida por una red, utilizada para jugar al tenis.</td></tr><tr><td>BAL</td><td>Pista de baloncesto</td><td>es un área rectangular con un piso duro y liso, marcada con líneas específicas, donde se juega el deporte del baloncesto.</td></tr><tr><td>FRT</td><td>Frontón</td><td>es un recinto rectangular con paredes laterales y un frontis, donde se juega el deporte de pelota vasca.</td></tr><tr><td>MUL</td><td>Múltiple</td><td>Pista deportiva acondicionada para el ejercicio de varios deportes en un mismo espacio de forma integrada.</td></tr><tr><td>PDL</td><td>Pista de padel</td><td>es un recinto cerrado, similar a una pista de tenis, pero más pequeña, con paredes de cristal y alambradas, donde se juega el deporte de pádel.</td></tr><tr><td>PDG</td><td>Otra pista deportiva</td><td>Otro pista deportiva no clasificada en las anteriores categorías.</td></tr>
+      <tr><td>TEN</td><td>Pista de tenis</td><td>Es una superficie rectangular dividida por una red, utilizada para jugar al tenis.</td></tr><tr><td>BLC</td><td>Pista de baloncesto</td><td>es un área rectangular con un piso duro y liso, marcada con líneas específicas, donde se juega el deporte del baloncesto.</td></tr><tr><td>FRT</td><td>Pista de frontón</td><td>es un recinto rectangular con paredes laterales y un frontis, donde se juega el deporte de pelota vasca.</td></tr><tr><td>MUL</td><td>Pista múltiple</td><td>Pista deportiva acondicionada para el ejercicio de varios deportes en un mismo espacio de forma integrada.</td></tr><tr><td>PDL</td><td>Pista de pádel</td><td>es un recinto cerrado, similar a una pista de tenis, pero más pequeña, con paredes de cristal y alambradas, donde se juega el deporte de pádel.</td></tr><tr><td>PVO</td><td>Pista de voleibol</td><td>Superficie rectangular dividida por una red central, destinada a la práctica del voleibol.</td></tr><tr><td>PBA</td><td>Pista de balonmano</td><td>Superficie rectangular  destinada a la práctica del balonmano, con áreas de portería y líneas de delimitación específicas.</td></tr><tr><td>PPA</td><td>Pista de patinaje</td><td>Superficie plana, lisa y horizontal diseñada específicamente para la práctica del patinaje. Se incluyen las pistas de patinaje sobre hielo, sobre ruedas y con skate.</td></tr><tr><td>PPE</td><td>Pista de petanca</td><td>Superficie generalmente de tierra o grava, delimitada y acondicionada para la práctica del juego de petanca.</td></tr><tr><td>PEC</td><td>Pista ecuestre</td><td>Superficie acondicionada y delimitada para la práctica de actividades ecuestres, tales como el adiestramiento, salto, doma, o concursos hípicos.</td></tr><tr><td>PRJ</td><td>Parque de ejercicios</td><td>Espacio al aire libre diseñado específicamente para la práctica de actividades físicas y deportivas, equipado con una variedad de aparatos y estructuras. Se incluyen los parques de calistenia, de ejercicios para personas mayores y de fitness.</td></tr><tr><td>OPD</td><td>Otra pista deportiva</td><td>Pista deportiva deportivo no clasificado en las anteriores categorías.  </td></tr>
     </tbody>
   </table>
 </div>
@@ -1106,10 +1048,10 @@ pero se usa con los datos provenientes de la tabla valores -->
                     
                     <tr id='ext-CDT'>
                         <td>tipo_ex (t_0407s_ex)</td>
-                        <td>tipo_0407S</td>
+                        <td>tipo_0407s</td>
                         <td>CDT</td>
                         <td>
-                            <p></p>
+                            <p>Tipo de otra construcción según sus características constructivas (modelo extendido).</p>
                             
 <div class="mb-3">
 
@@ -1125,7 +1067,7 @@ pero se usa con los datos provenientes de la tabla valores -->
       </tr>
     </thead>
     <tbody>
-      <tr><td>ATL</td><td>Atletismo</td><td>Es un circuito ovalado con carriles marcados, diseñado para la práctica y competición de diversas disciplinas atléticas como carreras, saltos y lanzamientos. </td></tr><tr><td>GOL</td><td>Calle golf</td><td>Es una vía estrecha y larga que se extiende desde el tee hasta el green en un campo de golf, por donde los golfistas juegan sus golpes para avanzar hacia el hoyo.</td></tr><tr><td>VEL</td><td>Circuito velocidad</td><td>Es una pista especialmente diseñada para carreras de vehículos de motor, como automóviles, motocicletas o karts, donde los competidores pueden alcanzar altas velocidades en un entorno seguro y controlado.</td></tr><tr><td>CCG</td><td>Otra calle/circuito deportivo</td><td>Otra calle o circuito deportivo no clasificado en las anteriores categorías.  </td></tr>
+      <tr><td>ATL</td><td>Circuito de carreras de atletismo</td><td>Es un circuito ovalado con carriles marcados, diseñado para la práctica y competición de atletismo de velocidad.</td></tr><tr><td>CIC</td><td>Ciclismo</td><td>Es un circuito cerrado, generalmente ovalado diseñado para la práctica y competición de carreras de bicicletas. Se incluyen los velódromos y los circuitos de BMX.</td></tr><tr><td>GOL</td><td>Calle golf</td><td>Es una vía estrecha y larga que se extiende desde el tee hasta el green en un campo de golf, por donde los golfistas juegan sus golpes para avanzar hacia el hoyo.</td></tr><tr><td>VEL</td><td>Circuito velocidad a motor</td><td>Es una pista especialmente diseñada para carreras de vehículos de motor, como automóviles, motocicletas, motocross o karts, donde los competidores pueden alcanzar altas velocidades en un entorno seguro y controlado.</td></tr><tr><td>CCC</td><td>Circuito de carrera de caballos</td><td>Superficie o arena generalmente ovalada, diseñada específicamente para la competición de carreras hípicas de velocidad.</td></tr><tr><td>CCG</td><td>Otra calle/circuito deportivo</td><td>Calle o circuito deportivo no clasificado en las anteriores categorías.  </td></tr>
     </tbody>
   </table>
 </div>
@@ -1135,10 +1077,10 @@ pero se usa con los datos provenientes de la tabla valores -->
                     
                     <tr id='ext-EXP'>
                         <td>tipo_ex (t_0407s_ex)</td>
-                        <td>tipo_0407S</td>
+                        <td>tipo_0407s</td>
                         <td>EXP</td>
                         <td>
-                            <p></p>
+                            <p>Tipo de otra construcción según sus características constructivas (modelo extendido).</p>
                             
 <div class="mb-3">
 
@@ -1164,10 +1106,10 @@ pero se usa con los datos provenientes de la tabla valores -->
                     
                     <tr id='ext-CER'>
                         <td>tipo_ex (t_0407s_ex)</td>
-                        <td>tipo_0407S</td>
+                        <td>tipo_0407s</td>
                         <td>CER</td>
                         <td>
-                            <p></p>
+                            <p>Tipo de otra construcción según sus características constructivas (modelo extendido).</p>
                             
 <div class="mb-3">
 
@@ -1193,10 +1135,10 @@ pero se usa con los datos provenientes de la tabla valores -->
                     
                     <tr id='ext-CHD'>
                         <td>tipo_ex (t_0407s_ex)</td>
-                        <td>tipo_0407S</td>
+                        <td>tipo_0407s</td>
                         <td>CHD</td>
                         <td>
-                            <p></p>
+                            <p>Tipo de otra construcción según sus características constructivas (modelo extendido).</p>
                             
 <div class="mb-3">
 
@@ -1213,6 +1155,64 @@ pero se usa con los datos provenientes de la tabla valores -->
     </thead>
     <tbody>
       <tr><td>OLE</td><td>Oleoducto</td><td>Tubería provista de bombas y otros aparatos para conducir el petróleo a larga distancia.</td></tr><tr><td>GSL</td><td>Gasoducto</td><td>Tubería de grueso calibre y gran longitud para conducir a distancia gas combustible, procedente por lo general de emanaciones naturales.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
+                    <tr id='ext-AUX'>
+                        <td>tipo_ex (t_0407s_ex)</td>
+                        <td>tipo_0407s</td>
+                        <td>AUX</td>
+                        <td>
+                            <p>Tipo de otra construcción según sus características constructivas (modelo extendido).</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>ISV</td><td>Isleta de vial</td><td>Elemento urbano elevado o delimitado en la calzada que separa flujos vehiculares, mejora la seguridad vial y puede incluir zonas ajardinadas o de espera.</td></tr><tr><td>EGR</td><td>Escalinata-grada</td><td>Conjunto de escalones dispuestos en pendiente, utilizados para conectar diferentes niveles en espacios públicos, como auditorios o plazas.</td></tr><tr><td>PSL</td><td>Placa solar</td><td>Dispositivo fotovoltaico instalado en superficies horizontales o inclinadas para captar energía solar y convertirla en electricidad.</td></tr><tr><td>MED</td><td>Mediana</td><td>Franja divisoria situada en el centro de una vía que separa los sentidos de circulación, pudiendo ser ajardinada, asfaltada o con barreras de seguridad.</td></tr><tr><td>AND</td><td>Andén</td><td>Plataforma elevada junto a vías de tren o metro que permite el acceso seguro de pasajeros a los vehículos de transporte.</td></tr><tr><td>OAU</td><td>Otro auxiliar construido</td><td>Otro valor de auxiliar construido no contemplado en las anteriores categorías.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
+                    <tr id='ext-'>
+                        <td>superfi_ex (superficie)</td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <p>Tipo de pavimento o revestimiento utilizado en campos, pistas, calles o circuitos deportivos.</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>CES</td><td>Césped</td><td>Superficie vegetal utilizada en deportes como fútbol y rugby. Se incluye el cesped natural y el artificial. </td></tr><tr><td>TIE</td><td>Tierra</td><td>Suelo natural utilizado en deportes como tenis y atletismo. Ofrece una superficie suave y amortiguada, adecuada para ciertas disciplinas deportivas.</td></tr><tr><td>SIN</td><td>Sintético</td><td>Superficie artificial compuesta por caucho y resinas (por ejemplo el tartán), comúnmente utilizada en atletismo. Ofrece buena tracción y amortiguación.</td></tr><tr><td>HAF</td><td>Hormigón - asfalto</td><td>Superficie dura y resistente utilizada en canchas de baloncesto y otras instalaciones deportivas. Ofrece buena durabilidad y es adecuada para deportes de alto impacto.</td></tr><tr><td>OTR</td><td>Otro</td><td>Superficie no especificada en las anteriores categorías.</td></tr><tr><td>-98</td><td>No aplicable</td><td>El atributo superficie no se aplica para este caso concreto.</td></tr>
     </tbody>
   </table>
 </div>
@@ -1265,259 +1265,9 @@ Este es el bloque de mapeo:
 
 <tr>
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>id_prod</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena(50)</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>idioma</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena(11)</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_spa</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_cat</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_glg</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_eus</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>nombre_oci</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
     <td>fuente</td>
-    <td>None</td>
-    <td class="romper-palabras">lista_val</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>f_alt_ex</td>
-    <td>f_altitud</td>
-    <td class="romper-palabras">fecha</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>id_ng</td>
-    <td>None</td>
-    <td class="romper-palabras">cadena(50)</td>
+    <td>cadena</td>
+    <td class="romper-palabras">Fuente o procedencia de los datos. Da cabida tanto a "método de captura" como a "responsable" u "organización" que proporciona datos.</td>
 </tr>
 <!-- Este bloque representa una fila dentro de la tabla
 de atributos específicos de una clase de entidad.
@@ -1541,8 +1291,83 @@ Este es el bloque de mapeo:
 <tr>
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
     <td>fecha_ref</td>
-    <td>None</td>
-    <td class="romper-palabras">None</td>
+    <td>fecha</td>
+    <td class="romper-palabras">Fecha representativa de creación o modificación del objeto por parte del productor (por ejemplo, fecha del contrato de actualización).</td>
+</tr>
+<!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>id_prod</td>
+    <td>cadena(50)</td>
+    <td class="romper-palabras">Identificador del productor. Cadena de texto donde cada productor almacena el identificador que mantiene para cada elemento. Lleva un prefijo del productor.</td>
+</tr>
+<!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>nombre</td>
+    <td>cadena</td>
+    <td class="romper-palabras">Nombre por el que se conoce al objeto geográfico concreto.</td>
+</tr>
+<!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>idioma</td>
+    <td>cadena(11)</td>
+    <td class="romper-palabras">Idioma o idiomas en el que se expresa el nombre.</td>
 </tr>
 
                 </tbody>
@@ -1569,6 +1394,63 @@ Este es el bloque de mapeo:
                 </thead>
                 <tbody>
                     
+                    <tr>
+                        <td>f_alt_ex</td>
+                        <td>
+                            <p>Cómo se ha obtenido la altitud de la geometría del objeto.</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>MDT</td><td>MDT</td><td>Altitud del objeto geográfico obtenida utilizando el MDT.</td></tr><tr><td>RES</td><td>Restitución</td><td>Altitud del objeto geográfico obtenida por restitución fotogramétrica.</td></tr><tr><td>MDS</td><td>MDS</td><td>Altitud del objeto geográfico obtenida utilizando el MDS.</td></tr><tr><td>EST</td><td>Estimada</td><td>Altitud estimada del objeto geográfico.</td></tr><tr><td>INT</td><td>Interpolada</td><td>Altitud del objeto geográfico obtenida por interpolación.</td></tr><tr><td>NOZ</td><td>Sin Z</td><td>Objeto geográfico sin altitud asignada.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
+                        <tr>
+                            <td>nom_spa_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en castellano.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nom_cat_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en catalán.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nom_glg_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en gallego.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nom_eus_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en euskera.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>nom_oci_ex</td>
+                            <td>Nombre por el que se conoce al objeto geográfico concreto en occitano.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>id_ng_ex</td>
+                            <td>Identificador de nomenclátor (para elementos con nombre y que estén registrados en el nomenclátor).</td>
+                        </tr>
+                        
                 </tbody>
             </table>
         </div>
