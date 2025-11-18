@@ -1,0 +1,6 @@
+﻿id;geometria;tipo_geom
+1;punto;PointZ
+2;linea;LineStringZ
+3;poligono;PolygonZ
+4;zona;PolygonZ
+5;alfanumerico;

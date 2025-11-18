@@ -1,0 +1,10 @@
+﻿id;codigo_tema;nombre_tema;extendido;definicion;comentarios
+1;01;Transportes;False;;
+2;02;Hidrografía;False;;
+3;03;Orografía y lugares geográficos;False;;
+4;04;Edificios y construcciones;False;;
+5;05;Servicios e instalaciones;False;;
+6;06;Puntos de referencia;True;;
+7;07;Cubierta terrestre;True;;
+8;08;Unidades territoriales;False;;
+9;09;Lugares protegidos;True;;
