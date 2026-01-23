@@ -6,10 +6,6 @@ False;0101a;catalogo_carretera;Catálogo de carreteras;alfanumerico;False;vial_s
 False;0104a;vial_carretera_compuesto;Viales de carretera compuestos;alfanumerico;False;id_vial_c;;cadena
 False;0104a;vial_carretera_compuesto;Viales de carretera compuestos;alfanumerico;False;id_vial_s;;cadena
 False;0107l;carretera;Carretera;linea;False;id_vial;;cadena
-False;0107l;carretera;Carretera;linea;False;acceso;acceso;lista_val
-False;0107l;carretera;Carretera;linea;True;acceso_ex;acceso_ex;lista_val
-False;0107l;carretera;Carretera;linea;True;sentido_ex;sent_calz;lista_val
-False;0107l;carretera;Carretera;linea;True;ncarril_ex;;num_entero
 False;0107l;carretera;Carretera;linea;False;clase;clase_0107;lista_val
 False;0107l;carretera;Carretera;linea;False;orden;orden;lista_val
 False;0107l;carretera;Carretera;linea;False;titular;titular;lista_val
@@ -18,22 +14,22 @@ False;0107l;carretera;Carretera;linea;False;tipo_tramo;ttram_vial;lista_val
 False;0107l;carretera;Carretera;linea;False;calzada;calzada;lista_val
 False;0107l;carretera;Carretera;linea;False;situacion;situ_vial;lista_val
 False;0107l;carretera;Carretera;linea;False;estadofis;esta_trans;lista_val
+False;0107l;carretera;Carretera;linea;False;acceso;acceso;lista_val
+False;0107l;carretera;Carretera;linea;True;acceso_ex;acceso_ex;lista_val
+False;0107l;carretera;Carretera;linea;True;sentido_ex;sent_calz;lista_val
+False;0107l;carretera;Carretera;linea;True;ncarril_ex;;num_entero
 False;0107s;carretera;Carretera;poligono;False;id_vial;;cadena
-False;0107s;carretera;Carretera;poligono;False;acceso;acceso;lista_val
-False;0107s;carretera;Carretera;poligono;True;acceso_ex;acceso_ex;lista_val
-False;0107s;carretera;Carretera;poligono;True;sentido_ex;sent_calz;lista_val
-False;0107s;carretera;Carretera;poligono;True;ncarril_ex;;num_entero
 False;0107s;carretera;Carretera;poligono;False;clase;clase_0107;lista_val
 False;0107s;carretera;Carretera;poligono;False;orden;orden;lista_val
 False;0107s;carretera;Carretera;poligono;False;titular;titular;lista_val
 False;0107s;carretera;Carretera;poligono;True;titular_ex;titular_ex;lista_val
 False;0107s;carretera;Carretera;poligono;False;situacion;situ_vial;lista_val
 False;0107s;carretera;Carretera;poligono;False;estadofis;esta_trans;lista_val
+False;0107s;carretera;Carretera;poligono;False;acceso;acceso;lista_val
+False;0107s;carretera;Carretera;poligono;True;acceso_ex;acceso_ex;lista_val
+False;0107s;carretera;Carretera;poligono;True;sentido_ex;sent_calz;lista_val
+False;0107s;carretera;Carretera;poligono;True;ncarril_ex;;num_entero
 False;0110l;via_urbana;Vía urbana;linea;False;tipo;;cadena
-False;0110l;via_urbana;Vía urbana;linea;True;sentido_ex;sent_calz;lista_val
-False;0110l;via_urbana;Vía urbana;linea;True;tipoveh_ex;tipo_veh;lista_val
-False;0110l;via_urbana;Vía urbana;linea;True;ncarril_ex;;num_entero
-False;0110l;via_urbana;Vía urbana;linea;True;anc_med_ex;;num_entero
 False;0110l;via_urbana;Vía urbana;linea;False;nombre_alt;;cadena
 False;0110l;via_urbana;Vía urbana;linea;False;tipo_tramo;ttram_vial;lista_val
 False;0110l;via_urbana;Vía urbana;linea;False;calzada;calzada;lista_val
@@ -42,6 +38,10 @@ False;0110l;via_urbana;Vía urbana;linea;False;situacion;situ_vial;lista_val
 False;0110l;via_urbana;Vía urbana;linea;False;estadofis;esta_trans;lista_val
 False;0110l;via_urbana;Vía urbana;linea;True;ine_via_ex;;cadena
 False;0110l;via_urbana;Vía urbana;linea;True;dgc_via_ex;;num_entero
+False;0110l;via_urbana;Vía urbana;linea;True;sentido_ex;sent_calz;lista_val
+False;0110l;via_urbana;Vía urbana;linea;True;tipoveh_ex;tipo_veh;lista_val
+False;0110l;via_urbana;Vía urbana;linea;True;ncarril_ex;;num_entero
+False;0110l;via_urbana;Vía urbana;linea;True;anc_med_ex;;num_entero
 False;0113l;otras_vias;Otras vías;linea;False;tipo;tipo_0113l;lista_val
 False;0113l;otras_vias;Otras vías;linea;True;tipo_ex;t_0113l_ex;lista_val
 False;0113l;otras_vias;Otras vías;linea;False;situacion;situ_vial;lista_val
@@ -60,8 +60,6 @@ False;0122p;servicio_carretera;Servicio de carretera;punto;False;tipo;tipo_0122;
 False;0122z;servicio_carretera;Servicio de carretera;zona;False;id_punto;;cadena(50)
 False;0122z;servicio_carretera;Servicio de carretera;zona;False;tipo;tipo_0122;lista_val
 False;0125l;via_ferrea;Vía ferrea;linea;False;nom_linea;;cadena
-False;0125l;via_ferrea;Vía ferrea;linea;True;titular_ex;titular_ex;lista_val
-False;0125l;via_ferrea;Vía ferrea;linea;True;u_princ_ex;u_pri_0125;lista_val
 False;0125l;via_ferrea;Vía ferrea;linea;False;tipo_linea;tipo_0125;lista_val
 False;0125l;via_ferrea;Vía ferrea;linea;False;tipo_tramo;ttram_0125;lista_val
 False;0125l;via_ferrea;Vía ferrea;linea;False;situacion;situ_gener;lista_val
@@ -70,6 +68,8 @@ False;0125l;via_ferrea;Vía ferrea;linea;False;ancho_via;ancho_via;lista_val
 False;0125l;via_ferrea;Vía ferrea;linea;False;electrific;electrific;lista_val
 False;0125l;via_ferrea;Vía ferrea;linea;False;n_vias;n_vias;lista_val
 False;0125l;via_ferrea;Vía ferrea;linea;False;titular;titular;lista_val
+False;0125l;via_ferrea;Vía ferrea;linea;True;titular_ex;titular_ex;lista_val
+False;0125l;via_ferrea;Vía ferrea;linea;True;u_princ_ex;u_pri_0125;lista_val
 False;0128p;pk_fc;Punto kilométrico de ferrocarril;punto;False;nom_linea;;cadena
 False;0128p;pk_fc;Punto kilométrico de ferrocarril;punto;False;tipo ;tipo_pk;lista_val
 False;0128p;pk_fc;Punto kilométrico de ferrocarril;punto;False;valor_pkfc;;num_real
@@ -99,7 +99,6 @@ False;0137z;puerto;Puerto;zona;False;estadofis;esta_trans;lista_val
 False;0137z;puerto;Puerto;zona;True;cod_pue_ex;;cadena
 False;0137z;puerto;Puerto;zona;True;tipo_ex;tipo_0137;lista_val
 False;0140p;aerodromo;Aeródromo;punto;False;titular;titular;lista_val
-False;0140p;aerodromo;Aeródromo;punto;True;activ_ex;activ_0140;lista_val
 False;0140p;aerodromo;Aeródromo;punto;True;titular_ex;titular_ex;lista_val
 False;0140p;aerodromo;Aeródromo;punto;False;estadofis;esta_trans;lista_val
 False;0140p;aerodromo;Aeródromo;punto;False;tipo;tipo_0140;lista_val
@@ -108,9 +107,8 @@ False;0140p;aerodromo;Aeródromo;punto;False;gestion;gest_0140;lista_val
 False;0140p;aerodromo;Aeródromo;punto;True;cd_iata_ex;;cadena
 False;0140p;aerodromo;Aeródromo;punto;True;cd_icao_ex;;cadena
 False;0140p;aerodromo;Aeródromo;punto;True;uso_ex;uso_0140;lista_val
+False;0140p;aerodromo;Aeródromo;punto;True;activ_ex;activ_0140;lista_val
 False;0140z;aerodromo;Aeródromo;zona;False;id_punto;;cadena(50)
-False;0140z;aerodromo;Aeródromo;zona;True;uso_ex;uso_0140;lista_val
-False;0140z;aerodromo;Aeródromo;zona;True;activ_ex;activ_0140;lista_val
 False;0140z;aerodromo;Aeródromo;zona;False;titular;titular;lista_val
 False;0140z;aerodromo;Aeródromo;zona;True;titular_ex;titular_ex;lista_val
 False;0140z;aerodromo;Aeródromo;zona;False;estadofis;esta_trans;lista_val
@@ -119,6 +117,8 @@ False;0140z;aerodromo;Aeródromo;zona;False;categoria;categ_0140;lista_val
 False;0140z;aerodromo;Aeródromo;zona;False;gestion;gest_0140;lista_val
 False;0140z;aerodromo;Aeródromo;zona;True;cd_iata_ex;;cadena
 False;0140z;aerodromo;Aeródromo;zona;True;cd_icao_ex;;cadena
+False;0140z;aerodromo;Aeródromo;zona;True;uso_ex;uso_0140;lista_val
+False;0140z;aerodromo;Aeródromo;zona;True;activ_ex;activ_0140;lista_val
 False;0143s;pista_aerodromo;Pista aeródromo;poligono;False;id_punto;;cadena(50)
 False;0143s;pista_aerodromo;Pista aeródromo;poligono;False;tipo;tipo_0143;lista_val
 False;0201l;curso_natural;Curso natural;linea;False;tipo_tramo;ttram_curs;lista_val
@@ -212,7 +212,7 @@ False;0404s;constr_almacenaje;Construcción de almacenaje;poligono;False;tipo;ti
 False;0404s;constr_almacenaje;Construcción de almacenaje;poligono;False;situacion;situ_gener;lista_val
 False;0404s;constr_almacenaje;Construcción de almacenaje;poligono;False;estadofis;esta_gener;lista_val
 False;0404s;constr_almacenaje;Construcción de almacenaje;poligono;True;codigo_ex;;cadena(50)
-False;0404s;constr_almacenaje;Construcción de almacenaje;poligono;True;tipo_ex;t_0404s_ex;lista_val
+False;0404s;constr_almacenaje;Construcción de almacenaje;poligono;True;tipo_ex;t_0404_ex;lista_val
 False;0407l;otras_constr;Otras construcciones;linea;False;tipo;tipo_0407l;lista_val
 False;0407l;otras_constr;Otras construcciones;linea;False;situacion;situ_gener;lista_val
 False;0407l;otras_constr;Otras construcciones;linea;False;estadofis;esta_gener;lista_val

@@ -575,7 +575,7 @@ pero se usa con los datos provenientes de la tabla valores -->
       </tr>
     </thead>
     <tbody>
-      <tr><td>OMT</td><td>Otro monumento</td><td>Construcción situada en un lugar público para conmemorar algo o que tiene cierto valor histórico o artístico.</td></tr>
+      <tr><td>FTO</td><td>Fuente ornamental</td><td>Estanque destinado al uso ornamental.</td></tr><tr><td>CZA</td><td>Cruz aislada</td><td>Símbolo cristiano, generalmente construida en piedra, que suele encontrarse en cruces de caminos o en lugares donde recuerda algún acontecimiento.</td></tr><tr><td>OMT</td><td>Otro monumento</td><td>Construcción situada en un lugar público para conmemorar algo o que tiene cierto valor histórico o artístico.</td></tr>
     </tbody>
   </table>
 </div>
@@ -670,35 +670,6 @@ pero se usa con los datos provenientes de la tabla valores -->
                         </td>
                     </tr>
                     
-                    <tr id='ext-MON'>
-                        <td>tipo_ex (t_0407p_ex)</td>
-                        <td>tipo_0407p</td>
-                        <td>MON</td>
-                        <td>
-                            <p>Tipo de otra construcción según sus características constructivas (modelo extendido).</p>
-                            
-<div class="mb-3">
-
-  <table class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <!-- <th scope="col">ID</th>
-        <th scope="col">Nombre Código Atributo</th>
-        <th scope="col">Orden</th> -->
-        <th scope="col">Código del valor</th>
-        <th scope="col">Valor</th>
-        <th scope="col">Definición</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>FTO</td><td>Fuente ornamental</td><td>Estanque destinado al uso ornamental.</td></tr><tr><td>CZA</td><td>Cruz aislada</td><td>Símbolo cristiano, generalmente construida en piedra, que suele encontrarse en cruces de caminos o en lugares donde recuerda algún acontecimiento.</td></tr>
-    </tbody>
-  </table>
-</div>
-
-                        </td>
-                    </tr>
-                    
                     </tbody>
                 </table>
             </div>
@@ -724,56 +695,6 @@ pero se usa con los datos provenientes de la tabla valores -->
                 </thead>
                 <tbody>
                     <!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>fuente</td>
-    <td>cadena</td>
-    <td class="romper-palabras">Fuente o procedencia de los datos. Da cabida tanto a "método de captura" como a "responsable" u "organización" que proporciona datos.</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>fecha_ref</td>
-    <td>fecha</td>
-    <td class="romper-palabras">Fecha representativa de creación o modificación del objeto por parte del productor (por ejemplo, fecha del contrato de actualización).</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
 de atributos específicos de una clase de entidad.
 
 Este es el bloque de mapeo:
@@ -848,6 +769,56 @@ Este es el bloque de mapeo:
     <td>cadena(11)</td>
     <td class="romper-palabras">Idioma o idiomas en el que se expresa el nombre.</td>
 </tr>
+<!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>fuente</td>
+    <td>cadena</td>
+    <td class="romper-palabras">Fuente o procedencia de los datos. Da cabida tanto a "método de captura" como a "responsable" u "organización" que proporciona datos.</td>
+</tr>
+<!-- Este bloque representa una fila dentro de la tabla
+de atributos específicos de una clase de entidad.
+
+Este es el bloque de mapeo:
+ with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
+                    plantilla_atributo = f.read()
+
+                HTMLAtributos += plantilla_atributo.format(
+                    ID=atr[0],
+                    cod_obj=atr[1],
+                    ord_atr=atr[2],
+                    nom_atr=atr[3],
+                    dominio=atr[4],
+                    tipo_valor=atr[5],
+                    definicion=atr[8],
+                    tablaValores=htmlContenidoValores
+                )
+-->
+
+<tr>
+    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
+    <td>fecha_ref</td>
+    <td>fecha</td>
+    <td class="romper-palabras">Fecha representativa de creación o modificación del objeto por parte del productor (por ejemplo, fecha del contrato de actualización).</td>
+</tr>
 
                 </tbody>
             </table>
@@ -872,33 +843,6 @@ Este es el bloque de mapeo:
                     </tr>
                 </thead>
                 <tbody>
-                    
-                    <tr>
-                        <td>f_alt_ex</td>
-                        <td>
-                            <p>Cómo se ha obtenido la altitud de la geometría del objeto.</p>
-                            
-<div class="mb-3">
-
-  <table class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <!-- <th scope="col">ID</th>
-        <th scope="col">Nombre Código Atributo</th>
-        <th scope="col">Orden</th> -->
-        <th scope="col">Código del valor</th>
-        <th scope="col">Valor</th>
-        <th scope="col">Definición</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>MDT</td><td>MDT</td><td>Altitud del objeto geográfico obtenida utilizando el MDT.</td></tr><tr><td>RES</td><td>Restitución</td><td>Altitud del objeto geográfico obtenida por restitución fotogramétrica.</td></tr><tr><td>MDS</td><td>MDS</td><td>Altitud del objeto geográfico obtenida utilizando el MDS.</td></tr><tr><td>EST</td><td>Estimada</td><td>Altitud estimada del objeto geográfico.</td></tr><tr><td>INT</td><td>Interpolada</td><td>Altitud del objeto geográfico obtenida por interpolación.</td></tr><tr><td>NOZ</td><td>Sin Z</td><td>Objeto geográfico sin altitud asignada.</td></tr>
-    </tbody>
-  </table>
-</div>
-
-                        </td>
-                    </tr>
                     
                         <tr>
                             <td>nom_spa_ex</td>
@@ -930,6 +874,33 @@ Este es el bloque de mapeo:
                             <td>Identificador de nomenclátor (para elementos con nombre y que estén registrados en el nomenclátor).</td>
                         </tr>
                         
+                    <tr>
+                        <td>f_alt_ex</td>
+                        <td>
+                            <p>Cómo se ha obtenido la altitud de la geometría del objeto.</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>MDT</td><td>MDT</td><td>Altitud del objeto geográfico obtenida utilizando el MDT.</td></tr><tr><td>RES</td><td>Restitución</td><td>Altitud del objeto geográfico obtenida por restitución fotogramétrica.</td></tr><tr><td>MDS</td><td>MDS</td><td>Altitud del objeto geográfico obtenida utilizando el MDS.</td></tr><tr><td>EST</td><td>Estimada</td><td>Altitud estimada del objeto geográfico.</td></tr><tr><td>INT</td><td>Interpolada</td><td>Altitud del objeto geográfico obtenida por interpolación.</td></tr><tr><td>NOZ</td><td>Sin Z</td><td>Objeto geográfico sin altitud asignada.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
                 </tbody>
             </table>
         </div>
