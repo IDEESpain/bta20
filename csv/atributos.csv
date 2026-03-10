@@ -62,11 +62,13 @@
 295;0610p;1;codigo;;cadena;False;Identificador del punto geodésico.;
 298;0901s;1;tipo;tipo_0901;lista_val;False;Tipología general de Espacios Naturales Protegidos;
 303;0904l;1;codigo;;cadena;False;Código para relacionar con información externa.;
-307;0904s;1;codigo;;cadena;False;Código para relacionar con información externa.;
-311;0801p;1;tipo;tipo_0801;lista_val;False;Tipo de entidad de población.;
-318;0801s;1;tipo;tipo_0801;lista_val;False;Tipo de entidad de población.;
-325;0804s;1;tipo;tipo_0804;lista_val;False;Tipo de división administrativa.;
-327;0701s;1;tipo;tipo_0701;lista_val;False;Tipología de cubiertas terrestres procedente de SIOSE AR y su simplificación para Mapa Topográfico Nacional.;
+308;0904s;1;codigo;;cadena;False;Código para relacionar con información externa.;
+313;0801p;1;tipo;tipo_0801;lista_val;False;Tipo de entidad de población.;
+320;0801s;1;tipo;tipo_0801;lista_val;False;Tipo de entidad de población.;
+327;0804s;1;tipo;tipo_0804;lista_val;False;Tipo de división administrativa.;
+329;0701s;1;tipo;tipo_0701;lista_val;False;Tipo de arbolado forestal.;
+333;0704s;1;tipo;tipo_0704;lista_val;False;Tipo de cultivo.;
+337;0707s;1;tipo;tipo_0707;lista_val;False;Tipo de cubierta terrestre;
 2;0401s;2;estadofis;esta_gener;lista_val;False;Estado físico en el que se encuentra la construcción.;
 9;0401p;2;estadofis;esta_gener;lista_val;False;Estado físico en el que se encuentra la construcción.;
 12;0404s;2;situacion;situ_gener;lista_val;False;Situación de la construcción con respecto al terreno.;
@@ -111,9 +113,11 @@
 287;0604p;2;titular;;cadena;False;Organismo titular o propietario del Punto Geodésico, responsable de su obra de monumentación.;
 292;0607p;2;titular;;cadena;False;Organismo titular o propietario del Punto Geodésico, responsable de su obra de monumentación.;
 296;0610p;2;titular;;cadena;False;Organismo titular o propietario del Punto Geodésico, responsable de su obra de monumentación.;
-304;0904l;2;tipo;tipo_0904;lista_val;False;Tipo de vía pecuaria según su anchura (Ley 3/95, de 23 de Marzo). ;
-308;0904s;2;tipo;tipo_0904;lista_val;False;Tipo de vía pecuaria según su anchura (Ley 3/95, de 23 de Marzo). ;
-326;0804s;2;codig_ua;;cadena;False;Código INE de la unidad adminsitrativa.;
+309;0904s;2;tipo;tipo_0904;lista_val;False;Tipo de vía pecuaria según la Ley 3/1995, de 23 de marzo, de Vías Pecuarias.;
+304;0904l;2;tipo;tipo_0904;lista_val;False;Tipo de vía pecuaria según la Ley 3/1995, de 23 de marzo, de Vías Pecuarias.;
+328;0804s;2;codig_ua;;cadena;False;Código INE de la unidad adminsitrativa.;
+330;0701s;2;plantacion;plantacion;lista_val;False;Indica si el arbolado constituye una repoblación forestal reciente (plantación artificial).;
+334;0704s;2;riego;riego;lista_val;False;Tipo de cultivo según su riego.;
 13;0404s;3;estadofis;esta_gener;lista_val;False;Estado físico en el que se encuentra la construcción de almacenaje.;
 18;0407s;3;estadofis;esta_gener;lista_val;False;Estado físico en el que se encuentra la construcción.;
 24;0407l;3;estadofis;esta_gener;lista_val;False;Estado físico en el que se encuentra la construcción.;
@@ -144,8 +148,8 @@
 261;0140p;3;estadofis;esta_trans;lista_val;False;Estado físico en que se encuentra el aeródromo en relación a su terminación y uso.;
 288;0604p;3;tipo;tipo_0604;lista_val;False;Indica la red geodésica a la que pertenece el Punto Geodésico.;
 293;0607p;3;alt_orto;;num_real;False;Altitud ortométrica del punto geodésico. ;
-313;0801p;3;ine;ine_0801;lista_val;False;Indica si la entidad de población figura o no en el nomenclátor del Instituto Nacional de Estadística (INE).;
-320;0801s;3;ine;ine_0801;lista_val;False;Indica si la entidad de población figura o no en el nomenclátor del Instituto Nacional de Estadística (INE).;
+315;0801p;3;ine;ine_0801;lista_val;False;Indica si la entidad de población figura o no en el nomenclátor del Instituto Nacional de Estadística (INE).;
+322;0801s;3;ine;ine_0801;lista_val;False;Indica si la entidad de población figura o no en el nomenclátor del Instituto Nacional de Estadística (INE).;
 37;0413l;4;cota_coron;;num_real;False;Cota de coronación de la presa.;
 42;0413s;4;cota_coron;;num_real;False;Cota de coronación de la presa.;
 86;0201l;4;jerarquia;jerar_0201;lista_val;False;Clasificación que se establece para el río en su conjunto, según su longitud e importancia respecto al conjunto de ríos de España.;
@@ -161,10 +165,10 @@
 256;0137z;4;estadofis;esta_trans;lista_val;False;Estado físico en que se encuentra la instalación en relación a su terminación y uso.;
 262;0140p;4;tipo;tipo_0140;lista_val;False;Tipo de aeródromo.;
 272;0140z;4;estadofis;esta_trans;lista_val;False;Estado físico en que se encuentra el aeródromo en relación a su terminación y uso.;
-314;0801p;4;codig_ep;;cadena(11);False;"Identificador del Instituto Nacional de Estadística (INE) del Ministerio de Asuntos Económicos y Transformación Digital. 
+316;0801p;4;codig_ep;;cadena(11);False;"Identificador del Instituto Nacional de Estadística (INE) del Ministerio de Asuntos Económicos y Transformación Digital. 
 Código de 11 dígitos con el siguiente formato: dígitos 1,2 provincia; 3, 4, 5 municipio dentro de la provincia; 6, 7 entidad colectiva dentro del municipio (00 si no existe); 8, 9, entidad singular dentro de la entidad colectiva o municipio; 10, 11 núcleos dentro de la entidad singular, utilizando el 99 para el diseminado.
 Si la población es INE, su valor se corresponde con el código INE. Si la población es no INE, contiene el código INE al que pertenece dicha población";
-321;0801s;4;codig_ep;;cadena(11);False;"Identificador del Instituto Nacional de Estadística (INE) del Ministerio de Asuntos Económicos y Transformación Digital. 
+323;0801s;4;codig_ep;;cadena(11);False;"Identificador del Instituto Nacional de Estadística (INE) del Ministerio de Asuntos Económicos y Transformación Digital. 
 Código de 11 dígitos con el siguiente formato: dígitos 1,2 provincia; 3, 4, 5 municipio dentro de la provincia; 6, 7 entidad colectiva dentro del municipio (00 si no existe); 8, 9, entidad singular dentro de la entidad colectiva o municipio; 10, 11 núcleos dentro de la entidad singular, utilizando el 99 para el diseminado.
 Si la población es INE, su valor se corresponde con el código INE. Si la población es no INE, contiene el código INE al que pertenece dicha población.";
 96;0201s;5;jerarquia;jerar_0201;lista_val;False;Clasificación que se establece para el río en su conjunto, según su longitud e importancia respecto al conjunto de ríos de España.;
@@ -207,9 +211,9 @@ Si la población es INE, su valor se corresponde con el código INE. Si la pobla
 260;0140p;2;titular_ex;titular_ex;lista_val;True;Organismo titular del aeródromo (modelo extendido).;
 283;0601p;2;cd_iers_ex;;cadena(10);True;Identificador IERS del punto GNSS.;
 299;0901s;2;tipo_ex;t_0901_ex;lista_val;True;Tipología extendida de Espacios Naturales Protegidos.;
-312;0801p;2;tipo_ex;t_0801_ex;lista_val;True;Tipo de entidad de población (modelo extendido).;
-319;0801s;2;tipo_ex;t_0801_ex;lista_val;True;Tipo de entidad de población (modelo extendido).;
-328;0701s;2;tipo_ex;t_0701_ex;lista_val;True;Tipología de cubiertas terrestres procedente de SIOSE AR y su simplificación para Mapa Topográfico Nacional (modelo extendido).;
+314;0801p;2;tipo_ex;t_0801_ex;lista_val;True;Tipo de entidad de población (modelo extendido).;
+321;0801s;2;tipo_ex;t_0801_ex;lista_val;True;Tipo de entidad de población (modelo extendido).;
+338;0707s;2;tipo_ex;t_0707_ex;lista_val;True;Tipo de cubierta terrestre (modelo extendido).;
 3;0401s;3;codigo_ex;;cadena(50);True;Identificador temático de la fuente externa de referencia.;
 10;0401p;3;codigo_ex;;cadena(50);True;Identificador temático de la fuente externa de referencia.;
 29;0407p;3;tipo_ex;t_0407p_ex;lista_val;True;Tipo de otra construcción según sus características constructivas (modelo extendido).;
@@ -232,9 +236,10 @@ Si la población es INE, su valor se corresponde con el código INE. Si la pobla
 284;0601p;3;titular_ex;;cadena;True;Organismo titular o propietario del Punto GNSS, responsable de la estación y de su obra de monumentación.;
 297;0610p;3;url_ex;;cadena;True;Dirección de acceso a la ficha técnica del punto.;
 300;0901s;3;id_enp_ex;;cadena;True;Identificador nacional de Espacio Natural Protegido.;
-305;0904l;3;tipo_ex;t_0904_ex;lista_val;True;"""Otro tipo de vía pecuaria no contemplada en la anterior tipología."" o ""Tipo de vía pecuaria según su anchura (Ley 3/95, de 23 de Marzo) (modelo extendido).""";
-309;0904s;3;tipo_ex;t_0904_ex;lista_val;True;"""Otro tipo de vía pecuaria no contemplada en la anterior tipología."" o ""Tipo de vía pecuaria según su anchura (Ley 3/95, de 23 de Marzo) (modelo extendido).""";
-329;0701s;3;plantac_ex;plantacion;lista_val;True;"Atributo únicamente válido para tipo ""/Arbolado forestal""";
+305;0904l;3;tipo_ex;t_0904_ex;lista_val;True;Lugares asociados a las Vías Pecuarías;
+310;0904s;3;tipo_ex;t_0904_ex;lista_val;True;Lugares asociados a las Vías Pecuarías;
+331;0701s;3;densid_ex;densidad;lista_val;True;Densidad del arbolado.;
+335;0704s;3;tipo_ex;t_0704_ex;lista_val;True;Tipo de cultivo (modelo extendido);
 4;0401s;4;tipo_ex;t_0401s_ex;lista_val;True;Tipo de edificio según sus características constructivas (modelo extendido).;
 14;0404s;4;codigo_ex;;cadena(50);True;Identificador temático de la fuente externa de referencia.;
 19;0407s;4;codigo_ex;;cadena(50);True;Identificador temático de la fuente externa de referencia.;
@@ -260,10 +265,12 @@ Si la población es INE, su valor se corresponde con el código INE. Si la pobla
 289;0604p;4;tipo_ex;t_0604_ex;lista_val;True;Indica la red geodésica a la que pertenece el Punto Geodésico (modelo extendido).;
 294;0607p;4;url_ex;;cadena;True;Dirección de acceso a la ficha técnica del punto.;
 301;0901s;4;ca_enp_ex;;cadena;True;Identificador de la Comunidad Autónoma del Espacio Natural Protegido.;
-306;0904l;4;deslind_ex;deslinde;lista_val;True;Indica si se han realizado labores de deslide (establecimiento o demarcación de los límmites de propiedad o terreno) en la vía pecuaria. ;
-310;0904s;4;deslind_ex;deslinde;lista_val;True;Indica si se han realizado labores de deslide (establecimiento o demarcación de los límmites de propiedad o terreno) en la vía pecuaria. ;
-330;0701s;4;riego_ex;riego;lista_val;True;"Atributo únicamente válido para tipo ""/Cultivos""";
+306;0904l;4;e_legal_ex;esta_legal;lista_val;True;Estado legal de la vía pecuaria según los actos administrativos descritos en el Capítulo II de la Ley 3/1995. Corresponde con el campo CD_EST_VP del Banco de Datos de la Naturaleza.;
+311;0904s;4;e_legal_ex;esta_legal;lista_val;True;Estado legal de la vía pecuaria según los actos administrativos descritos en el Capítulo II de la Ley 3/1995. Corresponde con el campo CD_EST_VP del Banco de Datos de la Naturaleza.;
+332;0701s;4;ribera_ex;ribera;lista_val;True;Indica si el arbolado forma parte de una formación de ribera. ;
+336;0704s;4;forzado_ex;forzado;lista_val;True;Indica si el cultivo se desarrolla en invernadero o bajo plástico;
 5;0401s;5;uso_ex;uso_0401s;lista_val;True;Uso del edificio (modelo extendido).;
+15;0404s;5;tipo_ex;t_0404_ex;lista_val;True;Tipo de construcción según sus características o el uso al que se destina.;
 20;0407s;5;tipo_ex;t_0407s_ex;lista_val;True;Tipo de otra construcción según sus características constructivas (modelo extendido).;
 26;0407l;5;tipo_ex;t_0407l_ex;lista_val;True;Tipo de otra construcción según sus características constructivas (modelo extendido).;
 38;0413l;5;codigo_ex;;cadena(50);True;Identificador temático de la fuente externa de referencia.;
@@ -286,9 +293,10 @@ Si la población es INE, su valor se corresponde con el código INE. Si la pobla
 257;0137z;5;cod_pue_ex;;cadena;True;Código del puerto UN/LOCODE (código de Naciones Unidas).;
 290;0604p;5;url_ex;;cadena;True;Dirección de acceso a la ficha técnica del punto.;
 302;0901s;5;desig_a_ex;;cadena;True;Código de figura de protección de Espacio Natural Protegido del MITECO.;
-315;0801p;5;cd_ep_ex;;cadena;True;Extensiones que se pueden hacer al código INE para discriminar ciertas poblaciones.;
-322;0801s;5;cd_ep_ex;;cadena;True;Extensiones que se pueden hacer al código INE para discriminar ciertas poblaciones.;
-15;0404s;5;tipo_ex;t_0404_ex;lista_val;True;Tipo de construcción según sus características o el uso al que se destina.;
+307;0904l;5;rnvp_ex;rnvp;lista_val;True;Indica si la vía pecuaria pertenece o no a la Red Nacional de Vías Pecuarias.;
+312;0904s;5;rnvp_ex;rnvp;lista_val;True;Indica si la vía pecuaria pertenece o no a la Red Nacional de Vías Pecuarias.;
+317;0801p;5;cd_ep_ex;;cadena;True;Extensiones que se pueden hacer al código INE para discriminar ciertas poblaciones.;
+324;0801s;5;cd_ep_ex;;cadena;True;Extensiones que se pueden hacer al código INE para discriminar ciertas poblaciones.;
 6;0401s;6;max_plt_ex;;num_entero;True;Número máximo de plantas de alguna de las partes del edificio.;
 21;0407s;6;superfi_ex;superficie;lista_val;True;Tipo de pavimento o revestimiento utilizado en campos, pistas, calles o circuitos deportivos.;
 88;0201l;6;codmasa_ex;;cadena(50);True;Código de masa de agua que se utiliza en la Directiva Marco del Agua (DMA).;
@@ -298,16 +306,16 @@ Si la población es INE, su valor se corresponde con el código INE. Si la pobla
 239;0131p;6;n_anden_ex;;num_entero;True;Número de andenes de la estación.;
 245;0131z;6;cod_est_ex;;cadena;True;Código de estación (de ADIF para estaciones de ferrocarril de titularidad estatal o, si existe, del titular correspondiente para el resto de los casos).;
 258;0137z;6;tipo_ex;tipo_0137;lista_val;True;Tipo de puerto. ;
-316;0801p;6;capit_ex;;cadena(4);True;Indica el tipo de capitalidad de la entidad de población. Se trata de un código de cuatro dígitos en el que el primero corresponde al municipio, el segundo a la provincia, el tercero a la comunidad autónoma y el cuarto al estado. Cada dígito puede valer 0 (no es capital) o 1 (es capital). Ejemplos: 1000 (capital de municipio), 0000 (no es capital), 1100 (capital de municipio y provincia).;
-323;0801s;6;capit_ex;;cadena(4);True;Indica el tipo de capitalidad de la entidad de población. Se trata de un código de cuatro dígitos en el que el primero corresponde al municipio, el segundo a la provincia, el tercero a la comunidad autónoma y el cuarto al estado. Cada dígito puede valer 0 (no es capital) o 1 (es capital). Ejemplos: 1000 (capital de municipio), 0000 (no es capital), 1100 (capital de municipio y provincia).;
+318;0801p;6;capit_ex;;cadena(4);True;Indica el tipo de capitalidad de la entidad de población. Se trata de un código de cuatro dígitos en el que el primero corresponde al municipio, el segundo a la provincia, el tercero a la comunidad autónoma y el cuarto al estado. Cada dígito puede valer 0 (no es capital) o 1 (es capital). Ejemplos: 1000 (capital de municipio), 0000 (no es capital), 1100 (capital de municipio y provincia).;
+325;0801s;6;capit_ex;;cadena(4);True;Indica el tipo de capitalidad de la entidad de población. Se trata de un código de cuatro dígitos en el que el primero corresponde al municipio, el segundo a la provincia, el tercero a la comunidad autónoma y el cuarto al estado. Cada dígito puede valer 0 (no es capital) o 1 (es capital). Ejemplos: 1000 (capital de municipio), 0000 (no es capital), 1100 (capital de municipio y provincia).;
 7;0401s;7;max_sot_ex;;num_entero;True;Número máximo de sótanos (plantas por debajo de la superficie terrestre) de alguna de las partes del edificio.;
 89;0201l;7;pfaf_pr_ex;;cadena(50);True;Identificador de río completo obtenido mediante la metodología topológica Pfafstetter, pero tomando sólo el PFAF_PARES. Es el identificador utilizado por la Dirección General del Agua (DGA).;
 98;0201s;7;regimen_ex;reg_hid_ex;lista_val;True;Régimen hidrológico que tendría lugar en un tramo de río sin intervención humana significativa en su cuenca vertiente (modelo extendido).;
 144;0310p;7;jerarq_ex;jerar_0310;lista_val;True;Orden de importancia de la cima, de acuerdo con criterios de altitud, importancia relativa de las sierras, etc.;
 246;0131z;7;n_anden_ex;;num_entero;True;Número de andenes de la estación.;
 265;0140p;7;cd_iata_ex;;cadena;True;Código IATA para la infraestructura.;
-317;0801p;7;id_ep_ex;;num_entero;True;Identificador de entidad de población en IGR_PO del Instituto Geográfico Nacional.;
-324;0801s;7;id_ep_ex;;num_entero;True;Identificador de entidad de población en IGR_PO del Instituto Geográfico Nacional.;
+319;0801p;7;id_ep_ex;;num_entero;True;Identificador de entidad de población en IGR_PO del Instituto Geográfico Nacional.;
+326;0801s;7;id_ep_ex;;num_entero;True;Identificador de entidad de población en IGR_PO del Instituto Geográfico Nacional.;
 90;0201l;8;regimen_ex;reg_hid_ex;lista_val;True;Régimen hidrológico que tendría lugar en un tramo de río sin intervención humana significativa en su cuenca vertiente (modelo extendido).;
 99;0201s;8;jerarq_ex;j_0201_ex;lista_val;True;Clasificación que se establece para el río en su conjunto, según su longitud e importancia respecto al conjunto de ríos de España (modelo extendido).;
 145;0310p;8;id_cad_ex;;cadena;True;Identificador de la cadena montañosa de menor categoría a la que pertenece. Se le antepone prefijo del productor para que no haya duplicidades.;

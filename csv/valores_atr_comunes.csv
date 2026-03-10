@@ -1,7 +1,8 @@
 ﻿id;dominio_atr;orden_val;codigo_val;valor;extendido;definicion
-1;f_altitud;1;MDT;MDT;True;Altitud del objeto geográfico obtenida utilizando el MDT.
-2;f_altitud;2;RES;Restitución;True;Altitud del objeto geográfico obtenida por restitución fotogramétrica.
-3;f_altitud;3;MDS;MDS;True;Altitud del objeto geográfico obtenida utilizando el MDS.
-4;f_altitud;4;EST;Estimada;True;Altitud estimada del objeto geográfico.
-5;f_altitud;5;INT;Interpolada;True;Altitud del objeto geográfico obtenida por interpolación.
-6;f_altitud;6;NOZ;Sin Z;True;Objeto geográfico sin altitud asignada.
+1;f_altitud;1;MDT;Modelo Digital del Terreno;False;Altitud del objeto obtenida utilizando un Modelo Digital del Terreno (MDT).
+2;f_altitud;2;RES;Restitución fotogramétrica;False;Altitud del objeto obtenida por restitución fotogramétrica.
+3;f_altitud;3;MDS;Modelo Digital de Superficie;False;Altitud del objeto obtenida utilizando un Modelo Digital de Superficie (MDS).
+4;f_altitud;4;EST;Estimada;False;Altitud del objeto obtenida por estimación.
+5;f_altitud;5;INT;Interpolada;False;Altitud del objeto obtenida por interpolación entre otras altitudes conocidas.
+7;f_altitud;6;CAL;Calculada;False;Altitud del objeto calculada u observada por otros métodos (por ejemplo, observación geodésica).
+6;f_altitud;7;NOZ;Sin altitud;False;Objeto geográfico sin altitud asignada.

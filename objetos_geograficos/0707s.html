@@ -316,7 +316,7 @@
   <section id="sectioID">
     <!-- Es la estructura general del contenido que aparece en cada página individual de clase de entidad -->
 
-<h1 class="h1Pag">0501z Explotación de materiales</h1>
+<h1 class="h1Pag">0707s Otras cubiertas terrestres</h1>
 
 <div class="accordion" id="accordionPanelsStayOpenExample">
     <!-- Descripción -->
@@ -342,24 +342,28 @@ HTMLDescripcion = HTMLDescripcion.format(
 
 <!--<tr>
     <th scope="row">ID</th>
-    <td>11</td>
+    <td>72</td>
 </tr>-->
 <table class="table table-bordered tabla-ajustada">
   <tr>
     <th style="width: 5%;">Tabla</th>
-    <td style="width: 30%;">0501z_explotacion_materiales</td>
+    <td style="width: 30%;">0707s_ex_otras_cubiertas</td>
     <th style="width: 10%;">Geometría</th>
-    <td style="width: 35%;">zona</td>
+    <td style="width: 35%;">poligono</td>
     <td style="width: 20%;" colspan="3">
-      <a href="../fichas/ficha_0501z.pdf" target="_blank">Normas de captura</a>
+      <a href="../fichas/ficha_0707s.pdf" target="_blank">Normas de captura</a>
   </tr>
 </table>
 
 <table class="table table-bordered tabla-ajustada">
   <tr>
     <th style="width: 10%;">Descripción</th>
-    <td style="width: 70%;">Lugar destinado a la extracción y aprovechamiento de algún tipo de mineral o recurso.
+    <td style="width: 70%;">Otras cubiertas terrestres distintas a las contempladas en los objetos arbolado forestal y cultivos.
       
+                <div style="float: right; color: red; font-weight: bold; font-size: 0.9em;">
+                    Modelo extendido
+                </div>
+            
     </td>
   </tr>
 </table>
@@ -410,34 +414,9 @@ Este es el bloque de mapeo:
 
 <tr>
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>id_punto ()</td>
-    <td>cadena(50)</td>
-    <td class="romper-palabras">Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde. </td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>tipo (tipo_0501)</td>
+    <td>tipo (tipo_0707)</td>
     <td>lista_val</td>
-    <td class="romper-palabras">Tipo de servicio o instalación para extracción de materiales.<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
+    <td class="romper-palabras">Tipo de cubierta terrestre<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
 (los de cada clase de entidad), en la ficha de cada clase.
 Ese acordeón aparece dentro de la columna "Descripción", junto con el texto {definicion}.
 
@@ -473,115 +452,143 @@ htmlDominioValores = """ """
        <!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-CRA">
-    <!--  <th scope="row">221</th>
-    <td>tipo_0501</td>
+<tr id="valor-<a href='#ext-CFG'>CFG</a>">
+    <!--  <th scope="row">734</th>
+    <td>tipo_0707</td>
     <td>1</td> -->
-    <td>CRA</td>
-    <td>Cantera</td>
-    <td>Sitio de donde se saca piedra, greda u otra sustancia análoga para obras varias.</td>
+    <td><a href='#ext-CFG'>CFG</a></td>
+    <td>Cortafuegos</td>
+    <td>Banda ancha del terreno que se deja exenta de árboles y arbustos para evitar la propagación del fuego.</td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-MIN">
-    <!--  <th scope="row">222</th>
-    <td>tipo_0501</td>
+<tr id="valor-<a href='#ext-CHU'>CHU</a>">
+    <!--  <th scope="row">735</th>
+    <td>tipo_0707</td>
+    <td>1</td> -->
+    <td><a href='#ext-CHU'>CHU</a></td>
+    <td>Cobertura húmeda</td>
+    <td>Zonas del terreno que debido, a su morfología, quedan inundadas o saturadas de agua dulce o salobre, de forma permanente o durante gran parte del año, ya sea estancada o fluyente.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-<a href='#ext-PLY'>PLY</a>">
+    <!--  <th scope="row">736</th>
+    <td>tipo_0707</td>
     <td>2</td> -->
-    <td>MIN</td>
-    <td>Mina</td>
-    <td>Excavación que se hace para extraer un mineral.</td>
+    <td><a href='#ext-PLY'>PLY</a></td>
+    <td>Playa, duna o arenal</td>
+    <td>Superficie cubierta por arenales sin consolidar, arena suelta, grava o cantos rodados.</td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-GVR">
-    <!--  <th scope="row">223</th>
-    <td>tipo_0501</td>
+<tr id="valor-SDN">
+    <!--  <th scope="row">737</th>
+    <td>tipo_0707</td>
     <td>3</td> -->
-    <td>GVR</td>
-    <td>Gravera</td>
-    <td>Yacimiento de grava.</td>
-</tr>
-    </tbody>
-  </table>
-</div>
-</td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>situacion (situ_0501)</td>
-    <td>lista_val</td>
-    <td class="romper-palabras">Situación del servicio o instalación para extracción de materiales con respecto al terreno.<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
-(los de cada clase de entidad), en la ficha de cada clase.
-Ese acordeón aparece dentro de la columna "Descripción", junto con el texto {definicion}.
-
-
-El mapeo se hace en este bloque:
-htmlDominioValores = """ """
-                    for value in dominioValores:
-                        htmlDominioValores += """
-                            <...>
-                        """.format(
-                            ID=value[0],
-                            codigo=value[1],
-                            Orden=value[2],
-                            Valor=value[3],
-                            Valordelvalor=value[4],
-                            definicion=value[8]
-                        )                        )-->
-
-<div class="mb-3">
-
-  <table class="table table-hover table-bordered">
-    <thead>
-      <tr>
-        <!-- <th scope="col">ID</th>
-        <th scope="col">Nombre Código Atributo</th>
-        <th scope="col">Orden</th> -->
-        <th scope="col">Código del valor</th>
-        <th scope="col">Valor</th>
-        <th scope="col">Definición</th>
-      </tr>
-    </thead>
-    <tbody>
-       <!-- Es el equivalente a fila_valor_comun.html,
-pero se usa con los datos provenientes de la tabla valores -->
-
-<tr id="valor-CAB">
-    <!--  <th scope="row">224</th>
-    <td>situ_0501</td>
-    <td>1</td> -->
-    <td>CAB</td>
-    <td>Cielo abierto</td>
-    <td>Servicio o instalación de extracción de materiales que se desarrolla en la superficie del terreno.</td>
+    <td>SDN</td>
+    <td>Suelo desnudo</td>
+    <td>Superficies naturales de suelo desnudo, con escasa o nula vegetación, no incluidos en otros fenómenos.</td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-SUB">
-    <!--  <th scope="row">225</th>
-    <td>situ_0501</td>
-    <td>2</td> -->
-    <td>SUB</td>
-    <td>Subterráneo</td>
-    <td>Servicio o instalación de extracción de materiales que se desarrolla bajo la superficie del terreno.</td>
+<tr id="valor-ZQM">
+    <!--  <th scope="row">738</th>
+    <td>tipo_0707</td>
+    <td>4</td> -->
+    <td>ZQM</td>
+    <td>Zona quemada</td>
+    <td>Superficies afectadas por incendios forestales recientes y que son todavía visibles mediante fotointerpretación.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-GLA">
+    <!--  <th scope="row">739</th>
+    <td>tipo_0707</td>
+    <td>5</td> -->
+    <td>GLA</td>
+    <td>Glaciar o nieve permanente</td>
+    <td>Superficie cubierta por masas de hielo y nieves perpétuas.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-<a href='#ext-ROQ'>ROQ</a>">
+    <!--  <th scope="row">740</th>
+    <td>tipo_0707</td>
+    <td>6</td> -->
+    <td><a href='#ext-ROQ'>ROQ</a></td>
+    <td>Roquedo</td>
+    <td>Áreas constituidas por rocas y, por extensión, cualquier zona en que aparece una unidad o asociación litológica particular.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-DEH">
+    <!--  <th scope="row">741</th>
+    <td>tipo_0707</td>
+    <td>7</td> -->
+    <td>DEH</td>
+    <td>Dehesa</td>
+    <td>Superficie de origen agrícola y ganadero, con árboles más o menos dispersos y un estrato herbáceo bien desarrollado, destinada a usos agrícolas y ganaderos.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-HUE">
+    <!--  <th scope="row">742</th>
+    <td>tipo_0707</td>
+    <td>8</td> -->
+    <td>HUE</td>
+    <td>Huerta</td>
+    <td>Zonas fundamentalmente agrícolas, generalmente dedicadas al cultivo intensivo y producción dedicada al autoconsumo, con estructura de mosaico de parcelas de pequeño tamaño (no superiores a 1 ha), con predominio de hortalizas, frutales dispersos u otros cultivos leñosos.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-PRA">
+    <!--  <th scope="row">743</th>
+    <td>tipo_0707</td>
+    <td>9</td> -->
+    <td>PRA</td>
+    <td>Prado</td>
+    <td>Pastos herbáceos espontáneos de carácter permanente, siempre verdes, susceptibles de riego y siega.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-MAT">
+    <!--  <th scope="row">744</th>
+    <td>tipo_0707</td>
+    <td>10</td> -->
+    <td>MAT</td>
+    <td>Matorral</td>
+    <td>Superficies cubiertas por vegetación arbustiva de especies leñosas, cuya parte aérea no llega a diferenciarse en tronco y copa, y cuya altura no supera los 5 m.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-PSZ">
+    <!--  <th scope="row">745</th>
+    <td>tipo_0707</td>
+    <td>11</td> -->
+    <td>PSZ</td>
+    <td>Pastizal</td>
+    <td>Pastos formados por comunidades herbáceas espontáneas aprovechadas a diente en pastoreo extensivo, cuya producción es muy dependiente de la meteorología.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-PMR">
+    <!--  <th scope="row">746</th>
+    <td>tipo_0707</td>
+    <td>12</td> -->
+    <td>PMR</td>
+    <td>Pastizal - matorral</td>
+    <td>Superficie formada por una combinación de pastizal y matorral.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-OTR">
+    <!--  <th scope="row">747</th>
+    <td>tipo_0707</td>
+    <td>13</td> -->
+    <td>OTR</td>
+    <td>Otro</td>
+    <td>Otra cubierta terrestre no contemplada en las tipologías anteriores. </td>
 </tr>
     </tbody>
   </table>
@@ -615,19 +622,12 @@ pero se usa con los datos provenientes de la tabla valores -->
                     </thead>
                     <tbody>
                         
-                    <tr>
-                        <td>codigo_ex</td>
-                        <td></td>
-                        <td></td>
-                        <td>Identificador temático de la fuente externa de referencia.</td>
-                    </tr>
-                    
-                    <tr id='ext-'>
-                        <td>estado_ex (esta_0501)</td>
-                        <td></td>
-                        <td></td>
+                    <tr id='ext-CFG'>
+                        <td>tipo_ex (t_0707_ex)</td>
+                        <td>tipo_0707</td>
+                        <td>CFG</td>
                         <td>
-                            <p>Estado de funcionamiento en el que se encuentra el servicio o instalación para extracción de materiales.</p>
+                            <p>Tipo de cubierta terrestre (modelo extendido).</p>
                             
 <div class="mb-3">
 
@@ -643,7 +643,94 @@ pero se usa con los datos provenientes de la tabla valores -->
       </tr>
     </thead>
     <tbody>
-      <tr><td>HIS</td><td>Histórica</td><td>Servicio o instalación de extracción de materiales histórica que no se encuentra en funcionamiento.</td></tr><tr><td>ACT</td><td>Activa</td><td>Servicio o instalación de extracción de materiales en funcionamiento.</td></tr><tr><td>SEP</td><td>Sin explotación</td><td>Servicio o instalación de extracción de materiales sin explotación.</td></tr><tr><td>ABN</td><td>Abandono</td><td>Servicio o instalación de extracción de materiales en estado de abandono.</td></tr>
+      <tr><td>CSD</td><td>Cortafuegos de suelo desnudo</td><td>Cortafuegos cuya cobertura equivale a la del tipo &quot;Suelo desnudo&quot;.</td></tr><tr><td>CMA</td><td>Cortafuegos con matorral</td><td>Cortafuegos cuya cobertura equivale a la del tipo &quot;Matorral&quot;.</td></tr><tr><td>CPA</td><td>Cortafuegos con pastizal</td><td>Cortafuegos cuya cobertura equivale a la del tipo &quot;Pastizal&quot;.</td></tr><tr><td>OCF</td><td>Otro cortafuegos</td><td>Otro cortafuegos no contemplado en las anteriores tipologías.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
+                    <tr id='ext-CHU'>
+                        <td>tipo_ex (t_0707_ex)</td>
+                        <td>tipo_0707</td>
+                        <td>CHU</td>
+                        <td>
+                            <p>Tipo de cubierta terrestre (modelo extendido).</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>ZPA</td><td>Zona pantanosa </td><td>Humedal continental con terrenos bajos normalmente inundados de agua en invierno y más o menos saturados durante todo el año.</td></tr><tr><td>OHM</td><td>Otra cobertura húmeda</td><td>Otra cobertura húmeda. </td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
+                    <tr id='ext-PLY'>
+                        <td>tipo_ex (t_0707_ex)</td>
+                        <td>tipo_0707</td>
+                        <td>PLY</td>
+                        <td>
+                            <p>Tipo de cubierta terrestre (modelo extendido).</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>ARE</td><td>Arenal</td><td>Terreno formado por la acumulación de arena, con origen marino, fluvial o el transporte aéreo.</td></tr><tr><td>CTZ</td><td>Cantizal</td><td>Terreno formado por gravas, cantos y/o guijarros, procedentes de la fractura de rocas de mayor tamaño.</td></tr><tr><td>OPY</td><td>Otras playas, dunas y arenales</td><td>Otras playas, dunas y arenales.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
+                    <tr id='ext-ROQ'>
+                        <td>tipo_ex (t_0707_ex)</td>
+                        <td>tipo_0707</td>
+                        <td>ROQ</td>
+                        <td>
+                            <p>Tipo de cubierta terrestre (modelo extendido).</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>ROC</td><td>Afloramiento rocoso, roquedo</td><td>Según su composición litológica: superficies cubiertas por rocas compactas.</td></tr><tr><td>CLV</td><td>Colada lávica</td><td>Según su composición litológica: superficies desnudas formadas por rocas procedentes de emisiones volcánicas.</td></tr><tr><td>CHL</td><td>Canchal</td><td>Según su composición litológica: superficies cubiertas por rocas sueltas procedentes de la fragmentación de roquedos.</td></tr><tr><td>AMR</td><td>Acantilados marinos</td><td>Según su composición litológica: paredones que caen más o menos verticales sobre el mar.</td></tr><tr><td>ORQ</td><td>Otro roquedo </td><td>Otro tipo de roquedo no contemplado en las ateriores tipologías.</td></tr>
     </tbody>
   </table>
 </div>

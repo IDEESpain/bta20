@@ -316,7 +316,7 @@
   <section id="sectioID">
     <!-- Es la estructura general del contenido que aparece en cada página individual de clase de entidad -->
 
-<h1 class="h1Pag">0501z Explotación de materiales</h1>
+<h1 class="h1Pag">0704s Cultivo</h1>
 
 <div class="accordion" id="accordionPanelsStayOpenExample">
     <!-- Descripción -->
@@ -342,24 +342,28 @@ HTMLDescripcion = HTMLDescripcion.format(
 
 <!--<tr>
     <th scope="row">ID</th>
-    <td>11</td>
+    <td>71</td>
 </tr>-->
 <table class="table table-bordered tabla-ajustada">
   <tr>
     <th style="width: 5%;">Tabla</th>
-    <td style="width: 30%;">0501z_explotacion_materiales</td>
+    <td style="width: 30%;">0704s_ex_cultivo</td>
     <th style="width: 10%;">Geometría</th>
-    <td style="width: 35%;">zona</td>
+    <td style="width: 35%;">poligono</td>
     <td style="width: 20%;" colspan="3">
-      <a href="../fichas/ficha_0501z.pdf" target="_blank">Normas de captura</a>
+      <a href="../fichas/ficha_0704s.pdf" target="_blank">Normas de captura</a>
   </tr>
 </table>
 
 <table class="table table-bordered tabla-ajustada">
   <tr>
     <th style="width: 10%;">Descripción</th>
-    <td style="width: 70%;">Lugar destinado a la extracción y aprovechamiento de algún tipo de mineral o recurso.
+    <td style="width: 70%;">Zonas cuyas tierras se labran y/o son trabajadas con el fin de obtener algún tipo de aprovechamiento o producción agrícola.
       
+                <div style="float: right; color: red; font-weight: bold; font-size: 0.9em;">
+                    Modelo extendido
+                </div>
+            
     </td>
   </tr>
 </table>
@@ -410,34 +414,9 @@ Este es el bloque de mapeo:
 
 <tr>
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>id_punto ()</td>
-    <td>cadena(50)</td>
-    <td class="romper-palabras">Identificador cuyo objetivo es relacionar la zona con el elemento puntual que le corresponde. </td>
-</tr>
-<!-- Este bloque representa una fila dentro de la tabla
-de atributos específicos de una clase de entidad.
-
-Este es el bloque de mapeo:
- with open('./lib/template/atributo.html', 'r', encoding='utf-8') as f:
-                    plantilla_atributo = f.read()
-
-                HTMLAtributos += plantilla_atributo.format(
-                    ID=atr[0],
-                    cod_obj=atr[1],
-                    ord_atr=atr[2],
-                    nom_atr=atr[3],
-                    dominio=atr[4],
-                    tipo_valor=atr[5],
-                    definicion=atr[8],
-                    tablaValores=htmlContenidoValores
-                )
--->
-
-<tr>
-    <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>tipo (tipo_0501)</td>
+    <td>tipo (tipo_0704)</td>
     <td>lista_val</td>
-    <td class="romper-palabras">Tipo de servicio o instalación para extracción de materiales.<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
+    <td class="romper-palabras">Tipo de cultivo.<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
 (los de cada clase de entidad), en la ficha de cada clase.
 Ese acordeón aparece dentro de la columna "Descripción", junto con el texto {definicion}.
 
@@ -473,33 +452,123 @@ htmlDominioValores = """ """
        <!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-CRA">
-    <!--  <th scope="row">221</th>
-    <td>tipo_0501</td>
+<tr id="valor-<a href='#ext-HRB'>HRB</a>">
+    <!--  <th scope="row">704</th>
+    <td>tipo_0704</td>
     <td>1</td> -->
-    <td>CRA</td>
-    <td>Cantera</td>
-    <td>Sitio de donde se saca piedra, greda u otra sustancia análoga para obras varias.</td>
+    <td><a href='#ext-HRB'>HRB</a></td>
+    <td>Herbáceos</td>
+    <td>Superficie cultivada y labrada regularmente bajo un sistema de cultivos temporales y barbechos.</td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-MIN">
-    <!--  <th scope="row">222</th>
-    <td>tipo_0501</td>
+<tr id="valor-FCI">
+    <!--  <th scope="row">705</th>
+    <td>tipo_0704</td>
     <td>2</td> -->
-    <td>MIN</td>
-    <td>Mina</td>
-    <td>Excavación que se hace para extraer un mineral.</td>
+    <td>FCI</td>
+    <td>Frutales cítricos</td>
+    <td>El cultivo está formado por árboles frutales de frutos cítricos</td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-GVR">
-    <!--  <th scope="row">223</th>
-    <td>tipo_0501</td>
+<tr id="valor-<a href='#ext-FNC'>FNC</a>">
+    <!--  <th scope="row">706</th>
+    <td>tipo_0704</td>
     <td>3</td> -->
-    <td>GVR</td>
-    <td>Gravera</td>
-    <td>Yacimiento de grava.</td>
+    <td><a href='#ext-FNC'>FNC</a></td>
+    <td>Frutales no cítricos</td>
+    <td>El cultivo está formado por árboles frutales de frutos no cítricos.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-VIN">
+    <!--  <th scope="row">707</th>
+    <td>tipo_0704</td>
+    <td>4</td> -->
+    <td>VIN</td>
+    <td>Viñedo</td>
+    <td>El cultivo está formado por vides.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-OLI">
+    <!--  <th scope="row">708</th>
+    <td>tipo_0704</td>
+    <td>5</td> -->
+    <td>OLI</td>
+    <td>Olivar</td>
+    <td>El cultivo está formado por olivos.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-VOL">
+    <!--  <th scope="row">709</th>
+    <td>tipo_0704</td>
+    <td>6</td> -->
+    <td>VOL</td>
+    <td>Viñedo y olivar</td>
+    <td>El cultivo está formado por una asociación de vides y olivos.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-<a href='#ext-VFR'>VFR</a>">
+    <!--  <th scope="row">710</th>
+    <td>tipo_0704</td>
+    <td>7</td> -->
+    <td><a href='#ext-VFR'>VFR</a></td>
+    <td>Viñedo y frutales</td>
+    <td>El cultivo está formado por una asociación de vides y frutales.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-<a href='#ext-OLF'>OLF</a>">
+    <!--  <th scope="row">711</th>
+    <td>tipo_0704</td>
+    <td>8</td> -->
+    <td><a href='#ext-OLF'>OLF</a></td>
+    <td>Olivar y frutales</td>
+    <td>El cultivo está formado por una asociación de olivos y frutales.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-AFR">
+    <!--  <th scope="row">712</th>
+    <td>tipo_0704</td>
+    <td>9</td> -->
+    <td>AFR</td>
+    <td>Asociación de frutales</td>
+    <td>El cultivo está formado por una asociación de frutales.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-<a href='#ext-AHL'>AHL</a>">
+    <!--  <th scope="row">713</th>
+    <td>tipo_0704</td>
+    <td>10</td> -->
+    <td><a href='#ext-AHL'>AHL</a></td>
+    <td>Asociación de herbáceos y leñosos</td>
+    <td>El cultivo está formado por una asociación de cultivos herbáceos y cultivos leñosos. </td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-ACV">
+    <!--  <th scope="row">714</th>
+    <td>tipo_0704</td>
+    <td>11</td> -->
+    <td>ACV</td>
+    <td>Asociación de cultivos con vegetación</td>
+    <td>El cultivo está formado por una asociación de cultivos con vegetación.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-OTR">
+    <!--  <th scope="row">715</th>
+    <td>tipo_0704</td>
+    <td>12</td> -->
+    <td>OTR</td>
+    <td>Otro</td>
+    <td>Otros cultivos leñosos.</td>
 </tr>
     </tbody>
   </table>
@@ -527,9 +596,9 @@ Este es el bloque de mapeo:
 
 <tr>
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
-    <td>situacion (situ_0501)</td>
+    <td>riego (riego)</td>
     <td>lista_val</td>
-    <td class="romper-palabras">Situación del servicio o instalación para extracción de materiales con respecto al terreno.<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
+    <td class="romper-palabras">Tipo de cultivo según su riego.<!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
 (los de cada clase de entidad), en la ficha de cada clase.
 Ese acordeón aparece dentro de la columna "Descripción", junto con el texto {definicion}.
 
@@ -565,23 +634,23 @@ htmlDominioValores = """ """
        <!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-CAB">
-    <!--  <th scope="row">224</th>
-    <td>situ_0501</td>
+<tr id="valor-SEC">
+    <!--  <th scope="row">730</th>
+    <td>riego</td>
     <td>1</td> -->
-    <td>CAB</td>
-    <td>Cielo abierto</td>
-    <td>Servicio o instalación de extracción de materiales que se desarrolla en la superficie del terreno.</td>
+    <td>SEC</td>
+    <td>Secano</td>
+    <td>Zonas de cultivo sin infraestructuras de riego permanente y cuyo riego se considera esporádico y/o ligado a la climatología del lugar.</td>
 </tr><!-- Es el equivalente a fila_valor_comun.html,
 pero se usa con los datos provenientes de la tabla valores -->
 
-<tr id="valor-SUB">
-    <!--  <th scope="row">225</th>
-    <td>situ_0501</td>
+<tr id="valor-REG">
+    <!--  <th scope="row">731</th>
+    <td>riego</td>
     <td>2</td> -->
-    <td>SUB</td>
-    <td>Subterráneo</td>
-    <td>Servicio o instalación de extracción de materiales que se desarrolla bajo la superficie del terreno.</td>
+    <td>REG</td>
+    <td>Regadío</td>
+    <td>Zonas de cultivo con infraestructuras de riego permanente y que potencialmente pueden ser regados a conveniencia.</td>
 </tr>
     </tbody>
   </table>
@@ -615,19 +684,12 @@ pero se usa con los datos provenientes de la tabla valores -->
                     </thead>
                     <tbody>
                         
-                    <tr>
-                        <td>codigo_ex</td>
-                        <td></td>
-                        <td></td>
-                        <td>Identificador temático de la fuente externa de referencia.</td>
-                    </tr>
-                    
-                    <tr id='ext-'>
-                        <td>estado_ex (esta_0501)</td>
-                        <td></td>
-                        <td></td>
+                    <tr id='ext-HRB'>
+                        <td>tipo_ex (t_0704_ex)</td>
+                        <td>tipo_0704</td>
+                        <td>HRB</td>
                         <td>
-                            <p>Estado de funcionamiento en el que se encuentra el servicio o instalación para extracción de materiales.</p>
+                            <p>Tipo de cultivo (modelo extendido)</p>
                             
 <div class="mb-3">
 
@@ -643,7 +705,152 @@ pero se usa con los datos provenientes de la tabla valores -->
       </tr>
     </thead>
     <tbody>
-      <tr><td>HIS</td><td>Histórica</td><td>Servicio o instalación de extracción de materiales histórica que no se encuentra en funcionamiento.</td></tr><tr><td>ACT</td><td>Activa</td><td>Servicio o instalación de extracción de materiales en funcionamiento.</td></tr><tr><td>SEP</td><td>Sin explotación</td><td>Servicio o instalación de extracción de materiales sin explotación.</td></tr><tr><td>ABN</td><td>Abandono</td><td>Servicio o instalación de extracción de materiales en estado de abandono.</td></tr>
+      <tr><td>ARR</td><td>Arroz</td><td>El cultivo está formado por la especie del arroz.</td></tr><tr><td>OCH</td><td>Otro cultivo herbáceo</td><td>El cultivo está formado por otras especies herbáceas.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
+                    <tr id='ext-FNC'>
+                        <td>tipo_ex (t_0704_ex)</td>
+                        <td>tipo_0704</td>
+                        <td>FNC</td>
+                        <td>
+                            <p>Tipo de cultivo (modelo extendido)</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>FCS</td><td>Frutales de cáscara</td><td>El cultivo está formado por árboles frutales de frutos con cáscara.</td></tr><tr><td>OFR</td><td>Otros frutales no cítricos</td><td>El cultivo está formado por otros árboles frutales de frutos no cítricos.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
+                    <tr id='ext-VFR'>
+                        <td>tipo_ex (t_0704_ex)</td>
+                        <td>tipo_0704</td>
+                        <td>VFR</td>
+                        <td>
+                            <p>Tipo de cultivo (modelo extendido)</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>VFN</td><td>Viñedo y frutales no citricos</td><td>El cultivo está formado por una asociación de vides y frutales de frutos no cítricos.</td></tr><tr><td>VFC</td><td>Viñedo y frutales cítricos</td><td>El cultivo está formado por una asociación de vides y frutales de frutos cítricos.</td></tr><tr><td>VOF</td><td>Viñedo y otros frutales</td><td>El cultivo está formado por una asociación de vides y otros árboles frutales.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
+                    <tr id='ext-OLF'>
+                        <td>tipo_ex (t_0704_ex)</td>
+                        <td>tipo_0704</td>
+                        <td>OLF</td>
+                        <td>
+                            <p>Tipo de cultivo (modelo extendido)</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>OFN</td><td>Olivar y frutales no citricos</td><td>El cultivo está formado por una asociación de olivos y frutales de frutos no cítricos.</td></tr><tr><td>OFT</td><td>Olivar y frutales cítricos</td><td>El cultivo está formado por una asociación de olivos y frutales de frutos cítricos.</td></tr><tr><td>OTF</td><td>Olivar y otros frutales</td><td>El cultivo está formado por una asociación de olivos y otros árboles frutales.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
+                    <tr id='ext-AHL'>
+                        <td>tipo_ex (t_0704_ex)</td>
+                        <td>tipo_0704</td>
+                        <td>AHL</td>
+                        <td>
+                            <p>Tipo de cultivo (modelo extendido)</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>VHB</td><td>Viñedo y herbáceos</td><td>El cultivo está formado por una asociación de vides y cultivos herbáceos.</td></tr><tr><td>OHB</td><td>Olivar y herbáceos</td><td>El cultivo está formado por una asociación de olivos y cultivos herbáceos.</td></tr><tr><td>OVH</td><td>Olivar, viñedo y herbáceos</td><td>El cultivo está formado por una asociación de vides, olivos y cultivos herbáceos.</td></tr><tr><td>OHL</td><td>Otra asociación de herbáceos y leñosos</td><td>El cultivo está formado por otra asociación de cultivos herbáceos y cultivos leñosos.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+                        </td>
+                    </tr>
+                    
+                    <tr id='ext-'>
+                        <td>forzado_ex (forzado)</td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <p>Indica si el cultivo se desarrolla en invernadero o bajo plástico</p>
+                            
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>SI_</td><td>Si </td><td>Zonas de cultivo forzado, desarrollado en invernadero o bajo plástico.</td></tr><tr><td>NO_</td><td>No</td><td>Zonas de cultivo no forzado, fuera de invernadero o zona cubierta de plásticos. </td></tr>
     </tbody>
   </table>
 </div>

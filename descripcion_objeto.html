@@ -18,21 +18,20 @@ HTMLDescripcion = HTMLDescripcion.format(
 </tr>-->
 <table class="table table-bordered tabla-ajustada">
   <tr>
-    <th style="width: 5%;">Código</th>
-    <td style="width: 30%;">{cod}</td>
-    <th style="width: 10%;">Nombre corto</th>
-    <td style="width: 35%;">{nom_corto}</td>
+    <th style="width: 5%;">Tabla</th>
+    <td style="width: 30%;">{cod_nom_corto}</td>
     <th style="width: 10%;">Geometría</th>
-    <td style="width: 10%;">{geom}</td>
+    <td style="width: 35%;">{geom}</td>
+    <td style="width: 20%;" colspan="3">
+      <a href="../fichas/ficha_{cod}.pdf" target="_blank">Normas de captura</a>
   </tr>
 </table>
 
 <table class="table table-bordered tabla-ajustada">
   <tr>
     <th style="width: 10%;">Descripción</th>
-    <td style="width: 70%;">{descr}</td>
-    <td style="width: 20%;" colspan="3">
-      <a href="../fichas/ficha_{cod}.pdf" target="_blank">Normas de captura</a>
+    <td style="width: 70%;">{descr}
+      {modelo_ext}
     </td>
   </tr>
 </table>
