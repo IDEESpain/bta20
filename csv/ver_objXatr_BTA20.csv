@@ -3,8 +3,8 @@ False;0101a;catalogo_carretera;Catálogo de carreteras;alfanumerico;False;id_via
 False;0101a;catalogo_carretera;Catálogo de carreteras;alfanumerico;False;tipo_vial;tipo_vial;lista_val
 False;0101a;catalogo_carretera;Catálogo de carreteras;alfanumerico;False;nombre_alt;;cadena
 False;0101a;catalogo_carretera;Catálogo de carreteras;alfanumerico;False;vial_simpl;vial_simpl;lista_val
-False;0104a;vial_carretera_compuesto;Viales de carretera compuestos;alfanumerico;False;id_vial_c;;cadena
-False;0104a;vial_carretera_compuesto;Viales de carretera compuestos;alfanumerico;False;id_vial_s;;cadena
+False;0104a;vial_carretera_compuesto;Vial de carretera compuesto;alfanumerico;False;id_vial_c;;cadena
+False;0104a;vial_carretera_compuesto;Vial de carretera compuesto;alfanumerico;False;id_vial_s;;cadena
 False;0107l;carretera;Carretera;linea;False;id_vial;;cadena
 False;0107l;carretera;Carretera;linea;False;clase;clase_0107;lista_val
 False;0107l;carretera;Carretera;linea;False;orden;orden;lista_val
@@ -47,45 +47,45 @@ False;0113l;otras_vias;Otras vías;linea;True;tipo_ex;t_0113l_ex;lista_val
 False;0113l;otras_vias;Otras vías;linea;False;situacion;situ_vial;lista_val
 False;0113l;otras_vias;Otras vías;linea;True;t_tramo_ex;ttram_vial;lista_val
 False;0113l;otras_vias;Otras vías;linea;True;t_firme_ex;tipo_firme;lista_val
-True;0113s;otras_vias_ex;Otras vías;poligono;False;tipo;tipo_0113s;lista_val
-True;0113s;otras_vias_ex;Otras vías;poligono;True;tipo_ex;t_0113s_ex;lista_val
-True;0113s;otras_vias_ex;Otras vías;poligono;False;situacion;situ_vial;lista_val
-True;0113s;otras_vias_ex;Otras vías;poligono;True;t_firme_ex;tipo_firme;lista_val
+True;0113s;ex_otras_vias;Otras vías;poligono;False;tipo;tipo_0113s;lista_val
+True;0113s;ex_otras_vias;Otras vías;poligono;True;tipo_ex;t_0113s_ex;lista_val
+True;0113s;ex_otras_vias;Otras vías;poligono;False;situacion;situ_vial;lista_val
+True;0113s;ex_otras_vias;Otras vías;poligono;True;t_firme_ex;tipo_firme;lista_val
 False;0116p;pk_carretera;Punto kilométrico de carretera;punto;False;id_vial;;cadena
 False;0116p;pk_carretera;Punto kilométrico de carretera;punto;False;valor_pk;;num_real
 False;0116p;pk_carretera;Punto kilométrico de carretera;punto;False;tipo;tipo_pk;lista_val
 False;0116p;pk_carretera;Punto kilométrico de carretera;punto;True;sentido_ex;sent_0116;lista_val
-True;0119p;recarga_repostaje_ex;Punto de recarga o repostaje;punto;False;tipo;tipo_0119;lista_val
+True;0119p;ex_recarga_repostaje;Punto de recarga o repostaje;punto;False;tipo;tipo_0119;lista_val
 False;0122p;servicio_carretera;Servicio de carretera;punto;False;tipo;tipo_0122;lista_val
 False;0122z;servicio_carretera;Servicio de carretera;zona;False;id_punto;;cadena(50)
 False;0122z;servicio_carretera;Servicio de carretera;zona;False;tipo;tipo_0122;lista_val
-False;0125l;via_ferrea;Vía ferrea;linea;False;nom_linea;;cadena
-False;0125l;via_ferrea;Vía ferrea;linea;False;tipo_linea;tipo_0125;lista_val
-False;0125l;via_ferrea;Vía ferrea;linea;False;tipo_tramo;ttram_0125;lista_val
-False;0125l;via_ferrea;Vía ferrea;linea;False;situacion;situ_gener;lista_val
-False;0125l;via_ferrea;Vía ferrea;linea;False;estadofis;esta_trans;lista_val
-False;0125l;via_ferrea;Vía ferrea;linea;False;ancho_via;ancho_via;lista_val
-False;0125l;via_ferrea;Vía ferrea;linea;False;electrific;electrific;lista_val
-False;0125l;via_ferrea;Vía ferrea;linea;False;n_vias;n_vias;lista_val
-False;0125l;via_ferrea;Vía ferrea;linea;False;titular;titular;lista_val
-False;0125l;via_ferrea;Vía ferrea;linea;True;titular_ex;titular_ex;lista_val
-False;0125l;via_ferrea;Vía ferrea;linea;True;u_princ_ex;u_pri_0125;lista_val
+False;0125l;via_ferrea;Vía férrea;linea;False;nom_linea;;cadena
+False;0125l;via_ferrea;Vía férrea;linea;False;tipo_linea;tipo_0125;lista_val
+False;0125l;via_ferrea;Vía férrea;linea;False;tipo_tramo;ttram_0125;lista_val
+False;0125l;via_ferrea;Vía férrea;linea;False;situacion;situ_gener;lista_val
+False;0125l;via_ferrea;Vía férrea;linea;False;estadofis;esta_trans;lista_val
+False;0125l;via_ferrea;Vía férrea;linea;False;ancho_via;ancho_via;lista_val
+False;0125l;via_ferrea;Vía férrea;linea;False;electrific;electrific;lista_val
+False;0125l;via_ferrea;Vía férrea;linea;False;n_vias;n_vias;lista_val
+False;0125l;via_ferrea;Vía férrea;linea;False;titular;titular;lista_val
+False;0125l;via_ferrea;Vía férrea;linea;True;titular_ex;titular_ex;lista_val
+False;0125l;via_ferrea;Vía férrea;linea;True;u_princ_ex;u_pri_0125;lista_val
 False;0128p;pk_fc;Punto kilométrico de ferrocarril;punto;False;nom_linea;;cadena
 False;0128p;pk_fc;Punto kilométrico de ferrocarril;punto;False;tipo ;tipo_pk;lista_val
 False;0128p;pk_fc;Punto kilométrico de ferrocarril;punto;False;valor_pkfc;;num_real
-False;0131p;estacion_fc;Estación ferrocarril;punto;False;tipo;tipo_0131;lista_val
-False;0131p;estacion_fc;Estación ferrocarril;punto;True;tipo_ex;t_0131_ex;lista_val
-False;0131p;estacion_fc;Estación ferrocarril;punto;False;uso;uso_0131;lista_val
-False;0131p;estacion_fc;Estación ferrocarril;punto;False;estadofis;esta_trans;lista_val
-False;0131p;estacion_fc;Estación ferrocarril;punto;True;cod_est_ex;;cadena
-False;0131p;estacion_fc;Estación ferrocarril;punto;True;n_anden_ex;;num_entero
-False;0131z;estacion_fc;Estación ferrocarril;zona;False;id_punto;;cadena(50)
-False;0131z;estacion_fc;Estación ferrocarril;zona;False;tipo;tipo_0131;lista_val
-False;0131z;estacion_fc;Estación ferrocarril;zona;True;tipo_ex;t_0131_ex;lista_val
-False;0131z;estacion_fc;Estación ferrocarril;zona;False;uso;uso_0131;lista_val
-False;0131z;estacion_fc;Estación ferrocarril;zona;False;estadofis;esta_trans;lista_val
-False;0131z;estacion_fc;Estación ferrocarril;zona;True;cod_est_ex;;cadena
-False;0131z;estacion_fc;Estación ferrocarril;zona;True;n_anden_ex;;num_entero
+False;0131p;estacion_fc;Estación de ferrocarril;punto;False;tipo;tipo_0131;lista_val
+False;0131p;estacion_fc;Estación de ferrocarril;punto;True;tipo_ex;t_0131_ex;lista_val
+False;0131p;estacion_fc;Estación de ferrocarril;punto;False;uso;uso_0131;lista_val
+False;0131p;estacion_fc;Estación de ferrocarril;punto;False;estadofis;esta_trans;lista_val
+False;0131p;estacion_fc;Estación de ferrocarril;punto;True;cod_est_ex;;cadena
+False;0131p;estacion_fc;Estación de ferrocarril;punto;True;n_anden_ex;;num_entero
+False;0131z;estacion_fc;Estación de ferrocarril;zona;False;id_punto;;cadena(50)
+False;0131z;estacion_fc;Estación de ferrocarril;zona;False;tipo;tipo_0131;lista_val
+False;0131z;estacion_fc;Estación de ferrocarril;zona;True;tipo_ex;t_0131_ex;lista_val
+False;0131z;estacion_fc;Estación de ferrocarril;zona;False;uso;uso_0131;lista_val
+False;0131z;estacion_fc;Estación de ferrocarril;zona;False;estadofis;esta_trans;lista_val
+False;0131z;estacion_fc;Estación de ferrocarril;zona;True;cod_est_ex;;cadena
+False;0131z;estacion_fc;Estación de ferrocarril;zona;True;n_anden_ex;;num_entero
 False;0134l;transporte_cable;Transporte por cable;linea;False;tipo;tipo_0134;lista_val
 False;0137p;puerto;Puerto;punto;False;titular;titular;lista_val
 False;0137p;puerto;Puerto;punto;True;titular_ex;titular_ex;lista_val
@@ -119,8 +119,8 @@ False;0140z;aerodromo;Aeródromo;zona;True;cd_iata_ex;;cadena
 False;0140z;aerodromo;Aeródromo;zona;True;cd_icao_ex;;cadena
 False;0140z;aerodromo;Aeródromo;zona;True;uso_ex;uso_0140;lista_val
 False;0140z;aerodromo;Aeródromo;zona;True;activ_ex;activ_0140;lista_val
-False;0143s;pista_aerodromo;Pista aeródromo;poligono;False;id_punto;;cadena(50)
-False;0143s;pista_aerodromo;Pista aeródromo;poligono;False;tipo;tipo_0143;lista_val
+False;0143s;pista_aerodromo;Pista de aeródromo;poligono;False;id_punto;;cadena(50)
+False;0143s;pista_aerodromo;Pista de aeródromo;poligono;False;tipo;tipo_0143;lista_val
 False;0201l;curso_natural;Curso natural;linea;False;tipo_tramo;ttram_curs;lista_val
 False;0201l;curso_natural;Curso natural;linea;False;canalizado;canal_0201;lista_val
 False;0201l;curso_natural;Curso natural;linea;False;regimen;regim_hidr;lista_val
@@ -170,7 +170,7 @@ False;0222l;costa;Costa;linea;True;codigo_ex;;cadena(50)
 False;0301l;curva_nivel;Curva de nivel;linea;False;tipo;tipo_0301;lista_val
 False;0301l;curva_nivel;Curva de nivel;linea;False;cota;;num_entero
 False;0301l;curva_nivel;Curva de nivel;linea;True;categor_ex;categ_0301;lista_val
-True;0304l;curva_batimetrica;Curva batimétrica;linea;False;sonda;;num_entero
+True;0304l;ex_curva_batimetrica;Curva batimétrica;linea;False;sonda;;num_entero
 False;0307l;cambio_pendiente;Cambio de pendiente;linea;False;tipo;tipo_0307l;lista_val
 False;0307l;cambio_pendiente;Cambio de pendiente;linea;False;seccion;secc_0307l;lista_val
 False;0307l;cambio_pendiente;Cambio de pendiente;linea;True;tipo _ex;t_0307l_ex;lista_val
@@ -213,24 +213,24 @@ False;0404s;constr_almacenaje;Construcción de almacenaje;poligono;False;situaci
 False;0404s;constr_almacenaje;Construcción de almacenaje;poligono;False;estadofis;esta_gener;lista_val
 False;0404s;constr_almacenaje;Construcción de almacenaje;poligono;True;codigo_ex;;cadena(50)
 False;0404s;constr_almacenaje;Construcción de almacenaje;poligono;True;tipo_ex;t_0404_ex;lista_val
-False;0407l;otras_constr;Otras construcciones;linea;False;tipo;tipo_0407l;lista_val
-False;0407l;otras_constr;Otras construcciones;linea;False;situacion;situ_gener;lista_val
-False;0407l;otras_constr;Otras construcciones;linea;False;estadofis;esta_gener;lista_val
-False;0407l;otras_constr;Otras construcciones;linea;True;codigo_ex;;cadena(50)
-False;0407l;otras_constr;Otras construcciones;linea;True;tipo_ex;t_0407l_ex;lista_val
-False;0407p;otras_constr;Otras construcciones;punto;False;tipo;tipo_0407p;lista_val
-False;0407p;otras_constr;Otras construcciones;punto;True;codigo_ex;;cadena(50)
-False;0407p;otras_constr;Otras construcciones;punto;True;tipo_ex;t_0407p_ex;lista_val
-False;0407s;otras_constr;Otras construcciones;poligono;False;tipo;tipo_0407s;lista_val
-False;0407s;otras_constr;Otras construcciones;poligono;False;situacion;situ_gener;lista_val
-False;0407s;otras_constr;Otras construcciones;poligono;False;estadofis;esta_gener;lista_val
-False;0407s;otras_constr;Otras construcciones;poligono;True;codigo_ex;;cadena(50)
-False;0407s;otras_constr;Otras construcciones;poligono;True;tipo_ex;t_0407s_ex;lista_val
-False;0407s;otras_constr;Otras construcciones;poligono;True;superfi_ex;superficie;lista_val
-False;0410l;tendido;Tendido eléctrico;linea;False;tipo;tipo_0410;lista_val
-False;0410l;tendido;Tendido eléctrico;linea;True;codigo_ex;;cadena(50)
-False;0410l;tendido;Tendido eléctrico;linea;True;tipo_ex;t_0410_ex;lista_val
-False;0410l;tendido;Tendido eléctrico;linea;True;tension_ex;tension;lista_val
+False;0407l;otras_construcciones;Otras construcciones;linea;False;tipo;tipo_0407l;lista_val
+False;0407l;otras_construcciones;Otras construcciones;linea;False;situacion;situ_gener;lista_val
+False;0407l;otras_construcciones;Otras construcciones;linea;False;estadofis;esta_gener;lista_val
+False;0407l;otras_construcciones;Otras construcciones;linea;True;codigo_ex;;cadena(50)
+False;0407l;otras_construcciones;Otras construcciones;linea;True;tipo_ex;t_0407l_ex;lista_val
+False;0407p;otras_construcciones;Otras construcciones;punto;False;tipo;tipo_0407p;lista_val
+False;0407p;otras_construcciones;Otras construcciones;punto;True;codigo_ex;;cadena(50)
+False;0407p;otras_construcciones;Otras construcciones;punto;True;tipo_ex;t_0407p_ex;lista_val
+False;0407s;otras_construcciones;Otras construcciones;poligono;False;tipo;tipo_0407s;lista_val
+False;0407s;otras_construcciones;Otras construcciones;poligono;False;situacion;situ_gener;lista_val
+False;0407s;otras_construcciones;Otras construcciones;poligono;False;estadofis;esta_gener;lista_val
+False;0407s;otras_construcciones;Otras construcciones;poligono;True;codigo_ex;;cadena(50)
+False;0407s;otras_construcciones;Otras construcciones;poligono;True;tipo_ex;t_0407s_ex;lista_val
+False;0407s;otras_construcciones;Otras construcciones;poligono;True;superfi_ex;superficie;lista_val
+False;0410l;tendido;Tendido;linea;False;tipo;tipo_0410;lista_val
+False;0410l;tendido;Tendido;linea;True;codigo_ex;;cadena(50)
+False;0410l;tendido;Tendido;linea;True;tipo_ex;t_0410_ex;lista_val
+False;0410l;tendido;Tendido;linea;True;tension_ex;tension;lista_val
 False;0413l;presa;Presa;linea;False;tipo_cons;tipo_cons;lista_val
 False;0413l;presa;Presa;linea;False;tipo_func;tipo_func;lista_val
 False;0413l;presa;Presa;linea;False;estadofis;esta_gener;lista_val
@@ -262,15 +262,15 @@ False;0507p;industria_serv_com;Industria, servicio y comercio;punto;True;codigo_
 False;0507z;industria_serv_com;Industria, servicio y comercio;zona;False;id_punto;;cadena(50)
 False;0507z;industria_serv_com;Industria, servicio y comercio;zona;False;tipo;tipo_0507;lista_val
 False;0507z;industria_serv_com;Industria, servicio y comercio;zona;True;codigo_ex;;cadena(50)
-False;0510p;admon_equip_social;Administración equipamiento social;punto;False;cod_bic;;cadena(50)
-False;0510p;admon_equip_social;Administración equipamiento social;punto;False;tipo;tipo_0510;lista_val
-False;0510p;admon_equip_social;Administración equipamiento social;punto;True;codigo_ex;;cadena(50)
-False;0510p;admon_equip_social;Administración equipamiento social;punto;True;tipo_ex;t_0510_ex;lista_val
-False;0510z;admon_equip_social;Administración equipamiento social;zona;False;id_punto;;cadena(50)
-False;0510z;admon_equip_social;Administración equipamiento social;zona;False;cod_bic;;cadena(50)
-False;0510z;admon_equip_social;Administración equipamiento social;zona;False;tipo;tipo_0510;lista_val
-False;0510z;admon_equip_social;Administración equipamiento social;zona;True;codigo_ex;;cadena(50)
-False;0510z;admon_equip_social;Administración equipamiento social;zona;True;tipo_ex;t_0510_ex;lista_val
+False;0510p;admon_equip_social;Administración y equipamiento social;punto;False;cod_bic;;cadena(50)
+False;0510p;admon_equip_social;Administración y equipamiento social;punto;False;tipo;tipo_0510;lista_val
+False;0510p;admon_equip_social;Administración y equipamiento social;punto;True;codigo_ex;;cadena(50)
+False;0510p;admon_equip_social;Administración y equipamiento social;punto;True;tipo_ex;t_0510_ex;lista_val
+False;0510z;admon_equip_social;Administración y equipamiento social;zona;False;id_punto;;cadena(50)
+False;0510z;admon_equip_social;Administración y equipamiento social;zona;False;cod_bic;;cadena(50)
+False;0510z;admon_equip_social;Administración y equipamiento social;zona;False;tipo;tipo_0510;lista_val
+False;0510z;admon_equip_social;Administración y equipamiento social;zona;True;codigo_ex;;cadena(50)
+False;0510z;admon_equip_social;Administración y equipamiento social;zona;True;tipo_ex;t_0510_ex;lista_val
 False;0513p;cultura_ocio;Cultura y ocio;punto;False;cod_bic;;cadena(50)
 False;0513p;cultura_ocio;Cultura y ocio;punto;False;tipo;tipo_0513;lista_val
 False;0513p;cultura_ocio;Cultura y ocio;punto;True;codigo_ex;;cadena(50)
@@ -280,52 +280,60 @@ False;0513z;cultura_ocio;Cultura y ocio;zona;False;cod_bic;;cadena(50)
 False;0513z;cultura_ocio;Cultura y ocio;zona;False;tipo;tipo_0513;lista_val
 False;0513z;cultura_ocio;Cultura y ocio;zona;True;codigo_ex;;cadena(50)
 False;0513z;cultura_ocio;Cultura y ocio;zona;True;tipo_ex;t_0513_ex;lista_val
-False;0601p;ergnss;Red Geodésica Nacional de Estaciones de Referencia GNSS (ERGNSS);punto;False;codigo;;cadena(4)
-False;0601p;ergnss;Red Geodésica Nacional de Estaciones de Referencia GNSS (ERGNSS);punto;True;cd_iers_ex;;cadena(10)
-False;0601p;ergnss;Red Geodésica Nacional de Estaciones de Referencia GNSS (ERGNSS);punto;True;titular_ex;;cadena
-False;0601p;ergnss;Red Geodésica Nacional de Estaciones de Referencia GNSS (ERGNSS);punto;True;url_ex;;cadena
-False;0604p;vertice_geodesico;Vértice geodésico;punto;False;codigo;;cadena
-False;0604p;vertice_geodesico;Vértice geodésico;punto;False;titular;;cadena
-False;0604p;vertice_geodesico;Vértice geodésico;punto;False;tipo;tipo_0604;lista_val
-False;0604p;vertice_geodesico;Vértice geodésico;punto;True;tipo_ex;t_0604_ex;lista_val
-False;0604p;vertice_geodesico;Vértice geodésico;punto;True;url_ex;;cadena
-True;0607p;punto_nap_ex;Punto geodesico red NAP;punto;False;codigo;;cadena
-True;0607p;punto_nap_ex;Punto geodesico red NAP;punto;False;titular;;cadena
-True;0607p;punto_nap_ex;Punto geodesico red NAP;punto;False;alt_orto;;num_real
-True;0607p;punto_nap_ex;Punto geodesico red NAP;punto;True;url_ex;;cadena
-True;0610p;mareografo_ex;Punto geodésico Red de Mareógrafos;punto;False;codigo;;cadena
-True;0610p;mareografo_ex;Punto geodésico Red de Mareógrafos;punto;False;titular;;cadena
-True;0610p;mareografo_ex;Punto geodésico Red de Mareógrafos;punto;True;url_ex;;cadena
-False;0701s;cub_terrestre;Cubierta Terrestre;poligono;False;tipo;tipo_0701;lista_val
-False;0701s;cub_terrestre;Cubierta Terrestre;poligono;True;tipo_ex;t_0701_ex;lista_val
-False;0701s;cub_terrestre;Cubierta Terrestre;poligono;True;plantac_ex;plantacion;lista_val
-False;0701s;cub_terrestre;Cubierta Terrestre;poligono;True;riego_ex;riego;lista_val
-False;0801p;ent_pob;Entidades de Población;punto;False;tipo;tipo_0801;lista_val
-False;0801p;ent_pob;Entidades de Población;punto;True;tipo_ex;t_0801_ex;lista_val
-False;0801p;ent_pob;Entidades de Población;punto;False;ine;ine_0801;lista_val
-False;0801p;ent_pob;Entidades de Población;punto;False;codig_ep;;cadena(11)
-False;0801p;ent_pob;Entidades de Población;punto;True;cd_ep_ex;;cadena
-False;0801p;ent_pob;Entidades de Población;punto;True;capit_ex;;cadena(4)
-False;0801p;ent_pob;Entidades de Población;punto;True;id_ep_ex;;num_entero
-False;0801s;ent_pob;Entidades de Población;poligono;False;tipo;tipo_0801;lista_val
-False;0801s;ent_pob;Entidades de Población;poligono;True;tipo_ex;t_0801_ex;lista_val
-False;0801s;ent_pob;Entidades de Población;poligono;False;ine;ine_0801;lista_val
-False;0801s;ent_pob;Entidades de Población;poligono;False;codig_ep;;cadena(11)
-False;0801s;ent_pob;Entidades de Población;poligono;True;cd_ep_ex;;cadena
-False;0801s;ent_pob;Entidades de Población;poligono;True;capit_ex;;cadena(4)
-False;0801s;ent_pob;Entidades de Población;poligono;True;id_ep_ex;;num_entero
-True;0804s;uni_adm_ex;Unidades Administrativas;poligono;False;tipo;tipo_0804;lista_val
-True;0804s;uni_adm_ex;Unidades Administrativas;poligono;False;codig_ua;;cadena
-False;0901s;esp_nat_prot;Espacios Naturales Protegidos;poligono;False;tipo;tipo_0901;lista_val
-False;0901s;esp_nat_prot;Espacios Naturales Protegidos;poligono;True;tipo_ex;t_0901_ex;lista_val
-False;0901s;esp_nat_prot;Espacios Naturales Protegidos;poligono;True;id_enp_ex;;cadena
-False;0901s;esp_nat_prot;Espacios Naturales Protegidos;poligono;True;ca_enp_ex;;cadena
-False;0901s;esp_nat_prot;Espacios Naturales Protegidos;poligono;True;desig_a_ex;;cadena
-False;0904l;via_pecuaria;Vía pecuaria;linea;False;codigo;;cadena
-False;0904l;via_pecuaria;Vía pecuaria;linea;False;tipo;tipo_0904;lista_val
-False;0904l;via_pecuaria;Vía pecuaria;linea;True;tipo_ex;t_0904_ex;lista_val
-False;0904l;via_pecuaria;Vía pecuaria;linea;True;deslind_ex;deslinde;lista_val
-False;0904s;via_pecuaria;Vía pecuaria;poligono;False;codigo;;cadena
-False;0904s;via_pecuaria;Vía pecuaria;poligono;False;tipo;tipo_0904;lista_val
-False;0904s;via_pecuaria;Vía pecuaria;poligono;True;tipo_ex;t_0904_ex;lista_val
-False;0904s;via_pecuaria;Vía pecuaria;poligono;True;deslind_ex;deslinde;lista_val
+True;0601p;ex_punto_gnss;Estación de referencia GNSS;punto;False;codigo;;cadena(4)
+True;0601p;ex_punto_gnss;Estación de referencia GNSS;punto;True;cd_iers_ex;;cadena(10)
+True;0601p;ex_punto_gnss;Estación de referencia GNSS;punto;True;titular_ex;;cadena
+True;0601p;ex_punto_gnss;Estación de referencia GNSS;punto;True;url_ex;;cadena
+True;0604p;ex_vertice_geodesico;Vértice geodésico;punto;False;codigo;;cadena
+True;0604p;ex_vertice_geodesico;Vértice geodésico;punto;False;titular;;cadena
+True;0604p;ex_vertice_geodesico;Vértice geodésico;punto;False;tipo;tipo_0604;lista_val
+True;0604p;ex_vertice_geodesico;Vértice geodésico;punto;True;tipo_ex;t_0604_ex;lista_val
+True;0604p;ex_vertice_geodesico;Vértice geodésico;punto;True;url_ex;;cadena
+True;0607p;ex_punto_nap;Punto de Nivelación de Alta Precisión;punto;False;codigo;;cadena
+True;0607p;ex_punto_nap;Punto de Nivelación de Alta Precisión;punto;False;titular;;cadena
+True;0607p;ex_punto_nap;Punto de Nivelación de Alta Precisión;punto;False;alt_orto;;num_real
+True;0607p;ex_punto_nap;Punto de Nivelación de Alta Precisión;punto;True;url_ex;;cadena
+True;0610p;ex_mareografo;Mareógrafo;punto;False;codigo;;cadena
+True;0610p;ex_mareografo;Mareógrafo;punto;False;titular;;cadena
+True;0610p;ex_mareografo;Mareógrafo;punto;True;url_ex;;cadena
+True;0701s;ex_arbolado_forestal;Arbolado forestal;poligono;False;tipo;tipo_0701;lista_val
+True;0701s;ex_arbolado_forestal;Arbolado forestal;poligono;False;plantacion;plantacion;lista_val
+True;0701s;ex_arbolado_forestal;Arbolado forestal;poligono;True;densid_ex;densidad;lista_val
+True;0701s;ex_arbolado_forestal;Arbolado forestal;poligono;True;ribera_ex;ribera;lista_val
+True;0704s;ex_cultivo;Cultivo;poligono;False;tipo;tipo_0704;lista_val
+True;0704s;ex_cultivo;Cultivo;poligono;False;riego;riego;lista_val
+True;0704s;ex_cultivo;Cultivo;poligono;True;tipo_ex;t_0704_ex;lista_val
+True;0704s;ex_cultivo;Cultivo;poligono;True;forzado_ex;forzado;lista_val
+True;0707s;ex_otras_cubiertas;Otras cubiertas terrestres;poligono;False;tipo;tipo_0707;lista_val
+True;0707s;ex_otras_cubiertas;Otras cubiertas terrestres;poligono;True;tipo_ex;t_0707_ex;lista_val
+False;0801p;entidad_poblacion;Entidad de población;punto;False;tipo;tipo_0801;lista_val
+False;0801p;entidad_poblacion;Entidad de población;punto;True;tipo_ex;t_0801_ex;lista_val
+False;0801p;entidad_poblacion;Entidad de población;punto;False;ine;ine_0801;lista_val
+False;0801p;entidad_poblacion;Entidad de población;punto;False;codig_ep;;cadena(11)
+False;0801p;entidad_poblacion;Entidad de población;punto;True;cd_ep_ex;;cadena
+False;0801p;entidad_poblacion;Entidad de población;punto;True;capit_ex;;cadena(4)
+False;0801p;entidad_poblacion;Entidad de población;punto;True;id_ep_ex;;num_entero
+False;0801s;entidad_poblacion;Entidad de población;poligono;False;tipo;tipo_0801;lista_val
+False;0801s;entidad_poblacion;Entidad de población;poligono;True;tipo_ex;t_0801_ex;lista_val
+False;0801s;entidad_poblacion;Entidad de población;poligono;False;ine;ine_0801;lista_val
+False;0801s;entidad_poblacion;Entidad de población;poligono;False;codig_ep;;cadena(11)
+False;0801s;entidad_poblacion;Entidad de población;poligono;True;cd_ep_ex;;cadena
+False;0801s;entidad_poblacion;Entidad de población;poligono;True;capit_ex;;cadena(4)
+False;0801s;entidad_poblacion;Entidad de población;poligono;True;id_ep_ex;;num_entero
+True;0804s;ex_unidad_adm;Unidad administrativa;poligono;False;tipo;tipo_0804;lista_val
+True;0804s;ex_unidad_adm;Unidad administrativa;poligono;False;codig_ua;;cadena
+True;0901s;ex_espacio_nat_protegido;Espacio natural protegido;poligono;False;tipo;tipo_0901;lista_val
+True;0901s;ex_espacio_nat_protegido;Espacio natural protegido;poligono;True;tipo_ex;t_0901_ex;lista_val
+True;0901s;ex_espacio_nat_protegido;Espacio natural protegido;poligono;True;id_enp_ex;;cadena
+True;0901s;ex_espacio_nat_protegido;Espacio natural protegido;poligono;True;ca_enp_ex;;cadena
+True;0901s;ex_espacio_nat_protegido;Espacio natural protegido;poligono;True;desig_a_ex;;cadena
+True;0904l;ex_via_pecuaria;Vía pecuaria;linea;False;codigo;;cadena
+True;0904l;ex_via_pecuaria;Vía pecuaria;linea;False;tipo;tipo_0904;lista_val
+True;0904l;ex_via_pecuaria;Vía pecuaria;linea;True;tipo_ex;t_0904_ex;lista_val
+True;0904l;ex_via_pecuaria;Vía pecuaria;linea;True;e_legal_ex;esta_legal;lista_val
+True;0904l;ex_via_pecuaria;Vía pecuaria;linea;True;rnvp_ex;rnvp;lista_val
+True;0904s;ex_via_pecuaria;Vía pecuaria;poligono;False;codigo;;cadena
+True;0904s;ex_via_pecuaria;Vía pecuaria;poligono;False;tipo;tipo_0904;lista_val
+True;0904s;ex_via_pecuaria;Vía pecuaria;poligono;True;tipo_ex;t_0904_ex;lista_val
+True;0904s;ex_via_pecuaria;Vía pecuaria;poligono;True;e_legal_ex;esta_legal;lista_val
+True;0904s;ex_via_pecuaria;Vía pecuaria;poligono;True;rnvp_ex;rnvp;lista_val
