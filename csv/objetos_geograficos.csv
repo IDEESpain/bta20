@@ -60,7 +60,7 @@
 19;0513z;cultura_ocio;Cultura y ocio;zona;False;Instalación, construcción o equipamiento destinado a actividades culturales, deportivas o de recreo ya sean públicas o privadas.;
 60;0601p;ex_punto_gnss;Estación de referencia GNSS;punto;True;Punto señalizado sobre el terreno mediante una obra de monumentación u otro procedimiento, de posición conocida, en el que se coloca un dispositivo fijo para la recepción permanente de señales procedentes de satélites que ofrecen servicio de posicionamiento, pudiendo pertenecer a una o a varias redes de observación de diversa categoría.;
 61;0604p;ex_vertice_geodesico;Vértice geodésico;punto;True;Punto señalizado sobre el terreno mediante una obra de monumentación u otro procedimiento, del que se conocen su posición y ciertas magnitudes geodésicas, pudiendo pertenecer a una o a varias redes de diversa tipología.;
-62;0607p;ex_punto_nap;Punto de Nivelación de Alta Precisión;punto;True;Punto geodésico perteneciente una red de Nivelación de Alta Precisión (NAP).;
+62;0607p;ex_punto_nap;Punto de nivelación de alta precisión;punto;True;Punto geodésico perteneciente una red de Nivelación de Alta Precisión (NAP).;
 63;0610p;ex_mareografo;Mareógrafo;punto;True;Punto geodésico donde se realizan observaciones de marea con objeto de determinar el nivel medio del mar;
 70;0701s;ex_arbolado_forestal;Arbolado forestal;poligono;True;Superficie cubierta, al menos en un 25% de su área, por especies forestales arbóreas como manifestación vegetal de estructura vertical dominante, en que se puede diferenciar claramente la copa del tronco.;
 71;0704s;ex_cultivo;Cultivo;poligono;True;Zonas cuyas tierras se labran y/o son trabajadas con el fin de obtener algún tipo de aprovechamiento o producción agrícola.;

@@ -289,10 +289,10 @@ True;0604p;ex_vertice_geodesico;Vértice geodésico;punto;False;titular;;cadena
 True;0604p;ex_vertice_geodesico;Vértice geodésico;punto;False;tipo;tipo_0604;lista_val
 True;0604p;ex_vertice_geodesico;Vértice geodésico;punto;True;tipo_ex;t_0604_ex;lista_val
 True;0604p;ex_vertice_geodesico;Vértice geodésico;punto;True;url_ex;;cadena
-True;0607p;ex_punto_nap;Punto de Nivelación de Alta Precisión;punto;False;codigo;;cadena
-True;0607p;ex_punto_nap;Punto de Nivelación de Alta Precisión;punto;False;titular;;cadena
-True;0607p;ex_punto_nap;Punto de Nivelación de Alta Precisión;punto;False;alt_orto;;num_real
-True;0607p;ex_punto_nap;Punto de Nivelación de Alta Precisión;punto;True;url_ex;;cadena
+True;0607p;ex_punto_nap;Punto de nivelación de alta precisión;punto;False;codigo;;cadena
+True;0607p;ex_punto_nap;Punto de nivelación de alta precisión;punto;False;titular;;cadena
+True;0607p;ex_punto_nap;Punto de nivelación de alta precisión;punto;False;alt_orto;;num_real
+True;0607p;ex_punto_nap;Punto de nivelación de alta precisión;punto;True;url_ex;;cadena
 True;0610p;ex_mareografo;Mareógrafo;punto;False;codigo;;cadena
 True;0610p;ex_mareografo;Mareógrafo;punto;False;titular;;cadena
 True;0610p;ex_mareografo;Mareógrafo;punto;True;url_ex;;cadena
