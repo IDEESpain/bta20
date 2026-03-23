@@ -61,11 +61,11 @@
 526;tipo_0119;1;RVE;Recarga de vehículo eléctrico;;;False;Punto de recarga de vehículo eléctrico.
 528;tipo_0122;1;ASE;Área de servicio;;;False;Espacio ubicado a lo largo de una carretera o autopista, destinado a ofrecer diversos servicios a los conductores y pasajeros, como estaciones de gasolina, restaurantes, baños, tiendas, entre otros. 
 533;tipo_0125;1;TRR;Tren;;;False;Vía férrea por la que circulan trenes, exceptuando funiculares, tranvías, trenes cremallera y metro.
-539;tramo_0125;1;TRC;Troncal;;;False;Tramos que forman la parte principal de vía ferrea.
 541;ancho_via;1;IBE;Ibérico;;;False;Tramos de vía cuya distancia entre raíles es de 1,668 m, llamado también ancho Renfe.
 546;electrific;1;SI_;Sí;;;False;El tramo está electrificado.
 548;n_vias;1;VUN;Única;;;False;Tramo constituido por una vía única.
 552;u_pri_0125;1;ALT;Alta velocidad;;;False;Uso predominante de alta velocidad.
+539;ttram_0125;1;TRC;Troncal;;;False;Tramos que forman la parte principal de vía ferrea.
 567;uso_0131;1;PSR;Pasajeros;;;False;Estación destinada exclusivamente para la llegada, salida y espera de trenes que transportan personas.
 570;tipo_0134;1;TLC;Telecabina;;;False;Teleférico de cable único para la tracción y la suspensión, dotado de cabina.
 573;tipo_0137;1;CGN;Caso genérico;;;False;Puerto que no está especializado en una actividad específica, sino que tiene una funcionalidad general.
@@ -166,11 +166,11 @@ Información procedente del Instituto Nacional de Estadística (INE) del Ministe
 527;tipo_0119;2;RCB;Repostaje de combustible;;;False;Punto de repostaje de combustible.
 529;tipo_0122;2;ADE;Área de descanso;;;False;Zona habilitada para que los conductores y viajeros puedan detenerse temporalmente a descansar durante un viaje. Generalmente, incluye bancos, mesas, baños y, en algunos casos, zonas verdes.
 534;tipo_0125;2;TVA;Tranvía;;;False;Vía férrea, situada en una vía pública o calle, por la que circulan ferrocarriles, que permite la coexistencia con el resto de circulación urbana (automóviles, personas).
-540;tramo_0125;2;PLV;Playa de vías;;;False;Área ocupada por una serie de vías de raíl, normalmente más de dos, interconectadas entre ellas, usadas para la carga y descarga de mercancías sin interrumpir el tráfico principal o para la gestión de los trenes.
 542;ancho_via;2;INT;Internacional;;;False;Para aquellas vías cuyo ancho sea de 1,435 m, mayoritario en Europa. 
 547;electrific;2;NO_;No;;;False;El tramo no está electrificado.
 549;n_vias;2;DBL;Doble;;;False;Tramo constituido al menos por una vía en cada sentido.
 553;u_pri_0125;2;OTR;Otro;;;False;Otros usos que no encajan con la tipologia de alta velocidad.
+540;ttram_0125;2;PLV;Playa de vías;;;False;Área ocupada por una serie de vías de raíl, normalmente más de dos, interconectadas entre ellas, usadas para la carga y descarga de mercancías sin interrumpir el tráfico principal o para la gestión de los trenes.
 568;uso_0131;2;MER;Mercancías;;;False;Estación especializada en el manejo, carga y descarga de bienes y productos transportados por tren.
 571;tipo_0134;2;TLS;Telesilla;;;False;Asiento suspendido de un cable de tracción, para el transporte de personas a la cumbre de una montaña o a un lugar elevado. 
 574;tipo_0137;2;CML;Comercial;;;False;Puerto dedicado principalmente al comercio, que se utiliza para la importación y exportación de mercancías.
@@ -342,7 +342,7 @@ Información de Diseminados INE procedente del Instituto Nacional de Estadístic
 56;tipo_0401p;5;CUH;Cueva habitable;;;False;Espacio para albergar actividades humanas o económicas que normalmente se abre dentro de una roca y se completa con muros exteriores, y que puede tener en el interior estructuras análogas a las de los edificios convencionales.
 61;tipo_0404;5;ETQ;Estanque genérico;;;False;Recinto de agua que almacena agua con objeto de emplearla para diversos fines, exceptuando el baño o la natación. (Ejemplo: estanques EDAR)
 82;tipo_0407s;5;PDP;Pista deportiva;;;False;Es la pista, cancha o terreno de juego especialmente diseñado y construido para la práctica de una o varias actividades deportivas. Además de los deportes habituales como fútbol, baloncesto, tenis, pistas polideportivas, etc.
-154;tipo_0407l;5;MUR;Muralla;;;False;Muro u obra defensiva de carácter histórico que se empleaba para proteger un lugar.
+154;tipo_0407l;5;MRL;Muralla;;;False;Muro u obra defensiva de carácter histórico que se empleaba para proteger un lugar.
 191;tipo_0407p;5;AER;Aerogenerador;;;False;Estructura o armazón de cierta altura que soporta unas palas para transformar la energía eólica en eléctrica.
 216;tension;5;-97;Desconocido;;;False;Se desconoce el valor de la tensión de la red eléctrica.
 235;tipo_0504;5;EOL;Parque eólico;;;False;Instalación, equipamiento o estructuras donde se lleva a cabo la producción de energía eléctrica mediante aerogeneradores distanciados unos de otros, en función del impacto ambiental y de las turbulencias generadas por el movimiento de las palas, y formando agrupaciones (a veces de gran tamaño) en las zonas montañosas donde el viento es frecuente, normalmente alejadas de los núcleos de población.
@@ -422,7 +422,6 @@ aprueben sus Ayuntamientos"
 741;tipo_0707;6;ROQ;Roquedo;;;False;Áreas constituidas por rocas y, por extensión, cualquier zona en que aparece una unidad o asociación litológica particular.
 83;tipo_0407s;6;CDT;Calle o circuito deportivo;;;False;Trazado curvo y cerrado diseñado para realizar pruebas deportivas de diferentes disciplinas, como ciclismo, atletismo, automovilismo. También incluiríamos aquí las calles del campo de golf.
 7;tipo_0401s;7;EDL;Edificio ligero;;;False;Construcción para dotar de cierta protección a los elementos que se encuentran bajo ella. Ejemplos de este tipo son las marquesinas, naves abiertas, casetas o cobertizos.
-38;uso_0401s;7;SAN;Sanitario;;;False;Construcción con uso sanitario.
 63;tipo_0404;7;BAL;Balsa;;;False;Recipiente de agua, generalmente destinada al riego, excavado en el terrero o cuyas paredes están formadas por acumulación de tierra. 
 84;tipo_0407s;7;PQI;Parque infantil;;;False;Espacio, generalmente acotado, dotado de diversas instalaciones, como columpios y toboganes, para diversión de los niños.
 149;superficie;7;-98;No aplicable;;;False;El atributo superficie no se aplica para este caso concreto.
@@ -451,6 +450,7 @@ aprueben sus Ayuntamientos"
 aprueben sus Ayuntamientos."
 711;tipo_0704;7;VFR;Viñedo y frutales;;;False;El cultivo está formado por una asociación de vides y frutales.
 742;tipo_0707;7;DEH;Dehesa;;;False;Superficie de origen agrícola y ganadero, con árboles más o menos dispersos y un estrato herbáceo bien desarrollado, destinada a usos agrícolas y ganaderos.
+38;uso_0401s;7;SNT;Sanitario;;;False;Construcción con uso sanitario.
 8;tipo_0401s;8;RFM;Refugio de montaña;;;False;Edificio situado en determinados lugares de las montañas para acoger a viajeros y excursionistas.
 39;uso_0401s;8;RLG;Religioso;;;False;Construcción con uso religioso.
 64;tipo_0404;8;ALB;Alberca;;;False;Recipiente de agua, generalmente destinada al riego, cuyas paredes están construidas con obra de fábrica.
@@ -564,7 +564,7 @@ aprueben sus Ayuntamientos."
 163;tipo_0407l;14;ESQ;Esquema;;;False;Tramo de línea que representa formas esquemáticas auxiliares.
 200;t_0407p_ex;14;VHR;VHOR;tipo_0407p;SNV;True;Dispositivo de radioayuda a la navegación que se localiza en los aeropuertos y es utilizado por las aeronaves para seguir en vuelo una ruta preestablecida.
 244;t_0504_ex;14;TMS;Termosolar;tipo_0504;SOL;True;Instalación, equipamiento o estructuras donde se lleva a cabo la producción de energía térmica obtenida directamente de la radiación solar mediante el uso de espejos o lentes. La energía térmica que se produce se transforma en energía mecánica destinada a mover diferentes generadores que producen la energía eléctrica.
-271;t_0510_ex;14;HOS;Hospital;tipo_0510;SAN;True;Edificio o conjunto de edificios destinados al diagnóstico y tratamiento de enfermos donde, a menudo, se practican la investigación y la docencia.
+271;t_0510_ex;14;HOS;Hospital;tipo_0510;SNT;True;Edificio o conjunto de edificios destinados al diagnóstico y tratamiento de enfermos donde, a menudo, se practican la investigación y la docencia.
 300;t_0513_ex;14;MUS;Museo;tipo_0513;ICG;True;Edificio o instalaciones, sin ánimo de lucro, en las que se conservan y exponen colecciones de objetos artísticos y científicos que pueden atraer el interés del público.
 620;t_0901_ex;14;RNE;Reserva Natural Especial;tipo_0901;RNT;True;
 718;t_0704_ex;14;OCH;Otro cultivo herbáceo;tipo_0704;HRB;True;El cultivo está formado por otras especies herbáceas.
@@ -576,11 +576,11 @@ aprueben sus Ayuntamientos."
 164;t_0407l_ex;15;MCO;Muro contención;tipo_0407l;OCO;True;Muro resistente destinado a contener el empuje de las tierras que se encuentran a un lado o evitar el desbordamiento de agua a los lados de una corriente.
 201;t_0407p_ex;15;OTN;Otra señal de navegación;tipo_0407p;SNV;True;Tipo señal de navegación no contemplada en las otras tipologías.
 245;t_0504_ex;15;OSL;Otra instalación solar;tipo_0504;SOL;True;Otra instalación solar no contemplada en las anteriores tipologías.
-272;t_0510_ex;15;OCS;Otros centros sanitarios;tipo_0510;SAN;True;Edificio o conjunto de edificios destinados al diagnóstico y tratamiento de enfermos, de carácter no hospitalario. Ejemplos de este tipo son los centros de salud y los centros asistenciales.
 301;t_0513_ex;15;CCL;Centro cultural;tipo_0513;ICG;True;Equipamiento cuya principal finalidad es promover y mantener actividades de carácter cultural destinadas a la población de la zona.
 621;t_0901_ex;15;RNF;Reserva Natural de Fauna Salvaje;tipo_0901;RNT;True;
 719;t_0704_ex;15;FCS;Frutales de cáscara;tipo_0704;FNC;True;El cultivo está formado por árboles frutales de frutos con cáscara.
 750;t_0707_ex;15;CMA;Cortafuegos con matorral;tipo_0707;CFG;True;"Cortafuegos cuya cobertura equivale a la del tipo ""Matorral""."
+272;t_0510_ex;15;OCS;Otros centros sanitarios;tipo_0510;SNT;True;Edificio o conjunto de edificios destinados al diagnóstico y tratamiento de enfermos, de carácter no hospitalario. Ejemplos de este tipo son los centros de salud y los centros asistenciales.
 16;t_0401s_ex;16;CST;Caseta o cobertizo;tipo_0401s;EDL;True;Sitio cubierto ligera o rústicamente para resguardar de la intemperie personas, animales o efectos.
 47;uso_0401s;16;-98;No aplicable;;;False;El atributo de uso no se aplica para este caso concreto.
 72;t_0404_ex;16;VRS;Vaso de residuos sellado;tipo_0404;RSO;True;Vaso de residuos sólidos que ya no está en explotación y se encuentra en fase de sellamiento o ha sido sellado.

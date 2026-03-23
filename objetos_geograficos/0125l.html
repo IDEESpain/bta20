@@ -559,7 +559,64 @@ Este es el bloque de mapeo:
     <!-- La primera celda ahora recibirá el nombre y el código juntos -->
     <td>tipo_tramo (ttram_0125)</td>
     <td>lista_val</td>
-    <td class="romper-palabras">Tipología de tramo en relación al eje de la vía ferrea.  </td>
+    <td class="romper-palabras">Tipología de tramo en relación al eje de la vía ferrea. <!-- Acordeón que aparece dentro de la columna "Descripción" de la tabla de atributos específicos
+(los de cada clase de entidad), en la ficha de cada clase.
+Ese acordeón aparece dentro de la columna "Descripción", junto con el texto {definicion}.
+
+
+El mapeo se hace en este bloque:
+htmlDominioValores = """ """
+                    for value in dominioValores:
+                        htmlDominioValores += """
+                            <...>
+                        """.format(
+                            ID=value[0],
+                            codigo=value[1],
+                            Orden=value[2],
+                            Valor=value[3],
+                            Valordelvalor=value[4],
+                            definicion=value[8]
+                        )                        )-->
+
+<div class="mb-3">
+
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <!-- <th scope="col">ID</th>
+        <th scope="col">Nombre Código Atributo</th>
+        <th scope="col">Orden</th> -->
+        <th scope="col">Código del valor</th>
+        <th scope="col">Valor</th>
+        <th scope="col">Definición</th>
+      </tr>
+    </thead>
+    <tbody>
+       <!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-TRC">
+    <!--  <th scope="row">539</th>
+    <td>ttram_0125</td>
+    <td>1</td> -->
+    <td>TRC</td>
+    <td>Troncal</td>
+    <td>Tramos que forman la parte principal de vía ferrea.</td>
+</tr><!-- Es el equivalente a fila_valor_comun.html,
+pero se usa con los datos provenientes de la tabla valores -->
+
+<tr id="valor-PLV">
+    <!--  <th scope="row">540</th>
+    <td>ttram_0125</td>
+    <td>2</td> -->
+    <td>PLV</td>
+    <td>Playa de vías</td>
+    <td>Área ocupada por una serie de vías de raíl, normalmente más de dos, interconectadas entre ellas, usadas para la carga y descarga de mercancías sin interrumpir el tráfico principal o para la gestión de los trenes.</td>
+</tr>
+    </tbody>
+  </table>
+</div>
+</td>
 </tr>
 <!-- Este bloque representa una fila dentro de la tabla
 de atributos específicos de una clase de entidad.

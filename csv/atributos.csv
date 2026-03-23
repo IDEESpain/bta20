@@ -203,7 +203,6 @@ Si la población es INE, su valor se corresponde con el código INE. Si la pobla
 119;0213p;2;codigo_ex;;cadena(50);True;Identificador temático de la fuente externa de referencia.;
 122;0216p;2;codigo_ex;;cadena(50);True;Identificador temático de la fuente externa de referencia.;
 127;0219s;2;codigo_ex;;cadena(50);True;Identificador temático de la fuente externa de referencia.;
-137;0307s;2;tipo _ex;t_0307s_ex;lista_val;True;Tipo de cambio de pendiente.;
 204;0113l;2;tipo_ex;t_0113l_ex;lista_val;True;Tipos de otras vías (modelo extendido).;
 209;0113s;2;tipo_ex;t_0113s_ex;lista_val;True;Tipos de otras vías (modelo extendido).;
 235;0131p;2;tipo_ex;t_0131_ex;lista_val;True;Tipo de estación de ferrocarril (modelo extendido).;
@@ -214,6 +213,7 @@ Si la población es INE, su valor se corresponde con el código INE. Si la pobla
 314;0801p;2;tipo_ex;t_0801_ex;lista_val;True;Tipo de entidad de población (modelo extendido).;
 321;0801s;2;tipo_ex;t_0801_ex;lista_val;True;Tipo de entidad de población (modelo extendido).;
 338;0707s;2;tipo_ex;t_0707_ex;lista_val;True;Tipo de cubierta terrestre (modelo extendido).;
+137;0307s;2;tipo_ex;t_0307s_ex;lista_val;True;Tipo de cambio de pendiente.;
 3;0401s;3;codigo_ex;;cadena(50);True;Identificador temático de la fuente externa de referencia.;
 10;0401p;3;codigo_ex;;cadena(50);True;Identificador temático de la fuente externa de referencia.;
 29;0407p;3;tipo_ex;t_0407p_ex;lista_val;True;Tipo de otra construcción según sus características constructivas (modelo extendido).;
@@ -229,7 +229,6 @@ Si la población es INE, su valor se corresponde con el código INE. Si la pobla
 120;0213p;3;tipo_ex;t_0213_ex;lista_val;True;Tipo de punto hidrográfico según su naturaleza (modelo extendido).;
 125;0216s;3;codigo_ex;;cadena(50);True;Identificador temático de la fuente externa de referencia.;
 131;0301l;3;categor_ex;categ_0301;lista_val;True;Categoría de la curva de nivel. ;
-135;0307l;3;tipo _ex;t_0307l_ex;lista_val;True;Tipo de cambio de pendiente.;
 242;0131z;3;tipo_ex;t_0131_ex;lista_val;True;Tipo de estación de ferrocarril (modelo extendido).;
 255;0137z;3;titular_ex;titular_ex;lista_val;True;Organismo titular del puerto (modelo extendido).;
 271;0140z;3;titular_ex;titular_ex;lista_val;True;Organismo titular del aeródromo (modelo extendido).;
@@ -240,6 +239,7 @@ Si la población es INE, su valor se corresponde con el código INE. Si la pobla
 310;0904s;3;tipo_ex;t_0904_ex;lista_val;True;Lugares asociados a las Vías Pecuarías;
 331;0701s;3;densid_ex;densidad;lista_val;True;Densidad del arbolado.;
 335;0704s;3;tipo_ex;t_0704_ex;lista_val;True;Tipo de cultivo (modelo extendido);
+135;0307l;3;tipo_ex;t_0307l_ex;lista_val;True;Tipo de cambio de pendiente.;
 4;0401s;4;tipo_ex;t_0401s_ex;lista_val;True;Tipo de edificio según sus características constructivas (modelo extendido).;
 14;0404s;4;codigo_ex;;cadena(50);True;Identificador temático de la fuente externa de referencia.;
 19;0407s;4;codigo_ex;;cadena(50);True;Identificador temático de la fuente externa de referencia.;

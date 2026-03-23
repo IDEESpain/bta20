@@ -199,10 +199,11 @@ False;0125l;via_ferrea;Vía férrea;linea;False;tipo_linea;tipo_0125;lista_val;F
 False;0125l;via_ferrea;Vía férrea;linea;False;tipo_linea;tipo_0125;lista_val;False;FUN;Funicular;;
 False;0125l;via_ferrea;Vía férrea;linea;False;tipo_linea;tipo_0125;lista_val;False;CRM;Cremallera;;
 False;0125l;via_ferrea;Vía férrea;linea;False;tipo_linea;tipo_0125;lista_val;False;TML;Tren ligero o metro ligero;;
-False;0125l;via_ferrea;Vía férrea;linea;False;tipo_tramo;ttram_0125;lista_val;;;;;
+False;0125l;via_ferrea;Vía férrea;linea;False;tipo_tramo;ttram_0125;lista_val;False;TRC;Troncal;;
+False;0125l;via_ferrea;Vía férrea;linea;False;tipo_tramo;ttram_0125;lista_val;False;PLV;Playa de vías;;
 False;0125l;via_ferrea;Vía férrea;linea;False;situacion;situ_gener;lista_val;False;SUP;En superficie;;
-False;0125l;via_ferrea;Vía férrea;linea;False;situacion;situ_gener;lista_val;False;SUB;Subterráneo;;
 False;0125l;via_ferrea;Vía férrea;linea;False;situacion;situ_gener;lista_val;False;ELE;Elevado;;
+False;0125l;via_ferrea;Vía férrea;linea;False;situacion;situ_gener;lista_val;False;SUB;Subterráneo;;
 False;0125l;via_ferrea;Vía férrea;linea;False;situacion;situ_gener;lista_val;False;-97;Desconocido;;
 False;0125l;via_ferrea;Vía férrea;linea;False;estadofis;esta_trans;lista_val;False;USO;En uso;;
 False;0125l;via_ferrea;Vía férrea;linea;False;estadofis;esta_trans;lista_val;False;CON;En construcción;;
@@ -469,8 +470,8 @@ False;0204l;curso_artificial;Curso artificial;linea;False;tipo;tipo_0204;lista_v
 False;0204l;curso_artificial;Curso artificial;linea;False;tipo;tipo_0204;lista_val;False;TUB;Tubería;;
 False;0204l;curso_artificial;Curso artificial;linea;False;tipo;tipo_0204;lista_val;False;OTR;Otro;;
 False;0204l;curso_artificial;Curso artificial;linea;False;situacion;situ_gener;lista_val;False;SUP;En superficie;;
-False;0204l;curso_artificial;Curso artificial;linea;False;situacion;situ_gener;lista_val;False;SUB;Subterráneo;;
 False;0204l;curso_artificial;Curso artificial;linea;False;situacion;situ_gener;lista_val;False;ELE;Elevado;;
+False;0204l;curso_artificial;Curso artificial;linea;False;situacion;situ_gener;lista_val;False;SUB;Subterráneo;;
 False;0204l;curso_artificial;Curso artificial;linea;False;situacion;situ_gener;lista_val;False;-97;Desconocido;;
 False;0204l;curso_artificial;Curso artificial;linea;False;estadofis;esta_gener;lista_val;False;USO;En uso;;
 False;0204l;curso_artificial;Curso artificial;linea;False;estadofis;esta_gener;lista_val;False;ENC;En construcción;;
@@ -551,19 +552,19 @@ False;0307l;cambio_pendiente;Cambio de pendiente;linea;False;tipo;tipo_0307l;lis
 False;0307l;cambio_pendiente;Cambio de pendiente;linea;False;seccion;secc_0307l;lista_val;False;CBZ;Cabeza;;
 False;0307l;cambio_pendiente;Cambio de pendiente;linea;False;seccion;secc_0307l;lista_val;False;PIE;Pie;;
 False;0307l;cambio_pendiente;Cambio de pendiente;linea;False;seccion;secc_0307l;lista_val;False;-97;Desconocido;;
-False;0307l;cambio_pendiente;Cambio de pendiente;linea;True;tipo _ex;t_0307l_ex;lista_val;True;ACA;Acantilado;tipo_0307l;ESC
-False;0307l;cambio_pendiente;Cambio de pendiente;linea;True;tipo _ex;t_0307l_ex;lista_val;True;OEC;Otro escarpado;tipo_0307l;ESC
-False;0307l;cambio_pendiente;Cambio de pendiente;linea;True;tipo _ex;t_0307l_ex;lista_val;True;DES;Desmonte;tipo_0307l;TAL
-False;0307l;cambio_pendiente;Cambio de pendiente;linea;True;tipo _ex;t_0307l_ex;lista_val;True;TPL;Terraplén;tipo_0307l;TAL
-False;0307l;cambio_pendiente;Cambio de pendiente;linea;True;tipo _ex;t_0307l_ex;lista_val;True;OTD;Otro talud;tipo_0307l;TAL
+False;0307l;cambio_pendiente;Cambio de pendiente;linea;True;tipo_ex;t_0307l_ex;lista_val;True;ACA;Acantilado;tipo_0307l;ESC
+False;0307l;cambio_pendiente;Cambio de pendiente;linea;True;tipo_ex;t_0307l_ex;lista_val;True;OEC;Otro escarpado;tipo_0307l;ESC
+False;0307l;cambio_pendiente;Cambio de pendiente;linea;True;tipo_ex;t_0307l_ex;lista_val;True;DES;Desmonte;tipo_0307l;TAL
+False;0307l;cambio_pendiente;Cambio de pendiente;linea;True;tipo_ex;t_0307l_ex;lista_val;True;TPL;Terraplén;tipo_0307l;TAL
+False;0307l;cambio_pendiente;Cambio de pendiente;linea;True;tipo_ex;t_0307l_ex;lista_val;True;OTD;Otro talud;tipo_0307l;TAL
 False;0307s;cambio_pendiente;Cambio de pendiente;poligono;False;tipo;tipo_0307s;lista_val;False;ESC;Escarpado;;
 False;0307s;cambio_pendiente;Cambio de pendiente;poligono;False;tipo;tipo_0307s;lista_val;False;TAL;Talud;;
 False;0307s;cambio_pendiente;Cambio de pendiente;poligono;False;tipo;tipo_0307s;lista_val;False;CGN;Caso genérico;;
-False;0307s;cambio_pendiente;Cambio de pendiente;poligono;True;tipo _ex;t_0307s_ex;lista_val;True;ACA;Acantilado;tipo_0307s;ESC
-False;0307s;cambio_pendiente;Cambio de pendiente;poligono;True;tipo _ex;t_0307s_ex;lista_val;True;OEC;Otro escarpado;tipo_0307s;ESC
-False;0307s;cambio_pendiente;Cambio de pendiente;poligono;True;tipo _ex;t_0307s_ex;lista_val;True;DES;Desmonte;tipo_0307s;TAL
-False;0307s;cambio_pendiente;Cambio de pendiente;poligono;True;tipo _ex;t_0307s_ex;lista_val;True;TPL;Terraplén;tipo_0307s;TAL
-False;0307s;cambio_pendiente;Cambio de pendiente;poligono;True;tipo _ex;t_0307s_ex;lista_val;True;OTD;Otro talud;tipo_0307s;TAL
+False;0307s;cambio_pendiente;Cambio de pendiente;poligono;True;tipo_ex;t_0307s_ex;lista_val;True;ACA;Acantilado;tipo_0307s;ESC
+False;0307s;cambio_pendiente;Cambio de pendiente;poligono;True;tipo_ex;t_0307s_ex;lista_val;True;OEC;Otro escarpado;tipo_0307s;ESC
+False;0307s;cambio_pendiente;Cambio de pendiente;poligono;True;tipo_ex;t_0307s_ex;lista_val;True;DES;Desmonte;tipo_0307s;TAL
+False;0307s;cambio_pendiente;Cambio de pendiente;poligono;True;tipo_ex;t_0307s_ex;lista_val;True;TPL;Terraplén;tipo_0307s;TAL
+False;0307s;cambio_pendiente;Cambio de pendiente;poligono;True;tipo_ex;t_0307s_ex;lista_val;True;OTD;Otro talud;tipo_0307s;TAL
 False;0310p;punto_cota;Punto de cota;punto;False;situacion;situ_0310;lista_val;False;SUP;En superficie;;
 False;0310p;punto_cota;Punto de cota;punto;False;situacion;situ_0310;lista_val;False;SCE;Sobre construcción elevada;;
 False;0310p;punto_cota;Punto de cota;punto;False;tipo;tipo_0310;lista_val;False;CGN;Caso genérico;;
@@ -596,8 +597,8 @@ False;0313l;lugar_geografico;Lugar geográfico;linea;False;tipo;tipo_0313;lista_
 False;0313l;lugar_geografico;Lugar geográfico;linea;False;tipo;tipo_0313;lista_val;False;DPS;Depresión;;
 False;0313l;lugar_geografico;Lugar geográfico;linea;False;tipo;tipo_0313;lista_val;False;VER;Vertiente;;
 False;0313l;lugar_geografico;Lugar geográfico;linea;False;tipo;tipo_0313;lista_val;False;SCO;Saliente costero;;
-False;0313l;lugar_geografico;Lugar geográfico;linea;False;tipo;tipo_0313;lista_val;False;CAD;Cadena Montañosa;;
 False;0313l;lugar_geografico;Lugar geográfico;linea;False;tipo;tipo_0313;lista_val;False;PLA;Playa;;
+False;0313l;lugar_geografico;Lugar geográfico;linea;False;tipo;tipo_0313;lista_val;False;CAD;Cadena Montañosa;;
 False;0313l;lugar_geografico;Lugar geográfico;linea;True;tipo_ex;t_0313_ex;lista_val;True;OSP;Otro elemento singular del paisaje;tipo_0313;ESP
 False;0313l;lugar_geografico;Lugar geográfico;linea;True;tipo_ex;t_0313_ex;lista_val;True;ARB;Árbol;tipo_0313;ESP
 False;0313l;lugar_geografico;Lugar geográfico;linea;True;tipo_ex;t_0313_ex;lista_val;True;MIR;Mirador;tipo_0313;ESP
@@ -698,7 +699,7 @@ False;0401s;edificacion;Edificación;poligono;True;uso_ex;uso_0401s;lista_val;Fa
 False;0401s;edificacion;Edificación;poligono;True;uso_ex;uso_0401s;lista_val;False;CTR;Cultural;;
 False;0401s;edificacion;Edificación;poligono;True;uso_ex;uso_0401s;lista_val;False;OFC;Oficinas;;
 False;0401s;edificacion;Edificación;poligono;True;uso_ex;uso_0401s;lista_val;False;HTR;Hostelero;;
-False;0401s;edificacion;Edificación;poligono;True;uso_ex;uso_0401s;lista_val;False;SAN;Sanitario;;
+False;0401s;edificacion;Edificación;poligono;True;uso_ex;uso_0401s;lista_val;False;SNT;Sanitario;;
 False;0401s;edificacion;Edificación;poligono;True;uso_ex;uso_0401s;lista_val;False;RLG;Religioso;;
 False;0401s;edificacion;Edificación;poligono;True;uso_ex;uso_0401s;lista_val;False;EDC;Educativo;;
 False;0401s;edificacion;Edificación;poligono;True;uso_ex;uso_0401s;lista_val;False;IFR;Infraestructuras;;
@@ -740,7 +741,7 @@ False;0407l;otras_construcciones;Otras construcciones;linea;False;tipo;tipo_0407
 False;0407l;otras_construcciones;Otras construcciones;linea;False;tipo;tipo_0407l;lista_val;False;ESL;Escollera;;
 False;0407l;otras_construcciones;Otras construcciones;linea;False;tipo;tipo_0407l;lista_val;False;PTL;Pantalán;;
 False;0407l;otras_construcciones;Otras construcciones;linea;False;tipo;tipo_0407l;lista_val;False;OCO;Obra contención;;
-False;0407l;otras_construcciones;Otras construcciones;linea;False;tipo;tipo_0407l;lista_val;False;MUR;Muralla;;
+False;0407l;otras_construcciones;Otras construcciones;linea;False;tipo;tipo_0407l;lista_val;False;MRL;Muralla;;
 False;0407l;otras_construcciones;Otras construcciones;linea;False;tipo;tipo_0407l;lista_val;False;CER;Cercado;;
 False;0407l;otras_construcciones;Otras construcciones;linea;False;tipo;tipo_0407l;lista_val;False;PUE;Puente;;
 False;0407l;otras_construcciones;Otras construcciones;linea;False;tipo;tipo_0407l;lista_val;False;PAS;Pasarela;;
@@ -829,8 +830,8 @@ False;0407s;otras_construcciones;Otras construcciones;poligono;False;tipo;tipo_0
 False;0407s;otras_construcciones;Otras construcciones;poligono;False;tipo;tipo_0407s;lista_val;False;AUX;Auxiliar construido;;
 False;0407s;otras_construcciones;Otras construcciones;poligono;False;tipo;tipo_0407s;lista_val;False;OTR;Otro;;
 False;0407s;otras_construcciones;Otras construcciones;poligono;False;situacion;situ_gener;lista_val;False;SUP;En superficie;;
-False;0407s;otras_construcciones;Otras construcciones;poligono;False;situacion;situ_gener;lista_val;False;SUB;Subterráneo;;
 False;0407s;otras_construcciones;Otras construcciones;poligono;False;situacion;situ_gener;lista_val;False;ELE;Elevado;;
+False;0407s;otras_construcciones;Otras construcciones;poligono;False;situacion;situ_gener;lista_val;False;SUB;Subterráneo;;
 False;0407s;otras_construcciones;Otras construcciones;poligono;False;situacion;situ_gener;lista_val;False;-97;Desconocido;;
 False;0407s;otras_construcciones;Otras construcciones;poligono;False;estadofis;esta_gener;lista_val;False;USO;En uso;;
 False;0407s;otras_construcciones;Otras construcciones;poligono;False;estadofis;esta_gener;lista_val;False;ENC;En construcción;;
@@ -1012,8 +1013,8 @@ False;0510p;admon_equip_social;Administración y equipamiento social;punto;False
 False;0510p;admon_equip_social;Administración y equipamiento social;punto;False;tipo;tipo_0510;lista_val;False;ITE;Instalación de telecomunicaciones;;
 False;0510p;admon_equip_social;Administración y equipamiento social;punto;False;tipo;tipo_0510;lista_val;False;OTR;Otro;;
 False;0510p;admon_equip_social;Administración y equipamiento social;punto;True;codigo_ex;;cadena(50);;;;;
-False;0510p;admon_equip_social;Administración y equipamiento social;punto;True;tipo_ex;t_0510_ex;lista_val;True;HOS;Hospital;tipo_0510;SAN
-False;0510p;admon_equip_social;Administración y equipamiento social;punto;True;tipo_ex;t_0510_ex;lista_val;True;OCS;Otros centros sanitarios;tipo_0510;SAN
+False;0510p;admon_equip_social;Administración y equipamiento social;punto;True;tipo_ex;t_0510_ex;lista_val;True;HOS;Hospital;tipo_0510;SNT
+False;0510p;admon_equip_social;Administración y equipamiento social;punto;True;tipo_ex;t_0510_ex;lista_val;True;OCS;Otros centros sanitarios;tipo_0510;SNT
 False;0510p;admon_equip_social;Administración y equipamiento social;punto;True;tipo_ex;t_0510_ex;lista_val;True;CUN;Campus universitario;tipo_0510;EDU
 False;0510p;admon_equip_social;Administración y equipamiento social;punto;True;tipo_ex;t_0510_ex;lista_val;True;CEU;Centro universitario;tipo_0510;EDU
 False;0510p;admon_equip_social;Administración y equipamiento social;punto;True;tipo_ex;t_0510_ex;lista_val;True;CED;Centro docente no universitario;tipo_0510;EDU
@@ -1044,8 +1045,8 @@ False;0510z;admon_equip_social;Administración y equipamiento social;zona;False;
 False;0510z;admon_equip_social;Administración y equipamiento social;zona;False;tipo;tipo_0510;lista_val;False;ITE;Instalación de telecomunicaciones;;
 False;0510z;admon_equip_social;Administración y equipamiento social;zona;False;tipo;tipo_0510;lista_val;False;OTR;Otro;;
 False;0510z;admon_equip_social;Administración y equipamiento social;zona;True;codigo_ex;;cadena(50);;;;;
-False;0510z;admon_equip_social;Administración y equipamiento social;zona;True;tipo_ex;t_0510_ex;lista_val;True;HOS;Hospital;tipo_0510;SAN
-False;0510z;admon_equip_social;Administración y equipamiento social;zona;True;tipo_ex;t_0510_ex;lista_val;True;OCS;Otros centros sanitarios;tipo_0510;SAN
+False;0510z;admon_equip_social;Administración y equipamiento social;zona;True;tipo_ex;t_0510_ex;lista_val;True;HOS;Hospital;tipo_0510;SNT
+False;0510z;admon_equip_social;Administración y equipamiento social;zona;True;tipo_ex;t_0510_ex;lista_val;True;OCS;Otros centros sanitarios;tipo_0510;SNT
 False;0510z;admon_equip_social;Administración y equipamiento social;zona;True;tipo_ex;t_0510_ex;lista_val;True;CUN;Campus universitario;tipo_0510;EDU
 False;0510z;admon_equip_social;Administración y equipamiento social;zona;True;tipo_ex;t_0510_ex;lista_val;True;CEU;Centro universitario;tipo_0510;EDU
 False;0510z;admon_equip_social;Administración y equipamiento social;zona;True;tipo_ex;t_0510_ex;lista_val;True;CED;Centro docente no universitario;tipo_0510;EDU

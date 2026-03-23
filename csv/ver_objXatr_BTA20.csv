@@ -173,9 +173,9 @@ False;0301l;curva_nivel;Curva de nivel;linea;True;categor_ex;categ_0301;lista_va
 True;0304l;ex_curva_batimetrica;Curva batimétrica;linea;False;sonda;;num_entero
 False;0307l;cambio_pendiente;Cambio de pendiente;linea;False;tipo;tipo_0307l;lista_val
 False;0307l;cambio_pendiente;Cambio de pendiente;linea;False;seccion;secc_0307l;lista_val
-False;0307l;cambio_pendiente;Cambio de pendiente;linea;True;tipo _ex;t_0307l_ex;lista_val
+False;0307l;cambio_pendiente;Cambio de pendiente;linea;True;tipo_ex;t_0307l_ex;lista_val
 False;0307s;cambio_pendiente;Cambio de pendiente;poligono;False;tipo;tipo_0307s;lista_val
-False;0307s;cambio_pendiente;Cambio de pendiente;poligono;True;tipo _ex;t_0307s_ex;lista_val
+False;0307s;cambio_pendiente;Cambio de pendiente;poligono;True;tipo_ex;t_0307s_ex;lista_val
 False;0310p;punto_cota;Punto de cota;punto;False;situacion;situ_0310;lista_val
 False;0310p;punto_cota;Punto de cota;punto;False;tipo;tipo_0310;lista_val
 False;0310p;punto_cota;Punto de cota;punto;False;cota_conv;;num_entero
