@@ -1,6 +1,7 @@
 =============================================
  CATALOGO BTA 2.0 - ESTRUCTURA DE DATOS
 =============================================
+=============================================
 
 Este catálogo ha sido generado automáticamente a partir 
 de la base de datos 'cat_bta20'. Contiene tanto los 
