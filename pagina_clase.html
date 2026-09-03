@@ -55,8 +55,7 @@
                     <thead>
                         <tr>
                             <th>Atributo</th>
-                            <th>Atributo base</th>
-                            <th>Código del valor base</th>
+                            <th>Tipo de valor</th>
                             <th>Descripción</th>
                         </tr>
                     </thead>
@@ -106,6 +105,7 @@
                 <thead class="table-secondary">
                     <tr>
                         <th>Atributo</th>
+                        <th>Tipo de valor</th>
                         <th>Descripción</th>
                     </tr>
                 </thead>
@@ -116,3 +116,15 @@
         </div>
     </div>
 </div>
+
+<script>
+function mostrarAvisoPDF() {
+  var modalEl = document.getElementById('modalPDFNoDisponible');
+  if (modalEl && typeof bootstrap !== 'undefined') {
+    var modal = new bootstrap.Modal(modalEl);
+    modal.show();
+  } else {
+    alert("Las Normas de captura (PDF) no están disponibles actualmente.");
+  }
+}
+</script>
