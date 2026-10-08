@@ -1,5 +1,5 @@
 ﻿id;dominio_atr;orden_val;codigo_val;valor;extendido;definicion
-1;tipo_vial;1;RTT;Red Ten-T;False;Pertenencia a la Red Transeuropea de Transporte (TEN-T) definida y gestionada por la Agencia ejecutiva para la red transeuropea de transporte (DGMove).
+1;tipo_vial;1;RTT;Red TEN-T;False;Pertenencia a la Red Transeuropea de Transporte (TEN-T) definida y gestionada por la Agencia ejecutiva para la red transeuropea de transporte (DGMove).
 5;vial_simpl;1;SI_;Sí;False;El vial es simple.
 7;clase_0107;1;ATP;Autopista de peaje;False;Vía con acceso mediante peaje, reservada a la circulación exclusiva de vehículos automóviles, que dispone de calzadas separadas para ambos sentidos por una mediana, accesos y salidas independientes, cruces o pasos a distinto nivel, y carece de acceso directo a las propiedades colindantes.
 11;orden;1;PPL;Principal;False;Todas las autopistas y autovías (independientemente de la administración titular), y también las carreteras convencionales y multicarriles de la Red de Carreteras del Estado).
@@ -11,7 +11,7 @@
 47;acceso;1;LIB;Libre;False;Acceso a la carretera donde no se cobra ningún tipo de tarifa o peaje, y cualquier vehículo puede ingresar sin restricciones.
 56;sent_calz;1;UNI;Único;False;La carretera permite el tránsito en solo una dirección, es decir, todos los vehículos deben circular en el mismo sentido.
 59;conex_ctra;1;SI_;Sí;False;El tramo de vía urbana forma parte de un tramo de carretera (es una travesía).
-62;tipo_veh;1;PVV;Peatón VMP Vehiculo;False;Calzada por la que pueden circular peatones, Vehiculos de Movilidad Personal (VMP) y resto de vehiculos autorizados.
+62;tipo_veh;1;PVV;Peatón VMP Vehículo;False;Calzada por la que pueden circular peatones, Vehículos de Movilidad Personal (VMP) y resto de vehículos autorizados.
 65;tipo_0113l;1;PCA;Pista o camino;False;Vía que no se considera carretera ni vía urbana pero que permite el tránsito de vehículos.
 71;tipo_firme;1;PAV;Pavimentado;False;La superficie de la calzada tiene una estructura compuesta por varias capas de materiales, cuya capa superior, o de rodadura, generalmente es de asfalto.
 75;tipo_0113s;1;PCA;Pista o camino;False;Vía que no se considera carretera ni vía urbana pero que permite el tránsito de vehículos.
@@ -21,12 +21,12 @@
 91;ubicacion;1;HIT;Hito;False;El punto kilométrico se ubica sobre el hito que lo materializa, y éste existe y se ha identificado.
 95;sent_0122;1;CRE;Creciente;False;Sentido creciente de la numeración a lo largo de la carretera en el que se encuentra el PK. 
 99;tipo_0125;1;TRR;Tren;False;Vía férrea por la que circulan trenes, exceptuando funiculares, tranvías, trenes cremallera y metro.
-105;ttram_0125;1;TRC;Troncal;False;Tramos que forman la parte principal de vía ferrea.
+105;ttram_0125;1;TRC;Troncal;False;Tramos que forman la parte principal de vía férrea.
 107;ancho_via;1;IBE;Ibérico;False;Tramos de vía cuya distancia entre raíles es de 1,668 m, llamado también ancho Renfe.
 112;electrific;1;SI_;Sí;False;El tramo está electrificado.
 114;n_vias;1;VUN;Única;False;Tramo constituido por una vía única.
 118;u_pri_0125;1;ALV;Alta velocidad;False;Uso predominante de alta velocidad.
-120;tipo_0128;1;ETR;Estación tren;False;Estación principal destinada a la llegada y salida de trenes de pasajeros, con instalaciones adecuadas para este fin, como andenes, taquillas y salas de espera.
+120;tipo_0128;1;ETR;Estación de tren;False;Estación principal destinada a la llegada y salida de trenes de pasajeros, con instalaciones adecuadas para este fin, como andenes, taquillas y salas de espera.
 133;uso_0128;1;PSR;Pasajeros;False;Estación destinada exclusivamente para la llegada, salida y espera de trenes que transportan personas.
 136;tipo_0131;1;TLC;Telecabina;False;Teleférico de cable único para la tracción y la suspensión, dotado de cabina.
 140;uso_0134;1;CGN;Caso genérico;False;Puerto que no está especializado en una actividad específica, sino que tiene una funcionalidad general.
@@ -48,7 +48,7 @@
 214;n_agu_0210;1;NMX;Nivel máximo;False;Corresponde a la geometría de la cota máxima posible que puede almacenar el embalse.
 217;tipo_0213;1;FTE;Fuente;False;Lugar, natural o artificial, donde existe una surgencia de agua (potable o no) acondicionado con una obra.
 226;tipo_0216;1;CGN;Caso genérico;False;Masa de agua exterior a la línea de costa.
-654;ribera;1;SI_;Sí;False;El arbolado forestal constituye una formación de ribera.
+652;densidad;1;DEN;Denso;False;La superficie cubierta por el arbolado es al menos del 70%.
 229;jerar_0216;1;PPL;Principal;False;El elemento se considera muy relevante y representable en cartografía a cualquier escala.
 233;tipo_0219;1;ISM;Marítima;False;La isla se encuentra situada en el mar.
 235;tipo_0301;1;CGN;Caso genérico;False;Caso genérico de curva de nivel.
@@ -69,49 +69,49 @@
 359;tipo_0404;1;SIL;Silo;False;Lugar cerrado y seco para guardar trigo u otros granos, semillas o forraje.
 379;situ_gener;1;SUP;En superficie;False;La construcción, curso de agua o vía férrea, se encuentra sobre la superficie terrestre.
 383;tipo_0407s;1;CDP;Campo deportivo;False;Terreno de juego especialmente diseñado y construido para la práctica de una o varias actividades deportivas. Además de los deportes habituales como fútbol, rugby, beisbol, entre otros. 
-457;superficie;1;CES;Césped;False;Superficie vegetal utilizada en deportes como fútbol y rugby. Se incluye el cesped natural y el artificial. 
+457;superficie;1;CES;Césped;False;Superficie vegetal utilizada en deportes como fútbol y rugby. Se incluye el césped natural y el artificial. 
 464;tipo_0407l;1;PUE;Puente;False;Construcción elevada sobre el terreno que permite a los coches u otros medios de transporte salvar obstáculos (ríos, barrancos, etc.) o cruzar otras vías o infraestructuras.
 502;tipo_0407p;1;MON;Monumento;False;Construcción situada en un lugar público para conmemorar algo o que tiene cierto valor histórico o artístico.
 523;tipo_0410;1;LEL;Eléctrico;False;Conjunto de cables elevados, soportados por apoyos de tendido, destinados al transporte de energía eléctrica.
 527;tension;1;MET;Media;False;Tendido de tensión media.
 535;tipo_cons;1;HOR;Hormigón o mampostería;False;Material empleado para la construcción de las presas de tipo: gravedad, arco y contrafuerte. Puede ser utilizado con o sin armadura de acero.
-652;densidad;1;DEN;Denso;False;La superficie cubierta por el arbolado es al menos del 70%.
 537;tipo_func;1;CGN;Caso genérico;False;Presa genérica.
 540;tipo_0501;1;CRA;Cantera;False;Sitio de donde se saca piedra, greda u otra sustancia análoga para obras varias.
 543;situ_0501;1;CAB;Cielo abierto;False;Servicio o instalación de extracción de materiales que se desarrolla en la superficie del terreno.
 545;esta_0501;1;HIS;Histórica;False;Servicio o instalación de extracción de materiales histórica que no se encuentra en funcionamiento.
-550;tipo_0504;1;CTE;Central térmica;False;Instalación donde se lleva a cabo la producción de energía electrica a partir de la energía térmica obtenida mediante la combustión de diferentes elementos fósiles. Se incluyen aquí también las plantas de biomasa, biogás y las de cogeneración.
-571;tipo_0507;1;ZIN;Zona Industrial;False;Zona urbanística donde se agrupan diferentes edificios, destinados a uso industrial, ubicados generalmente en el extrarradio de los núcleos de población.
+550;tipo_0504;1;CTE;Central térmica;False;Instalación donde se lleva a cabo la producción de energía eléctrica a partir de la energía térmica obtenida mediante la combustión de diferentes elementos fósiles. Se incluyen aquí también las plantas de biomasa, biogás y las de cogeneración.
+571;tipo_0507;1;ZIN;Zona industrial;False;Zona urbanística donde se agrupan diferentes edificios, destinados a uso industrial, ubicados generalmente en el extrarradio de los núcleos de población.
 579;tipo_0510;1;AYT;Ayuntamiento;False;Casa consistorial.
 608;tipo_0513;1;CHA;Conjunto histórico artístico;False;Agrupación de edificios o infraestructuras declaradas legalmente como Bien de Interés Cultural (BIC).
 640;tipo_0604;1;RGT;REGENTE;False;Punto perteneciente a la red geodésica REGENTE, BALEAR98 o REGCAN95.
 646;tipo_0701;1;CNF;Coníferas;False;El arbolado está constituido principalmente por especies coníferas.
 650;plantacion;1;SI_;Sí;False;Arbolado forestal constituido por una repoblación reciente (plantación artificial).
+654;ribera;1;SI_;Sí;False;El arbolado forestal constituye una formación de ribera.
 656;tipo_0704;1;HRB;Herbáceos;False;Superficie cultivada y labrada regularmente bajo un sistema de cultivos temporales y barbechos.
 682;riego;1;SEC;Secano;False;Zonas de cultivo sin infraestructuras de riego permanente y cuyo riego se considera esporádico y/o ligado a la climatología del lugar.
 685;forzado;1;SI_;Sí;False;Zonas de cultivo forzado, desarrollado en invernadero o bajo plástico.
 688;tipo_0707;1;DEH;Dehesa;False;Superficie de origen agrícola y ganadero, con árboles más o menos dispersos y un estrato herbáceo bien desarrollado, destinada a usos agrícolas y ganaderos.
-713;tipo_0801;1;ECL;Entidad Colectiva;False;"Agrupación de entidades singulares, como unidad intermedia entre la entidad singular de población y el municipio, que existen en algunas regiones, y conforman una entidad colectiva de población con personalidad propia y un origen marcadamente histórico.
+713;tipo_0801;1;ECL;Entidad colectiva;False;"Agrupación de entidades singulares, como unidad intermedia entre la entidad singular de población y el municipio, que existen en algunas regiones, y conforman una entidad colectiva de población con personalidad propia y un origen marcadamente histórico.
 Información procedente del Instituto Nacional de Estadística (INE) del Ministerio de Asuntos Económicos y Transformación Digital y del Nomenclátor Geográfico de Municipios y Entidades de Población (NGMEP) del Instituto Geográfico Nacional."
 721;ine_0801;1;SI_;Sí;False;Sí figura en el nomenclátor INE del año indicado en fecha INE. Información de Poblaciones INE procedente de Información Geográfica de Referencia de Poblaciones (IGR_PO) del Instituto Geográfico Nacional.
-723;tipo_0804;1;ATN;Autonómica;False;División adminsitrativa autonómica.
+723;tipo_0804;1;ATN;Autonómica;False;División administrativa autonómica.
 727;tipo_0901;1;PRN;Parque Nacional;False;
 782;tipo_0904;1;CDA;Cañada;False;Vía para ganados trashumantes cuya anchura es mayor a 37,5 m es menor o igual a 75 m.
-793;esta_legal;1;INA;Infomación no armonizada;False;Vía Pecuaria cuya infomación no está armonizada.
-798;rnvp;1;SVP;Pertence RNVP;False;Pertence a la Red Nacional de Vías Pecuarias.
+793;esta_legal;1;INA;Información no armonizada;False;Vía Pecuaria cuya información no está armonizada.
+798;rnvp;1;SVP;Pertenece RNVP;False;Pertenece a la Red Nacional de Vías Pecuarias.
 2;tipo_vial;2;IEU;Itinerario europeo;False;Ruta gestionada por la Comisión Económica de las Naciones Unidas para Europa (UNECE), que forma parte de la red internacional de carreteras europeas, caracterizadas por su identificador de itinerario europeo.
 6;vial_simpl;2;NO_;No;False;El vial no es simple.
 8;clase_0107;2;AUL;Autopista libre o autovía;False;Vía de acceso sin peaje que, no reuniendo todos los requisitos de la autopista de peaje, tiene calzadas separadas para cada sentido de circulación y limitación de acceso a las propiedades colindantes.
 12;orden;2;POR;Primer orden;False;La carretera posee categoría de primer orden.
 17;titular;2;CAA;Comunidad Autónoma;False;La titularidad de la vía o de la infraestructura pertenece a la Comunidad Autónoma
-30;ttram_vial;2;VSE;Vía servicio;False;Vía sensiblemente paralela a una carretera, respecto de la cual tiene carácter secundario, conectada a ella solamente en algunos puntos, y que sirve a las propiedades o edificios contiguos.
+30;ttram_vial;2;VSE;Vía de servicio;False;Vía sensiblemente paralela a una carretera, respecto de la cual tiene carácter secundario, conectada a ella solamente en algunos puntos, y que sirve a las propiedades o edificios contiguos.
 35;calzada;2;DUP;Duplicada o superior;False;Cuando el vial tiene más de una calzada.
 37;situ_vial;2;ELE;Elevado;False;El tramo está elevado respecto de la superficie terrestre.
 44;esta_trans;2;CON;En construcción;False;Se encuentra en construcción o en proyecto.
 48;acceso;2;PEJ;Peaje;False;Acceso donde los vehículos deben pagar una tarifa para ingresar o utilizar la carretera.
 57;sent_calz;2;DOB;Doble;False;La carretera permite el tránsito en ambas direcciones, con carriles separados para cada sentido de circulación.
 60;conex_ctra;2;NO_;No;False;El tramo de vía urbana no forma parte de un tramo de carretera.
-63;tipo_veh;2;PEV;Peatón VMP;False;Calzada por la que pueden circular peatones y Vehiculos de Movilidad Personal (VMP).
+63;tipo_veh;2;PEV;Peatón VMP;False;Calzada por la que pueden circular peatones y Vehículos de Movilidad Personal (VMP).
 66;tipo_0113l;2;PCA_PST;Pista;True;Vía que, sin llegar a considerarse carretera, permite el tránsito de vehículos y pequeños camiones, para lo que se han ejecutado trabajos de mejora de firme y trazado, y que tiene una anchura suficiente para que los vehículos que circulan en sentidos opuestos se puedan cruzar sin dificultad.
 72;tipo_firme;2;TSU;Tratamiento superficial;False;La superficie de la calzada puede tener una capa de materiales como grava, arena, o una mezcla de estos que proporciona una superficie de rodadura mejorada en comparación con una carretera de tierra, pero sin llegar a la calidad y durabilidad del asfalto.
 76;tipo_0113s;2;PCA_PST;Pista;True;Vía que, sin llegar a considerarse carretera, permite el tránsito de vehículos y pequeños camiones, para lo que se han ejecutado trabajos de mejora de firme y trazado, y que tiene una anchura suficiente para que los vehículos que circulan en sentidos opuestos se puedan cruzar.
@@ -125,7 +125,7 @@ Información procedente del Instituto Nacional de Estadística (INE) del Ministe
 108;ancho_via;2;INT;Internacional;False;Para aquellas vías cuyo ancho sea de 1,435 m, mayoritario en Europa. 
 113;electrific;2;NO_;No;False;El tramo no está electrificado.
 115;n_vias;2;DBL;Doble;False;Tramo constituido al menos por una vía en cada sentido.
-119;u_pri_0125;2;OTR;Otro;False;Otros usos que no encajan con la tipologia de alta velocidad.
+119;u_pri_0125;2;OTR;Otro;False;Otros usos que no encajan con la tipología de alta velocidad.
 121;tipo_0128;2;APE;Apeadero;False;Parada ferroviaria pequeña, generalmente sin grandes instalaciones, donde los pasajeros pueden subir o bajar de los trenes, pero no tiene los servicios de una estación completa.
 134;uso_0128;2;MER;Mercancías;False;Estación especializada en el manejo, carga y descarga de bienes y productos transportados por tren.
 137;tipo_0131;2;TLS;Telesilla;False;Asiento suspendido de un cable de tracción, para el transporte de personas a la cumbre de una montaña o a un lugar elevado. 
@@ -168,40 +168,40 @@ Información procedente del Instituto Nacional de Estadística (INE) del Ministe
 360;tipo_0404;2;DPG;Depósito genérico;False;Recipiente cerrado destinado al acopio o almacenaje de productos (grano, forraje, áridos) o sustancias (agua, hidrocarburos, gas). En el tipo extendido clasifica según el tipo de material o sustancia
 380;situ_gener;2;ELE;Elevado;False;La construcción, curso de agua o vía férrea, se encuentra elevada respecto a la superficie terrestre.
 384;tipo_0407s;2;CDP_FUT;Campo de fútbol;True;es un terreno rectangular, generalmente de césped natural o artificial, donde se juega el deporte del fútbol. Está marcado con líneas que delimitan el área de juego, las porterías y otras áreas como el centro del campo y el área penal.
-655;ribera;2;NO_;No;False;El arbolado forestal no constituye una formación de ribera.
 458;superficie;2;TIE;Tierra;False;Suelo natural utilizado en deportes como tenis y atletismo. Ofrece una superficie suave y amortiguada, adecuada para ciertas disciplinas deportivas.
 465;tipo_0407l;2;PAS;Pasarela;False;Construcción liviana sobre la cual los peatones pueden salvar y cruzar obstáculos, vías o infraestructuras situadas a niveles inferiores (carreteras, vías férreas, desniveles, ríos, canales), pero que por sus características constructivas no permite la circulación de automóviles.
-651;plantacion;2;NO_;No;False;"Arbolado forestal que ha evolucionado de forma natural; no constituye una repoblación reciente."
 503;tipo_0407p;2;MON_FTO;Fuente ornamental;True;Estanque destinado al uso ornamental.
 524;tipo_0410;2;OTR;Otro;False;Conjunto de cables elevados, soportados por apoyos de tendido, no destinados al transporte de energía eléctrica.
 528;tension;2;ALT;Alta;False;Tendido de tensión alta.
-536;tipo_cons;2;ACM;Acumulación materiales;False;Presas formadas por rocas o tierras sueltas sin cementar. Para conseguir la impermeabilidad de la presa se construyen pantallas impermeables de arcilla, asfalto o algún material sintético.
+536;tipo_cons;2;ACM;Acumulación de materiales;False;Presas formadas por rocas o tierras sueltas sin cementar. Para conseguir la impermeabilidad de la presa se construyen pantallas impermeables de arcilla, asfalto o algún material sintético.
 538;tipo_func;2;AZU;Azud;False;Presa pequeña en un río. Barrera hecha en los ríos con el fin de facilitar el desvío de parte del caudal para riego y otros usos.
 541;tipo_0501;2;MIN;Mina;False;Excavación que se hace para extraer un mineral.
 544;situ_0501;2;SUB;Subterráneo;False;Servicio o instalación de extracción de materiales que se desarrolla bajo la superficie del terreno.
 546;esta_0501;2;ACT;Activa;False;Servicio o instalación de extracción de materiales en funcionamiento.
 551;tipo_0504;2;CTE_TEC;Térmica convencional;True;Central termoeléctrica donde se utilizan combustibles fósiles (gas natural, carbón o fueloil) para generar energía eléctrica mediante un ciclo termodinámico de agua-vapor.
 572;tipo_0507;2;PQT;Parque tecnológico;False;Agrupación de edificios o instalaciones donde se estimula y gestiona el flujo de conocimiento y tecnología entre universidades e instituciones de investigación, empresas y mercados.
-653;densidad;2;CLR;Con claros;False;La superficie cubierta por el arbolado es al menos del 25% y menor del 70%.
+651;plantacion;2;NO_;No;False;"Arbolado forestal que ha evolucionado de forma natural; no constituye una repoblación reciente."
 580;tipo_0510;2;APP;Administraciones públicas;False;Edificio o conjunto de edificios e instalaciones donde se desarrollan actividades relacionadas con la administración pública.
 609;tipo_0513;2;FOR;Castillo o fortaleza;False;Recinto defensivo que puede incluir en su interior torres, edificios, murallas, fosos, etc, generalmente situado en alguna eminencia del terreno.
 641;tipo_0604;2;ROI;ROI;False;Punto perteneciente a la red geodésica ROI, Red de Orden Inferior.
 647;tipo_0701;2;FPE;Frondosas perennifolias;False;El arbolado está constituido principalmente por especies frondosas de tipo perennifolio.
+653;densidad;2;CLR;Con claros;False;La superficie cubierta por el arbolado es al menos del 25% y menor del 70%.
+655;ribera;2;NO_;No;False;El arbolado forestal no constituye una formación de ribera.
 657;tipo_0704;2;HRB_ARR;Arroz;True;El cultivo está formado por la especie del arroz.
 683;riego;2;REG;Regadío;False;Zonas de cultivo con infraestructuras de riego permanente y que potencialmente pueden ser regados a conveniencia.
 686;forzado;2;NO_;No;False;Zonas de cultivo no forzado, fuera de invernadero o zona cubierta de plásticos. 
 689;tipo_0707;2;HUE;Huerta;False;Zonas fundamentalmente agrícolas, generalmente dedicadas al cultivo intensivo y producción dedicada al autoconsumo, con estructura de mosaico de parcelas de pequeño tamaño (no superiores a 1 ha), con predominio de hortalizas, frutales dispersos u otros cultivos leñosos.
-714;tipo_0801;2;ESI;Entidad Singular;False;"Área habitable del término municipal, habitada o excepcionalmente deshabitada, claramente diferenciada dentro del mismo, y que es conocida por una denominación específica que la identifica sin posibilidad de confusión.
+714;tipo_0801;2;ESI;Entidad singular;False;"Área habitable del término municipal, habitada o excepcionalmente deshabitada, claramente diferenciada dentro del mismo, y que es conocida por una denominación específica que la identifica sin posibilidad de confusión.
 Información procedente del Instituto Nacional de Estadística (INE) del Ministerio de Asuntos Económicos y Transformación Digital y del Nomenclátor Geográfico de Municipios y Entidades de Población (NGMEP) del Instituto Geográfico Nacional.
 "
 722;ine_0801;2;NO_;No;False;No figura en el nomenclátor INE del año indicado en fecha INE.
-724;tipo_0804;2;PRO;Provincial;False;División adminsitrativa provincial.
+724;tipo_0804;2;PRO;Provincial;False;División administrativa provincial.
 728;tipo_0901;2;PRQ;Parque;False;
 783;tipo_0904;2;CRD;Cordel;False;Vía pastoril para los ganados trashumantes cuya anchura es mayor a 20 m es menor o igual a 37,5 m.
 794;esta_legal;2;NCL;No clasificada;False;Vía Pecuaria no clasificada.
 799;rnvp;2;NVP;No pertenece RNVP;False;No pertenece a la Red Nacional de Vías Pecuarias.
 3;tipo_vial;3;CAR;Carretera;False;Carreteras nacionales o regionales que no forman parte de la Red TEN-T ni de los itinerarios europeos, pero que siguen siendo esenciales para la conectividad dentro de un país o región.
-9;clase_0107;3;CMU;Carretera Multicarril;False;Vía pavimentada, que no es autopista o autovía, y tiene al menos dos carriles destinados a la circulación para cada sentido, con separación o delimitación de estos, pudiendo tener accesos o cruces a nivel.
+9;clase_0107;3;CMU;Carretera multicarril;False;Vía pavimentada, que no es autopista o autovía, y tiene al menos dos carriles destinados a la circulación para cada sentido, con separación o delimitación de estos, pudiendo tener accesos o cruces a nivel.
 13;orden;3;SOR;Segundo orden;False;La carretera posee categoría de segundo orden.
 18;titular;3;DIP;Diputación Provincial;False;La titularidad de la vía o de la infraestructura pertenece a la Diputación Provincial
 31;ttram_vial;3;NUD;Nudo;False;Vía de unión entre dos vías de comunicación.
@@ -210,7 +210,7 @@ Información procedente del Instituto Nacional de Estadística (INE) del Ministe
 49;acceso;3;RES;Restringido;False;Acceso a la carretera donde solo ciertos tipos de vehículos o usuarios tienen permitido ingresar, ya sea por características específicas (como vehículos de carga) o por normativas de acceso.
 58;sent_calz;3;REV;Reversible;False;La carretera tiene un único conjunto de carriles que se utilizan en diferentes direcciones dependiendo del horario o la demanda del tráfico, adaptándose a los flujos de vehículos.
 61;conex_ctra;3;-97;Desconocido;False;Se desconoce el valor del atributo.
-64;tipo_veh;3;PTN;Peatón;False;Calzada de uso excluisvo peatonal.
+64;tipo_veh;3;PTN;Peatón;False;Calzada de uso exclusivo peatonal.
 67;tipo_0113l;3;PCA_PFO;Pista forestal;True;Vía que permite la realización de trabajos forestales, tales como el desbroce o la saca de troncos, pero no está acondicionada para el tránsito regular de vehículos. 
 73;tipo_firme;3;STS;Sin tratamiento superficial;False;La superficie de la calzada está compuesta por suelo natural y no tiene ninguna capa adicional de materiales o cualquier otro tipo de tratamiento superficial.
 77;tipo_0113s;3;PCA_PFO;Pista forestal;True;Vía que permite la realización de trabajos forestales, tales como el desbroce o la saca de troncos, pero no está acondicionada para el tránsito regular de vehículos. 
@@ -234,7 +234,7 @@ Información procedente del Instituto Nacional de Estadística (INE) del Ministe
 174;ttram_curs;3;CNX;Conexión;False;Tramo de curso en el que se desconoce su trazado y que se emplea para dar continuidad a la red.
 177;canal_0201;3;-97;Desconocido;False;Se desconoce el valor del atributo.
 180;regim_hidr;3;NPE_EAL;Estacional;True;Curso fluvial que, en régimen natural, presenta una marcada estacionalidad, caracterizada por presentar bajo caudal o permanecer secos en verano, fluyendo agua, al menos, durante un periodo medio de 300 días al año.
-186;jerar_0201;3;T_C;Tercer y cuarto orden;False;Ríos de longitud comprendida entre 25 y 90 km.
+186;jerar_0201;3;TYC;Tercer y cuarto orden;False;Ríos de longitud comprendida entre 25 y 90 km.
 195;n_agu_0201;3;OTR;Otro;False;Otra tipología referente al nivel de agua no contemplada en las anteriores.
 198;tipo_0204;3;TUB;Tubería;False;Infraestructura de tamaño variable destinada a la canalización, conducción o distribución de agua ya sea para consumo humano u otros usos.
 202;tipo_0207;3;LGC;Laguna costera;False;Cuerpo de agua próximos al mar, separado aparentemente del mar por una barra arenosa o de cantos cuya formación (carácter genético) está unida, o relacionada, con procesos de dinámica litoral, actuales o subactuales.
@@ -251,8 +251,8 @@ Información procedente del Instituto Nacional de Estadística (INE) del Ministe
 262;situ_0310;3;SCE_SED;Sobre edificio;True;Punto de cota que se encuentra sobre edificios.
 268;tipo_0310;3;DDP;De depresión;False;Punto de cota mínima en su entorno, rodeado de curvas de nivel de cota superior.
 275;jerar_orog;3;MED_SOR;Segundo orden;True;El elemento se considera relevante y representable en cartografía a escala autonómica.
-284;tipo_0313;3;CAD;Cadena Montañosa;False;Conjunto alineado de montañas que se extienden a lo largo de una región y que generalmente tienen un origen geológico común.
-297;tipo_0313s;3;CAD;Cadena Montañosa;False;Conjunto alineado de montañas que se extienden a lo largo de una región y que generalmente tienen un origen geológico común.
+284;tipo_0313;3;CAD;Cadena montañosa;False;Conjunto alineado de montañas que se extienden a lo largo de una región y que generalmente tienen un origen geológico común.
+297;tipo_0313s;3;CAD;Cadena montañosa;False;Conjunto alineado de montañas que se extienden a lo largo de una región y que generalmente tienen un origen geológico común.
 304;tipo_0401s;3;STD;Estadio;False;Edificio de grandes dimensiones, habitualmente cerrado, que puede estar al aire libre o cubierto, con numerosas gradas para los espectadores, destinado a competiciones deportivas u otros eventos culturales.
 335;uso_0401s;3;AGG;Agrícola o ganadero;False;Construcción con uso agrícola o ganadero. 
 352;esta_gener;3;RUI;En ruinas;False;El edificio u otra construcción evidencia un pésimo estado, decadencia o amenaza con caer.
@@ -272,7 +272,7 @@ Información procedente del Instituto Nacional de Estadística (INE) del Ministe
 573;tipo_0507;3;RFE;Recinto ferial;False;Edificio o conjunto de edificios e instalaciones para la organización de ferias.
 581;tipo_0510;3;SNT;Sanitario;False;Edificio o conjunto de edificios destinados al diagnóstico y tratamiento de enfermos.
 610;tipo_0513;3;YAC;Yacimiento arqueológico;False;Recinto donde se encuentran restos arqueológicos o excavaciones de interés histórico-cultural o restos materiales indicativos de vida humana o animal ya desaparecida.
-642;tipo_0604;3;OTR;Otro;False;Punto perteneciente a otra red geodésica disitinta a la REGENTE , BALEAR98, REGCAN95 o ROI.
+642;tipo_0604;3;OTR;Otro;False;Punto perteneciente a otra red geodésica distinta a la REGENTE , BALEAR98, REGCAN95 o ROI.
 648;tipo_0701;3;FCA;Frondosas caducifolias;False;El arbolado está constituido principalmente por especies frondosas de tipo caducifolio.
 658;tipo_0704;3;HRB_OCH;Otro cultivo herbáceo;True;El cultivo está formado por otras especies herbáceas.
 684;riego;3;-97;Desconocido;False;Se desconoce el valor del atributo.
@@ -281,13 +281,13 @@ Información procedente del Instituto Nacional de Estadística (INE) del Ministe
 715;tipo_0801;3;NPO;Núcleo de población;False;"Ciudad, pueblo, aldea, urbanización, etc. Incluye: núcleo y diseminado del nomenclátor INE, población no recogida en el nomenclátor INE, barrio de población no definida en La Ley de Grandes Ciudades o Ley de Medidas para la Modernización del Gobierno Local (Ley 57/2003, de 16 de diciembre).
 Información de Núcleos INE procedente de Información Geográfica de Referencia de Poblaciones (IGR_PO) del Instituto Geográfico Nacional.
 Información de Diseminados INE procedente del Instituto Nacional de Estadística (INE) del Ministerio de Asuntos Económicos y Transformación Digital y del Nomenclátor Geográfico de Municipios y Entidades de Población (NGMEP) del Instituto Geográfico Nacional."
-725;tipo_0804;3;MUN;Municipal;False;División adminsitrativa municipal.
+725;tipo_0804;3;MUN;Municipal;False;División administrativa municipal.
 729;tipo_0901;3;PRQ_PPU;Parque Periurbano;True;
 784;tipo_0904;3;VDA;Vereda;False;Vía pastoril para los ganados trashumantes cuya anchura es menor o igual a 20 m.
 795;esta_legal;3;CLA;Clasificada;False;Vía Pecuaria clasificada.
 800;rnvp;3;PVP;Parcialmente RNVP;False;Pertenece parcialmente a la Red Nacional de Vías Pecuarias.
 4;tipo_vial;4;-98;No aplicable;False;Aquellos viales o rutas que no encajan en ninguna de las categorías anteriores.
-10;clase_0107;4;CCO;Carretera Convencional;False;Vía pavimentada que no reúne las características propias de las autopistas, las autovías o las carreteras multicarril, recogida o no en un catálogo oficial de carreteras. También se incluyen los tramos de vía que, estando recogidos en un catálogo oficial de carreteras, no estén pavimentados. [Definición adaptada del Real Decreto 1428/2003]
+10;clase_0107;4;CCO;Carretera convencional;False;Vía pavimentada que no reúne las características propias de las autopistas, las autovías o las carreteras multicarril, recogida o no en un catálogo oficial de carreteras. También se incluyen los tramos de vía que, estando recogidos en un catálogo oficial de carreteras, no estén pavimentados. [Definición adaptada del Real Decreto 1428/2003]
 14;orden;4;TOR;Tercer orden;False;La carretera posee categoría de tercer orden.
 19;titular;4;COI;Cabildo o Consell Insular;False;La titularidad de la vía o de la infraestructura pertenece al Cabildo o Consell Insular
 32;ttram_vial;4;ROT;Rotonda;False;Conjunto de tramos que forman un anillo, dentro del cual solo se puede circular en una dirección.
@@ -312,7 +312,7 @@ Información de Diseminados INE procedente del Instituto Nacional de Estadístic
 164;uso_0137;4;-97;Desconocido;False;Se desconoce el valor del atributo.
 168;activ_0137;4;-97;Desconocido;False;Se desconoce el valor del atributo.
 181;regim_hidr;4;NPE_ITN;Intermitente;True;Curso fluvial que, en régimen natural, presenta una elevada temporalidad, fluyendo agua durante un periodo medio comprendido entre 100 y 300 días al año.
-187;jerar_0201;4;T_C_TOR;Tercer orden;True;Ríos de longitud comprendida entre 40 y 90 km.
+187;jerar_0201;4;TYC_TOR;Tercer orden;True;Ríos de longitud comprendida entre 40 y 90 km.
 199;tipo_0204;4;OTR;Otro;False;Otra tipología constructiva de curso artificial no contemplada en las anteriores.
 203;tipo_0207;4;TRB;Turbera;False;Tipo de humedal ácido en el cual se ha acumulado materia orgánica en forma de turba
 220;tipo_0213;4;TMA;Toma de agua;False;Instalación por la que se deriva hacia un edificio u otro lugar parte del agua que circula por una conducción principal
@@ -364,7 +364,7 @@ Información de Diseminados INE procedente del Instituto Nacional de Estadístic
 144;uso_0134;5;PMI;Militar;False;Puerto destinado a las fuerzas armadas para la operación de barcos militares, como buques de guerra y submarinos.
 152;tipo_0137;5;DRC;Deportivo y recreativo;False;Aeródromo dedicado principalmente a la aviación ligera, deportiva o recreativa.
 182;regim_hidr;5;NPE_EFM;Efímero;True;Curso fluvial en el que, en régimen natural, tan sólo fluye agua superficialmente de manera esporádica, en episodios de tormenta, durante un periodo medio inferior a 100 días al año.
-188;jerar_0201;5;T_C_COR;Cuarto orden ;True;Ríos de longitud comprendida entre 25 y 40 km.
+188;jerar_0201;5;TYC_COR;Cuarto orden;True;Ríos de longitud comprendida entre 25 y 40 km.
 204;tipo_0207;5;HUM;Humedal;False;Terreno de aguas superficiales o subterráneas de poca profundidad.
 221;tipo_0213;5;TMA_NOR;Noria;True;Máquina compuesta de dos grandes ruedas engranadas que, mediante cangilones, sube el agua de los pozos, acequias, etc.
 244;tipo_0307l;5;TAL;Talud;False;Límite de una superficie inclinada que impide derrumbamientos del terreno, fundamentalmente asociados a infraestructuras.
@@ -379,6 +379,7 @@ Información de Diseminados INE procedente del Instituto Nacional de Estadístic
 358;tipo_0401p;5;CUH;Cueva habitable;False;Espacio para albergar actividades humanas o económicas que normalmente se abre dentro de una roca y se completa con muros exteriores, y que puede tener en el interior estructuras análogas a las de los edificios convencionales.
 363;tipo_0404;5;DAG;Depósito de agua;False;Recipiente de almacenamiento de agua.
 387;tipo_0407s;5;CDP_OCP;Otro campo deportivo;True;Campo deportivo no clasificado en las anteriores categorías.  
+461;superficie;5;OTR;Otro;False;Superficie no especificada en las anteriores categorías.
 468;tipo_0407l;5;MUE;Muelle;False;Construcción en la orilla de una masa de agua para facilitar el embarque y desembarque de personas y mercancías en o desde embarcaciones. En estaciones ferroviarias, andén para la carga de mercancías.
 506;tipo_0407p;5;SNV;Señal de navegación;False;Dispositivo visual, acústico o radioeléctrico destinado a garantizar la seguridad de la navegación y a facilitar sus movimientos
 531;tension;5;ALT_150;110 - 150 kV;True;110 - 150 kV de tensión de red eléctrica.
@@ -392,10 +393,9 @@ Información de Diseminados INE procedente del Instituto Nacional de Estadístic
 692;tipo_0707;5;PSZ;Pastizal;False;Pastos formados por comunidades herbáceas espontáneas aprovechadas a diente en pastoreo extensivo, cuya producción es muy dependiente de la meteorología.
 717;tipo_0801;5;OTR_URB;Urbanización;True;"EN BTN SE ENCUENTRA DENTRO DE ""/POBLACIÓN"""
 731;tipo_0901;5;PRQ_PRG;Parque Regional;True;
-786;tipo_0904;5;LAC;Lugares asociados;False;Lugares asociados a las Vías Pecuarías.
+786;tipo_0904;5;LAC;Lugares asociados;False;Lugares asociados a las Vías Pecuarias.
 797;esta_legal;5;AMJ;Amojonada;False;Vía Pecuaria amojonada.
-461;superficie;5;OTR;Otro;False;Superficie no especificada en las anteriores categorías.
-21;titular;6;OTR;Otro;False;La titularidad de la vía o de la infraestructura recae en otro organismo distinto a las anteriores categorias. 
+21;titular;6;OTR;Otro;False;La titularidad de la vía o de la infraestructura recae en otro organismo distinto a las anteriores categorías. 
 41;situ_vial;6;TBD;En transbordador;False;El tráfico vehicular en esa sección de la vía está siendo desviado temporalmente a través de un medio de transporte alternativo, como un transbordador (barco o ferry).
 52;acceso;6;RES_RTV;Por tipo vehículo;True;Limita el acceso de ciertos tipos de vehículos, como camiones pesados, autobuses o vehículos de carga. La restricción puede estar basada en el tamaño, peso o uso del vehículo, para proteger la infraestructura vial o reducir el impacto ambiental.
 70;tipo_0113l;6;BIC;Carril bici;False;Vía diseñada y construida para el tránsito de bicicletas y, generalmente, de otros vehículos de movilidad personal.
@@ -404,28 +404,28 @@ Información de Diseminados INE procedente del Instituto Nacional de Estadístic
 125;tipo_0128;6;APC;Apartadero y cargadero;False;Instalación ferroviaria donde los trenes pueden apartarse para permitir el paso de otros y, a la vez, se utiliza para cargar o descargar mercancías. Generalmente, es una zona secundaria en la que los trenes no hacen parada para pasajeros.
 145;uso_0134;6;PES;Pesquero;False;Puerto dedicado principalmente a la actividad pesquera.
 183;regim_hidr;6;MAR;Mareal;False;Curso fluvial cuyo régimen hidrológico se ve afectado por las mareas.
-189;jerar_0201;6;Q_S;Quinto y sexto orden;False;Ríos de longitud inferior a 25 km.
-205;tipo_0207;6;ZPA;Zona pantanosa ;False;Humedal continental con terrenos bajos normalmente inundados de agua en invierno y más o menos saturados durante todo el año.
+189;jerar_0201;6;QYS;Quinto y sexto orden;False;Ríos de longitud inferior a 25 km.
+205;tipo_0207;6;ZPA;Zona pantanosa;False;Humedal continental con terrenos bajos normalmente inundados de agua en invierno y más o menos saturados durante todo el año.
 222;tipo_0213;6;TMA_TAG;Otra toma de agua;True;Instalación genérica por la que se deriva hacia un edificio u otro lugar parte del agua que circula por una conducción principal
 245;tipo_0307l;6;TAL_DES;Desmonte;True;Talud formado mediante vaciado de tierras o rocas previamente existentes en el terreno. 
 257;tipo_0307s;6;TAL_DES;Desmonte;True;Talud formado mediante vaciado de tierras o rocas previamente existentes en el terreno. 
 265;situ_0310;6;SCE_SOT;Sobre otra construcción elevada;True;Punto de cota que se encuentra sobre cualquier otra construcción elevada distinta de las anteriores.
-278;jerar_orog;6;MNR_COR;Cuarto orden ;True;El elemento tiene una relevancia menor y representable escalas hasta 1:50000.
+278;jerar_orog;6;MNR_COR;Cuarto orden;True;El elemento tiene una relevancia menor y representable escalas hasta 1:50000.
 287;tipo_0313;6;VER;Vertiente;False;Porción de terreno inclinado, que se extiende entre divisorias y vaguadas.
 300;tipo_0313s;6;VER;Vertiente;False;Porción de terreno inclinado, que se extiende entre divisorias y vaguadas.
 307;tipo_0401s;6;TVI;Torre de vigilancia;False;Estructura estrecha y relativamente alta utilizada para labores de vigilancia, que puede estar aislada o formar parte de otra estructura.
 338;uso_0401s;6;OFC;Oficinas;False;Construcción con uso de oficinas.
 364;tipo_0404;6;PIS;Piscina;False;Recinto que almacena agua con el objeto de usarla para el baño o natación. 
 388;tipo_0407s;6;PDP;Pista deportiva;False;Es la pista, cancha o terreno de juego especialmente diseñado y construido para la práctica de una o varias actividades deportivas. Además de los deportes habituales como fútbol, baloncesto, tenis, pistas polideportivas, etc.
-469;tipo_0407l;6;ESL;Escollera;False;Obra hecha con piedras echadas al fondo del agua, para formar un dique de defensa contra el oleaje, para servir de cimiento a un muelle o para resguardar el pie de otra obra.
 462;superficie;6;-97;Desconocido;False;Se desconoce el valor del atributo.
+469;tipo_0407l;6;ESL;Escollera;False;Obra hecha con piedras echadas al fondo del agua, para formar un dique de defensa contra el oleaje, para servir de cimiento a un muelle o para resguardar el pie de otra obra.
 507;tipo_0407p;6;SNV_FAS;Faro señal;True;Lugar donde se ubica una señal luminosa o de otro tipo que facilita la orientación y la navegación de embarcaciones en el mar.
 532;tension;6;ALT_110;< 110 kV;True;< 110 kV de tensión de red eléctrica.
 555;tipo_0504;6;NUC;Central nuclear;False;Instalación donde se obtiene energía eléctrica a partir de la fisión nuclear de elementos radioactivos.
 576;tipo_0507;6;ESA;Explotación salinera;False;Instalación donde se extrae y transporta sal para comerciar con ella.
 584;tipo_0510;6;EDU;Educativo;False;Edificio o conjunto de edificios destinados a la enseñanza.
 613;tipo_0513;6;ICG_MUS;Museo;True;Edificio o instalaciones, sin ánimo de lucro, en las que se conservan y exponen colecciones de objetos artísticos y científicos que pueden atraer el interés del público.
-645;tipo_0604;6;OTR_ORE;Otra red geodésica;True;Punto perteneciente a otra red geodésica no icluida en las anteriores tipologías.
+645;tipo_0604;6;OTR_ORE;Otra red geodésica;True;Punto perteneciente a otra red geodésica no incluida en las anteriores tipologías.
 661;tipo_0704;6;FNC_FCS;Frutales de cáscara;True;El cultivo está formado por árboles frutales de frutos con cáscara.
 693;tipo_0707;6;PMR;Pastizal y matorral;False;Superficie formada por una combinación de pastizal y matorral.
 718;tipo_0801;6;OTR_DIS;Distrito;True;"Distritos de ciudades de:
@@ -438,9 +438,9 @@ aprueben sus Ayuntamientos"
 22;titular;7;OTR_CFH;Confederación hidrográfica;True;La titularidad de la vía o de la infraestructura pertenece a la Confederación hidrográfica
 42;situ_vial;7;-97;Desconocido;False;Se desconoce el valor del atributo.
 53;acceso;7;RES_STC;Estacional;True;Acceso restringido únicamente en ciertas estaciones o periodos del año, como invierno o verano, debido a condiciones climáticas o al incremento del tráfico en períodos específicos.
-126;tipo_0128;7;ESM;Estación metro;False;Estación diseñada para el servicio de metro.
+126;tipo_0128;7;ESM;Estación de metro;False;Estación diseñada para el servicio de metro.
 146;uso_0134;7;TUR;Turístico;False;Puerto destinado a los viajeros y turistas, donde las embarcaciones de cruceros y barcos turísticos hacen parada.
-190;jerar_0201;7;Q_S_QOR;Quinto orden;True;Ríos de longitud comprendida entre 10 y 25 km.
+190;jerar_0201;7;QYS_QOR;Quinto orden;True;Ríos de longitud comprendida entre 10 y 25 km.
 206;tipo_0207;7;SAL;Salina;False;Lugar donde se obtiene sal por evaporación de aguas salinas. 
 223;tipo_0213;7;SUM;Sumidero;False;Lugar de entrada de un cauce natural o artificial de agua en el terreno cuando éste pasa a ser subterráneo y no se conoce su trazado ni dónde vuelve a surgir. En general, lugar en que se pierde el trazado de un cauce natural o artificial.
 246;tipo_0307l;7;TAL_TPL;Terraplén;True;Talud formado por materiales granulares o de relleno cuya pendiente responde a la acción de la gravedad.
@@ -452,10 +452,11 @@ aprueben sus Ayuntamientos"
 339;uso_0401s;7;HTR;Hostelero;False;Construcción con uso hostelero.
 365;tipo_0404;7;ETQ;Estanque genérico;False;Recinto de agua que almacena agua con objeto de emplearla para diversos fines, exceptuando el baño o la natación. (Ejemplo: estanques EDAR)
 389;tipo_0407s;7;PDP_TEN;Pista de tenis;True;Es una superficie rectangular dividida por una red, utilizada para jugar al tenis.
+463;superficie;7;-98;No aplicable;False;El atributo superficie no se aplica para este caso concreto.
 470;tipo_0407l;7;PTL;Pantalán;False;Muelle o pasarela flotante para el embarque y desembarque, para el uso de barcos de poco tonelaje, construido con materiales livianos y que flota sobre el agua.
 508;tipo_0407p;7;SNV_BPU;Baliza de puerto;True;Lugar donde se ubica una señal fija que indica la bocana del puerto y orienta a las embarcaciones para entrar en él y con un anclaje sólido a tierra firme. Señal afirmada al lecho marino mediante una estructura. Se trata de pilares o estacas de mampostería o armadura metálica situados en aguas poco profundas y que sirven para indicar canales o señalizar bajos.
 533;tension;7;-97;Desconocido;False;Se desconoce el valor del atributo.
-556;tipo_0504;7;HDR;Hidroeléctrica;False;Instalación para la producción de energía eléctrica obtenida de la energía hidráulica que se genera en saltos de agua producidos por la caida a diferentes niveles de un cauce ya sea de modo natural o artificial.
+556;tipo_0504;7;HDR;Hidroeléctrica;False;Instalación para la producción de energía eléctrica obtenida de la energía hidráulica que se genera en saltos de agua producidos por la caída a diferentes niveles de un cauce ya sea de modo natural o artificial.
 577;tipo_0507;7;PIC;Piscifactoría;False;Instalación compuesta por uno o múltiples estanques donde se crían diversas especies de peces y mariscos con fines comerciales.
 585;tipo_0510;7;EDU_CUN;Campus universitario;True;Conjunto de terrenos, edificios e instalaciones asociadas a un centro universitario. No incluyen los asociados a colegios mayores.
 614;tipo_0513;7;ICG_CCL;Centro cultural;True;Equipamiento cuya principal finalidad es promover y mantener actividades de carácter cultural destinadas a la población de la zona.
@@ -468,23 +469,22 @@ aprueben sus Ayuntamientos"
 aprueben sus Ayuntamientos."
 733;tipo_0901;7;PRQ_PRL;Parque Rural;True;
 792;tipo_0904;7;-97;Desconocido;False;Vía Pecuaria cuya tipología está sin clasificar
-463;superficie;7;-98;No aplicable;False;El atributo superficie no se aplica para este caso concreto.
 23;titular;8;OTR_AUP;Autoridad portuaria;True;La titularidad de la vía o de la infraestructura pertenece a la Autoridad portuaria
-54;acceso;8;RES_RMU;Multiple;True;Restricción que implica varias condiciones combinadas, como limitaciones por hora, tipo de vehículo, o estacionales.
+54;acceso;8;RES_RMU;Múltiple;True;Restricción que implica varias condiciones combinadas, como limitaciones por hora, tipo de vehículo, o estacionales.
 127;tipo_0128;8;OTR;Otro;False;Estación destinada a sistemas ferroviarios que no encajan en las categorías anteriores.
 147;uso_0134;8;ASN;Astillero naval;False;Puerto especializado en la construcción, reparación y mantenimiento de barcos y embarcaciones.
-191;jerar_0201;8;Q_S_XOR;Sexto orden;True;Ríos de longitud inferior a 10 km.
+191;jerar_0201;8;QYS_XOR;Sexto orden;True;Ríos de longitud inferior a 10 km.
 207;tipo_0207;8;OTR;Otro;False;Otra lámina de agua. 
 224;tipo_0213;8;CAS;Cascada;False;Perfil longitudinal de un cauce en el que el agua cae verticalmente.
-247;tipo_0307l;8;TAL_OTD;Otro talud;True;Cualquier otro tipo de talud que no se englobe en ninguna de las otras categorias.
-259;tipo_0307s;8;TAL_OTD;Otro talud;True;Cualquier otro tipo de talud que no se englobe en ninguna de las otras categorias.
+247;tipo_0307l;8;TAL_OTD;Otro talud;True;Cualquier otro tipo de talud que no se englobe en ninguna de las otras categorías.
+259;tipo_0307s;8;TAL_OTD;Otro talud;True;Cualquier otro tipo de talud que no se englobe en ninguna de las otras categorías.
 280;jerar_orog;8;-97;Desconocido;False;Se desconoce el valor del atributo.
 289;tipo_0313;8;SCO;Saliente costero;False;Lengua de tierra que penetra en el mar.
 309;tipo_0401s;8;CHI;Chimenea;False;Cañón o conducto vertical por donde se puede dar salida a gases o humos.
 340;uso_0401s;8;SNT;Sanitario;False;Construcción con uso sanitario.
 366;tipo_0404;8;ORN;Estanque ornamental;False;Estanque destinado al uso ornamental.
 390;tipo_0407s;8;PDP_BLC;Pista de baloncesto;True;es un área rectangular con un piso duro y liso, marcada con líneas específicas, donde se juega el deporte del baloncesto.
-471;tipo_0407l;8;OCO;Obra contención;False;Obra destinada a contener el empuje del agua y/o de las tierras que se encuentran a uno de sus lados.
+471;tipo_0407l;8;OCO;Obra de contención;False;Obra destinada a contener el empuje del agua y/o de las tierras que se encuentran a uno de sus lados.
 509;tipo_0407p;8;SNV_RDR;Radar;True;Sistema que utiliza radiaciones electromagnéticas reflejadas por un objeto para determinar la localización o velocidad de este.
 534;tension;8;-98;No aplicable;False;El atributo de tensión no se aplica para este caso concreto.
 557;tipo_0504;8;SOL;Solar;False;Instalación, equipamiento o estructuras donde se lleva a cabo la producción de energía obtenida directamente de la radiación solar.
@@ -498,7 +498,7 @@ aprueben sus Ayuntamientos."
 787;tipo_0904;8;LAC_DSD;Descansadero;True;Espacio o área dentro de una vía pecuaria destinada para que el ganado descanse durante su tránsito.
 24;titular;9;OTR_MIL;Militar;True;La titularidad de la vía o de la infraestructura es militar.
 55;acceso;9;-97;Desconocido;False;Se desconoce el valor del atributo.
-128;tipo_0128;9;OTR_TRV;Estación tranvía;True;Estación destinada al servicio de tranvías.
+128;tipo_0128;9;OTR_TRV;Estación de tranvía;True;Estación destinada al servicio de tranvías.
 192;jerar_0201;9;-97;Desconocido;False;Se desconoce el valor del atributo.
 225;tipo_0213;9;ESH;Elemento singular hidrográfico;False;Otra tipología de punto hidrográfico no contemplada en las anteriores.
 248;tipo_0307l;9;BAN;Margen de bancal;False;Límite de un rellano de tierra, formado natural o artificialmente, situado en las laderas de las montañas y que frecuentemente se aprovecha para el cultivo.
@@ -508,7 +508,7 @@ aprueben sus Ayuntamientos."
 341;uso_0401s;9;RLG;Religioso;False;Construcción con uso religioso.
 367;tipo_0404;9;BAL;Balsa;False;Recipiente de agua, generalmente destinada al riego, excavado en el terrero o cuyas paredes están formadas por acumulación de tierra. 
 391;tipo_0407s;9;PDP_FRT;Pista de frontón;True;es un recinto rectangular con paredes laterales y un frontis, donde se juega el deporte de pelota vasca.
-472;tipo_0407l;9;OCO_MCO;Muro contención;True;Muro resistente destinado a contener el empuje de las tierras que se encuentran a un lado o evitar el desbordamiento de agua a los lados de una corriente.
+472;tipo_0407l;9;OCO_MCO;Muro de contención;True;Muro resistente destinado a contener el empuje de las tierras que se encuentran a un lado o evitar el desbordamiento de agua a los lados de una corriente.
 510;tipo_0407p;9;SNV_VHR;VHOR;True;Dispositivo de radioayuda a la navegación que se localiza en los aeropuertos y es utilizado por las aeronaves para seguir en vuelo una ruta preestablecida.
 558;tipo_0504;9;SOL_FOT;Fotovoltaica;True;Instalación donde se lleva a cabo la producción de energía eléctrica obtenida directamente a partir de la radiación solar empleando semiconductores agrupados en paneles u otras superficies.
 587;tipo_0510;9;EDU_CED;Centro docente no universitario;True;Edificio o conjunto de edificios e instalaciones, de titularidad pública o privada, donde se imparten enseñanzas regladas no universitarias, confiriendo la titulación académica correspondiente.
@@ -518,13 +518,13 @@ aprueben sus Ayuntamientos."
 735;tipo_0901;9;RNT_RNE;Reserva Natural Especial;True;
 788;tipo_0904;9;LAC_ZAB;Zona de abrevadero;True;Área en una vía pecuaria donde el ganado puede beber agua.
 25;titular;10;OTR_EMI;Empresa minera;True;La titularidad de la vía o de la infraestructura pertenece a una empresa minera
-129;tipo_0128;10;OTR_ESF;Estación funicular;True;Estación especializada en el servicio de trenes funiculares.
+129;tipo_0128;10;OTR_ESF;Estación de funicular;True;Estación especializada en el servicio de trenes funiculares.
 291;tipo_0313;10;ESP;Elemento singular del paisaje;False;Lugar o elemento de interés natural o paisajístico.
 311;tipo_0401s;10;CUH;Cueva habitable;False;Espacio para albergar actividades humanas o económicas que normalmente se abre dentro de una roca y se completa con muros exteriores, y que puede tener en el interior estructuras análogas a las de los edificios convencionales.
 342;uso_0401s;10;EDC;Educativo;False;Construcción con uso educativo.
 368;tipo_0404;10;ALB;Alberca;False;Recipiente de agua, generalmente destinada al riego, cuyas paredes están construidas con obra de fábrica.
 392;tipo_0407s;10;PDP_MUL;Pista múltiple;True;Pista deportiva acondicionada para el ejercicio de varios deportes en un mismo espacio de forma integrada.
-473;tipo_0407l;10;OCO_ECO;Escollera contención;True;Obra de contención constituida mediante la acumulación de bloques de piedra u hormigón dispuestos para formar una defensa contra corrimientos de tierras, desprendimientos y/o el agua. 
+473;tipo_0407l;10;OCO_ECO;Escollera de contención;True;Obra de contención constituida mediante la acumulación de bloques de piedra u hormigón dispuestos para formar una defensa contra corrimientos de tierras, desprendimientos y/o el agua. 
 511;tipo_0407p;10;SNV_OTN;Otra señal de navegación;True;Tipo señal de navegación no contemplada en las otras tipologías.
 559;tipo_0504;10;SOL_TMS;Termosolar;True;Instalación, equipamiento o estructuras donde se lleva a cabo la producción de energía térmica obtenida directamente de la radiación solar mediante el uso de espejos o lentes. La energía térmica que se produce se transforma en energía mecánica destinada a mover diferentes generadores que producen la energía eléctrica.
 588;tipo_0510;10;EDU_OCD;Otro centro educativo;True;Edificio o conjunto de edificios e instalaciones donde se imparten enseñanzas no regladas.
@@ -534,13 +534,13 @@ aprueben sus Ayuntamientos."
 736;tipo_0901;10;RNT_RNF;Reserva Natural de Fauna Salvaje;True;
 789;tipo_0904;10;LAC_MAJ;Majada;True;Área dentro de una vía pecuaria donde el ganado puede ser agrupado para pasar la noche o durante períodos de descanso.
 26;titular;11;OTR_CIU;Ciudad Autónoma;True;La titularidad de la vía o de la infraestructura pertenece a la Ciudad Autónoma
-130;tipo_0128;11;OTR_TCR;Estación tren cremallera;True;Estación diseñada para trenes de cremallera.
+130;tipo_0128;11;OTR_TCR;Estación de tren cremallera;True;Estación diseñada para trenes de cremallera.
 292;tipo_0313;11;ESP_ARB;Árbol;True;Árbol que merece ser destacado por su tamaño o notabilidad.
 312;tipo_0401s;11;INV;Invernadero;False;Construcción con techo, generalmente translúcido, para generar un ambiente favorable al cultivo de ciertas plantas.
 343;uso_0401s;11;IFR;Infraestructuras;False;Edificaciones auxiliares en presas, transformadores, casetas eléctricas, etc.
 369;tipo_0404;11;ABR;Abrevadero;False;Estanque, generalmente estrecho, construido para dar de beber al ganado.
 393;tipo_0407s;11;PDP_PDL;Pista de pádel;True;es un recinto cerrado, similar a una pista de tenis, pero más pequeña, con paredes de cristal y alambradas, donde se juega el deporte de pádel.
-474;tipo_0407l;11;OCO_OOC;Otra obra contención;True;Otra obra de contención no contemplada en las anteriores tipologías.
+474;tipo_0407l;11;OCO_OOC;Otra obra de contención;True;Otra obra de contención no contemplada en las anteriores tipologías.
 512;tipo_0407p;11;AER;Aerogenerador;False;Estructura o armazón de cierta altura que soporta unas palas para transformar la energía eólica en eléctrica.
 560;tipo_0504;11;SOL_OSL;Otra instalación solar;True;Otra instalación solar no contemplada en las anteriores tipologías.
 589;tipo_0510;11;CEM;Cementerio o tanatorio;False;Cementerio: instalaciones, equipamiento o edificios sobre un terreno, generalmente cercado, destinado al depósito de cadáveres o restos humanos ya sea mediante el enterramiento u otros medios. Tanatorio: edificio en que son depositados los cadáveres durante las horas que preceden a su inhumación o cremación.
@@ -549,8 +549,8 @@ aprueben sus Ayuntamientos."
 698;tipo_0707;11;CFG_CMA;Cortafuegos con matorral;True;"Cortafuegos cuya cobertura equivale a la del tipo ""Matorral""."
 737;tipo_0901;11;RNT_RNP;Reserva Natural Parcial;True;
 790;tipo_0904;11;LAC_OLG;Otros lugares asociados;True;Otros lugares asociados al tránsito ganadero.
-27;titular;12;OTR_OTT;Otro titular;True;La titularidad de la vía o de la infraestructura recae en otro organismo distinto a las anteriores categorias.
-131;tipo_0128;12;OTR_ETL;Estación tren ligero o metro ligero;True;Estación destinada a trenes ligeros.
+27;titular;12;OTR_OTT;Otro titular;True;La titularidad de la vía o de la infraestructura recae en otro organismo distinto a las anteriores categorías.
+131;tipo_0128;12;OTR_ETL;Estación de tren ligero o metro ligero;True;Estación destinada a trenes ligeros.
 293;tipo_0313;12;ESP_MIR;Mirador;True;Emplazamiento estratégico que cuenta con vistas a un paisaje o zona determinada.
 313;tipo_0401s;12;EDL;Edificio ligero;False;Construcción para dotar de cierta protección a los elementos que se encuentran bajo ella. Ejemplos de este tipo son las marquesinas, naves abiertas, casetas o cobertizos.
 344;uso_0401s;12;ADP;Administraciones públicas;False;Construcción de administración pública.
@@ -561,20 +561,20 @@ aprueben sus Ayuntamientos."
 561;tipo_0504;12;EOL;Parque eólico;False;Instalación, equipamiento o estructuras donde se lleva a cabo la producción de energía eléctrica mediante aerogeneradores distanciados unos de otros, en función del impacto ambiental y de las turbulencias generadas por el movimiento de las palas, y formando agrupaciones (a veces de gran tamaño) en las zonas montañosas donde el viento es frecuente, normalmente alejadas de los núcleos de población.
 590;tipo_0510;12;EQS;Equipamiento social;False;Edificio o conjunto de edificios e instalaciones dedicadas a una función de atención social como pueden ser centros sociales, residencias de mayores, centros de menores, centros de acogida, etc.
 619;tipo_0513;12;ICG_OIC;Otra instalación cultural;True;Tipo de instalación cultural no contemplada en las otras tipologías.
-667;tipo_0704;12;VFR_VFN;Viñedo y frutales no citricos;True;El cultivo está formado por una asociación de vides y frutales de frutos no cítricos.
+667;tipo_0704;12;VFR_VFN;Viñedo y frutales no cítricos;True;El cultivo está formado por una asociación de vides y frutales de frutos no cítricos.
 699;tipo_0707;12;CFG_CPA;Cortafuegos con pastizal;True;"Cortafuegos cuya cobertura equivale a la del tipo ""Pastizal""."
 738;tipo_0901;12;RNT_RNI;Reserva Natural Integral;True;
 28;titular;13;-97;Desconocido;False;Se desconoce el valor del atributo.
 132;tipo_0128;13;OTR_OET;Otra estación;True;Categoría que abarca estaciones que no encajan específicamente en las definiciones anteriores, pudiendo incluir tipos menos comunes o estaciones con funciones específicas y particulares.
-294;tipo_0313;13;ESP_OSP;Otro elemento singular del paisaje;True;Cualquier otro elemento singular del pasaje que no se englobe en ninguna de las otras categorias.
+294;tipo_0313;13;ESP_OSP;Otro elemento singular del paisaje;True;Cualquier otro elemento singular del pasaje que no se englobe en ninguna de las otras categorías.
 314;tipo_0401s;13;EDL_CBA;Chabola;True;Vivienda de escasas proporciones y pobre construcción, que suele edificarse en zonas suburbanas.
 345;uso_0401s;13;SYE;Servicio y equipamiento;False;Bomberos, policía, biblioteca, etc.
 371;tipo_0404;13;RSO_VTD;Vertedero;True;Lugar donde se vierten o acumulan basuras.
 395;tipo_0407s;13;PDP_PBA;Pista de balonmano;True;Superficie rectangular  destinada a la práctica del balonmano, con áreas de portería y líneas de delimitación específicas.
 476;tipo_0407l;13;CER;Cercado;False;Vallado o tapia que rodea normalmente a un huerto, prado u otra cosa para su resguardo.
-514;tipo_0407p;13;ANT_ACO;Antena comunicaciones;True;Tipo de antena utilizada para las telecomunicaciones.
+514;tipo_0407p;13;ANT_ACO;Antena de comunicaciones;True;Tipo de antena utilizada para las telecomunicaciones.
 562;tipo_0504;13;SBS;Subestación;False;Instalación provista de un conjunto equipos dedicados reducir o aumentar el voltaje de la corriente eléctrica.
-591;tipo_0510;13;TRA;Tratamiento aguas;False;Instalaciones, equipamiento o edificios utilizados para el tratamiento de aguas.
+591;tipo_0510;13;TRA;Tratamiento de aguas;False;Instalaciones, equipamiento o edificios utilizados para el tratamiento de aguas.
 620;tipo_0513;13;CRL;Complejo religioso;False;Recinto destinado a la vida religiosa y comunitaria de una orden religiosa, que puede incluir en su interior una iglesia o capilla, claustro, refectorio, biblioteca, jardines, entre otros espacios. Pueden no estar en activo y, por lo tanto, tener solo un carácter histórico y arquitectónico.
 668;tipo_0704;13;VFR_VFC;Viñedo y frutales cítricos;True;El cultivo está formado por una asociación de vides y frutales de frutos cítricos.
 700;tipo_0707;13;CFG_OCF;Otro cortafuegos;True;Otro cortafuegos no contemplado en las anteriores tipologías.
@@ -584,7 +584,7 @@ aprueben sus Ayuntamientos."
 372;tipo_0404;14;RSO_SCB;Escombrera;True;Conjunto de escombros o desechos.
 396;tipo_0407s;14;PDP_PPA;Pista de patinaje;True;Superficie plana, lisa y horizontal diseñada específicamente para la práctica del patinaje. Se incluyen las pistas de patinaje sobre hielo, sobre ruedas y con skate.
 477;tipo_0407l;14;CER_MRO;Muro;True;Pared o tapia.
-515;tipo_0407p;14;ANT_AOS;Antena observación espacial ;True;Tipo de antena utilizada para la observación espacial.
+515;tipo_0407p;14;ANT_AOS;Antena de observación espacial;True;Tipo de antena utilizada para la observación espacial.
 563;tipo_0504;14;ICB;Instalación de combustible;False;Instalación destinada a la producción, tratamiento o distribución de hidrocarburos. No incluye gasolineras u otros puntos de venta orientados al público general.
 592;tipo_0510;14;TRA_TAP;ETAP;True;Instalación o conjunto de instalaciones e infraestructuras destinadas al tratamiento de agua potable.
 621;tipo_0513;14;CRL_MST;Monasterio;True;Recinto religioso habitado por monjes, enfocado en la vida de retiro y oración.
@@ -605,25 +605,25 @@ aprueben sus Ayuntamientos."
 741;tipo_0901;15;RNT_RNM;Reserva Natural Marina;True;
 317;tipo_0401s;16;EDL_MQS;Marquesina;True;Construcción protegida por los lados y cubierta, destinada, en las paradas de transportes públicos, a guardar del sol y la lluvia a quienes esperan.
 348;uso_0401s;16;-97;Desconocido;False;Se desconoce el valor del atributo.
-374;tipo_0404;16;RSO_ORS;Otro residuos sólidos;True;Otra contrucción de almacenaje de residuos sólidos no contemplado en las anteriores categorías.
+374;tipo_0404;16;RSO_ORS;Otros residuos sólidos;True;Otra construcción de almacenaje de residuos sólidos no contemplado en las anteriores categorías.
 398;tipo_0407s;16;PDP_PEC;Pista ecuestre;True;Superficie acondicionada y delimitada para la práctica de actividades ecuestres, tales como el adiestramiento, salto, doma, o concursos hípicos.
 479;tipo_0407l;16;CER_VAL;Valla;True;Línea o término formado de estacas hincadas en el suelo o de tablas unidas, para cerrar algún sitio o señalarlo.
 517;tipo_0407p;16;ATE;Apoyo de tendido;False;Estructura, armazón o poste de cierta altura que sustenta cables de tendido eléctrico, telefónico u otros suministros.
 565;tipo_0504;16;ICB_RGS;Regasificadora;True;Instalación industrial que existe entre la de extracción del gas natural licuado y la red de distribución de gas natural.
 594;tipo_0510;16;TRA_DZA;Desalinizadora;True;Instalación o conjunto de instalaciones e infraestructuras destinadas a eliminar la sal presente en el agua salobre (ya sea procedente del mar o de lagos salados) para convertirla en potable para el consumo humano o para ciertos usos industriales.
-623;tipo_0513;16;CRL_OCR;Otro complejo religioso;True;Tipo de complejo relligioso no contemplado en las anteriores tipologías. 
-671;tipo_0704;16;OLF_OFN;Olivar y frutales no citricos;True;El cultivo está formado por una asociación de olivos y frutales de frutos no cítricos.
+623;tipo_0513;16;CRL_OCR;Otro complejo religioso;True;Tipo de complejo religioso no contemplado en las anteriores tipologías. 
+671;tipo_0704;16;OLF_OFN;Olivar y frutales no cítricos;True;El cultivo está formado por una asociación de olivos y frutales de frutos no cítricos.
 703;tipo_0707;16;PLY_CTZ;Cantizal;True;Terreno formado por gravas, cantos y/o guijarros, procedentes de la fractura de rocas de mayor tamaño.
 742;tipo_0901;16;AMP;Área Marina Protegida;False;
 318;tipo_0401s;17;EDL_NIC;Nicho;True;Estructura modular prefabricada, generalmente de hormigón aligerado, diseñada para albergar urnas funerarias. 
 349;uso_0401s;17;-98;No aplicable;False;El atributo de uso no se aplica para este caso concreto.
-375;tipo_0404;17;BRE;Balsa residuos;False;Vaso o recinto abierto donde se almacenan residuos líquidos como el alpechín, purines u otros.
+375;tipo_0404;17;BRE;Balsa de residuos;False;Vaso o recinto abierto donde se almacenan residuos líquidos como el alpechín, purines u otros.
 399;tipo_0407s;17;PDP_PRJ;Parque de ejercicios;True;Espacio al aire libre diseñado específicamente para la práctica de actividades físicas y deportivas, equipado con una variedad de aparatos y estructuras. Se incluyen los parques de calistenia, de ejercicios para personas mayores y de fitness.
 480;tipo_0407l;17;CER_ALA;Alambrada;True;Construcción vertical hecha de alambre y en ocasiones cubierta de vegetación para cerrar un espacio de terreno.
 518;tipo_0407p;17;ATE_TTE;Torre de tendido;True;Estructura o armazón de cierta altura que sustenta cables de tendido eléctrico, teléfono u otros suministros.
 566;tipo_0504;17;ICB_ALM;Almacenaje;True;Planta de almacenaje de energía. Dentro puede haber depósitos, tuberías y otros elementos construidos. Da cabida a multitud de combustibles (gas, otros hidrocarburos, hidrógeno). 
 595;tipo_0510;17;TRA_OTA;Otro tratamiento de aguas;True;Tipo de instalación, equipamiento o edificio utilizado para el tratamiento de aguas no contemplado en las otra tipologías.
-624;tipo_0513;17;PTM;Parque temático y ocio;False;Recinto que dispone de equipamientos e infraestructuras destinados a la diversión y el ocio. Se incluyen en esta categoría tanto los parques de atracciones, temáticos, zoológicos, acuaticos, etc.
+624;tipo_0513;17;PTM;Parque temático y ocio;False;Recinto que dispone de equipamientos e infraestructuras destinados a la diversión y el ocio. Se incluyen en esta categoría tanto los parques de atracciones, temáticos, zoológicos, acuáticos, etc.
 672;tipo_0704;17;OLF_OFT;Olivar y frutales cítricos;True;El cultivo está formado por una asociación de olivos y frutales de frutos cítricos.
 704;tipo_0707;17;PLY_OPY;Otra playa, duna o arenal;True;Otra playa, duna o arenal
 743;tipo_0901;17;MNT;Monumento Natural;False;
@@ -632,8 +632,8 @@ aprueben sus Ayuntamientos."
 400;tipo_0407s;18;PDP_OPD;Otra pista deportiva;True;Pista deportiva deportivo no clasificado en las anteriores categorías.  
 481;tipo_0407l;18;CER_OCE;Otro cercado;True;Otro cercado no contemplado en las anteriores tipologías.
 519;tipo_0407p;18;ATE_PTE;Poste de tendido;True;Soporte vertical que sustenta cables de tendido eléctrico, teléfono u otros suministros.
-567;tipo_0504;18;ICB_PET;Extracción petróleo;True;Instalación destinada a la extracción de petróleo.
-596;tipo_0510;18;GRE;Gestion residuos;False;Infraestructura, instalación o edificación destinada al acopio y almacenaje de basura, residuos materiales de desecho o escorias de diferente tipo.
+567;tipo_0504;18;ICB_PET;Extracción de petróleo;True;Instalación destinada a la extracción de petróleo.
+596;tipo_0510;18;GRE;Gestión de residuos;False;Infraestructura, instalación o edificación destinada al acopio y almacenaje de basura, residuos materiales de desecho o escorias de diferente tipo.
 625;tipo_0513;18;PJR;Parque o jardín;False;En una población, espacio que se dedica a praderas, jardines y arbolado, con ornamentos diversos, para el esparcimiento de sus habitantes.
 673;tipo_0704;18;OLF_OTF;Olivar y otros frutales;True;El cultivo está formado por una asociación de olivos y otros árboles frutales.
 705;tipo_0707;18;ROQ;Roquedo;False;Áreas constituidas por rocas y, por extensión, cualquier zona en que aparece una unidad o asociación litológica particular.
@@ -643,14 +643,14 @@ aprueben sus Ayuntamientos."
 401;tipo_0407s;19;CDT;Calle o circuito deportivo;False;Trazado curvo y cerrado diseñado para realizar pruebas deportivas de diferentes disciplinas, como ciclismo, atletismo, automovilismo. También incluiríamos aquí las calles del campo de golf.
 482;tipo_0407l;19;CGA;Conducción genérica;False;Canal, comúnmente tapado, que sirve para dar paso y salida a las aguas y otras cosas.
 520;tipo_0407p;19;ATE_OAT;Otro apoyo de tendido;True;El apoyo de tendido no puede clasificarse como ninguno de los valores anteriores.  
-568;tipo_0504;19;ICB_GAS;Extracción gas;True;Instalación destinada a la extracción de gas.
+568;tipo_0504;19;ICB_GAS;Extracción de gas;True;Instalación destinada a la extracción de gas.
 597;tipo_0510;19;ITE;Instalación de telecomunicaciones;False;Instalaciones destinadas a la captación y distribución de señales de radiodifusión sonora, televisión o telefonía.
 626;tipo_0513;19;DEP;Instalación deportiva;False;Espacio que alberga diversas instalaciones para la práctica de uno o varios deportes, como campos, pistas, calles o circuitos deportivos, pabellones polideportivos o piscinas, entre otros.
 674;tipo_0704;19;AFR;Asociación de frutales;False;El cultivo está formado por una asociación de frutales.
 706;tipo_0707;19;ROQ_ROC;Afloramiento rocoso, roquedo;True;Según su composición litológica: superficies cubiertas por rocas compactas.
 745;tipo_0901;19;PPR;Paisaje Protegido;False;
 321;tipo_0401s;20;REL_CAT;Catedral;True;Iglesia principal de una diócesis, sede del obispado.
-378;tipo_0404;20;BRE_OBR;Otra balsa residuos;True;Lugar donde se vierten otros residuos líquidos.
+378;tipo_0404;20;BRE_OBR;Otra balsa de residuos;True;Lugar donde se vierten otros residuos líquidos.
 402;tipo_0407s;20;CDT_ATL;Circuito de carreras de atletismo;True;Es un circuito ovalado con carriles marcados, diseñado para la práctica y competición de atletismo de velocidad.
 483;tipo_0407l;20;CCB;Conducción de combustible;False;Conjunto de conductos dispuestos para el paso y distribución de combustibles. 
 521;tipo_0407p;20;BOC;Bocamina;False;Acceso a la extracción subterránea de algún tipo de mineral.
@@ -671,7 +671,7 @@ aprueben sus Ayuntamientos."
 708;tipo_0707;21;ROQ_CHL;Canchal;True;Según su composición litológica: superficies cubiertas por rocas sueltas procedentes de la fragmentación de roquedos.
 747;tipo_0901;21;RNA_ZIR;Zona de Interés Regional;True;
 323;tipo_0401s;22;REL_IGL;Iglesia;True;Edificio dedicado a la congregación y culto de la religión cristiana.
-404;tipo_0407s;22;CDT_GOL;Calle golf;True;Es una vía estrecha y larga que se extiende desde el tee hasta el green en un campo de golf, por donde los golfistas juegan sus golpes para avanzar hacia el hoyo.
+404;tipo_0407s;22;CDT_GOL;Calle de golf;True;Es una vía estrecha y larga que se extiende desde el tee hasta el green en un campo de golf, por donde los golfistas juegan sus golpes para avanzar hacia el hoyo.
 485;tipo_0407l;22;CCB_GSL;Gasoducto;True;Tubería de grueso calibre y gran longitud para conducir a distancia gas combustible, procedente por lo general de emanaciones naturales.
 600;tipo_0510;22;OPS;Orden público y seguridad;False;Instalaciones, equipamiento o edificios utilizados por las fuerzas y cuerpos de seguridad del estado para el desarrollo de las competencias que tienen legalmente asignadas.
 629;tipo_0513;22;DEP_EIN;Estación invernal;True;Conjunto de terrenos, infraestructuras y equipamientos para uso recreativo, deportivo o turístico y especialmente diseñados para la práctica de deportes de invierno como, por ejemplo, esquí o snowboard.
@@ -679,20 +679,20 @@ aprueben sus Ayuntamientos."
 709;tipo_0707;22;ROQ_AMR;Acantilados marinos;True;Según su composición litológica: paredones que caen más o menos verticales sobre el mar.
 748;tipo_0901;22;RNA_ZRN;Zona de la Red Ecológica Europea Natura 2000;True;
 324;tipo_0401s;23;REL_MEZ;Mezquita;True;Edificio dedicado a la congregación y culto de la religión islámica.
-405;tipo_0407s;23;CDT_VEL;Circuito velocidad a motor;True;Es una pista especialmente diseñada para carreras de vehículos de motor, como automóviles, motocicletas, motocross o karts, donde los competidores pueden alcanzar altas velocidades en un entorno seguro y controlado.
+405;tipo_0407s;23;CDT_VEL;Circuito de velocidad a motor;True;Es una pista especialmente diseñada para carreras de vehículos de motor, como automóviles, motocicletas, motocross o karts, donde los competidores pueden alcanzar altas velocidades en un entorno seguro y controlado.
 486;tipo_0407l;23;CCB_HID;Hidroducto;True;Tubería diseñada para transportar hidrógeno, similar a un gasoducto que transporta gas natural.
 601;tipo_0510;23;OPS_BOM;Bomberos;True;Estación o instalación pública donde se almacenan los vehículos y equipos de extinción de incendios, y, a su vez, lugar de trabajo del personal dedicado a la prestación de servicios de prevención y extinción de incendios.
 630;tipo_0513;23;DEP_CHP;Centro hípico;True;Instalación dedicada a la práctica, enseñanza y cuidado de caballos, que incluye pistas ecuestres, establos y áreas para eventos.
 678;tipo_0704;23;AHL_OVH;Olivar, viñedo y herbáceos;True;El cultivo está formado por una asociación de vides, olivos y cultivos herbáceos.
-710;tipo_0707;23;ROQ_ORQ;Otro roquedo ;True;Otro tipo de roquedo no contemplado en las ateriores tipologías.
+710;tipo_0707;23;ROQ_ORQ;Otro roquedo;True;Otro tipo de roquedo no contemplado en las anteriores tipologías.
 749;tipo_0901;23;RNA_ZIC;Zona de Importancia Comunitaria ZIC (ZEPA/ZEC);True;
-325;tipo_0401s;24;REL_SNG;Sinagoga;True;Edificio dedicado a la congregación y culto de la religión judia.
+325;tipo_0401s;24;REL_SNG;Sinagoga;True;Edificio dedicado a la congregación y culto de la religión judía.
 406;tipo_0407s;24;CDT_CCC;Circuito de carrera de caballos;True;Superficie o arena generalmente ovalada, diseñada específicamente para la competición de carreras hípicas de velocidad.
 487;tipo_0407l;24;CCB_OCC;Otra conducción de combustible;True;Otra conducción de combustible no contemplada en las anteriores categorías.
 602;tipo_0510;24;OPS_EME;Emergencias sanitarias;True;Edificio o conjunto de edificios e instalaciones con equipamiento y personal para atender a la población en situaciones de emergencias sanitarias.
 631;tipo_0513;24;DEP_OZD;Otra zona deportiva;True;Tipo de instalación deportiva no contemplada en las anteriores tipologías.
 679;tipo_0704;24;AHL_OHL;Otra asociación de herbáceos y leñosos;True;El cultivo está formado por otra asociación de cultivos herbáceos y cultivos leñosos.
-711;tipo_0707;24;GLA;Glaciar o nieve permanente;False;Superficie cubierta por masas de hielo y nieves perpétuas.
+711;tipo_0707;24;GLA;Glaciar o nieve permanente;False;Superficie cubierta por masas de hielo y nieves perpetuas.
 750;tipo_0901;24;RNA_ZES;Zona Especial de Conservación;True;
 326;tipo_0401s;25;REL_OAR;Otra arquitectura religiosa;True;Otra edificación de arquitectura religiosa no contemplado en la anterior clasificación.
 407;tipo_0407s;25;CDT_OCI;Otra calle o circuito deportivo;True;Calle o circuito deportivo no clasificado en las anteriores categorías.  
@@ -717,21 +717,21 @@ aprueben sus Ayuntamientos."
 753;tipo_0901;27;OEN_PNT;Paraje Natural;True;
 329;tipo_0401s;28;ESG_MAG;Molino de agua;True;Edificio ubicado en las inmediaciones de un curso de agua y que dispone de mecanismos para transformar la energía hidráulica en energía mecánica generalmente mediante la rotación de turbinas o ruedas hidráulicas.
 410;tipo_0407s;28;MZN;Manzana;False;Espacio urbano edificado o destinado a edificar, generalmente de forma rectangular o cuadrada y frecuentemente delimitado por viales o vías urbanas. 
+754;tipo_0901;28;OEN_PNN;Paraje Natural de Interés Nacional;True;
 491;tipo_0407l;28;AUX_EGR;Escalinata o grada;True;Escalera amplia y generalmente artística, en el exterior o en el vestíbulo de un edificio.
 606;tipo_0510;28;OPS_OOP;Otro orden público y seguridad;True;Tipo de instalación de orden público y seguridad no contemplada en las otras tipologías.
 635;tipo_0513;28;IOG;Instalación de ocio genérica;False;Tipo de instalación de ocio no contemplada en las otras tipologías.
-754;tipo_0901;28;OEN_PNN;Paraje Natural de Interés Nacional;True;
 330;tipo_0401s;29;ESG_PAL;Palacio;True;Edificio monumental destinado principalmente a funciones residenciales de monarcas, nobles o altos dignatarios, que en la actualidad puede haber cambiado su uso principal albergando otras actividades en su interior (actividades administrativas, ceremoniales, exposiciones, religiosas u otras de carácter privado).
 411;tipo_0407s;29;EXP;Explanada;False;Espacio de terreno allanado, que en ocasiones puede estar pavimentado con algún tipo de revestimiento. Suele ubicarse de forma adyacente o en los aledaños de una carretera, pista o vía de comunicación.
-492;tipo_0407l;29;AUX_MTL;Estructura metálica;True;Armadura metálica que, fija al suelo, sirve de sustentación a un edificio u otro objeto.
-607;tipo_0510;29;OTR;Otro;False;Otro servicio o instalación no contemplada en las anteriores tipologias.
-636;tipo_0513;29;IOG_PRD;Parador;True;Establecimiento hotelero dependiente de organismos oficiales.
 755;tipo_0901;29;OEN_PNM;Paraje Natural Municipal;True;
+492;tipo_0407l;29;AUX_MTL;Estructura metálica;True;Armadura metálica que, fija al suelo, sirve de sustentación a un edificio u otro objeto.
+607;tipo_0510;29;OTR;Otro;False;Otro servicio o instalación no contemplada en las anteriores tipologías.
+636;tipo_0513;29;IOG_PRD;Parador;True;Establecimiento hotelero dependiente de organismos oficiales.
 331;tipo_0401s;30;ESG_PZT;Plaza de toros;True;Recinto donde se corren o lidian toros y se celebran otras fiestas públicas. Consta de un coso rodeado por una estructura diseñada para permitir a los espectadores asistir, sentados o de pie.
 412;tipo_0407s;30;PUE;Puente;False;Construcción sobre la cual una vía de comunicación u otra infraestructura (por ejemplo, un acueducto) puede salvar un obstáculo (río, barranco) o cruzar otras vías o infraestructuras situadas a niveles inferiores (carreteras, vías férreas, obras de desagüe, ríos, canales), que por sus características constructivas permite la circulación de automóviles.
 493;tipo_0407l;30;AUX_PAC;Pantalla acústica;True;Superficie que sirve de protección acústica.
-637;tipo_0513;30;IOG_ABG;Albergue;True;Establecimiento que proporciona hospedaje para estancias cortas. Normalmente situados en zonas de montaña, de paso o estratégicas.
 756;tipo_0901;30;OEN_SNN;Sitio Natural de Interés Nacional;True;
+637;tipo_0513;30;IOG_ABG;Albergue;True;Establecimiento que proporciona hospedaje para estancias cortas. Normalmente situados en zonas de montaña, de paso o estratégicas.
 332;tipo_0401s;31;ESG_OES;Otro edificio singular;True;Otro edificio singular no contemplado en la anterior clasificación.
 413;tipo_0407s;31;PAS;Pasarela;False;Construcción liviana sobre la cual los peatones pueden salvar y cruzar obstáculos, vías o infraestructuras situadas a niveles inferiores (carreteras, vías férreas, desniveles, ríos, canales), pero que por sus características constructivas no permite la circulación de automóviles.
 494;tipo_0407l;31;AUX_PSL;Placa solar;True;Dispositivo fotovoltaico instalado en superficies horizontales o inclinadas para captar energía solar y convertirla en electricidad.
@@ -750,16 +750,16 @@ aprueben sus Ayuntamientos."
 417;tipo_0407s;35;PTL;Pantalán;False;Muelle o pasarela flotante para el embarque y desembarque, para el uso de barcos de poco tonelaje, construido con materiales livianos y que flota sobre el agua. 
 498;tipo_0407l;35;AUX_AND;Andén;True;Plataforma elevada junto a vías de tren o metro que permite el acceso seguro de pasajeros a los vehículos de transporte.
 761;tipo_0901;35;OEN_PPI;Paraje Pintoresco;True;
-418;tipo_0407s;36;OCO;Obra contención;False;Obra destinada a contener el empuje del agua y/o de las tierras que se encuentran a uno de sus lados.
+418;tipo_0407s;36;OCO;Obra de contención;False;Obra destinada a contener el empuje del agua y/o de las tierras que se encuentran a uno de sus lados.
 499;tipo_0407l;36;AUX_BTU;Boca de túnel;True;Lugar de entrada o salida de un túnel, a partir del cual una infraestructura (carretera, vía férrea, canal) pasa a ser soterrada o subterránea o deja de serlo.
 762;tipo_0901;36;OEN_MCR;Microrreserva;True;
-419;tipo_0407s;37;OCO_MCO;Muro contención;True;Muro resistente destinado a contener el empuje de las tierras que se encuentran a un lado o evitar el desbordamiento de agua a los lados de una corriente.
+419;tipo_0407s;37;OCO_MCO;Muro de contención;True;Muro resistente destinado a contener el empuje de las tierras que se encuentran a un lado o evitar el desbordamiento de agua a los lados de una corriente.
 500;tipo_0407l;37;AUX_OAU;Otro auxiliar construido;True;Otro valor de auxiliar construido no contemplado en las anteriores categorías.
 763;tipo_0901;37;OEN_RDB;Reserva de la Biosfera;True;
-420;tipo_0407s;38;OCO_ECO;Escollera contención;True;Obra de contención constituida mediante la acumulación de bloques de piedra u hormigón dispuestos para formar una defensa contra corrimientos de tierras, desprendimientos y/o el agua. 
+420;tipo_0407s;38;OCO_ECO;Escollera de contención;True;Obra de contención constituida mediante la acumulación de bloques de piedra u hormigón dispuestos para formar una defensa contra corrimientos de tierras, desprendimientos y/o el agua. 
 501;tipo_0407l;38;OTR;Otro;False;Otro tipo de construcción no contemplado en las otras tipologías.
 764;tipo_0901;38;OEN_HMP;Humedal Protegido;True;
-421;tipo_0407s;39;OCO_OOC;Otra obra contención;True;Otra obra de contención no contemplada en las anteriores tipologías.
+421;tipo_0407s;39;OCO_OOC;Otra obra de contención;True;Otra obra de contención no contemplada en las anteriores tipologías.
 765;tipo_0901;39;OEN_ANI;Área Natural de Especial Interés;True;
 422;tipo_0407s;40;MRL;Muralla;False;Muro u obra defensiva de carácter histórico que se empleaba para proteger un lugar.
 766;tipo_0901;40;OEN_ANS;Área Natural Singular;True;
@@ -786,9 +786,9 @@ aprueben sus Ayuntamientos."
 776;tipo_0901;50;OEN_BIP;Biotopo Protegido;True;
 433;tipo_0407s;51;ANT;Antena;False;Estructura o armazón de cierta altura para situar sistemas de emisión, recepción y/o amplificación de señales electromagnéticas.
 777;tipo_0901;51;OEN_RFL;Reserva Fluvial;True;
-434;tipo_0407s;52;ANT_ACO;Antena comunicaciones;True;Tipo de antena utilizada para las telecomunicaciones.
+434;tipo_0407s;52;ANT_ACO;Antena de comunicaciones;True;Tipo de antena utilizada para las telecomunicaciones.
 778;tipo_0901;52;OEN_SIC;Sitio de Interés Científico;True;
-435;tipo_0407s;53;ANT_AOS;Antena observación espacial ;True;Tipo de antena utilizada para la observación espacial.
+435;tipo_0407s;53;ANT_AOS;Antena de observación espacial;True;Tipo de antena utilizada para la observación espacial.
 779;tipo_0901;53;OEN_CEB;Corredor Ecológico y de Biodiversidad;True;
 436;tipo_0407s;54;ANT_OAN;Otra antena;True;Tipo de antena no incluida en las anteriores categorías.
 780;tipo_0901;54;OEN_RFA;Refugio de Fauna;True;
@@ -803,7 +803,7 @@ aprueben sus Ayuntamientos."
 444;tipo_0407s;62;CCB_GSL;Gasoducto;True;Tubería de grueso calibre y gran longitud para conducir a distancia gas combustible, procedente por lo general de emanaciones naturales.
 445;tipo_0407s;63;CCB_HID;Hidroducto;True;Tubería diseñada para transportar hidrógeno, similar a un gasoducto que transporta gas natural.
 446;tipo_0407s;64;CCB_OCC;Otra conducción de combustible;True;Otra conducción de combustible no contemplada en las anteriores categorías.
-447;tipo_0407s;65;EXC;Excavación de materiales;False;Área excavada en terreno a cielo abierto para el aprovecahmiento de algún mineral o material.
+447;tipo_0407s;65;EXC;Excavación de materiales;False;Área excavada en terreno a cielo abierto para el aprovechamiento de algún mineral o material.
 448;tipo_0407s;66;AUX;Auxiliar construido;False;Cualquier elemento construido auxiliar, como bordillos, escalinatas, isletas de viales, etc.
 449;tipo_0407s;67;AUX_EGR;Escalinata o grada;True;Conjunto de escalones dispuestos en pendiente, utilizados para conectar diferentes niveles en espacios públicos, como auditorios o plazas.
 450;tipo_0407s;68;AUX_PAT;Patio;True;Espacio cerrado con paredes o galerías, que en las casas y otros edificios se suele dejar al descubierto.

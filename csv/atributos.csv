@@ -120,14 +120,14 @@
 275;0704s;2;riego;riego;lista_val;False;Tipo de cultivo según su riego.;
 281;0801p;2;ine;ine_0801;lista_val;False;Indica si la entidad de población figura o no en el nomenclátor del Instituto Nacional de Estadística (INE).;
 287;0801z;2;tipo;tipo_0801;lista_val;False;Tipo de entidad de población.;
-294;0804s;2;codig_ua;;cadena(50);False;Código INE de la unidad adminsitrativa.;
+294;0804s;2;codig_ua;;cadena(50);False;Código INE de la unidad administrativa.;
 300;0904l;2;tipo;tipo_0904;lista_val;False;Tipo de vía pecuaria según la Ley 3/1995, de 23 de marzo, de Vías Pecuarias.;
 304;0904s;2;tipo;tipo_0904;lista_val;False;Tipo de vía pecuaria según la Ley 3/1995, de 23 de marzo, de Vías Pecuarias.;
 3;0101a;3;tipo_vial;tipo_vial;lista_val;False;Tipologías de viales considerados en cada una de las clases generales.;
 9;0107l;3;orden;orden;lista_val;False;Clasificación basada en la importancia de la carretera en la red.;
 20;0107s;3;orden;orden;lista_val;False;Clasificación basada en la importancia de la carretera en la red.;
 27;0110l;3;conex_ctra;conex_ctra;lista_val;False;Indica si el tramo de vía urbana constituye una travesía. ;
-62;0125l;3;tipo_tramo;ttram_0125;lista_val;False;Tipología de tramo en relación al eje de la vía ferrea. ;
+62;0125l;3;tipo_tramo;ttram_0125;lista_val;False;Tipología de tramo en relación al eje de la vía férrea. ;
 72;0128p;3;estadofis;esta_trans;lista_val;False;Estado físico en que se encuentra la estación de ferrocarril en relación a su terminación y uso.;
 77;0128z;3;uso;uso_0128;lista_val;False;Uso de la estación de ferrocarril.;
 89;0134z;3;estadofis;esta_trans;lista_val;False;Estado físico en que se encuentra la instalación en relación a su terminación y uso.;
